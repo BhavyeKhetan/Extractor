@@ -684,14 +684,10 @@ class ForensicExtractor:
         print("PHASE G6: STYLE LOADING")
         print("="*60)
 
-        cache_dir = self.root_dir / 'cache'
-        if not cache_dir.exists():
-            print(f"  [WARN] Cache directory not found")
-            return
-
         style_count = 0
 
-        for style_file in cache_dir.glob('*.style'):
+        def load_style_file(style_file):
+            nonlocal style_count
             try:
                 content = style_file.read_text(encoding='utf-8', errors='ignore')
                 parsed_styles = self._parse_style_file(content)
@@ -706,11 +702,51 @@ class ForensicExtractor:
 
                 style_count += 1
             except Exception as e:
-                print(f"  [WARN] Failed to parse {style_file.name}: {e}")
+                print(f"  [WARN] Failed to parse {style_file}: {e}")
+
+        # Existing cache styles
+        cache_dir = self.root_dir / 'cache'
+        if cache_dir.exists():
+            for style_file in cache_dir.glob('*.style'):
+                load_style_file(style_file)
+        else:
+            print(f"  [WARN] Cache directory not found")
+
+        # NEW: also scan worklib for per-block style files (both tbl_1 and sym_*)
+        worklib_dir = self.root_dir / 'worklib'
+        if worklib_dir.exists():
+            for style_file in worklib_dir.rglob('*.style'):
+                load_style_file(style_file)
+
+        # Parse style lookup tables from each block's main ASCII to map numeric id -> style name
+        # IMPORTANT: There are multiple style tables; the second number (X) in the wire header
+        # selects which table to use. We must capture ALL tables, not just table 1.
+        # Example entry: "< 12 /> 1 4 Style5" ==> table 1, id 4 -> Style5
+        self.style_tables = {}
+        table_pattern = re.compile(r'<\s*12\s*/>\s*(\d+)\s+(\d+)\s+(Style\S+)')
+        for block_dir in worklib_dir.iterdir():
+            if not block_dir.is_dir() or block_dir.name in self.IGNORE_DIRS:
+                continue
+            tbl_dir = block_dir / 'tbl_1'
+            ascii_file = tbl_dir / f"{block_dir.name}.ascii"
+            if not ascii_file.exists():
+                continue
+            try:
+                text = ascii_file.read_text(errors='ignore')
+                tables: Dict[int, Dict[int, str]] = {}
+                for m in table_pattern.finditer(text):
+                    table_num = int(m.group(1))
+                    style_id = int(m.group(2))
+                    style_name = m.group(3)
+                    tables.setdefault(table_num, {})[style_id] = style_name
+                self.style_tables[block_dir.name] = tables
+            except Exception as e:
+                print(f"  [WARN] Failed to parse style table for {block_dir.name}: {e}")
 
         self.stats['style_files_processed'] = style_count
         print(f"  - Style files processed: {style_count}")
         print(f"  - Total styles loaded: {len(self.styles)}")
+        print(f"  - Style tables parsed: {len(getattr(self, 'style_tables', {}))}")
 
     def _parse_style_file(self, content: str) -> Dict[str, Dict]:
         """
@@ -855,11 +891,12 @@ class ForensicExtractor:
             page_idx_match = re.search(r'page_file_(\d+)\.ascii', page_file.name)
             page_index = int(page_idx_match.group(1)) if page_idx_match else 0
 
-        # Pattern to find wire segments with LP coordinates and CGTYPE
-        # Looking for blocks that contain both LP and CGTYPE 65571
+        # Efficient pattern: find LP + CGTYPE pairs first (original working pattern)
+        # Then extract style_id from the block context afterward
         wire_pattern = re.compile(
-            r'<n LP n/>\s*<[^>]+>\s*<[^>]+>\s*<v\s*([^v]+)\s*v/>.*?'
-            r'<n CGTYPE n/>\s*<[^>]+>\s*<v\s*(\d+)\s*v/>',
+            r'<n\s*LP\s*n/>\s*<[^>]+>\s*<[^>]+>\s*<v\s*([^v]+)\s*v/>'  # LP coordinates
+            r'[^<]*(?:<(?!n\s*CGTYPE)[^>]*>[^<]*)*'  # non-greedy skip to CGTYPE (efficient)
+            r'<n\s*CGTYPE\s*n/>\s*<[^>]+>\s*<v\s*(\d+)\s*v/>',  # CGTYPE value
             re.DOTALL
         )
 
@@ -867,6 +904,17 @@ class ForensicExtractor:
         for match in wire_pattern.finditer(content):
             lp_coords = match.group(1).strip()
             cgtype = int(match.group(2))
+
+            # Extract style_id and table number from the block context
+            # Pattern: < TAG /> < < TABLE_NUM /> < 37 /> < Y />
+            block_start = max(0, match.start() - 300)
+            context_before = content[block_start:match.start()]
+            tag_match = re.search(
+                r'<\s*(\d+)\s*/>\s*<\s*<\s*(\d+)\s*/>\s*<\s*37\s*/>\s*<\s*\d+\s*/>',
+                context_before
+            )
+            style_id = int(tag_match.group(1)) if tag_match else 0
+            table_num = int(tag_match.group(2)) if tag_match else 1  # default to table 1
 
             # Parse LP coordinates: "X1,Y1;X2,Y2"
             try:
@@ -905,6 +953,32 @@ class ForensicExtractor:
             )
             z_value = int(zvalue_match.group(1)) if zvalue_match else 10000
 
+            # Resolve style name and definition
+            style_name = None
+            if hasattr(self, 'style_tables'):
+                style_name = self.style_tables.get(block_name, {}).get(table_num, {}).get(style_id)
+            # Fallback to generic Style{style_id} if table lookup fails
+            if style_name is None:
+                style_name = f"Style{style_id}"
+
+            # Try block-qualified name first (e.g., "dsp_block::Style6")
+            qualified_name = f"{block_name}::{style_name}"
+            style_def = self.styles.get(qualified_name)
+            if not style_def:
+                # Fallback to simple name (e.g., "Style6")
+                style_def = self.styles.get(style_name)
+            style_entry = {
+                'style_id': style_id,
+                'style_ref': qualified_name if qualified_name in self.styles else style_name,
+                'style_table': table_num,
+            }
+            if style_def:
+                style_entry.update({
+                    'line_width': style_def.get('line_width', 1),
+                    'line_color': style_def.get('line_color', '#000000'),
+                    'line_style': style_def.get('line_style', 'solid'),
+                })
+
             # Create wire primitive
             element_id = self._generate_element_id('wire')
             sequence_idx = self._next_sequence_index()
@@ -924,12 +998,7 @@ class ForensicExtractor:
                 'transform': self._parse_transform_matrix(transform_str),
                 'rotation': rotation,
                 'z_value': z_value,
-                'style': {
-                    'style_ref': 'Style1',
-                    'line_width': 1,
-                    'line_color': '#000000',
-                    'line_style': 'solid',
-                },
+                'style': style_entry,
                 'semantic': None,  # Will be populated in cross-reference phase
             }
 
@@ -2487,6 +2556,9 @@ class ForensicExtractor:
 
             # Styles (includes font_name, font_weight, font_style)
             'styles': self.styles,
+
+            # Style lookup tables (block_name -> style_id -> style_name mapping)
+            'style_tables': getattr(self, 'style_tables', {}),
 
             # Symbol library (for hierarchical dependencies) - full graphics data
             'symbol_library': self.symbol_graphics,

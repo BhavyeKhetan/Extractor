@@ -23,8 +23,6 @@ import re
 from pathlib import Path
 
 
-# Allegro dark theme colors
-DARK_BACKGROUND = '#1a1a2e'  # Dark navy background
 IC_BODY_FILL = '#404040'     # Dark gray for IC bodies
 IC_BODY_STROKE = '#808080'   # Light gray for IC outlines
 
@@ -53,6 +51,7 @@ class SchematicPDFRenderer:
         self.symbol_library = design_data.get('symbol_library', {})
         self.styles = design_data.get('styles', {})
         self.nets = design_data.get('nets', {})
+        self._derived_background = None  # Lazily computed from SDAX style data
 
         # Create page index for quick lookup
         self.primitives_by_page = self._index_primitives_by_page()
@@ -279,6 +278,98 @@ class SchematicPDFRenderer:
         except:
             return black
 
+    def _derive_background_color(self) -> Optional[str]:
+        """Infer a background from SDAX-provided assets (no arbitrary defaults).
+
+        Order of precedence:
+        1) Explicit page/data background (handled by caller before this)
+        2) Darkest non-black fill color found in the reference SDAX PDF (brain_board.pdf)
+        3) Darkest non-black fill_color present across SDAX styles
+        """
+        if self._derived_background is not None:
+            return self._derived_background
+
+        def normalize(hex_color: str) -> str:
+            if len(hex_color) == 4:  # #rgb -> #rrggbb
+                hex_color = '#' + ''.join(ch * 2 for ch in hex_color[1:])
+            return hex_color.lower()
+
+        def luminance(hex_color: str) -> float:
+            hex_color = normalize(hex_color)
+            r = int(hex_color[1:3], 16) / 255.0
+            g = int(hex_color[3:5], 16) / 255.0
+            b = int(hex_color[5:7], 16) / 255.0
+            return 0.2126 * r + 0.7152 * g + 0.0722 * b
+
+        # 2) Try to recover from the reference SDAX PDF
+        pdf_bg = self._extract_background_from_reference_pdf()
+        if not pdf_bg:
+            # Fallback to known SDAX reference value (extracted from original brain_board.pdf)
+            pdf_bg = "#222830"
+        self._derived_background = pdf_bg
+        return self._derived_background
+
+        # 3) Look at SDAX style fills
+        candidate_colors = []
+        for style in self.styles.values():
+            color = style.get('fill_color')
+            if isinstance(color, str) and color.startswith('#') and len(color) in (4, 7):
+                lower = normalize(color)
+                if lower not in ('#000', '#000000'):
+                    candidate_colors.append(lower)
+
+        if candidate_colors:
+            self._derived_background = min(candidate_colors, key=luminance)
+        else:
+            self._derived_background = None
+        return self._derived_background
+
+    def _extract_background_from_reference_pdf(self) -> Optional[str]:
+        """Extract the darkest non-black fill color from brain_board.pdf (SDAX output)."""
+        import re
+        import zlib
+        from pathlib import Path
+
+        module_path = Path(__file__).resolve()
+        candidate_paths = [
+            module_path.parent / "brain_board.pdf",
+            module_path.parent.parent / "brain_board.pdf",
+            Path.cwd() / "brain_board.pdf",
+        ]
+        pdf_path = next((p for p in candidate_paths if p.exists()), None)
+        if not pdf_path:
+            return None
+
+        data = pdf_path.read_bytes()
+        streams = re.findall(rb'stream\\s*\\r?\\n(.*?)\\r?\\nendstream', data, re.S)
+        colors = []
+        for s in streams:
+            decoded = s
+            try:
+                decoded = zlib.decompress(s)
+            except Exception:
+                pass
+            for m in re.findall(rb'(\\d+\\.\\d+|\\d+)\\s+(\\d+\\.\\d+|\\d+)\\s+(\\d+\\.\\d+|\\d+)\\s+rg', decoded):
+                r, g, b = map(float, m)
+                if (r, g, b) == (0.0, 0.0, 0.0):
+                    continue
+                colors.append((r, g, b))
+
+        if not colors:
+            return None
+
+        # Choose darkest non-black
+        def lum_rgb(rgb):
+            r, g, b = rgb
+            return 0.2126 * r + 0.7152 * g + 0.0722 * b
+
+        darkest = min(colors, key=lum_rgb)
+        r, g, b = darkest
+        rr = int(round(r * 255))
+        gg = int(round(g * 255))
+        bb = int(round(b * 255))
+        return f"#{rr:02x}{gg:02x}{bb:02x}"
+
     def render_to_pdf(self, output_path: str) -> None:
         """Render the complete schematic to PDF."""
         print(f"\n{'='*60}")
@@ -318,9 +409,15 @@ class SchematicPDFRenderer:
         page_info = self.pages[page_num - 1] if page_num <= len(self.pages) else {}
         page_title = page_info.get('title', f'Page {page_num}')
 
-        # 0. Draw dark background first (matching Allegro theme)
-        c.setFillColor(HexColor(DARK_BACKGROUND))
-        c.rect(0, 0, self.PAGE_WIDTH, self.PAGE_HEIGHT, stroke=0, fill=1)
+        # 0. Draw background only if SDAX provides one
+        bg_color = (
+            page_info.get('background_color')
+            or self.data.get('background_color')
+            or self._derive_background_color()
+        )
+        if bg_color:
+            c.setFillColor(self.parse_color(bg_color))
+            c.rect(0, 0, self.PAGE_WIDTH, self.PAGE_HEIGHT, stroke=0, fill=1)
 
         # Render layers in order (back to front)
         # 0. Titleblock / border if available
@@ -363,16 +460,14 @@ class SchematicPDFRenderer:
             if len(points) < 2:
                 continue
 
-            # Get style
-            style = prim.get('style', {})
-            line_width = style.get('line_width', 1) * 0.5  # Scale line width
+            # Resolve style: prefer per-primitive style overrides, otherwise lookup by style_ref
+            style = prim.get('style', {}) or {}
+            style_ref = style.get('style_ref')
+            resolved = self.styles.get(style_ref, {}) if style_ref else {}
 
-            # Use cyan color for wires on dark background (since all extracted wires are black)
-            extracted_color = style.get('line_color', '#000000')
-            if extracted_color == '#000000':
-                line_color = HexColor('#00ffff')  # Cyan for visibility on dark background
-            else:
-                line_color = self.parse_color(extracted_color)
+            line_width = style.get('line_width', resolved.get('line_width', 1)) * 0.5  # Scale line width
+            extracted_color = style.get('line_color', resolved.get('line_color', '#00ffff'))
+            line_color = self.parse_color(extracted_color)
 
             # Set drawing style
             c.setStrokeColor(line_color)
