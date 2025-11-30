@@ -1,4 +1,442 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17000mil" height="11000mil" viewBox="0 0 1700000 1100000">
 <rect x="0" y="0" width="1700000" height="1100000" fill="white"/>
+<polyline points="2489200,381000 2489200,1193800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1943100,381000 1943100,1193800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2044700,1181100 2044700,1536700" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3962400,381000 3962400,1206500" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="4114800,1193800 4114800,1574800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="279400,1168400 330200,1168400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="228600,1155700 228600,1574800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2387600,1181100 2387600,1549400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="533400,1219200 533400,1231900" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3835400,1206500 3835400,1231900" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2679700,2095500 2743200,2095500" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="381000,609600 774700,609600" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="520700,1930400 812800,1930400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="520700,1752600 812800,1752600" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="381000,1143000 673100,1143000" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1587500,1905000 1587500,1930400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="381000,533400 673100,533400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="381000,1041400 673100,1041400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="381000,914400 774700,914400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="381000,939800 673100,939800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="520700,1955800 812800,1955800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="381000,711200 774700,711200" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="381000,838200 673100,838200" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1447800,1346200 1993900,1346200" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="381000,431800 673100,431800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="381000,406400 774700,406400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="381000,812800 774700,812800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="279400,1346200 533400,1346200" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="520700,1727200 812800,1727200" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1485900,1905000 1485900,1955800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="381000,736600 673100,736600" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="381000,635000 673100,635000" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="279400,1320800 571500,1320800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="381000,1117600 774700,1117600" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="381000,1016000 774700,1016000" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="381000,508000 774700,508000" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1651000,1727200 1727200,1727200" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3594100,711200 3911600,711200" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3594100,1549400 4064000,1549400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3594100,914400 3911600,914400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2933700,1701800 2933700,1727200" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1587500,1524000 1993900,1524000" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3594100,533400 3911600,533400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3594100,406400 3911600,406400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3594100,609600 3911600,609600" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3619500,1701800 3619500,1752600" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2933700,1892300 2933700,1917700" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3594100,812800 3911600,812800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3594100,508000 3911600,508000" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3594100,1016000 3911600,1016000" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2832100,1701800 2832100,1752600" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3594100,635000 3911600,635000" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3619500,1892300 3619500,1943100" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1447800,1320800 1993900,1320800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3594100,838200 3911600,838200" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3594100,736600 3911600,736600" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3594100,1143000 3911600,1143000" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3594100,1041400 3911600,1041400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3721100,1701800 3721100,1727200" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3721100,1892300 3721100,1917700" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3594100,1117600 3911600,1117600" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1485900,1549400 1993900,1549400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2832100,1892300 2832100,1943100" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1651000,1752600 1727200,1752600" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3797300,1320800 4064000,1320800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3594100,1524000 4064000,1524000" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3594100,939800 3911600,939800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3594100,431800 3911600,431800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1587500,812800 1892300,812800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1587500,1117600 1892300,1117600" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1587500,406400 1892300,406400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1485900,431800 1892300,431800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1587500,609600 1892300,609600" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1587500,1016000 1892300,1016000" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1485900,1143000 1892300,1143000" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1485900,635000 1892300,635000" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1485900,533400 1892300,533400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1485900,736600 1892300,736600" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1587500,508000 1892300,508000" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1587500,711200 1892300,711200" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1485900,838200 1892300,838200" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1485900,939800 1892300,939800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1587500,914400 1892300,914400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1485900,1041400 1892300,1041400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="279400,1524000 800100,1524000" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="279400,1549400 673100,1549400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2540000,1117600 2933700,1117600" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2540000,914400 2933700,914400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2540000,812800 2933700,812800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2540000,635000 2832100,635000" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2540000,939800 2832100,939800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2540000,406400 2933700,406400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2540000,736600 2832100,736600" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2540000,711200 2933700,711200" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2540000,431800 2832100,431800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2540000,1143000 2832100,1143000" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2540000,508000 2933700,508000" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2540000,1016000 2933700,1016000" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2540000,609600 2933700,609600" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2540000,838200 2832100,838200" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2540000,533400 2832100,533400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2540000,1041400 2832100,1041400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2438400,1320800 2667000,1320800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2438400,1549400 2832100,1549400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2438400,1524000 2933700,1524000" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2438400,1346200 2705100,1346200" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3835400,1346200 4064000,1346200" stroke="#000000" stroke-width="10" fill="none"/>
+<text x="1193800" y="2438400" font-family="Arial" font-size="2000" fill="blue">ELINK_RXI_SO_DATA</text>
+<text x="1193800" y="1943100" font-family="Arial" font-size="2000" fill="blue">ELINK_TXO_NO_DATA</text>
+<text x="1508760" y="2059940" font-family="Arial" font-size="2000" fill="blue">ELINK_TXO_NO</text>
+<text x="1206500" y="3962400" font-family="Arial" font-size="2000" fill="blue">ELINK_TXO_SO_DATA</text>
+<text x="1508760" y="4127500" font-family="Arial" font-size="2000" fill="blue">ELINK_TXO_SO</text>
+<text x="835660" y="322580" font-family="Arial" font-size="2000" fill="blue">ELINK_RXI_NO_DATA</text>
+<text x="1249680" y="220980" font-family="Arial" font-size="2000" fill="blue">ELINK_RXI_NO</text>
+<text x="1305560" y="2369820" font-family="Arial" font-size="2000" fill="blue">ELINK_RXI_SO</text>
+<text x="1739900" y="1838960" font-family="Arial" font-size="2000" fill="blue">TXI_NO_RD_WAIT_P</text>
+<text x="1772920" y="1838960" font-family="Arial" font-size="2000" fill="blue">TXI_NO_RD_WAIT_N</text>
+<text x="815340" y="1722120" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA4_P</text>
+<text x="1120140" y="1722120" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA7_P</text>
+<text x="408940" y="1722120" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA0_P</text>
+<text x="434340" y="1722120" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA0_N</text>
+<text x="612140" y="1722120" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA2_P</text>
+<text x="1018540" y="1722120" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA6_P</text>
+<text x="1145540" y="1722120" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA7_N</text>
+<text x="637540" y="1722120" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA2_N</text>
+<text x="535940" y="1722120" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA1_N</text>
+<text x="739140" y="1722120" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA3_N</text>
+<text x="510540" y="1722120" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA1_P</text>
+<text x="713740" y="1722120" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA3_P</text>
+<text x="840740" y="1722120" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA4_N</text>
+<text x="942340" y="1722120" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA5_N</text>
+<text x="916940" y="1722120" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA5_P</text>
+<text x="1043940" y="1722120" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA6_N</text>
+<text x="1524000" y="279400" font-family="Arial" font-size="2000" fill="blue">RXI_NO_LCLK_P</text>
+<text x="1549400" y="279400" font-family="Arial" font-size="2000" fill="blue">RXI_NO_LCLK_N</text>
+<text x="1117600" y="2560320" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA7_P</text>
+<text x="914400" y="2560320" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA5_P</text>
+<text x="812800" y="2560320" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA4_P</text>
+<text x="635000" y="2560320" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA2_N</text>
+<text x="939800" y="2560320" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA5_N</text>
+<text x="406400" y="2560320" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA0_P</text>
+<text x="736600" y="2560320" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA3_N</text>
+<text x="711200" y="2560320" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA3_P</text>
+<text x="431800" y="2560320" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA0_N</text>
+<text x="1143000" y="2560320" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA7_N</text>
+<text x="508000" y="2560320" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA1_P</text>
+<text x="1016000" y="2560320" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA6_P</text>
+<text x="609600" y="2560320" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA2_P</text>
+<text x="838200" y="2560320" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA4_N</text>
+<text x="533400" y="2560320" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA1_N</text>
+<text x="1041400" y="2560320" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA6_N</text>
+<text x="1320800" y="2667000" font-family="Arial" font-size="2000" fill="blue">RXI_SO_FRAME_P</text>
+<text x="1549400" y="2832100" font-family="Arial" font-size="2000" fill="blue">RXI_SO_LCLK_N</text>
+<text x="1524000" y="2933700" font-family="Arial" font-size="2000" fill="blue">RXI_SO_LCLK_P</text>
+<text x="1346200" y="2466340" font-family="Arial" font-size="2000" fill="blue">RXI_SO_FRAME_N</text>
+<text x="1346200" y="3898900" font-family="Arial" font-size="2000" fill="blue">TXO_SO_FRAME_N</text>
+<text x="33020" y="27940" font-family="Arial" font-size="2000" fill="blue">VCC_BAR</text>
+<text x="723900" y="330200" font-family="Arial" font-size="2000" fill="blue">TXI_NO_WR_WAIT_P</text>
+<text x="317500" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_NO_LCLK_P</text>
+<text x="114300" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_NO_FRAME_P</text>
+<text x="-88900" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA_P7</text>
+<text x="-190500" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA_P6</text>
+<text x="-292100" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA_P5</text>
+<text x="-393700" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA_P4</text>
+<text x="-495300" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA_P3</text>
+<text x="-596900" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA_P2</text>
+<text x="-698500" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA_P1</text>
+<text x="-800100" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA_P0</text>
+<text x="-63500" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA_N7</text>
+<text x="-165100" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA_N6</text>
+<text x="-266700" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA_N5</text>
+<text x="-368300" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA_N4</text>
+<text x="-469900" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA_N3</text>
+<text x="-571500" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA_N2</text>
+<text x="-673100" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA_N1</text>
+<text x="-774700" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_NO_DATA_N0</text>
+<text x="723900" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXO_NO_WR_WAIT_P</text>
+<text x="520700" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXO_NO_RD_WAIT_P</text>
+<text x="114300" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_NO_FRAME_P</text>
+<text x="-88900" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_NO_DATA_P7</text>
+<text x="-190500" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_NO_DATA_P6</text>
+<text x="-292100" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_NO_DATA_P5</text>
+<text x="-393700" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_NO_DATA_P4</text>
+<text x="-495300" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_NO_DATA_P3</text>
+<text x="-596900" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_NO_DATA_P2</text>
+<text x="-698500" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_NO_DATA_P1</text>
+<text x="-800100" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_NO_DATA_P0</text>
+<text x="-63500" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_NO_DATA_N7</text>
+<text x="-165100" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_NO_DATA_N6</text>
+<text x="-266700" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_NO_DATA_N5</text>
+<text x="-368300" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_NO_DATA_N4</text>
+<text x="-469900" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_NO_DATA_N3</text>
+<text x="-571500" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_NO_DATA_N2</text>
+<text x="-673100" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_NO_DATA_N1</text>
+<text x="-774700" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_NO_DATA_N0</text>
+<text x="952500" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_NO_CCLK_P</text>
+<text x="1206500" y="1130300" font-family="Arial" font-size="2000" fill="blue">SPLIT_INST</text>
+<text x="-841796" y="-266700" font-family="Arial" font-size="2000" fill="blue">CDS_LMAN_SPLIT_NUMBER</text>
+<text x="914400" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_SO_CCLK_P</text>
+<text x="685800" y="330200" font-family="Arial" font-size="2000" fill="blue">TXI_SO_WR_WAIT_P</text>
+<text x="495300" y="330200" font-family="Arial" font-size="2000" fill="blue">TXI_SO_RD_WAIT_P</text>
+<text x="292100" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_SO_LCLK_P</text>
+<text x="88900" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_SO_FRAME_P</text>
+<text x="-114300" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_SO_DATA_P7</text>
+<text x="-215900" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_SO_DATA_P6</text>
+<text x="-317500" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_SO_DATA_P5</text>
+<text x="-419100" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_SO_DATA_P4</text>
+<text x="-520700" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_SO_DATA_P3</text>
+<text x="-622300" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_SO_DATA_P2</text>
+<text x="-723900" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_SO_DATA_P1</text>
+<text x="-825500" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_SO_DATA_P0</text>
+<text x="-88900" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_SO_DATA_N7</text>
+<text x="-190500" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_SO_DATA_N6</text>
+<text x="-292100" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_SO_DATA_N5</text>
+<text x="-393700" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_SO_DATA_N4</text>
+<text x="-495300" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_SO_DATA_N3</text>
+<text x="-596900" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_SO_DATA_N2</text>
+<text x="-698500" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_SO_DATA_N1</text>
+<text x="-800100" y="330200" font-family="Arial" font-size="2000" fill="blue">TXO_SO_DATA_N0</text>
+<text x="685800" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXO_SO_WR_WAIT_P</text>
+<text x="495300" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXO_SO_RD_WAIT_P</text>
+<text x="-114300" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA_P7</text>
+<text x="-215900" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA_P6</text>
+<text x="-317500" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA_P5</text>
+<text x="-419100" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA_P4</text>
+<text x="-520700" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA_P3</text>
+<text x="-622300" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA_P2</text>
+<text x="-723900" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA_P1</text>
+<text x="-825500" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA_P0</text>
+<text x="-88900" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA_N7</text>
+<text x="-190500" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA_N6</text>
+<text x="-292100" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA_N5</text>
+<text x="-393700" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA_N4</text>
+<text x="-495300" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA_N3</text>
+<text x="-596900" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA_N2</text>
+<text x="-698500" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA_N1</text>
+<text x="-800100" y="-330200" font-family="Arial" font-size="2000" fill="blue">RXI_SO_DATA_N0</text>
+<text x="-25400" y="5080" font-family="Arial" font-size="2000" fill="blue">G</text>
+<text x="-17780" y="-50800" font-family="Arial" font-size="2000" fill="blue">B</text>
+<text x="-5080" y="38100" font-family="Arial" font-size="2000" fill="blue">S</text>
+<text x="-30480" y="38100" font-family="Arial" font-size="2000" fill="blue">B</text>
+<text x="-5080" y="-63500" font-family="Arial" font-size="2000" fill="blue">S</text>
+<text x="0" y="50800" font-family="Arial" font-size="2000" fill="blue">A</text>
+<text x="0" y="-254000" font-family="Arial" font-size="2000" fill="blue">A</text>
+<text x="-38100" y="25400" font-family="Arial" font-size="2000" fill="blue">1</text>
+<text x="88900" y="25400" font-family="Arial" font-size="2000" fill="blue">2</text>
+<text x="355600" y="776295" font-family="Arial" font-size="2000" fill="blue">R194</text>
+<text x="355600" y="761040" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="457200" y="776295" font-family="Arial" font-size="2000" fill="blue">R195</text>
+<text x="457200" y="761040" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="558800" y="776295" font-family="Arial" font-size="2000" fill="blue">R196</text>
+<text x="558800" y="761040" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="660400" y="776295" font-family="Arial" font-size="2000" fill="blue">R197</text>
+<text x="660400" y="761040" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="762000" y="776295" font-family="Arial" font-size="2000" fill="blue">R198</text>
+<text x="762000" y="761040" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="863600" y="776295" font-family="Arial" font-size="2000" fill="blue">R199</text>
+<text x="863600" y="761040" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="965200" y="776295" font-family="Arial" font-size="2000" fill="blue">R200</text>
+<text x="965200" y="761040" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="1066800" y="776295" font-family="Arial" font-size="2000" fill="blue">R201</text>
+<text x="1066800" y="761040" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="1270000" y="788995" font-family="Arial" font-size="2000" fill="blue">R202</text>
+<text x="1270000" y="773740" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="1473200" y="788995" font-family="Arial" font-size="2000" fill="blue">R203</text>
+<text x="1473200" y="773740" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="355600" y="1589095" font-family="Arial" font-size="2000" fill="blue">R233</text>
+<text x="355600" y="1573840" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="457200" y="1589095" font-family="Arial" font-size="2000" fill="blue">R232</text>
+<text x="457200" y="1573840" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="558800" y="1589095" font-family="Arial" font-size="2000" fill="blue">R231</text>
+<text x="558800" y="1573840" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="660400" y="1589095" font-family="Arial" font-size="2000" fill="blue">R230</text>
+<text x="660400" y="1573840" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="762000" y="1589095" font-family="Arial" font-size="2000" fill="blue">R229</text>
+<text x="762000" y="1573840" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="863600" y="1589095" font-family="Arial" font-size="2000" fill="blue">R228</text>
+<text x="863600" y="1573840" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="965200" y="1589095" font-family="Arial" font-size="2000" fill="blue">R227</text>
+<text x="965200" y="1573840" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="1066800" y="1589095" font-family="Arial" font-size="2000" fill="blue">R226</text>
+<text x="1066800" y="1573840" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="1473200" y="1589095" font-family="Arial" font-size="2000" fill="blue">R206</text>
+<text x="1473200" y="1573840" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="1676400" y="1589095" font-family="Arial" font-size="2000" fill="blue">R204</text>
+<text x="1676400" y="1573840" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="1879600" y="1589095" font-family="Arial" font-size="2000" fill="blue">R205</text>
+<text x="1879600" y="1573840" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="355600" y="2935295" font-family="Arial" font-size="2000" fill="blue">R207</text>
+<text x="355600" y="2920040" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="457200" y="2935295" font-family="Arial" font-size="2000" fill="blue">R208</text>
+<text x="457200" y="2920040" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="558800" y="2935295" font-family="Arial" font-size="2000" fill="blue">R209</text>
+<text x="558800" y="2920040" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="660400" y="2935295" font-family="Arial" font-size="2000" fill="blue">R210</text>
+<text x="660400" y="2920040" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="762000" y="2935295" font-family="Arial" font-size="2000" fill="blue">R211</text>
+<text x="762000" y="2920040" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="863600" y="2935295" font-family="Arial" font-size="2000" fill="blue">R212</text>
+<text x="863600" y="2920040" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="965200" y="2935295" font-family="Arial" font-size="2000" fill="blue">R213</text>
+<text x="965200" y="2920040" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="1066800" y="2935295" font-family="Arial" font-size="2000" fill="blue">R214</text>
+<text x="1066800" y="2920040" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="1270000" y="2935295" font-family="Arial" font-size="2000" fill="blue">R215</text>
+<text x="1270000" y="2920040" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="1473200" y="2935295" font-family="Arial" font-size="2000" fill="blue">R216</text>
+<text x="1473200" y="2920040" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="1676400" y="2935295" font-family="Arial" font-size="2000" fill="blue">R234</text>
+<text x="1676400" y="2920040" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="1866900" y="2935295" font-family="Arial" font-size="2000" fill="blue">R235</text>
+<text x="1866900" y="2920040" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="1676400" y="3722695" font-family="Arial" font-size="2000" fill="blue">R217</text>
+<text x="1676400" y="3707440" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="1866900" y="3722695" font-family="Arial" font-size="2000" fill="blue">R218</text>
+<text x="1866900" y="3707440" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="1257300" y="3735395" font-family="Arial" font-size="2000" fill="blue">R236</text>
+<text x="1257300" y="3720140" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="2133600" y="674695" font-family="Arial" font-size="2000" fill="blue">R290</text>
+<text x="2133600" y="659440" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="2209800" y="674695" font-family="Arial" font-size="2000" fill="blue">R289</text>
+<text x="2209800" y="659440" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="2120900" y="2795595" font-family="Arial" font-size="2000" fill="blue">R292</text>
+<text x="2120900" y="2780340" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="2197100" y="2795595" font-family="Arial" font-size="2000" fill="blue">R291</text>
+<text x="2197100" y="2780340" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="1257300" y="534995" font-family="Arial" font-size="2000" fill="blue">R242</text>
+<text x="1257300" y="519740" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="1409700" y="623895" font-family="Arial" font-size="2000" fill="blue">R243</text>
+<text x="1409700" y="608640" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="1701800" y="1652595" font-family="Arial" font-size="2000" fill="blue">R241</text>
+<text x="1701800" y="1637340" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="1765300" y="1703395" font-family="Arial" font-size="2000" fill="blue">R240</text>
+<text x="1765300" y="1688140" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="1257300" y="2706695" font-family="Arial" font-size="2000" fill="blue">R247</text>
+<text x="1257300" y="2691440" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="1409700" y="2719395" font-family="Arial" font-size="2000" fill="blue">R246</text>
+<text x="1409700" y="2704140" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="1308100" y="3836995" font-family="Arial" font-size="2000" fill="blue">R244</text>
+<text x="1308100" y="3821740" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="1358900" y="3849695" font-family="Arial" font-size="2000" fill="blue">R245</text>
+<text x="1358900" y="3834440" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<rect x="355600" y="749300" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="355600" y="748300" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R194</text>
+<rect x="457200" y="749300" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="457200" y="748300" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R195</text>
+<rect x="558800" y="749300" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="558800" y="748300" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R196</text>
+<rect x="660400" y="749300" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="660400" y="748300" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R197</text>
+<rect x="762000" y="749300" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="762000" y="748300" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R198</text>
+<rect x="863600" y="749300" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="863600" y="748300" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R199</text>
+<rect x="965200" y="749300" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="965200" y="748300" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R200</text>
+<rect x="1066800" y="749300" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1066800" y="748300" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R201</text>
+<rect x="1270000" y="762000" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1270000" y="761000" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R202</text>
+<rect x="1473200" y="762000" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1473200" y="761000" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R203</text>
+<rect x="355600" y="1562100" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="355600" y="1561100" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R233</text>
+<rect x="457200" y="1562100" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="457200" y="1561100" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R232</text>
+<rect x="558800" y="1562100" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="558800" y="1561100" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R231</text>
+<rect x="660400" y="1562100" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="660400" y="1561100" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R230</text>
+<rect x="762000" y="1562100" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="762000" y="1561100" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R229</text>
+<rect x="863600" y="1562100" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="863600" y="1561100" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R228</text>
+<rect x="965200" y="1562100" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="965200" y="1561100" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R227</text>
+<rect x="1066800" y="1562100" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1066800" y="1561100" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R226</text>
+<rect x="1473200" y="1562100" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1473200" y="1561100" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R206</text>
+<rect x="1676400" y="1562100" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1676400" y="1561100" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R204</text>
+<rect x="1879600" y="1562100" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1879600" y="1561100" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R205</text>
+<rect x="355600" y="2908300" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="355600" y="2907300" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R207</text>
+<rect x="457200" y="2908300" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="457200" y="2907300" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R208</text>
+<rect x="558800" y="2908300" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="558800" y="2907300" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R209</text>
+<rect x="660400" y="2908300" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="660400" y="2907300" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R210</text>
+<rect x="762000" y="2908300" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="762000" y="2907300" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R211</text>
+<rect x="863600" y="2908300" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="863600" y="2907300" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R212</text>
+<rect x="965200" y="2908300" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="965200" y="2907300" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R213</text>
+<rect x="1066800" y="2908300" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1066800" y="2907300" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R214</text>
+<rect x="1270000" y="2908300" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1270000" y="2907300" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R215</text>
+<rect x="1473200" y="2908300" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1473200" y="2907300" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R216</text>
+<rect x="1676400" y="2908300" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1676400" y="2907300" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R234</text>
+<rect x="1866900" y="2908300" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1866900" y="2907300" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R235</text>
+<rect x="1676400" y="3695700" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1676400" y="3694700" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R217</text>
+<rect x="1866900" y="3695700" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1866900" y="3694700" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R218</text>
+<rect x="1257300" y="3708400" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1257300" y="3707400" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R236</text>
+<rect x="2133600" y="647700" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="2133600" y="646700" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R290</text>
+<rect x="2209800" y="647700" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="2209800" y="646700" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R289</text>
+<rect x="2120900" y="2768600" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="2120900" y="2767600" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R292</text>
+<rect x="2197100" y="2768600" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="2197100" y="2767600" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R291</text>
+<rect x="1257300" y="508000" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1257300" y="507000" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R242</text>
+<rect x="1409700" y="596900" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1409700" y="595900" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R243</text>
+<rect x="1701800" y="1625600" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1701800" y="1624600" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R241</text>
+<rect x="1765300" y="1676400" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1765300" y="1675400" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R240</text>
+<rect x="1257300" y="2679700" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1257300" y="2678700" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R247</text>
+<rect x="1409700" y="2692400" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1409700" y="2691400" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R246</text>
+<rect x="1308100" y="3810000" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1308100" y="3809000" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R244</text>
+<rect x="1358900" y="3822700" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1358900" y="3821700" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R245</text>
 </svg>

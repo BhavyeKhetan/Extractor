@@ -117,8 +117,21 @@ class ForensicExtractor:
         self.hierarchy: Dict[str, Any] = {}  # Block hierarchy tree
         self.symbol_pin_map: Dict[str, Dict[str, str]] = {}  # symbol_key -> {pin_name: pin_number}
 
-        # DX.json instance data: instance_id -> {refdes, library, part_name, symbol}
+        # DX.json instance data: refdes -> {instance_id, library, part_name, symbol}
+        # Changed from instance_id key to refdes key to avoid collision!
         self.dx_instances: Dict[str, Dict] = {}
+
+        # CRITICAL: Page mapping from TOC - maps (block, pageuid) -> pdf_page_number
+        # This enables pages 9-21 which are distributed across multiple blocks
+        self.page_mapping: Dict[Tuple[str, str], int] = {}
+
+        # CRITICAL: Instance position chain mappings
+        # Step 1: instance_id (I167231504) -> graphics_id (864692227966763070)
+        self.instance_to_graphics: Dict[str, str] = {}
+        # Step 2: graphics_id -> {x, y, page_file, block, page_index}
+        self.graphics_positions: Dict[str, Dict] = {}
+        # Step 3: Final merged: instance_id -> full position data
+        self.instance_positions: Dict[str, Dict] = {}
 
         # Geometric layer data
         self.pages: List[Dict] = []  # List of page definitions
@@ -202,9 +215,20 @@ class ForensicExtractor:
         return matches[-1] if matches else None
 
     def _extract_block_name(self, cpath: str) -> str:
-        """Extract the block name from a cpath like @worklib.usb_block(tbl_1):..."""
+        """Extract the FIRST block name from a cpath like @worklib.usb_block(tbl_1):..."""
         match = re.search(r'@worklib\.(\w+)\(tbl_1\)', cpath)
         return match.group(1) if match else 'unknown'
+
+    def _extract_leaf_block_name(self, cpath: str) -> str:
+        """Extract the LAST (leaf) block name from a hierarchical cpath.
+
+        For nested instances like:
+        @worklib.usb_block(tbl_1):\\I1039646780\\@worklib.reusable_usb_conn(tbl_1):\\I1039138834\\
+
+        Returns 'reusable_usb_conn' (the leaf block where the component actually lives).
+        """
+        blocks = re.findall(r'@worklib\.(\w+)\(tbl_1\)', cpath)
+        return blocks[-1] if blocks else 'unknown'
 
     def _parse_hierarchy_path(self, cpath: str) -> List[str]:
         """Parse cpath to extract hierarchy chain of blocks."""
@@ -328,10 +352,15 @@ class ForensicExtractor:
                 attributes = inst.get('attributes', {})
                 properties = inst.get('properties', {})
 
-                # Extract instance ID from cpath
+                # Extract instance ID from cpath (LAST instance ID for nested components)
                 instance_id = self._extract_instance_id(cpath)
                 if not instance_id:
                     continue
+
+                # CRITICAL: Extract LEAF block from cpath for hierarchical instances
+                # For @worklib.usb_block:\I123\@worklib.reusable_usb_conn:\I456\
+                # The component lives in reusable_usb_conn, not usb_block
+                leaf_block = self._extract_leaf_block_name(cpath)
 
                 refdes = attributes.get('refdes', '')
                 library = attributes.get('library', '')
@@ -341,33 +370,43 @@ class ForensicExtractor:
                 if not refdes:
                     continue
 
+                # CRITICAL FIX: Skip if refdes already exists (first writer wins)
+                # File discovery order: child blocks FIRST, brain_board LAST
+                # Child blocks have COMPONENT instance_ids (map to graphics positions)
+                # brain_board has BLOCK instance_ids (don't map to component positions)
+                # By skipping duplicates, child block data is preserved
+                if refdes in self.dx_instances:
+                    continue
+
                 # Build symbol cache path
                 # Format: cache/{library}##{part_name}##{symbol}.ascii
                 symbol_cache_path = f"{library}##{part_name}##{symbol}"
 
-                # Store the instance data
-                self.dx_instances[instance_id] = {
+                # Store the instance data - KEYED BY REFDES to avoid collision!
+                # Previously used instance_id which caused 289 refdes to be lost
+                # Use leaf_block (from cpath) not block_name (from file path)
+                self.dx_instances[refdes] = {
+                    'instance_id': instance_id,
                     'refdes': refdes,
                     'library': library,
                     'part_name': part_name,
                     'symbol': symbol,
                     'symbol_cache_key': f"{library}##{part_name}",
                     'symbol_cache_path': symbol_cache_path,
-                    'block': block_name,
+                    'block': leaf_block,  # CRITICAL: Use leaf block for graphics lookup
                     'cpath': cpath,
                     'properties': properties,
                 }
 
                 instance_count += 1
-                if refdes:
-                    refdes_count += 1
+                refdes_count += 1
 
                 # Also update the main instance_map for connectivity lookup
-                map_key = f"{block_name}:{instance_id}"
+                map_key = f"{leaf_block}:{instance_id}"
                 self.instance_map[map_key] = {
                     'refdes': refdes,
                     'comp_key': refdes,
-                    'block': block_name,
+                    'block': leaf_block,
                     'library': library,
                     'part_name': part_name,
                     'symbol_cache_key': f"{library}##{part_name}",
@@ -381,6 +420,232 @@ class ForensicExtractor:
         # Show some example refdes
         sample_refdes = [d['refdes'] for d in list(self.dx_instances.values())[:15]]
         print(f"  - Sample refdes: {sample_refdes}")
+
+    def build_instance_to_graphics_mapping(self) -> None:
+        """
+        CRITICAL STEP 1: Build instance_id -> graphics_id mapping from block.ascii files.
+
+        The block.ascii files contain mappings like:
+            < 5 /> I167231504 1 864692227966763070
+
+        This links the instance ID (from dx.json) to the graphics ID (used in page files).
+
+        Pattern: < 5 /> I{instance_id} 1 {graphics_id}
+        """
+        print("\n" + "="*60)
+        print("PHASE 1d: BUILDING INSTANCE->GRAPHICS ID MAPPING (CRITICAL)")
+        print("="*60)
+
+        mapping_count = 0
+
+        for block_dir in self.worklib_dir.iterdir():
+            if not block_dir.is_dir() or block_dir.name in self.IGNORE_DIRS:
+                continue
+
+            tbl_dir = block_dir / 'tbl_1'
+            if not tbl_dir.exists():
+                continue
+
+            block_name = block_dir.name
+
+            # Find the block.ascii file (named same as block)
+            block_ascii = tbl_dir / f'{block_name}.ascii'
+            if not block_ascii.exists():
+                continue
+
+            try:
+                content = block_ascii.read_text(encoding='utf-8', errors='ignore')
+            except Exception as e:
+                print(f"  [WARN] Failed to read {block_ascii.name}: {e}")
+                continue
+
+            # Pattern: < 5 /> I{instance_id} 1 {graphics_id}
+            # The graphics_id is a 15-18 digit number
+            mapping_pattern = re.compile(
+                r'<\s*5\s*/>\s*I(\d+)\s+\d+\s+(\d{15,})'
+            )
+
+            for match in mapping_pattern.finditer(content):
+                instance_id = match.group(1)
+                graphics_id = match.group(2)
+
+                # CRITICAL FIX: Key by (block, instance_id) to preserve block context
+                # Same instance_id can map to DIFFERENT graphics_ids in different blocks!
+                # 125 instances have different mappings across blocks
+                self.instance_to_graphics[(block_name, instance_id)] = graphics_id
+                mapping_count += 1
+
+        print(f"  - Instance->Graphics mappings found: {mapping_count}")
+
+        # Show sample mappings
+        sample_mappings = list(self.instance_to_graphics.items())[:5]
+        for (block, inst_id), gfx_id in sample_mappings:
+            print(f"    ({block}, I{inst_id}) -> {gfx_id}")
+
+    def extract_graphics_positions_from_pages(self) -> None:
+        """
+        CRITICAL STEP 2: Extract graphics_id positions from page files.
+
+        Page files contain instance placements with the graphics_id and X,Y position:
+
+        < 0 />  < 0 />  < 0 />  < {graphics_id} />  < 45 />  <  < 0 />  < X />  < 0 />  < Y />  />
+
+        The position is the last < 45 /> block after the graphics_id.
+        """
+        print("\n" + "="*60)
+        print("PHASE 1e: EXTRACTING GRAPHICS POSITIONS FROM PAGES (CRITICAL)")
+        print("="*60)
+
+        position_count = 0
+        page_files_processed = 0
+
+        for block_dir in self.worklib_dir.iterdir():
+            if not block_dir.is_dir() or block_dir.name in self.IGNORE_DIRS:
+                continue
+
+            tbl_dir = block_dir / 'tbl_1'
+            if not tbl_dir.exists():
+                continue
+
+            block_name = block_dir.name
+
+            # Process all page files
+            for page_file in sorted(tbl_dir.glob('page_file_*.ascii')):
+                page_files_processed += 1
+
+                # Extract page index - use PDF page mapping for correct page number!
+                page_index = self._get_pdf_page_index(block_name, page_file.name)
+                if page_index == -1:
+                    page_idx_match = re.search(r'page_file_(\d+)\.ascii', page_file.name)
+                    page_index = int(page_idx_match.group(1)) if page_idx_match else 0
+
+                try:
+                    content = page_file.read_text(encoding='utf-8', errors='ignore')
+                except Exception as e:
+                    print(f"  [WARN] Failed to read {page_file.name}: {e}")
+                    continue
+
+                # Find all graphics IDs we're interested in (the ones mapped from instances)
+                graphics_ids_in_page = set(re.findall(r'<\s*(\d{15,})\s*/>', content))
+
+                # For each graphics ID, find its position
+                for gfx_id in graphics_ids_in_page:
+                    # Only process if this graphics ID is linked to an instance IN THIS BLOCK
+                    # Check if any instance in this block maps to this graphics_id
+                    is_relevant = any(
+                        gid == gfx_id
+                        for (blk, inst), gid in self.instance_to_graphics.items()
+                        if blk == block_name
+                    )
+                    if not is_relevant:
+                        continue
+
+                    # Find the position pattern after this graphics ID
+                    # Pattern: < {gfx_id} /> ... < 45 /> < < 0 /> < X /> < 0 /> < Y /> />
+                    # We want the LAST < 45 /> coordinate that comes right after the ID
+
+                    # Find all occurrences of this graphics ID
+                    gfx_pattern = re.compile(
+                        r'<\s*' + gfx_id + r'\s*/>\s*<\s*45\s*/>\s*<\s*<\s*\d+\s*/>\s*<\s*(-?\d+)\s*/>\s*<\s*\d+\s*/>\s*<\s*(-?\d+)\s*/>\s*/>'
+                    )
+
+                    for match in gfx_pattern.finditer(content):
+                        x = int(match.group(1))
+                        y = int(match.group(2))
+
+                        # CRITICAL FIX: Key by (block, graphics_id) to preserve block context
+                        # Same graphics_id can appear in multiple blocks' page files!
+                        # 143 graphics_ids appear in multiple blocks
+                        self.graphics_positions[(block_name, gfx_id)] = {
+                            'x': x,
+                            'y': y,
+                            'block': block_name,
+                            'page_file': page_file.name,
+                            'page_index': page_index,
+                        }
+                        position_count += 1
+
+        print(f"  - Page files processed: {page_files_processed}")
+        print(f"  - Graphics positions extracted: {len(self.graphics_positions)}")
+
+        # Show sample positions
+        sample_positions = list(self.graphics_positions.items())[:5]
+        for (block, gfx_id), pos in sample_positions:
+            print(f"    ({block}, {gfx_id}): x={pos['x']}, y={pos['y']}, page={pos['page_index']}")
+
+    def link_instance_positions(self) -> None:
+        """
+        CRITICAL STEP 3: Link the full chain - refdes -> instance_id -> graphics_id -> position.
+
+        This creates the final mapping that the renderer needs:
+        {
+            refdes: {
+                instance_id: "167231504",
+                refdes: "C51",
+                x: 800100,
+                y: 3403600,
+                page_index: 3,
+                block: "usb_block",
+                ...
+            }
+        }
+
+        NOTE: dx_instances is now keyed by refdes (not instance_id) to avoid collision!
+        """
+        print("\n" + "="*60)
+        print("PHASE 1f: LINKING INSTANCE POSITIONS (CRITICAL)")
+        print("="*60)
+
+        linked_count = 0
+        missing_graphics = 0
+        missing_position = 0
+
+        # dx_instances is now keyed by refdes, so iterate using refdes
+        for refdes, inst_data in self.dx_instances.items():
+            instance_id = inst_data.get('instance_id', '')
+            block = inst_data.get('block', '')
+
+            # Step 1: Get graphics_id using BLOCK-AWARE lookup
+            # instance_to_graphics is now keyed by (block, instance_id)
+            graphics_id = self.instance_to_graphics.get((block, instance_id))
+            if not graphics_id:
+                missing_graphics += 1
+                continue
+
+            # Step 2: Get position from graphics_id using BLOCK-AWARE lookup
+            # graphics_positions is now keyed by (block, graphics_id)
+            position = self.graphics_positions.get((block, graphics_id))
+            if not position:
+                missing_position += 1
+                continue
+
+            # Step 3: Create merged position data - keyed by REFDES for direct lookup
+            self.instance_positions[refdes] = {
+                'instance_id': instance_id,
+                'refdes': refdes,
+                'graphics_id': graphics_id,
+                'x': position['x'],
+                'y': position['y'],
+                'block': position['block'],
+                'page_file': position['page_file'],
+                'page_index': position['page_index'],
+                # Also include symbol info for rendering
+                'library': inst_data.get('library', ''),
+                'part_name': inst_data.get('part_name', ''),
+                'symbol': inst_data.get('symbol', ''),
+                'symbol_cache_key': inst_data.get('symbol_cache_key', ''),
+            }
+            linked_count += 1
+
+        print(f"  - Instances with positions: {linked_count}")
+        print(f"  - Missing graphics mapping: {missing_graphics}")
+        print(f"  - Missing position data: {missing_position}")
+
+        # Show sample linked instances
+        sample_linked = list(self.instance_positions.items())[:10]
+        print(f"\n  Sample linked instances:")
+        for inst_id, data in sample_linked:
+            print(f"    {data['refdes']}: ({data['x']}, {data['y']}) on page {data['page_index']}")
 
     # =========================================================================
     # GEOMETRIC LAYER EXTRACTION METHODS
@@ -439,6 +704,13 @@ class ForensicExtractor:
         - Sheet name
         - Block path
 
+        CRITICAL: Also builds page_mapping dict for cross-block page lookup!
+        The TOC pageTableTocRowsKey contains entries like:
+        @worklib.zynq_block(tbl_1):Bank 0(1)4
+        Which means: block=zynq_block, page_name="Bank 0", local_page=1, pageuid=4
+
+        This enables pages 9-21 which are in blocks like zynq_block, dsp_block, gige_block
+
         Extracts page metadata including:
         - page_id, page_uid, title, block_path
         - size (width/height in mils)
@@ -471,6 +743,46 @@ class ForensicExtractor:
 
         print(f"  - Page size: {page_size} ({page_standard})")
         print(f"  - Dimensions: {size_info['width']}x{size_info['height']} {size_info['unit']}")
+
+        # =====================================================================
+        # CRITICAL: Parse pageTableTocRowsKey for cross-block page mapping
+        # Format: @worklib.{block}(tbl_1):{page_name}({local_page}){pageuid};...
+        # Example: @worklib.zynq_block(tbl_1):Bank 0(1)4
+        # =====================================================================
+        toc_rows_match = re.search(r'<n\s+pageTableTocRowsKey\s+n/>\s*<\s*\d+\s*/>\s*<\s*\d+\s*/>\s*<v\s+(.*?)\s*v/>', content)
+        if toc_rows_match:
+            toc_rows_value = toc_rows_match.group(1)
+            toc_entries = toc_rows_value.split(';')
+
+            pdf_page_num = 0
+            for entry in toc_entries:
+                entry = entry.strip()
+                if not entry:
+                    continue
+
+                pdf_page_num += 1
+
+                # Parse entry: @worklib.{block}(tbl_1):{page_name}({local_page_num}){pageuid}
+                # Pattern with optional instance hierarchy: @worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):Bank 0(1)4
+                entry_match = re.search(
+                    r'@worklib\.(\w+)\(tbl_1\):([^(]+)\((\d+)\)(\d+)$',
+                    entry
+                )
+                if entry_match:
+                    block_name = entry_match.group(1)
+                    page_name = entry_match.group(2)
+                    local_page_num = entry_match.group(3)  # The (1) in "Bank 0(1)4"
+                    pageuid = entry_match.group(4)  # The 4 in "Bank 0(1)4"
+
+                    # Store mapping: (block, pageuid) -> pdf_page_number
+                    self.page_mapping[(block_name, pageuid)] = pdf_page_num
+
+                    # Also store by (block, local_page_num) for lookups by page_file_N.ascii
+                    # But we need to map pageuid -> local_page_file_num
+                    # pageuid N maps to page_file_N.ascii
+                    self.page_mapping[(block_name, f"page_file_{pageuid}")] = pdf_page_num
+
+            print(f"  - Page mappings built: {len(self.page_mapping)}")
 
         # Extract table cells using pattern: < 9 /> ROW COL LENGTH HTML_CONTENT
         # Pattern finds: < 9 /> {row} {col} {len} <!DOCTYPE...></html>
@@ -527,9 +839,9 @@ class ForensicExtractor:
             pageuid_match = re.search(r'pageuid=(\d+)', href or '')
             page_uid = pageuid_match.group(1) if pageuid_match else str(row_idx)
 
-            # Extract block reference from href
-            block_ref_match = re.search(r'@worklib\.(\w+)\(tbl_1\)', href or '')
-            block_ref = block_ref_match.group(1) if block_ref_match else 'brain_board'
+            # Extract block reference from href - find the LAST @worklib reference
+            block_refs = re.findall(r'@worklib\.(\w+)\(tbl_1\)', href or '')
+            block_ref = block_refs[-1] if block_refs else 'brain_board'
 
             page_number += 1
 
@@ -552,14 +864,56 @@ class ForensicExtractor:
 
             self.pages.append(page_data)
 
+            # Also ensure the page mapping is set for this (block, page_uid) combination
+            if (block_ref, page_uid) not in self.page_mapping:
+                self.page_mapping[(block_ref, page_uid)] = page_number
+            # And by page_file name pattern
+            self.page_mapping[(block_ref, f"page_file_{page_uid}")] = page_number
+
         self.stats['total_pages'] = len(self.pages)
         print(f"  - Pages extracted: {len(self.pages)}")
 
         # Print page summary
         for page in self.pages[:5]:  # Show first 5
-            print(f"    Page {page['page_id']}: {page['title']} ({page['block_path']})")
+            print(f"    Page {page['page_id']}: {page['title']} ({page['block_ref']}) -> page_uid {page['page_uid']}")
         if len(self.pages) > 5:
             print(f"    ... and {len(self.pages) - 5} more pages")
+
+    def _get_pdf_page_index(self, block_name: str, page_file_name: str) -> int:
+        """
+        Look up the PDF page number for a given block and page file.
+
+        The page_mapping dict maps (block, page_file_N) -> pdf_page_number.
+        If not found, returns -1 to indicate unknown page.
+
+        This is critical for placing content from zynq_block, dsp_block, gige_block
+        on the correct PDF page (9-21 instead of 1-8).
+        """
+        # Try lookup by page_file name (e.g., "page_file_4")
+        key = (block_name, page_file_name.replace('.ascii', ''))
+        if key in self.page_mapping:
+            return self.page_mapping[key]
+
+        # Try by page_file with extension
+        key_with_ext = (block_name, page_file_name)
+        if key_with_ext in self.page_mapping:
+            return self.page_mapping[key_with_ext]
+
+        # Try extracting just the page number from filename
+        match = re.search(r'page_file_(\d+)', page_file_name)
+        if match:
+            page_num = match.group(1)
+            key_num = (block_name, page_num)
+            if key_num in self.page_mapping:
+                return self.page_mapping[key_num]
+
+            # Fallback: use local page index for blocks without TOC mapping
+            # brain_board pages 1-2 stay as 1-2
+            if block_name == 'brain_board':
+                return int(page_num)
+
+        # Return -1 if not found (will need investigation)
+        return -1
 
     def extract_grid_config(self) -> None:
         """
@@ -793,9 +1147,11 @@ class ForensicExtractor:
         except Exception as e:
             return wires
 
-        # Extract page index from filename (page_file_1.ascii -> 1)
-        page_idx_match = re.search(r'page_file_(\d+)\.ascii', page_file.name)
-        page_index = int(page_idx_match.group(1)) if page_idx_match else 0
+        # Extract page index - use PDF page mapping for correct page number!
+        page_index = self._get_pdf_page_index(block_name, page_file.name)
+        if page_index == -1:
+            page_idx_match = re.search(r'page_file_(\d+)\.ascii', page_file.name)
+            page_index = int(page_idx_match.group(1)) if page_idx_match else 0
 
         # Pattern to find wire segments with LP coordinates and CGTYPE
         # Looking for blocks that contain both LP and CGTYPE 65571
@@ -1199,9 +1555,11 @@ class ForensicExtractor:
         except Exception:
             return placements
 
-        # Extract page index
-        page_idx_match = re.search(r'page_file_(\d+)\.ascii', page_file.name)
-        page_index = int(page_idx_match.group(1)) if page_idx_match else 0
+        # Extract page index - use PDF page mapping for correct page number!
+        page_index = self._get_pdf_page_index(block_name, page_file.name)
+        if page_index == -1:
+            page_idx_match = re.search(r'page_file_(\d+)\.ascii', page_file.name)
+            page_index = int(page_idx_match.group(1)) if page_idx_match else 0
 
         # Pattern to find instance placements
         # Instances are referenced via cellid or symbol reference with transform
@@ -1308,8 +1666,158 @@ class ForensicExtractor:
         print(f"  - Text primitives extracted: {text_count}")
         self.stats['total_primitives'] = len(self.primitives)
 
+        # CRITICAL: Generate refdes/value labels from instance positions
+        self._generate_instance_text_labels()
+
+    def _generate_instance_text_labels(self) -> None:
+        """
+        CRITICAL: Generate refdes and value text labels from instance positions.
+
+        This method creates text primitives for:
+        - REFDES labels (U1, C51, R84) at the symbol's LOCATION position
+        - VALUE labels (10uF, 1K) at the symbol's VALUE position
+
+        The symbol cache contains text_positions with LOCATION and VALUE offsets.
+        We apply these offsets to the instance position to get absolute coordinates.
+
+        This was MISSING from the original extractor - zero refdes labels were emitted!
+        """
+        print("\n  Generating instance text labels (refdes/value)...")
+
+        refdes_count = 0
+        value_count = 0
+
+        for refdes, inst_data in self.dx_instances.items():
+            # Get instance position (keyed by refdes now)
+            position = self.instance_positions.get(refdes)
+            if not position:
+                continue
+
+            inst_x = position.get('x', 0)
+            inst_y = position.get('y', 0)
+            page_index = position.get('page_index', 0)
+            block_name = position.get('block', '')
+
+            # Get symbol graphics for text_positions
+            symbol_cache_key = inst_data.get('symbol_cache_key', '')
+            symbol_graphics = self.symbol_graphics.get(symbol_cache_key, {})
+            text_positions = symbol_graphics.get('text_positions', {})
+
+            # Generate LOCATION label (refdes)
+            if 'LOCATION' in text_positions:
+                loc = text_positions['LOCATION']
+                loc_pos = loc.get('position', {})
+                loc_x = loc_pos.get('x', 0)
+                loc_y = loc_pos.get('y', 0)
+
+                # Apply offset to instance position
+                abs_x = inst_x + loc_x
+                abs_y = inst_y + loc_y
+
+                element_id = self._generate_element_id('refdes')
+                sequence_idx = self._next_sequence_index()
+
+                text_prim = {
+                    'element_id': element_id,
+                    'sequence_index': sequence_idx,
+                    'type': 'text',
+                    'shape_type': 'refdes_label',
+                    'label_type': 'LOCATION',
+                    'page_index': page_index,
+                    'block': block_name,
+                    'geometry': {
+                        'origin': {'x': abs_x, 'y': abs_y},
+                    },
+                    'text_content': refdes,  # The actual refdes like "U12", "C51"
+                    'text_properties': {
+                        'alignment': 'left',
+                        'rotation': loc.get('rotation', 0),
+                        'justification': loc.get('justification', 0),
+                    },
+                    'style_ref': loc.get('style_ref', 'Style1'),
+                    'z_value': 10000,
+                    'semantic': {
+                        'kind': 'refdes_label',
+                        'refdes': refdes,
+                        'instance_id': inst_data.get('instance_id', ''),
+                    },
+                }
+
+                self.primitives.append(text_prim)
+                refdes_count += 1
+                self.stats['primitives_by_type']['text'] += 1
+
+            # Generate VALUE label (component value)
+            if 'VALUE' in text_positions:
+                val = text_positions['VALUE']
+                val_pos = val.get('position', {})
+                val_x = val_pos.get('x', 0)
+                val_y = val_pos.get('y', 0)
+
+                # Get the actual value from properties
+                properties = inst_data.get('properties', {})
+                value_text = properties.get('VALUE', properties.get('value', '?'))
+
+                # Skip if value is placeholder
+                if value_text in ['?', '']:
+                    # Use part name as fallback
+                    value_text = inst_data.get('part_name', '?')
+
+                # Apply offset to instance position
+                abs_x = inst_x + val_x
+                abs_y = inst_y + val_y
+
+                element_id = self._generate_element_id('value')
+                sequence_idx = self._next_sequence_index()
+
+                text_prim = {
+                    'element_id': element_id,
+                    'sequence_index': sequence_idx,
+                    'type': 'text',
+                    'shape_type': 'value_label',
+                    'label_type': 'VALUE',
+                    'page_index': page_index,
+                    'block': block_name,
+                    'geometry': {
+                        'origin': {'x': abs_x, 'y': abs_y},
+                    },
+                    'text_content': value_text,
+                    'text_properties': {
+                        'alignment': 'left',
+                        'rotation': val.get('rotation', 0),
+                        'justification': val.get('justification', 0),
+                    },
+                    'style_ref': val.get('style_ref', 'Style1'),
+                    'z_value': 10000,
+                    'semantic': {
+                        'kind': 'value_label',
+                        'refdes': refdes,
+                        'instance_id': inst_data.get('instance_id', ''),
+                    },
+                }
+
+                self.primitives.append(text_prim)
+                value_count += 1
+                self.stats['primitives_by_type']['text'] += 1
+
+        print(f"  - Refdes labels generated: {refdes_count}")
+        print(f"  - Value labels generated: {value_count}")
+        self.stats['primitives_by_shape_type']['refdes_label'] = refdes_count
+        self.stats['primitives_by_shape_type']['value_label'] = value_count
+
     def _extract_text_from_page(self, page_file: Path, block_name: str) -> List[Dict]:
-        """Extract text primitives from a page file."""
+        """
+        Extract text primitives from a page file.
+
+        Text in SDAX page files comes in several forms:
+        1. Net labels in Tag 29 - signal names like P0_USB_DN, VCC, GND
+        2. HTML text blocks - rich text in GRAPHICS_BLOCK_CHILD_TEXT
+        3. Label placeholders (LOCATION, VALUE) - positions for refdes/value text
+
+        The key is finding text that has:
+        - A visible text value (not internal metadata)
+        - A coordinate position (< 45 /> block)
+        """
         texts = []
 
         try:
@@ -1317,101 +1825,239 @@ class ForensicExtractor:
         except Exception:
             return texts
 
-        # Extract page index
-        page_idx_match = re.search(r'page_file_(\d+)\.ascii', page_file.name)
-        page_index = int(page_idx_match.group(1)) if page_idx_match else 0
+        # Extract page index - use PDF page mapping for correct page number!
+        page_index = self._get_pdf_page_index(block_name, page_file.name)
+        if page_index == -1:
+            page_idx_match = re.search(r'page_file_(\d+)\.ascii', page_file.name)
+            page_index = int(page_idx_match.group(1)) if page_idx_match else 0
 
         # Justification mapping (Critical Requirement #3)
         JUST_MAP = {
             0: 'left',
             1: 'center',
             2: 'right',
+            3: 'center',
         }
 
-        # Pattern for text blocks with properties
-        # Text pattern: < 31 /> followed by text content and justification/rotation
-        text_pattern = re.compile(
-            r'<\s*31\s*/>\s*<[^>]+>\s*<[^>]+>\s*<[^>]+>\s*<\s*\d+\s*/>\s*<\s*([^/]+)\s*/>\s*'
-            r'<\s*44\s*/>\s*<[^>]+>\s*<\s*45\s*/>\s*<\s*<\s*(\d+)\s*/>\s*<\s*(-?\d+)\s*/>\s*<\s*(\d+)\s*/>\s*<\s*(-?\d+)\s*/>\s*/>',
-            re.DOTALL
+        # System/internal label types to skip
+        SKIP_LABELS = {
+            'CGTYPE', 'LP', 'MSB', 'LSB', 'PROP_WIDTH', 'COMMENT_BODY',
+            'GRAPHICS_BLOCK_ID', 'GRAPHICS_BLOCK_NAME', 'BODY_TYPE',
+            'HDL_PORT', 'HDL_POWER', 'NC_PORT', 'PATH', 'LOCATION', 'VALUE',
+            'IMPLEMENTATION', 'IMPLEMENTATION_TYPE', 'PSPICETEMPLATE',
+            'ORGNAME', 'ORGADDR1', 'ORGADDR2', 'ORGADDR3', 'REVCODE',
+            'PAGE_NUMBER', 'PAGE_COUNT', 'PAGE_SIZE', 'PAGE_CREATE_DATE',
+            'CAP_NAME', 'OFFPAGE', 'DOC', 'VHDL_PORT', 'VHDL_MODE',
+            'CDS_NET_ID', 'HDL_TAP', 'VOLTAGE', 'MFG_PART_NO', 'MFG',
+            'JEDEC_TYPE', 'DATASHEET', 'ASI_MODEL', 'ROHS',
+            'CDS_LIBRARY_PHYSICAL_ID', 'CDS_LIBRARY_ID', 'CDS_ASSOC_NET_ID_STR',
+            'zeronull', 'default', 'PN', 'BN', 'MPN',
+        }
+
+        seen_texts = set()  # Avoid duplicates
+
+        # =====================================================================
+        # PATTERN 1: Net name labels (P0_USB_DN, VCC, GND, etc.)
+        # These appear as: < LENGTH /> < NET_NAME />
+        # Position found in nearby < 45 /> blocks
+        # =====================================================================
+
+        # Pattern to find signal/net names
+        net_name_pattern = re.compile(
+            r'<\s*(\d+)\s*/>\s*<\s*'
+            r'(P\d+_[A-Z0-9_]+|VCC[A-Z0-9_]*|GND[A-Z0-9_]*|PS_[A-Z0-9_]+|'
+            r'CLK[A-Z0-9_]*|RST[A-Z0-9_]*|EN[A-Z0-9_]*|INT[A-Z0-9_]*|'
+            r'SDA[A-Z0-9_]*|SCL[A-Z0-9_]*|MISO[A-Z0-9_]*|MOSI[A-Z0-9_]*|'
+            r'TX[A-Z0-9_]*|RX[A-Z0-9_]*|[A-Z][A-Z0-9]*_[A-Z0-9_]+)'
+            r'\s*/>'
         )
 
-        for match in text_pattern.finditer(content):
-            text_content = match.group(1).strip()
-            x = int(match.group(3))
-            y = int(match.group(5))
+        for match in net_name_pattern.finditer(content):
+            text_len = int(match.group(1))
+            text = match.group(2).strip()
 
-            # Skip empty or placeholder text
-            if not text_content or text_content in ['##', '?', 'PN']:
+            # Skip if already seen
+            if text in seen_texts:
                 continue
 
-            # Look for justification (just property)
-            just_match = re.search(
-                r'<n just n/>\s*<[^>]+>\s*<v\s*(\d+)\s*v/>',
-                content[match.start():min(match.end()+500, len(content))]
+            # Skip internal names
+            if text in SKIP_LABELS:
+                continue
+
+            # Get context around this match to find position
+            start = max(0, match.start() - 400)
+            end = min(len(content), match.end() + 400)
+            context = content[start:end]
+
+            # Find ALL Tag 45 positions in context
+            positions = re.findall(
+                r'<\s*45\s*/>\s*<\s*<\s*\d+\s*/>\s*<\s*(-?\d+)\s*/>\s*<\s*\d+\s*/>\s*<\s*(-?\d+)\s*/>\s*/>',
+                context
             )
+
+            # Filter for valid positions (not zeros from bounding boxes)
+            valid_pos = [(int(x), int(y)) for x, y in positions
+                        if abs(int(x)) > 1000 or abs(int(y)) > 1000]
+
+            if not valid_pos:
+                continue
+
+            # Take position with largest magnitude (actual position, not offset)
+            best_x, best_y = max(valid_pos, key=lambda p: abs(p[0]) + abs(p[1]))
+
+            seen_texts.add(text)
+
+            # Look for rotation/justification in context
+            rot_match = re.search(r'<n\s+rotation\s+n/>\s*<\s*\d+\s*/>\s*<\s*\d+\s*/>\s*<v\s*(-?\d+)\s*v/>', context)
+            rotation = int(rot_match.group(1)) if rot_match else 0
+
+            just_match = re.search(r'<n\s+just\s+n/>\s*<\s*\d+\s*/>\s*<v\s*(\d+)\s*v/>', context)
             justification = int(just_match.group(1)) if just_match else 0
 
-            # Look for rotation
-            rotation_match = re.search(
-                r'<n rotation n/>\s*<[^>]+>\s*<[^>]+>\s*<v\s*(\d+)\s*v/>',
-                content[match.start():min(match.end()+500, len(content))]
-            )
-            rotation = int(rotation_match.group(1)) if rotation_match else 0
-
-            # Look for style reference
-            style_match = re.search(
-                r'<\s*\d+\s*/>\s*<\s*(Style\d+)\s*/>',
-                content[match.start():min(match.end()+300, len(content))]
-            )
-            style_ref = style_match.group(1) if style_match else 'Style1'
-
-            # Look for zValue
-            z_match = re.search(
-                r'<n zValue n/>\s*<[^>]+>\s*<[^>]+>\s*<v\s*(\d+)\s*v/>',
-                content[match.start():min(match.end()+500, len(content))]
-            )
-            z_value = int(z_match.group(1)) if z_match else 10000
-
-            # Get font properties from style (Critical Requirement #4)
-            font_props = {
-                'font_name': 'Arial',
-                'font_size': 10.0,
-                'font_weight': 'normal',
-                'font_style': 'normal',
-            }
-            if style_ref in self.styles:
-                style_data = self.styles[style_ref]
-                font_props = {
-                    'font_name': style_data.get('font_name', 'Arial'),
-                    'font_size': style_data.get('font_size', 10.0),
-                    'font_weight': style_data.get('font_weight', 'normal'),
-                    'font_style': style_data.get('font_style', 'normal'),
-                }
-
-            element_id = self._generate_element_id('text')
+            element_id = self._generate_element_id('netlabel')
             sequence_idx = self._next_sequence_index()
 
             text_prim = {
                 'element_id': element_id,
-                'sequence_index': sequence_idx,  # Critical Requirement #2
+                'sequence_index': sequence_idx,
                 'type': 'text',
-                'shape_type': 'label',
+                'shape_type': 'net_label',
+                'label_type': 'NET_NAME',
+                'page_index': page_index,
+                'block': block_name,
+                'geometry': {
+                    'origin': {'x': best_x, 'y': best_y},
+                },
+                'text_content': text,
+                'text_properties': {
+                    'alignment': JUST_MAP.get(justification, 'left'),
+                    'rotation': rotation,
+                    'justification': justification,
+                },
+                'style_ref': 'Style1',
+                'z_value': 10000,
+                'semantic': 'net_label',
+            }
+
+            texts.append(text_prim)
+            self.stats['primitives_by_type']['text'] += 1
+
+        # =====================================================================
+        # PATTERN 2: HTML text blocks (GRAPHICS_BLOCK_CHILD_TEXT)
+        # These contain rich text content in HTML format
+        # =====================================================================
+
+        html_text_pattern = re.compile(
+            r'<n\s+GRAPHICS_BLOCK_CHILD_TEXT\s+n/>\s*<\s*\d+\s*/>\s*<\s*\d+\s*/>\s*<v\s*(.*?)\s*v/>',
+            re.DOTALL
+        )
+
+        for match in html_text_pattern.finditer(content):
+            html_content = match.group(1)
+
+            # Extract plain text from HTML
+            text_match = re.search(r'>([^<]+)</p>', html_content)
+            if not text_match:
+                continue
+
+            text = text_match.group(1).strip()
+            if not text or text in seen_texts:
+                continue
+
+            # Get context for position
+            start = max(0, match.start() - 500)
+            context = content[start:match.start()]
+
+            # Find position in preceding context
+            positions = re.findall(
+                r'<\s*45\s*/>\s*<\s*<\s*\d+\s*/>\s*<\s*(-?\d+)\s*/>\s*<\s*\d+\s*/>\s*<\s*(-?\d+)\s*/>\s*/>',
+                context
+            )
+
+            if not positions:
+                continue
+
+            # Take last position before the text
+            x, y = int(positions[-1][0]), int(positions[-1][1])
+
+            seen_texts.add(text)
+
+            element_id = self._generate_element_id('richtext')
+            sequence_idx = self._next_sequence_index()
+
+            text_prim = {
+                'element_id': element_id,
+                'sequence_index': sequence_idx,
+                'type': 'text',
+                'shape_type': 'annotation',
+                'label_type': 'RICH_TEXT',
                 'page_index': page_index,
                 'block': block_name,
                 'geometry': {
                     'origin': {'x': x, 'y': y},
                 },
-                'text_content': text_content,
-                'text_properties': {  # Critical Requirement #3
-                    'alignment': JUST_MAP.get(justification, 'left'),
-                    'rotation': rotation,
-                    'justification': justification,
+                'text_content': text,
+                'text_properties': {
+                    'alignment': 'center',
+                    'rotation': 0,
+                    'justification': 1,
                 },
-                'font_properties': font_props,  # Critical Requirement #4
-                'style_ref': style_ref,
-                'z_value': z_value,
-                'semantic': None,
+                'style_ref': 'Style1',
+                'z_value': 10000,
+                'semantic': 'annotation',
+            }
+
+            texts.append(text_prim)
+            self.stats['primitives_by_type']['text'] += 1
+
+        # =====================================================================
+        # PATTERN 3: Pin numbers and simple labels (single chars/numbers)
+        # Format: < 31 /> < < ... /> < LENGTH /> < TEXT />
+        # =====================================================================
+
+        # Find simple pin labels (1, 2, A, B, etc.)
+        pin_label_pattern = re.compile(
+            r'<\s*31\s*/>\s*<\s*<\s*\d+\s*/>\s*<\s*(\d+)\s*/>\s*<\s*\d+\s*/>\s*<\s*(\d+)\s*/>\s*<\s*([A-Z0-9])\s*/>\s*'
+            r'<\s*44\s*/>\s*<\s*<\s*45\s*/>\s*<\s*<\s*\d+\s*/>\s*<\s*(-?\d+)\s*/>\s*<\s*\d+\s*/>\s*<\s*(-?\d+)\s*/>\s*/>\s*'
+            r'<\s*45\s*/>\s*<\s*<\s*\d+\s*/>\s*<\s*(-?\d+)\s*/>\s*<\s*\d+\s*/>\s*<\s*(-?\d+)\s*/>\s*/>\s*/>\s*'
+            r'<\s*45\s*/>\s*<\s*<\s*\d+\s*/>\s*<\s*(-?\d+)\s*/>\s*<\s*\d+\s*/>\s*<\s*(-?\d+)\s*/>\s*/>',
+            re.DOTALL
+        )
+
+        for match in pin_label_pattern.finditer(content):
+            text = match.group(3).strip()
+            # Use the last Tag 45 position (actual position, not offset)
+            x = int(match.group(8))
+            y = int(match.group(9))
+
+            pos_key = f"pin_{x}_{y}_{text}"
+            if pos_key in seen_texts:
+                continue
+            seen_texts.add(pos_key)
+
+            element_id = self._generate_element_id('pinlabel')
+            sequence_idx = self._next_sequence_index()
+
+            text_prim = {
+                'element_id': element_id,
+                'sequence_index': sequence_idx,
+                'type': 'text',
+                'shape_type': 'pin_label',
+                'label_type': 'PIN',
+                'page_index': page_index,
+                'block': block_name,
+                'geometry': {
+                    'origin': {'x': x, 'y': y},
+                },
+                'text_content': text,
+                'text_properties': {
+                    'alignment': 'center',
+                    'rotation': 0,
+                    'justification': 1,
+                },
+                'style_ref': 'Style1',
+                'z_value': 10000,
+                'semantic': 'pin_label',
             }
 
             texts.append(text_prim)
@@ -1920,12 +2566,17 @@ class ForensicExtractor:
                 'connections': net_data['connections']
             }
 
-        # Build instance list with symbol graphics linked
-        # This is the CRITICAL piece - linking refdes to their symbol graphics
+        # Build instance list with symbol graphics AND POSITIONS linked
+        # This is the CRITICAL piece - linking refdes to their symbol graphics AND page positions
         instances_with_graphics = []
+        instances_with_positions = 0
+
         for inst_id, inst_data in self.dx_instances.items():
             symbol_key = inst_data.get('symbol_cache_key', '')
             symbol_graphics = self.symbol_graphics.get(symbol_key, {})
+
+            # CRITICAL: Get position data from the linked chain
+            position_data = self.instance_positions.get(inst_id, {})
 
             instance_entry = {
                 'instance_id': inst_id,
@@ -1936,6 +2587,15 @@ class ForensicExtractor:
                 'block': inst_data.get('block', ''),
                 'symbol_cache_key': symbol_key,
                 'symbol_cache_path': inst_data.get('symbol_cache_path', ''),
+
+                # CRITICAL: Position data (from page files via graphics_id chain)
+                'has_position': bool(position_data),
+                'x': position_data.get('x'),
+                'y': position_data.get('y'),
+                'page_index': position_data.get('page_index'),
+                'page_file': position_data.get('page_file'),
+                'graphics_id': position_data.get('graphics_id'),
+
                 # Link to symbol graphics if available
                 'has_symbol_graphics': bool(symbol_graphics),
                 'symbol_bounding_box': symbol_graphics.get('bounding_box'),
@@ -1946,6 +2606,9 @@ class ForensicExtractor:
                 'text_positions': symbol_graphics.get('text_positions', {}),
             }
             instances_with_graphics.append(instance_entry)
+
+            if position_data:
+                instances_with_positions += 1
 
         # Build output structure
         output = {
@@ -1974,6 +2637,10 @@ class ForensicExtractor:
                 # NEW: DX.JSON instance stats
                 'dx_instances_loaded': len(self.dx_instances),
                 'instances_with_symbol_graphics': sum(1 for i in instances_with_graphics if i['has_symbol_graphics']),
+                # CRITICAL: Position linking stats
+                'instances_with_positions': instances_with_positions,
+                'instance_to_graphics_mappings': len(self.instance_to_graphics),
+                'graphics_positions_found': len(self.graphics_positions),
             },
 
             # Pages (with element_ids for primitives on each page)
@@ -2028,12 +2695,26 @@ def main():
     # Phase 1c: Load DX.JSON refdes data (CRITICAL - contains component labels!)
     extractor.load_dx_json_instances()
 
+    # Phase 1d: Build instance_id -> graphics_id mapping from block.ascii files
+    extractor.build_instance_to_graphics_mapping()
+
     # =========================================================================
-    # GEOMETRIC LAYER EXTRACTION
+    # CRITICAL: extract_pages() MUST run BEFORE extract_graphics_positions_from_pages()
+    # because it builds the page_mapping dictionary that _get_pdf_page_index() needs!
     # =========================================================================
 
-    # Phase G1: Extract pages/sheets
+    # Phase G1: Extract pages/sheets - MUST RUN FIRST to build page_mapping!
     extractor.extract_pages()
+
+    # Phase 1e: Extract graphics positions from page files (now uses page_mapping)
+    extractor.extract_graphics_positions_from_pages()
+
+    # Phase 1f: Link the full chain: refdes -> instance_id -> graphics_id -> position
+    extractor.link_instance_positions()
+
+    # =========================================================================
+    # GEOMETRIC LAYER EXTRACTION (continued)
+    # =========================================================================
 
     # Phase G6: Load styles (before text extraction so fonts are available)
     extractor.load_styles()

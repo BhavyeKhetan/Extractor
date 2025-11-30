@@ -76,18 +76,41 @@ def render_to_svg(json_path, output_dir):
                     # Draw polyline
                     pts_str = " ".join([f"{p['x']},{p['y']}" for p in points])
                     color = prim.get('style', {}).get('line_color', '#000000')
-                    width = prim.get('style', {}).get('line_width', 1) * 10 # Scale up width for visibility
+                    width = prim.get('style', {}).get('line_width', 1) * 10 
                     svg_content.append(f'<polyline points="{pts_str}" stroke="{color}" stroke-width="{width}" fill="none"/>')
-                    
-            elif ptype == 'instance':
-                # Draw a placeholder box
+            
+            elif ptype == 'text':
                 geo = prim.get('geometry', {})
                 origin = geo.get('origin', {'x':0, 'y':0})
+                text = prim.get('text_content', '')
+                # Escape XML chars
+                text = text.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
+                
                 x = origin['x']
                 y = origin['y']
-                # Draw a generic box 5000x5000 units (50x50 mils)
+                # Simple text rendering
+                svg_content.append(f'<text x="{x}" y="{y}" font-family="Arial" font-size="2000" fill="blue">{text}</text>')
+                    
+            elif ptype == 'instance':
+                # This might be the old unlinked instances if they still exist in primitives
+                # But we should also check the top-level 'instances' list which now has coordinates
+                pass
+
+        # Draw instances from the top-level list
+        # We need to filter by page
+        page_instances = [inst for inst in data.get('instances', []) if str(inst.get('page_index')) == str(page_idx)]
+        print(f"Page {page_id}: {len(page_instances)} instances")
+        
+        for inst in page_instances:
+            x = inst.get('x')
+            y = inst.get('y')
+            refdes = inst.get('refdes', '?')
+            
+            if x is not None and y is not None:
+                # Draw a box and label
                 size = 5000
-                svg_content.append(f'<rect x="{x}" y="{y}" width="{size}" height="{size}" stroke="red" stroke-width="10" fill="none"/>')
+                svg_content.append(f'<rect x="{x}" y="{y}" width="{size}" height="{size}" stroke="red" stroke-width="20" fill="none"/>')
+                svg_content.append(f'<text x="{x}" y="{y-1000}" font-family="Arial" font-size="3000" fill="red" font-weight="bold">{refdes}</text>')
                 
         svg_content.append('</svg>')
         

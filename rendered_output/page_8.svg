@@ -1,5 +1,162 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17000mil" height="11000mil" viewBox="0 0 1700000 1100000">
 <rect x="0" y="0" width="1700000" height="1100000" fill="white"/>
-<polyline points="1892300,1803400 1892300,1828800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1727200,2349500 1828800,2349500" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1358900,825500 1485900,825500" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1638300,825500 1816100,825500" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1041400,647700 1193800,647700" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2908300,876300 3022600,876300" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1041400,698500 1092200,698500" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2476500,977900 3022600,977900" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3009900,1879600 3111500,1879600" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3009900,2247900 3111500,2247900" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2108200,2197100 2184400,2197100" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2108200,2247900 2489200,2247900" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2590800,927100 3022600,927100" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2717800,825500 3022600,825500" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3009900,1930400 3111500,1930400" stroke="#000000" stroke-width="10" fill="none"/>
+<text x="33020" y="27940" font-family="Arial" font-size="2000" fill="blue">VCC_BAR</text>
+<text x="838200" y="546100" font-family="Arial" font-size="2000" fill="blue">VCCO_0</text>
+<text x="685800" y="-63500" font-family="Arial" font-size="2000" fill="blue">VCCBATT_0</text>
+<text x="584200" y="-63500" font-family="Arial" font-size="2000" fill="blue">VREFN_0</text>
+<text x="533400" y="-63500" font-family="Arial" font-size="2000" fill="blue">VREFP_0</text>
+<text x="431800" y="-63500" font-family="Arial" font-size="2000" fill="blue">GNDADC_0</text>
+<text x="381000" y="-63500" font-family="Arial" font-size="2000" fill="blue">VCCADC_0</text>
+<text x="254000" y="-63500" font-family="Arial" font-size="2000" fill="blue">VN_0</text>
+<text x="203200" y="-63500" font-family="Arial" font-size="2000" fill="blue">VP_0</text>
+<text x="685800" y="546100" font-family="Arial" font-size="2000" fill="blue">CFGBVS_0</text>
+<text x="101600" y="-63500" font-family="Arial" font-size="2000" fill="blue">DXN_0</text>
+<text x="50800" y="-63500" font-family="Arial" font-size="2000" fill="blue">DXP_0</text>
+<text x="381000" y="546100" font-family="Arial" font-size="2000" fill="blue">TMS_0</text>
+<text x="482600" y="546100" font-family="Arial" font-size="2000" fill="blue">TDO_0</text>
+<text x="533400" y="546100" font-family="Arial" font-size="2000" fill="blue">TDI_0</text>
+<text x="431800" y="546100" font-family="Arial" font-size="2000" fill="blue">TCK_0</text>
+<text x="152400" y="546100" font-family="Arial" font-size="2000" fill="blue">PROG_B_0</text>
+<text x="101600" y="546100" font-family="Arial" font-size="2000" fill="blue">INIT_B_0</text>
+<text x="50800" y="546100" font-family="Arial" font-size="2000" fill="blue">DONE_0</text>
+<text x="444500" y="1866900" font-family="Arial" font-size="2000" fill="blue">CDS_LMAN_SPLIT_NUMBER</text>
+<text x="-33060" y="2540" font-family="Arial" font-size="2000" fill="blue">SPLIT_INST</text>
+<text x="152400" y="-63500" font-family="Arial" font-size="2000" fill="blue">VCC</text>
+<text x="152400" y="190500" font-family="Arial" font-size="2000" fill="blue">GND</text>
+<text x="-25400" y="5080" font-family="Arial" font-size="2000" fill="blue">G</text>
+<text x="0" y="-50800" font-family="Arial" font-size="2000" fill="blue">A</text>
+<text x="0" y="-254000" font-family="Arial" font-size="2000" fill="blue">A</text>
+<text x="0" y="38100" font-family="Arial" font-size="2000" fill="blue">A</text>
+<text x="88900" y="25400" font-family="Arial" font-size="2000" fill="blue">2</text>
+<text x="-38100" y="25400" font-family="Arial" font-size="2000" fill="blue">1</text>
+<text x="25400" y="88900" font-family="Arial" font-size="2000" fill="blue">2</text>
+<text x="25400" y="-38100" font-family="Arial" font-size="2000" fill="blue">1</text>
+<text x="101600" y="165100" font-family="Arial" font-size="2000" fill="blue">4</text>
+<text x="25400" y="165100" font-family="Arial" font-size="2000" fill="blue">2</text>
+<text x="101600" y="-63500" font-family="Arial" font-size="2000" fill="blue">3</text>
+<text x="25400" y="-63500" font-family="Arial" font-size="2000" fill="blue">1</text>
+<text x="800100" y="1144595" font-family="Arial" font-size="2000" fill="blue">R80</text>
+<text x="800100" y="1129340" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="800100" y="1246195" font-family="Arial" font-size="2000" fill="blue">R81</text>
+<text x="800100" y="1230940" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="774700" y="2528895" font-family="Arial" font-size="2000" fill="blue">R9</text>
+<text x="774700" y="2513640" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="774700" y="2643195" font-family="Arial" font-size="2000" fill="blue">R10</text>
+<text x="774700" y="2627940" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="469900" y="2668595" font-family="Arial" font-size="2000" fill="blue">R4</text>
+<text x="469900" y="2653340" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="774700" y="2770195" font-family="Arial" font-size="2000" fill="blue">R12</text>
+<text x="774700" y="2754940" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="469900" y="2782895" font-family="Arial" font-size="2000" fill="blue">R8</text>
+<text x="469900" y="2767640" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="1041400" y="2909895" font-family="Arial" font-size="2000" fill="blue">R11</text>
+<text x="1041400" y="2894640" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="469900" y="2554295" font-family="Arial" font-size="2000" fill="blue">R3</text>
+<text x="469900" y="2539040" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="2222500" y="2058995" font-family="Arial" font-size="2000" fill="blue">R55</text>
+<text x="2222500" y="2043740" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="2273300" y="2058995" font-family="Arial" font-size="2000" fill="blue">R56</text>
+<text x="2273300" y="2043740" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="1905000" y="2960695" font-family="Arial" font-size="2000" fill="blue">R99</text>
+<text x="1905000" y="2945440" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="1955800" y="2960695" font-family="Arial" font-size="2000" fill="blue">R110</text>
+<text x="1955800" y="2945440" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="2273300" y="2960695" font-family="Arial" font-size="2000" fill="blue">R114</text>
+<text x="2273300" y="2945440" font-family="Arial" font-size="2000" fill="blue">resistor</text>
+<text x="2171700" y="880004" font-family="Arial" font-size="2000" fill="blue">Y1</text>
+<text x="800100" y="1554914" font-family="Arial" font-size="2000" fill="blue">FB1</text>
+<text x="939800" y="1554914" font-family="Arial" font-size="2000" fill="blue">FB2</text>
+<text x="927100" y="1643285" font-family="Arial" font-size="2000" fill="blue">C16</text>
+<text x="927100" y="1626129" font-family="Arial" font-size="2000" fill="blue">capacitor</text>
+<text x="1828800" y="2721967" font-family="Arial" font-size="2000" fill="blue">U11</text>
+<text x="2197100" y="2709267" font-family="Arial" font-size="2000" fill="blue">U14</text>
+<text x="1193800" y="2544985" font-family="Arial" font-size="2000" fill="blue">C286</text>
+<text x="1193800" y="2527829" font-family="Arial" font-size="2000" fill="blue">capacitor</text>
+<text x="2387600" y="1884585" font-family="Arial" font-size="2000" fill="blue">C24</text>
+<text x="2387600" y="1867429" font-family="Arial" font-size="2000" fill="blue">capacitor</text>
+<text x="2413000" y="2811685" font-family="Arial" font-size="2000" fill="blue">C31</text>
+<text x="2413000" y="2794529" font-family="Arial" font-size="2000" fill="blue">capacitor</text>
+<text x="2387600" y="1960785" font-family="Arial" font-size="2000" fill="blue">C53</text>
+<text x="2387600" y="1943629" font-family="Arial" font-size="2000" fill="blue">capacitor</text>
+<text x="2298700" y="1097185" font-family="Arial" font-size="2000" fill="blue">C54</text>
+<text x="2298700" y="1080029" font-family="Arial" font-size="2000" fill="blue">capacitor</text>
+<text x="2146300" y="1439267" font-family="Arial" font-size="2000" fill="blue">U35</text>
+<text x="2044700" y="2811685" font-family="Arial" font-size="2000" fill="blue">C9</text>
+<text x="2044700" y="2794529" font-family="Arial" font-size="2000" fill="blue">capacitor</text>
+<text x="2298700" y="1186085" font-family="Arial" font-size="2000" fill="blue">C61</text>
+<text x="2298700" y="1168929" font-family="Arial" font-size="2000" fill="blue">capacitor</text>
+<text x="444500" y="1883767" font-family="Arial" font-size="2000" fill="blue">U2</text>
+<rect x="800100" y="1117600" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="800100" y="1116600" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R80</text>
+<rect x="800100" y="1219200" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="800100" y="1218200" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R81</text>
+<rect x="774700" y="2501900" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="774700" y="2500900" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R9</text>
+<rect x="774700" y="2616200" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="774700" y="2615200" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R10</text>
+<rect x="469900" y="2641600" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="469900" y="2640600" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R4</text>
+<rect x="774700" y="2743200" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="774700" y="2742200" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R12</text>
+<rect x="469900" y="2755900" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="469900" y="2754900" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R8</text>
+<rect x="1041400" y="2882900" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1041400" y="2881900" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R11</text>
+<rect x="469900" y="2527300" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="469900" y="2526300" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R3</text>
+<rect x="2222500" y="2032000" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="2222500" y="2031000" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R55</text>
+<rect x="2273300" y="2032000" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="2273300" y="2031000" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R56</text>
+<rect x="1905000" y="2933700" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1905000" y="2932700" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R99</text>
+<rect x="1955800" y="2933700" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1955800" y="2932700" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R110</text>
+<rect x="2273300" y="2933700" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="2273300" y="2932700" font-family="Arial" font-size="3000" fill="red" font-weight="bold">R114</text>
+<rect x="2171700" y="850900" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="2171700" y="849900" font-family="Arial" font-size="3000" fill="red" font-weight="bold">Y1</text>
+<rect x="800100" y="1511300" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="800100" y="1510300" font-family="Arial" font-size="3000" fill="red" font-weight="bold">FB1</text>
+<rect x="939800" y="1511300" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="939800" y="1510300" font-family="Arial" font-size="3000" fill="red" font-weight="bold">FB2</text>
+<rect x="927100" y="1612900" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="927100" y="1611900" font-family="Arial" font-size="3000" fill="red" font-weight="bold">C16</text>
+<rect x="1828800" y="2705100" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1828800" y="2704100" font-family="Arial" font-size="3000" fill="red" font-weight="bold">U11</text>
+<rect x="2197100" y="2692400" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="2197100" y="2691400" font-family="Arial" font-size="3000" fill="red" font-weight="bold">U14</text>
+<rect x="1193800" y="2514600" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1193800" y="2513600" font-family="Arial" font-size="3000" fill="red" font-weight="bold">C286</text>
+<rect x="2387600" y="1854200" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="2387600" y="1853200" font-family="Arial" font-size="3000" fill="red" font-weight="bold">C24</text>
+<rect x="2413000" y="2781300" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="2413000" y="2780300" font-family="Arial" font-size="3000" fill="red" font-weight="bold">C31</text>
+<rect x="2387600" y="1930400" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="2387600" y="1929400" font-family="Arial" font-size="3000" fill="red" font-weight="bold">C53</text>
+<rect x="2298700" y="1066800" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="2298700" y="1065800" font-family="Arial" font-size="3000" fill="red" font-weight="bold">C54</text>
+<rect x="2146300" y="1422400" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="2146300" y="1421400" font-family="Arial" font-size="3000" fill="red" font-weight="bold">U35</text>
+<rect x="2044700" y="2781300" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="2044700" y="2780300" font-family="Arial" font-size="3000" fill="red" font-weight="bold">C9</text>
+<rect x="2298700" y="1155700" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="2298700" y="1154700" font-family="Arial" font-size="3000" fill="red" font-weight="bold">C61</text>
+<rect x="444500" y="1866900" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="444500" y="1865900" font-family="Arial" font-size="3000" fill="red" font-weight="bold">U2</text>
 </svg>

@@ -1,4 +1,170 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17000mil" height="11000mil" viewBox="0 0 1700000 1100000">
 <rect x="0" y="0" width="1700000" height="1100000" fill="white"/>
+<polyline points="292100,990600 469900,990600" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1701800,939800 1828800,939800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2400300,889000 2540000,889000" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3924300,863600 4025900,863600" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3378200,1587500 3873500,1587500" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="520700,1231900 762000,1231900" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2590800,1638300 3022600,1638300" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1498600,1282700 1651000,1282700" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3378200,1435100 3873500,1435100" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1498600,1028700 1651000,1028700" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2590800,1612900 3022600,1612900" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1498600,1333500 1651000,1333500" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2590800,1511300 3022600,1511300" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="520700,1333500 762000,1333500" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3378200,1562100 3873500,1562100" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="520700,1282700 762000,1282700" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3378200,1384300 3873500,1384300" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1498600,1485900 1651000,1485900" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2590800,1562100 3022600,1562100" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="520700,1079500 762000,1079500" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2590800,1358900 3022600,1358900" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="520700,1181100 762000,1181100" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3378200,1638300 3873500,1638300" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1498600,1587500 1651000,1587500" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2590800,1384300 3022600,1384300" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="520700,1130300 762000,1130300" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3378200,1485900 3873500,1485900" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="520700,1485900 762000,1485900" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3378200,1612900 3873500,1612900" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1498600,1638300 1651000,1638300" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3378200,1511300 3873500,1511300" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="520700,1435100 762000,1435100" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2590800,1435100 3022600,1435100" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1498600,1130300 1651000,1130300" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3378200,1460500 3873500,1460500" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1498600,977900 1651000,977900" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2590800,1308100 3022600,1308100" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1498600,1231900 1651000,1231900" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2590800,1485900 3022600,1485900" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="520700,1384300 762000,1384300" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2590800,1587500 3022600,1587500" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="520700,1028700 762000,1028700" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3378200,1358900 3873500,1358900" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1498600,1536700 1651000,1536700" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3378200,1308100 3873500,1308100" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1498600,1435100 1651000,1435100" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2590800,1460500 3022600,1460500" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1498600,1079500 1651000,1079500" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="596900,1562100 596900,1587500" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2768600,723900 2819400,723900" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3556000,723900 3606800,723900" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3378200,1333500 3873500,1333500" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1498600,1384300 1651000,1384300" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2590800,1333500 3022600,1333500" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1498600,1181100 1651000,1181100" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3378200,1257300 3873500,1257300" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3378200,1181100 3873500,1181100" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3378200,927100 3873500,927100" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2590800,1054100 3022600,1054100" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3378200,977900 3873500,977900" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3378200,1003300 3873500,1003300" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3378200,1104900 3873500,1104900" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2590800,1257300 3022600,1257300" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3378200,1054100 3873500,1054100" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2590800,1206500 3022600,1206500" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3378200,1231900 3873500,1231900" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3378200,1079500 3873500,1079500" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2590800,977900 3022600,977900" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2590800,1130300 3022600,1130300" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2590800,927100 3022600,927100" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2590800,1104900 3022600,1104900" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2590800,1079500 3022600,1079500" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2590800,1181100 3022600,1181100" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2590800,1003300 3022600,1003300" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2590800,1231900 3022600,1231900" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3378200,1206500 3873500,1206500" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2590800,952500 3022600,952500" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3378200,1130300 3873500,1130300" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="3378200,952500 3873500,952500" stroke="#000000" stroke-width="10" fill="none"/>
+<text x="33020" y="27940" font-family="Arial" font-size="2000" fill="blue">VCC_BAR</text>
+<text x="190500" y="0" font-family="Arial" font-size="2000" fill="blue">CONNECTOR_SIGNAL_MODEL</text>
+<text x="812800" y="-63500" font-family="Arial" font-size="2000" fill="blue">VCCO_13_4</text>
+<text x="787400" y="-63500" font-family="Arial" font-size="2000" fill="blue">VCCO_13_3</text>
+<text x="762000" y="-63500" font-family="Arial" font-size="2000" fill="blue">VCCO_13_2</text>
+<text x="736600" y="-63500" font-family="Arial" font-size="2000" fill="blue">VCCO_13_1</text>
+<text x="787400" y="698500" font-family="Arial" font-size="2000" fill="blue">IO_L22N_T3_13</text>
+<text x="685800" y="698500" font-family="Arial" font-size="2000" fill="blue">IO_L21N_T3_DQS_13</text>
+<text x="584200" y="698500" font-family="Arial" font-size="2000" fill="blue">IO_L20N_T3_13</text>
+<text x="482600" y="698500" font-family="Arial" font-size="2000" fill="blue">IO_L19N_T3_VREF_13</text>
+<text x="381000" y="698500" font-family="Arial" font-size="2000" fill="blue">IO_L18N_T2_13</text>
+<text x="279400" y="698500" font-family="Arial" font-size="2000" fill="blue">IO_L17N_T2_13</text>
+<text x="177800" y="698500" font-family="Arial" font-size="2000" fill="blue">IO_L16N_T2_13</text>
+<text x="736600" y="698500" font-family="Arial" font-size="2000" fill="blue">IO_L22P_T3_13</text>
+<text x="635000" y="698500" font-family="Arial" font-size="2000" fill="blue">IO_L21P_T3_DQS_13</text>
+<text x="533400" y="698500" font-family="Arial" font-size="2000" fill="blue">IO_L20P_T3_13</text>
+<text x="431800" y="698500" font-family="Arial" font-size="2000" fill="blue">IO_L19P_T3_13</text>
+<text x="330200" y="698500" font-family="Arial" font-size="2000" fill="blue">IO_L18P_T2_13</text>
+<text x="228600" y="698500" font-family="Arial" font-size="2000" fill="blue">IO_L17P_T2_13</text>
+<text x="127000" y="698500" font-family="Arial" font-size="2000" fill="blue">IO_L16P_T2_13</text>
+<text x="635000" y="-63500" font-family="Arial" font-size="2000" fill="blue">IO_L15N_T2_DQS_13</text>
+<text x="584200" y="-63500" font-family="Arial" font-size="2000" fill="blue">IO_L15P_T2_DQS_13</text>
+<text x="533400" y="-63500" font-family="Arial" font-size="2000" fill="blue">IO_L14N_T2_SRCC_13</text>
+<text x="482600" y="-63500" font-family="Arial" font-size="2000" fill="blue">IO_L14P_T2_SRCC_13</text>
+<text x="431800" y="-63500" font-family="Arial" font-size="2000" fill="blue">IO_L13N_T2_MRCC_13</text>
+<text x="381000" y="-63500" font-family="Arial" font-size="2000" fill="blue">IO_L13P_T2_MRCC_13</text>
+<text x="330200" y="-63500" font-family="Arial" font-size="2000" fill="blue">IO_L12N_T1_MRCC_13</text>
+<text x="279400" y="-63500" font-family="Arial" font-size="2000" fill="blue">IO_L12P_T1_MRCC_13</text>
+<text x="228600" y="-63500" font-family="Arial" font-size="2000" fill="blue">IO_L11N_T1_SRCC_13</text>
+<text x="177800" y="-63500" font-family="Arial" font-size="2000" fill="blue">IO_L11P_T1_SRCC_13</text>
+<text x="127000" y="-63500" font-family="Arial" font-size="2000" fill="blue">IO_L6N_T0_VREF_13</text>
+<text x="850900" y="812800" font-family="Arial" font-size="2000" fill="blue">CDS_LMAN_SPLIT_NUMBER</text>
+<text x="-33060" y="2010" font-family="Arial" font-size="2000" fill="blue">SPLIT_INST</text>
+<text x="-25400" y="5080" font-family="Arial" font-size="2000" fill="blue">G</text>
+<text x="-17780" y="-50800" font-family="Arial" font-size="2000" fill="blue">B</text>
+<text x="-5080" y="38100" font-family="Arial" font-size="2000" fill="blue">S</text>
+<text x="-30480" y="38100" font-family="Arial" font-size="2000" fill="blue">B</text>
+<text x="-5080" y="-63500" font-family="Arial" font-size="2000" fill="blue">S</text>
+<text x="88900" y="25400" font-family="Arial" font-size="2000" fill="blue">2</text>
+<text x="-38100" y="25400" font-family="Arial" font-size="2000" fill="blue">1</text>
+<text x="1866900" y="716185" font-family="Arial" font-size="2000" fill="blue">C194</text>
+<text x="1866900" y="699029" font-family="Arial" font-size="2000" fill="blue">capacitor</text>
+<text x="1866900" y="817785" font-family="Arial" font-size="2000" fill="blue">C193</text>
+<text x="1866900" y="800629" font-family="Arial" font-size="2000" fill="blue">capacitor</text>
+<text x="1866900" y="919385" font-family="Arial" font-size="2000" fill="blue">C192</text>
+<text x="1866900" y="902229" font-family="Arial" font-size="2000" fill="blue">capacitor</text>
+<text x="762000" y="2773585" font-family="Arial" font-size="2000" fill="blue">C268</text>
+<text x="762000" y="2756429" font-family="Arial" font-size="2000" fill="blue">capacitor</text>
+<text x="762000" y="3611785" font-family="Arial" font-size="2000" fill="blue">C269</text>
+<text x="762000" y="3594629" font-family="Arial" font-size="2000" fill="blue">capacitor</text>
+<text x="1866900" y="1020985" font-family="Arial" font-size="2000" fill="blue">C284</text>
+<text x="1866900" y="1003829" font-family="Arial" font-size="2000" fill="blue">capacitor</text>
+<text x="1866900" y="1122585" font-family="Arial" font-size="2000" fill="blue">C191</text>
+<text x="1866900" y="1105429" font-family="Arial" font-size="2000" fill="blue">capacitor</text>
+<text x="1866900" y="1224185" font-family="Arial" font-size="2000" fill="blue">C190</text>
+<text x="1866900" y="1207029" font-family="Arial" font-size="2000" fill="blue">capacitor</text>
+<text x="1866900" y="1325785" font-family="Arial" font-size="2000" fill="blue">C189</text>
+<text x="1866900" y="1308629" font-family="Arial" font-size="2000" fill="blue">capacitor</text>
+<text x="1866900" y="1427385" font-family="Arial" font-size="2000" fill="blue">C188</text>
+<text x="1866900" y="1410229" font-family="Arial" font-size="2000" fill="blue">capacitor</text>
+<text x="1866900" y="1528985" font-family="Arial" font-size="2000" fill="blue">C285</text>
+<text x="1866900" y="1511829" font-family="Arial" font-size="2000" fill="blue">capacitor</text>
+<text x="850900" y="3087331" font-family="Arial" font-size="2000" fill="blue">J11</text>
+<rect x="1866900" y="685800" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1866900" y="684800" font-family="Arial" font-size="3000" fill="red" font-weight="bold">C194</text>
+<rect x="1866900" y="787400" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1866900" y="786400" font-family="Arial" font-size="3000" fill="red" font-weight="bold">C193</text>
+<rect x="1866900" y="889000" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1866900" y="888000" font-family="Arial" font-size="3000" fill="red" font-weight="bold">C192</text>
+<rect x="762000" y="2743200" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="762000" y="2742200" font-family="Arial" font-size="3000" fill="red" font-weight="bold">C268</text>
+<rect x="762000" y="3581400" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="762000" y="3580400" font-family="Arial" font-size="3000" fill="red" font-weight="bold">C269</text>
+<rect x="1866900" y="990600" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1866900" y="989600" font-family="Arial" font-size="3000" fill="red" font-weight="bold">C284</text>
+<rect x="1866900" y="1092200" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1866900" y="1091200" font-family="Arial" font-size="3000" fill="red" font-weight="bold">C191</text>
+<rect x="1866900" y="1193800" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1866900" y="1192800" font-family="Arial" font-size="3000" fill="red" font-weight="bold">C190</text>
+<rect x="1866900" y="1295400" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1866900" y="1294400" font-family="Arial" font-size="3000" fill="red" font-weight="bold">C189</text>
+<rect x="1866900" y="1397000" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1866900" y="1396000" font-family="Arial" font-size="3000" fill="red" font-weight="bold">C188</text>
+<rect x="1866900" y="1498600" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="1866900" y="1497600" font-family="Arial" font-size="3000" fill="red" font-weight="bold">C285</text>
+<rect x="850900" y="3073400" width="5000" height="5000" stroke="red" stroke-width="20" fill="none"/>
+<text x="850900" y="3072400" font-family="Arial" font-size="3000" fill="red" font-weight="bold">J11</text>
 </svg>

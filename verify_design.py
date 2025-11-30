@@ -85,25 +85,21 @@ def verify_design(json_path, pdf_path, report_path):
     
     # 4. Generate Report
     with open(report_path, 'w') as f:
-        f.write("# Design Verification Report\n\n")
+        f.write("# Design Verification Report (Run 2)\n\n")
         f.write(f"**JSON Source:** `{json_path}`\n")
         f.write(f"**PDF Ground Truth:** `{pdf_path}`\n\n")
         
-        # Page Analysis
-        try:
-            reader = PdfReader(pdf_path)
-            num_pages = len(reader.pages)
-            f.write(f"## PDF Structure\n")
-            f.write(f"- **Total Pages:** {num_pages}\n\n")
-            
-            f.write("### Components per Page (PDF)\n")
-            for i, page in enumerate(reader.pages):
-                page_text = page.extract_text()
-                page_refdes = extract_potential_refdes(page_text)
-                f.write(f"- **Page {i+1}:** {len(page_refdes)} components\n")
-            f.write("\n")
-        except Exception as e:
-            f.write(f"Error analyzing pages: {e}\n\n")
+        # Text Primitive Analysis
+        json_text_prims = [p.get('text_content', '') for p in data.get('primitives', []) if p.get('type') == 'text']
+        f.write("## Text Extraction Verification\n")
+        f.write(f"- **Text Primitives in JSON:** {len(json_text_prims)}\n")
+        f.write(f"- **Sample JSON Text:** `{', '.join(json_text_prims[:10])}`...\n\n")
+        
+        # Check if RefDes are in JSON text
+        found_refdes_in_json_text = [rd for rd in json_components if rd in json_text_prims]
+        f.write(f"### Internal Consistency (RefDes in JSON Text)\n")
+        f.write(f"- **RefDes found in JSON Text:** {len(found_refdes_in_json_text)} / {len(json_components)}\n")
+        f.write(f"- **Consistency Rate:** {len(found_refdes_in_json_text)/len(json_components)*100:.1f}%\n\n")
 
         f.write("## Summary\n")
         f.write(f"- **Components Found in PDF:** {len(pdf_refdes)}\n")
@@ -144,6 +140,6 @@ if __name__ == "__main__":
     script_dir = os.path.dirname(os.path.abspath(__file__))
     json_path = os.path.join(script_dir, "full_design.json")
     pdf_path = os.path.join(script_dir, "brain_board.pdf")
-    report_path = os.path.join(script_dir, "verification_report.md")
+    report_path = os.path.join(script_dir, "verification_report_2.md")
     
     verify_design(json_path, pdf_path, report_path)

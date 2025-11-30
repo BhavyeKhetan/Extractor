@@ -1,245 +1,155 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17000mil" height="11000mil" viewBox="0 0 1700000 1100000">
 <rect x="0" y="0" width="1700000" height="1100000" fill="white"/>
-<polyline points="2489200,381000 2489200,1193800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1943100,381000 1943100,1193800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2044700,1181100 2044700,1536700" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="3962400,381000 3962400,1206500" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="4114800,1193800 4114800,1574800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="279400,1168400 330200,1168400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="228600,1155700 228600,1574800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2387600,1181100 2387600,1549400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="533400,1219200 533400,1231900" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="3835400,1206500 3835400,1231900" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2679700,2095500 2743200,2095500" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="381000,609600 774700,609600" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="520700,1930400 812800,1930400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="520700,1752600 812800,1752600" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="381000,1143000 673100,1143000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1587500,1905000 1587500,1930400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="381000,533400 673100,533400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="381000,1041400 673100,1041400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="381000,914400 774700,914400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="381000,939800 673100,939800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="520700,1955800 812800,1955800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="381000,711200 774700,711200" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="381000,838200 673100,838200" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1447800,1346200 1993900,1346200" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="381000,431800 673100,431800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="381000,406400 774700,406400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="381000,812800 774700,812800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="279400,1346200 533400,1346200" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="520700,1727200 812800,1727200" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1485900,1905000 1485900,1955800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="381000,736600 673100,736600" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="381000,635000 673100,635000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="279400,1320800 571500,1320800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="381000,1117600 774700,1117600" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="381000,1016000 774700,1016000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="381000,508000 774700,508000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1651000,1727200 1727200,1727200" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="3594100,711200 3911600,711200" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="3594100,1549400 4064000,1549400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="3594100,914400 3911600,914400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2933700,1701800 2933700,1727200" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1587500,1524000 1993900,1524000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="3594100,533400 3911600,533400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="3594100,406400 3911600,406400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="3594100,609600 3911600,609600" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="3619500,1701800 3619500,1752600" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2933700,1892300 2933700,1917700" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="3594100,812800 3911600,812800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="3594100,508000 3911600,508000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="3594100,1016000 3911600,1016000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2832100,1701800 2832100,1752600" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="3594100,635000 3911600,635000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="3619500,1892300 3619500,1943100" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1447800,1320800 1993900,1320800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="3594100,838200 3911600,838200" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="3594100,736600 3911600,736600" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="3594100,1143000 3911600,1143000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="3594100,1041400 3911600,1041400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="3721100,1701800 3721100,1727200" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="3721100,1892300 3721100,1917700" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="3594100,1117600 3911600,1117600" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1485900,1549400 1993900,1549400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2832100,1892300 2832100,1943100" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1651000,1752600 1727200,1752600" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="3797300,1320800 4064000,1320800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="3594100,1524000 4064000,1524000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="3594100,939800 3911600,939800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="3594100,431800 3911600,431800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1587500,812800 1892300,812800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1587500,1117600 1892300,1117600" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1587500,406400 1892300,406400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1485900,431800 1892300,431800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1587500,609600 1892300,609600" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1587500,1016000 1892300,1016000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1485900,1143000 1892300,1143000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1485900,635000 1892300,635000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1485900,533400 1892300,533400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1485900,736600 1892300,736600" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1587500,508000 1892300,508000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1587500,711200 1892300,711200" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1485900,838200 1892300,838200" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1485900,939800 1892300,939800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1587500,914400 1892300,914400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1485900,1041400 1892300,1041400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="279400,1524000 800100,1524000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="279400,1549400 673100,1549400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2540000,1117600 2933700,1117600" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2540000,914400 2933700,914400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2540000,812800 2933700,812800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2540000,635000 2832100,635000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2540000,939800 2832100,939800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2540000,406400 2933700,406400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2540000,736600 2832100,736600" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2540000,711200 2933700,711200" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2540000,431800 2832100,431800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2540000,1143000 2832100,1143000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2540000,508000 2933700,508000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2540000,1016000 2933700,1016000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2540000,609600 2933700,609600" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2540000,838200 2832100,838200" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2540000,533400 2832100,533400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2540000,1041400 2832100,1041400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2438400,1320800 2667000,1320800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2438400,1549400 2832100,1549400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2438400,1524000 2933700,1524000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2438400,1346200 2705100,1346200" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="3835400,1346200 4064000,1346200" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1460500,635000 1498600,635000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1409700,1168400 1752600,1168400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1409700,1320800 1752600,1320800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1549400,1828800 1549400,1879600" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2755900,1828800 2882900,1828800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2794000,762000 3136900,762000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2794000,660400 3136900,660400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2794000,711200 3136900,711200" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2794000,965200 3136900,965200" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2794000,863600 3136900,863600" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2794000,914400 3136900,914400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2794000,1219200 3136900,1219200" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2794000,812800 3136900,812800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2794000,1117600 3136900,1117600" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2794000,609600 3136900,609600" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2794000,558800 3136900,558800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2794000,1066800 3136900,1066800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="3187700,457200 3327400,457200" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2794000,1270000 3136900,1270000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2794000,1168400 3136900,1168400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2794000,1016000 3136900,1016000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="952500,1117600 1308100,1117600" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="952500,1219200 1308100,1219200" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="952500,1066800 1308100,1066800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="952500,1168400 1308100,1168400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1409700,1066800 1752600,1066800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2832100,1473200 3251200,1473200" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1409700,1219200 1752600,1219200" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1409700,1016000 1752600,1016000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2832100,1422400 3251200,1422400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1409700,1117600 1752600,1117600" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="952500,1320800 1308100,1320800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2413000,1168400 2692400,1168400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2413000,711200 2692400,711200" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2832100,1371600 3251200,1371600" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2413000,660400 2692400,660400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2413000,1117600 2692400,1117600" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2413000,558800 2692400,558800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2413000,762000 2692400,762000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2413000,1270000 2692400,1270000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2413000,1219200 2692400,1219200" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2413000,1473200 2730500,1473200" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2413000,1371600 2730500,1371600" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2413000,1422400 2730500,1422400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="952500,1016000 1308100,1016000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1549400,812800 1752600,812800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1549400,736600 1752600,736600" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1460500,558800 1752600,558800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2501900,1943100 2692400,1943100" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="952500,1371600 1752600,1371600" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2413000,1625600 3213100,1625600" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="952500,1422400 1752600,1422400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1549400,660400 1752600,660400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1549400,838200 1752600,838200" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1549400,685800 1752600,685800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1079500,1524000 1752600,1524000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1549400,762000 1752600,762000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2413000,1727200 3213100,1727200" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1549400,889000 1752600,889000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2413000,1676400 3213100,1676400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2413000,1574800 3213100,1574800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="3644900,1943100 4013200,1943100" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="3644900,2146300 4013200,2146300" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2654300,698500 2654300,787400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="3644900,1689100 4013200,1689100" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="3721100,1435100 4013200,1435100" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1892300,1993900 2095500,1993900" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2286000,711200 2286000,749300" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1905000,444500 2349500,444500" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="203200,1384300 203200,1485900" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2527300,1435100 2527300,1689100" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1892300,2235200 2095500,2235200" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1460500,1739900 1727200,1739900" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1447800,393700 1612900,393700" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1892300,1739900 2095500,1739900" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1930400,1485900 2095500,1485900" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="622300,1879600 647700,1879600" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2654300,927100 2717800,927100" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="609600,1651000 622300,1651000" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="1028700,393700 1168400,393700" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="622300,1930400 647700,1930400" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="622300,2209800 647700,2209800" stroke="#000000" stroke-width="10" fill="none"/>
-<polyline points="2057400,495300 2349500,495300" stroke="#000000" stroke-width="10" fill="none"/>
-<rect x="393700" y="1943100" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="393700" y="3962400" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="1308100" y="4114800" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="393700" y="330200" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="1308100" y="2387600" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="50518" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="50518" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="60812" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="1689100" y="4013200" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="1816100" y="406400" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="97771" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
-<rect x="0" y="0" width="5000" height="5000" stroke="red" stroke-width="10" fill="none"/>
+<polyline points="2959100,1714500 3390900,1714500" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2451100,558800 2451100,812800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2603500,558800 2603500,812800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1663700,1155700 2247900,1155700" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1663700,1181100 2247900,1181100" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1663700,1206500 2247900,1206500" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1663700,1231900 2247900,1231900" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1663700,1257300 2247900,1257300" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1663700,1282700 2247900,1282700" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1663700,1333500 2247900,1333500" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1663700,1384300 2247900,1384300" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1663700,1435100 2247900,1435100" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1663700,1409700 2247900,1409700" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1663700,1358900 2247900,1358900" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2654300,1879600 2654300,2184400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1206500,901700 1651000,901700" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1206500,1524000 2247900,1524000" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1168400,1574800 2247900,1574800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1168400,1600200 2247900,1600200" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1168400,1625600 2247900,1625600" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1168400,1651000 2247900,1651000" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1168400,1676400 2247900,1676400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1168400,1727200 2247900,1727200" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1168400,1752600 2247900,1752600" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2387600,1879600 2387600,1892300" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2413000,1879600 2413000,1917700" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2438400,1879600 2438400,1943100" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1168400,2070100 2578100,2070100" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1968500,889000 2247900,889000" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1968500,914400 2247900,914400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1968500,939800 2247900,939800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1968500,965200 2247900,965200" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1968500,990600 2247900,990600" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1968500,1016000 2247900,1016000" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1968500,1041400 2247900,1041400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1968500,1066800 2247900,1066800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2959100,1308100 3390900,1308100" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2959100,1536700 3390900,1536700" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2959100,1663700 3390900,1663700" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2959100,1282700 3390900,1282700" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2959100,1587500 3390900,1587500" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2959100,1206500 3390900,1206500" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2959100,1155700 3390900,1155700" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2959100,1333500 3390900,1333500" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2959100,1435100 3390900,1435100" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1168400,2171700 2501900,2171700" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1168400,2019300 2527300,2019300" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="1168400,2146300 2527300,2146300" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2959100,1384300 3390900,1384300" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2959100,1358900 3390900,1358900" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2959100,1485900 3390900,1485900" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2959100,1562100 3390900,1562100" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2959100,1231900 3390900,1231900" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2959100,1181100 3390900,1181100" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2959100,1130300 3390900,1130300" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2527300,558800 2527300,812800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2476500,558800 2476500,812800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2857500,1879600 2857500,2184400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2832100,1879600 2832100,2184400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2781300,1879600 2781300,2184400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2730500,1879600 2730500,2184400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2501900,1879600 2501900,1993900" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2628900,558800 2628900,812800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2654300,558800 2654300,812800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2705100,558800 2705100,812800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2806700,558800 2806700,812800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2870200,558800 2870200,812800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="838200,406400 2108200,406400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="901700,457200 2108200,457200" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="927100,482600 2108200,482600" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2501900,558800 2501900,812800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2679700,558800 2679700,812800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2781300,558800 2781300,812800" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2628900,1879600 2628900,2184400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2705100,1879600 2705100,2184400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2806700,1879600 2806700,2184400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2755900,1879600 2755900,2184400" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2959100,1612900 3390900,1612900" stroke="#000000" stroke-width="10" fill="none"/>
+<polyline points="2959100,1460500 3390900,1460500" stroke="#000000" stroke-width="10" fill="none"/>
+<text x="-457200" y="-101600" font-family="Arial" font-size="2000" fill="blue">DSP_FLAG</text>
+<text x="342900" y="228600" font-family="Arial" font-size="2000" fill="blue">I2C_SCL</text>
+<text x="-127000" y="228600" font-family="Arial" font-size="2000" fill="blue">JTAG_TDO</text>
+<text x="243800" y="114300" font-family="Arial" font-size="2000" fill="blue">UART_TX</text>
+<text x="510500" y="114300" font-family="Arial" font-size="2000" fill="blue">USER_LED</text>
+<text x="764500" y="114300" font-family="Arial" font-size="2000" fill="blue">VADC_P</text>
+<text x="-353100" y="774700" font-family="Arial" font-size="2000" fill="blue">BOARD_RESET_L</text>
+<text x="15200" y="774700" font-family="Arial" font-size="2000" fill="blue">JTAG_BOOT_EN</text>
+<text x="116800" y="774700" font-family="Arial" font-size="2000" fill="blue">JTAG_TCK</text>
+<text x="218400" y="774700" font-family="Arial" font-size="2000" fill="blue">JTAG_TDI</text>
+<text x="320000" y="774700" font-family="Arial" font-size="2000" fill="blue">JTAG_TMS</text>
+<text x="688300" y="774700" font-family="Arial" font-size="2000" fill="blue">PROG_IO</text>
+<text x="281900" y="774700" font-family="Arial" font-size="2000" fill="blue">PS_POR_L</text>
+<text x="650200" y="774700" font-family="Arial" font-size="2000" fill="blue">UART_RX</text>
+<text x="368300" y="228600" font-family="Arial" font-size="2000" fill="blue">I2C_SDA</text>
+<text x="15200" y="584200" font-family="Arial" font-size="2000" fill="blue">TURBO_MODE</text>
+<text x="-307300" y="114300" font-family="Arial" font-size="2000" fill="blue">VADC_N</text>
+<text x="25400" y="215900" font-family="Arial" font-size="2000" fill="blue">P1_USB_24M_REFCLK</text>
+<text x="320000" y="101600" font-family="Arial" font-size="2000" fill="blue">P1_USB_STP</text>
+<text x="91400" y="279400" font-family="Arial" font-size="2000" fill="blue">P1_USB_CLK</text>
+<text x="193000" y="279400" font-family="Arial" font-size="2000" fill="blue">P1_USB_DIR</text>
+<text x="294600" y="279400" font-family="Arial" font-size="2000" fill="blue">P1_USB_NXT</text>
+<text x="-152400" y="215900" font-family="Arial" font-size="2000" fill="blue">P0_USB_24M_REFCLK</text>
+<text x="180300" y="101600" font-family="Arial" font-size="2000" fill="blue">P0_USB_STP</text>
+<text x="66000" y="330200" font-family="Arial" font-size="2000" fill="blue">P0_USB_CLK</text>
+<text x="167600" y="330200" font-family="Arial" font-size="2000" fill="blue">P0_USB_DIR</text>
+<text x="269200" y="330200" font-family="Arial" font-size="2000" fill="blue">P0_USB_NXT</text>
+<text x="-254000" y="-114300" font-family="Arial" font-size="2000" fill="blue">DDR_BA0</text>
+<text x="-396200" y="0" font-family="Arial" font-size="2000" fill="blue">DDR_BA1</text>
+<text x="-447000" y="0" font-family="Arial" font-size="2000" fill="blue">DDR_BA2</text>
+<text x="-396200" y="0" font-family="Arial" font-size="2000" fill="blue">DDR_CAS_L</text>
+<text x="-396200" y="0" font-family="Arial" font-size="2000" fill="blue">DDR_CKE</text>
+<text x="624800" y="0" font-family="Arial" font-size="2000" fill="blue">DDR_CLK_P</text>
+<text x="-751800" y="0" font-family="Arial" font-size="2000" fill="blue">DDR_CS_L</text>
+<text x="-523200" y="0" font-family="Arial" font-size="2000" fill="blue">DDR_DM0</text>
+<text x="-624800" y="0" font-family="Arial" font-size="2000" fill="blue">DDR_DM1</text>
+<text x="-726400" y="0" font-family="Arial" font-size="2000" fill="blue">DDR_DM2</text>
+<text x="-828000" y="0" font-family="Arial" font-size="2000" fill="blue">DDR_DM3</text>
+<text x="-1767800" y="0" font-family="Arial" font-size="2000" fill="blue">DDR_ODT</text>
+<text x="1666200" y="0" font-family="Arial" font-size="2000" fill="blue">DDR_RAS_L</text>
+<text x="-1539200" y="0" font-family="Arial" font-size="2000" fill="blue">DDR_RST_L</text>
+<text x="1767800" y="0" font-family="Arial" font-size="2000" fill="blue">DDR_WE_L</text>
+<text x="523200" y="0" font-family="Arial" font-size="2000" fill="blue">DDR_CLK_N</text>
+<text x="304800" y="-114300" font-family="Arial" font-size="2000" fill="blue">DDR_DQS</text>
+<text x="101600" y="165100" font-family="Arial" font-size="2000" fill="blue">ETH_MDC</text>
+<text x="193000" y="50800" font-family="Arial" font-size="2000" fill="blue">ETH_TXCLK</text>
+<text x="294600" y="50800" font-family="Arial" font-size="2000" fill="blue">ETH_TXCTL</text>
+<text x="-61000" y="228600" font-family="Arial" font-size="2000" fill="blue">ETH_RXCLK</text>
+<text x="40600" y="228600" font-family="Arial" font-size="2000" fill="blue">ETH_RXCTL</text>
+<text x="76200" y="165100" font-family="Arial" font-size="2000" fill="blue">ETH_MDIO</text>
+<text x="177800" y="-251500" font-family="Arial" font-size="2000" fill="blue">HDMI_24M_CES_CLK</text>
+<text x="177800" y="-149900" font-family="Arial" font-size="2000" fill="blue">HDMI_CLK_1</text>
+<text x="177800" y="53300" font-family="Arial" font-size="2000" fill="blue">HDMI_DE</text>
+<text x="177800" y="154900" font-family="Arial" font-size="2000" fill="blue">HDMI_HSYNC</text>
+<text x="177800" y="256500" font-family="Arial" font-size="2000" fill="blue">HDMI_VSYNC</text>
+<text x="177800" y="129500" font-family="Arial" font-size="2000" fill="blue">PS_I2C_SCL</text>
+<text x="-38100" y="-365800" font-family="Arial" font-size="2000" fill="blue">PS_I2C_SDA</text>
+<text x="-355600" y="-99100" font-family="Arial" font-size="2000" fill="blue">HDMI_INT</text>
+<text x="139700" y="279400" font-family="Arial" font-size="2000" fill="blue">DSP_RESET_L</text>
+<text x="25400" y="2364700" font-family="Arial" font-size="2000" fill="blue">TXI_EA_RD_WAIT_P</text>
+<text x="25400" y="2567900" font-family="Arial" font-size="2000" fill="blue">TXI_EA_WR_WAIT_P</text>
+<text x="25400" y="2796500" font-family="Arial" font-size="2000" fill="blue">RXI_CCLK_P</text>
+<text x="91440" y="7785100" font-family="Arial" font-size="2000" fill="blue">DSP_MVDD</text>
+<text x="193040" y="7785100" font-family="Arial" font-size="2000" fill="blue">DSP_MVSS</text>
+<text x="7416800" y="180340" font-family="Arial" font-size="2000" fill="blue">RXO_EA_RD_WAIT</text>
+<text x="7416800" y="281940" font-family="Arial" font-size="2000" fill="blue">RXO_EA_WR_WAIT_P</text>
+<text x="25400" y="2745700" font-family="Arial" font-size="2000" fill="blue">RXI_CCLK_N</text>
+<text x="25400" y="2466300" font-family="Arial" font-size="2000" fill="blue">TXI_EA_WR_WAIT_N</text>
+<text x="25400" y="2263100" font-family="Arial" font-size="2000" fill="blue">TXI_EA_RD_WAIT_N</text>
+<text x="7416800" y="231140" font-family="Arial" font-size="2000" fill="blue">RXO_EA_WR_WAIT_N</text>
+<text x="7505700" y="1259840" font-family="Arial" font-size="2000" fill="blue">ELINK_TXO_EA</text>
+<text x="7581900" y="1107440" font-family="Arial" font-size="2000" fill="blue">ELINK_RXI_EA</text>
 </svg>
