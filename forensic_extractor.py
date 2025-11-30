@@ -171,6 +171,447 @@ class ForensicExtractor:
             'hdmi_block_2': 'hdmi_block'
         }
 
+        # Reverse mapping: TOC block name -> filesystem block name
+        self.BLOCK_ALIASES_REVERSE = {v: k for k, v in self.BLOCK_ALIASES.items()}
+
+    def discover_signal_files(self) -> None:
+        """Phase 1: Discover JSON, DX.JSON, and XCON signal files in worklib."""
+        print("\n" + "="*60)
+        print("PHASE 1: SIGNAL FILE DISCOVERY")
+        print("="*60)
+
+        for block_dir in self.worklib_dir.iterdir():
+            if not block_dir.is_dir():
+                continue
+            if block_dir.name in self.IGNORE_DIRS:
+                continue
+
+            block_name = block_dir.name
+            tbl_dir = block_dir / 'tbl_1'
+
+            if tbl_dir.exists():
+                # Find JSON files (component definitions)
+                for f in tbl_dir.glob('*.json'):
+                    if self.DX_JSON_PATTERN.match(f.name):
+                        self.dx_json_files.append(f)
+                        print(f"  Found DX.JSON: {f.relative_to(self.root_dir)}")
+                    elif self.JSON_PATTERN.match(f.name):
+                        self.json_files.append(f)
+                        print(f"  Found JSON: {f.relative_to(self.root_dir)}")
+
+                # Find XCON files (connectivity)
+                for f in tbl_dir.glob('*.xcon'):
+                    self.xcon_files.append(f)
+                    print(f"  Found XCON: {f.relative_to(self.root_dir)}")
+
+        print(f"\n  Total JSON files: {len(self.json_files)}")
+        print(f"  Total DX.JSON files: {len(self.dx_json_files)}")
+        print(f"  Total XCON files: {len(self.xcon_files)}")
+
+    def load_symbol_pin_numbers(self) -> None:
+        """Load symbol pin numbers from cache."""
+        print("\n" + "="*60)
+        print("PHASE 1b: SYMBOL PIN NUMBERS")
+        print("="*60)
+        # Symbol pin info loaded during extract_symbol_graphics
+        print("  (Loaded during symbol graphics extraction)")
+
+    def load_dx_json_instances(self) -> None:
+        """Load DX.JSON files containing refdes labels and symbol linking data."""
+        print("\n" + "="*60)
+        print("PHASE 1c: DX.JSON INSTANCE DATA")
+        print("="*60)
+
+        for dx_file in self.dx_json_files:
+            try:
+                with open(dx_file, 'r') as f:
+                    data = json.load(f)
+
+                instances = data.get('instances', [])
+                loaded_count = 0
+                for inst in instances:
+                    # Data is in 'attributes' dict, not at top level
+                    attributes = inst.get('attributes', {})
+                    refdes = attributes.get('refdes', '')
+
+                    if refdes:
+                        library = attributes.get('library', '')
+                        system_capture_model = attributes.get('system_capture_model', '')
+                        cpath = inst.get('cpath', '')
+
+                        # Extract instance_id from cpath
+                        # Format: @worklib.usb_block(tbl_1):\I167231535\
+                        instance_id = self._extract_instance_id_from_cpath(cpath)
+
+                        # Build symbol_cache_key to link to symbol_library
+                        # Format: library##system_capture_model (e.g., "discrete##capacitor")
+                        symbol_cache_key = None
+                        if library and system_capture_model:
+                            symbol_cache_key = f"{library}##{system_capture_model}"
+
+                        # Extract actual block name from cpath (not file location!)
+                        # Hierarchical cpath: @worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231522\
+                        # We want the LEAF block (last one in the chain) - dsp_block in this case
+                        block_name = self._extract_block_from_cpath(cpath)
+                        if not block_name:
+                            block_name = dx_file.parent.parent.name
+
+                        self.dx_instances[refdes] = {
+                            'instance_id': instance_id,
+                            'library': library,
+                            'system_capture_model': system_capture_model,
+                            'symbol': attributes.get('symbol', ''),
+                            'symbol_cache_key': symbol_cache_key,
+                            'block': block_name,
+                            'cpath': cpath
+                        }
+                        loaded_count += 1
+
+                print(f"  Loaded {loaded_count} instances from {dx_file.name}")
+            except Exception as e:
+                print(f"  Error loading {dx_file.name}: {e}")
+
+        # Print linking statistics
+        with_key = sum(1 for v in self.dx_instances.values() if v.get('symbol_cache_key'))
+        print(f"\n  Total DX instances loaded: {len(self.dx_instances)}")
+        print(f"  Instances with symbol_cache_key: {with_key}")
+
+    def build_instance_to_graphics_mapping(self) -> None:
+        """Build mapping from instance_id to graphics_id using block.ascii files."""
+        print("\n" + "="*60)
+        print("PHASE 1d: INSTANCE TO GRAPHICS MAPPING")
+        print("="*60)
+
+        for block_dir in self.worklib_dir.iterdir():
+            if not block_dir.is_dir() or block_dir.name in self.IGNORE_DIRS:
+                continue
+
+            # Block ascii files are named like: usb_block.ascii (same name as block dir)
+            block_ascii = block_dir / 'tbl_1' / f'{block_dir.name}.ascii'
+            if not block_ascii.exists():
+                continue
+
+            try:
+                content = block_ascii.read_text(errors='ignore')
+
+                # Format in block.ascii: < 5 /> I167231504 1 864692227966763070
+                # This is: < 5 /> instance_id page_num graphics_id (with spaces around angle brackets)
+                # Page numbers can be 1-8 so use \d+ for the page number field
+                for match in re.finditer(r'< 5 /> (I\d+) \d+ (\d+)', content):
+                    inst_id = match.group(1)
+                    graphics_id = match.group(2)
+                    self.instance_to_graphics[inst_id] = graphics_id
+
+            except Exception as e:
+                print(f"  Error processing {block_ascii}: {e}")
+
+        print(f"  Total instance->graphics mappings: {len(self.instance_to_graphics)}")
+
+    def extract_graphics_positions_from_pages(self) -> None:
+        """Extract graphics positions from page files."""
+        print("\n" + "="*60)
+        print("PHASE 1e: GRAPHICS POSITIONS FROM PAGES")
+        print("="*60)
+
+        for block_dir in self.worklib_dir.iterdir():
+            if not block_dir.is_dir() or block_dir.name in self.IGNORE_DIRS:
+                continue
+
+            tbl_dir = block_dir / 'tbl_1'
+            if not tbl_dir.exists():
+                continue
+
+            block_name = block_dir.name
+
+            for page_file in tbl_dir.glob('page_file_*.ascii'):
+                try:
+                    content = page_file.read_text(errors='ignore')
+                    # Pattern: < GRAPHICS_ID /> < 45 /> < < 0 /> < X /> < 0 /> < Y /> />
+                    # Example: < 864692227966763070 /> < 45 /> < < 0 /> < 1079500 /> < 0 /> < 647700 /> />
+                    # The 18-digit graphics_id is followed by coordinates in < 45 /> block
+                    pattern = r'< (\d{18}) />\s*<\s*45\s*/>\s*<\s*<\s*0\s*/>\s*<\s*(-?\d+)\s*/>\s*<\s*0\s*/>\s*<\s*(-?\d+)\s*/>'
+                    for match in re.finditer(pattern, content):
+                        gid = match.group(1)
+                        x = int(match.group(2))
+                        y = int(match.group(3))
+
+                        # Get page index
+                        page_idx = self._get_pdf_page_index(block_name, page_file.name)
+
+                        self.graphics_positions[gid] = {
+                            'x': x,
+                            'y': y,
+                            'page_file': page_file.name,
+                            'block': block_name,
+                            'page_index': page_idx
+                        }
+                except Exception as e:
+                    print(f"  Error processing {page_file}: {e}")
+
+        print(f"  Total graphics positions: {len(self.graphics_positions)}")
+
+    def link_instance_positions(self) -> None:
+        """Link instance_id -> graphics_id -> position."""
+        print("\n" + "="*60)
+        print("PHASE 1f: LINKING INSTANCE POSITIONS")
+        print("="*60)
+
+        linked = 0
+        for inst_id, graphics_id in self.instance_to_graphics.items():
+            if graphics_id in self.graphics_positions:
+                pos = self.graphics_positions[graphics_id]
+                self.instance_positions[inst_id] = {
+                    'graphics_id': graphics_id,
+                    **pos
+                }
+                linked += 1
+
+        print(f"  Linked {linked} instance positions")
+
+    def _generate_element_id(self, prefix: str = 'elem') -> str:
+        """Generate unique element ID for primitives."""
+        self._element_counter += 1
+        return f"{prefix}_{self._element_counter}"
+
+    def _generate_sequence_id(self) -> int:
+        """Generate unique sequence ID."""
+        self._sequence_counter += 1
+        return self._sequence_counter
+
+    def _extract_instance_id(self, cpath: str) -> str:
+        """Extract instance ID from component path."""
+        # cpath format: "/brain_board/I167231504" or similar
+        if '/' in cpath:
+            parts = cpath.strip('/').split('/')
+            if len(parts) >= 2:
+                return parts[-1]
+        return cpath
+
+    def _extract_instance_id_from_cpath(self, cpath: str) -> str:
+        """Extract instance ID from DX.json cpath format.
+
+        DX.json cpath format: @worklib.usb_block(tbl_1):\\I167231535\\
+        May have nested paths for hierarchical: @worklib.usb_block(tbl_1):\\I1039646780\\@worklib.reusable_usb_conn(tbl_1):\\I1039138834\\
+
+        For hierarchical paths, return the last (leaf) instance ID.
+        """
+        if not cpath:
+            return ''
+
+        # Find all instance IDs (format: \I<digits>\)
+        import re
+        matches = re.findall(r'\\I(\d+)\\', cpath)
+        if matches:
+            # Return the last match (leaf instance for hierarchical)
+            return f"I{matches[-1]}"
+
+        # Fallback: try the original method
+        return self._extract_instance_id(cpath)
+
+    def _extract_block_from_cpath(self, cpath: str) -> str:
+        """Extract block name from DX.json cpath format.
+
+        DX.json cpath format: @worklib.usb_block(tbl_1):\\I167231535\\
+        Hierarchical: @worklib.brain_board(tbl_1):\\I1039646744\\@worklib.dsp_block(tbl_1):\\I167231522\\
+
+        For hierarchical paths, return the LEAF (last) block name - that's where the component lives.
+        """
+        if not cpath:
+            return ''
+
+        # Find all block names (format: @worklib.BLOCK_NAME(tbl_1))
+        import re
+        matches = re.findall(r'@worklib\.([a-zA-Z0-9_]+)\(tbl_1\)', cpath)
+        if matches:
+            # Return the last match (leaf block for hierarchical)
+            return matches[-1]
+
+        return ''
+
+    def _next_sequence_index(self) -> int:
+        """Get next sequence index for primitives."""
+        self._sequence_counter += 1
+        return self._sequence_counter
+
+    def _parse_transform_matrix(self, transform_str: str) -> Dict:
+        """Parse transform matrix string into components."""
+        # Transform format: "a b c d tx ty" (6 values)
+        # Represents: | a  b  0 |
+        #             | c  d  0 |
+        #             | tx ty 1 |
+        result = {
+            'a': 1.0, 'b': 0.0, 'c': 0.0, 'd': 1.0,
+            'tx': 0.0, 'ty': 0.0,
+            'rotation': 0.0, 'mirror': False
+        }
+        if not transform_str:
+            return result
+
+        try:
+            parts = transform_str.strip().split()
+            if len(parts) >= 6:
+                result['a'] = float(parts[0])
+                result['b'] = float(parts[1])
+                result['c'] = float(parts[2])
+                result['d'] = float(parts[3])
+                result['tx'] = float(parts[4])
+                result['ty'] = float(parts[5])
+
+                # Calculate rotation from matrix
+                import math
+                a, b = result['a'], result['b']
+                result['rotation'] = math.degrees(math.atan2(b, a))
+
+                # Check for mirror (negative determinant)
+                det = result['a'] * result['d'] - result['b'] * result['c']
+                result['mirror'] = det < 0
+        except (ValueError, IndexError):
+            pass
+
+        return result
+
+    def _parse_hierarchy_path(self, cpath: str) -> List[str]:
+        """Parse component path into hierarchy chain."""
+        # cpath format: "/brain_board/I167231504"
+        if not cpath:
+            return []
+        return [p for p in cpath.strip('/').split('/') if p]
+
+    def extract_pages(self) -> None:
+        """
+        Phase G1: Extract page information and build page mapping.
+
+        CRITICAL: This MUST run BEFORE extract_graphics_positions_from_pages()
+        because it builds the page_mapping dictionary that _get_pdf_page_index() needs!
+
+        Builds a mapping: (block_name, page_uid) -> pdf_page_number
+        This allows primitives extracted from block page files to be correctly
+        assigned to their PDF page numbers.
+        """
+        print("\n" + "="*60)
+        print("PHASE G1: PAGE/SHEET EXTRACTION")
+        print("="*60)
+
+        # The page structure is already loaded from the hierarchy/TOC
+        # We need to build the mapping based on block_ref and page_uid
+
+        # Hardcoded page mapping based on brain_board design structure
+        # This maps (block_name, page_file_name) -> pdf_page_number
+        # Note: block_name is the FILESYSTEM name (e.g., hdmi_block_2), not TOC name
+
+        page_definitions = [
+            # PDF Page 1: TOC (brain_board, page 2)
+            ('brain_board', 'page_file_2.ascii', 1),
+            # PDF Page 2: Blocks (brain_board, page 1)
+            ('brain_board', 'page_file_1.ascii', 2),
+            # PDF Page 3: PHY - USB (usb_block, page 1)
+            ('usb_block', 'page_file_1.ascii', 3),
+            # PDF Page 4: PHY - HDMI (hdmi_block_2, page 1)
+            ('hdmi_block_2', 'page_file_1.ascii', 4),
+            # PDF Page 5: Reset Generation (mgmt_block, page 1)
+            ('mgmt_block', 'page_file_1.ascii', 5),
+            # PDF Page 6: Power Management (mgmt_block, page 2)
+            ('mgmt_block', 'page_file_2.ascii', 6),
+            # PDF Page 7: MT41K - DDR3 (ddr3_block, page 1)
+            ('ddr3_block', 'page_file_1.ascii', 7),
+            # PDF Pages 8-15: Zynq banks (zynq_block, by pageuid from TOC)
+            # TOC pageuid mapping: 4->Bank 0, 3->Bank 500, 1->Bank 501, 2->Bank 502,
+            #                      6->Bank 34, 7->Bank 35, 5->Bank 13, 8->Power/Ground
+            ('zynq_block', 'page_file_4.ascii', 8),   # Bank 0 (pageuid=4)
+            ('zynq_block', 'page_file_3.ascii', 9),   # Bank 500 (pageuid=3)
+            ('zynq_block', 'page_file_1.ascii', 10),  # Bank 501 (pageuid=1)
+            ('zynq_block', 'page_file_2.ascii', 11),  # Bank 502 (pageuid=2)
+            ('zynq_block', 'page_file_6.ascii', 12),  # Bank 34 (pageuid=6)
+            ('zynq_block', 'page_file_7.ascii', 13),  # Bank 35 (pageuid=7)
+            ('zynq_block', 'page_file_5.ascii', 14),  # Bank 13 (pageuid=5)
+            ('zynq_block', 'page_file_8.ascii', 15),  # Power/Ground (pageuid=8)
+            # PDF Pages 16-19: DSP blocks (dsp_block, pages 1-4)
+            ('dsp_block', 'page_file_1.ascii', 16),
+            ('dsp_block', 'page_file_2.ascii', 17),
+            ('dsp_block', 'page_file_3.ascii', 18),
+            ('dsp_block', 'page_file_4.ascii', 19),
+            # PDF Page 20: GigE PHY (gige_block, page 1)
+            ('gige_block', 'page_file_1.ascii', 20),
+        ]
+
+        # Build the mapping
+        for block, page_file, pdf_page in page_definitions:
+            self.page_mapping[(block, page_file)] = pdf_page
+            print(f"  Mapped: ({block}, {page_file}) -> PDF Page {pdf_page}")
+
+        # Also handle reusable_usb_conn - it's a child of usb_block, shares page 3
+        self.page_mapping[('reusable_usb_conn', 'page_file_1.ascii')] = 3
+        print(f"  Mapped: (reusable_usb_conn, page_file_1.ascii) -> PDF Page 3")
+
+        print(f"\n  Total page mappings: {len(self.page_mapping)}")
+
+        # Also build the pages list for export
+        self.pages = []
+        page_titles = [
+            (1, 'TOC', 'brain_board'),
+            (2, 'Blocks', 'brain_board'),
+            (3, 'PHY', 'usb_block'),
+            (4, 'PHY', 'hdmi_block'),
+            (5, 'Reset Generation', 'mgmt_block'),
+            (6, 'Power Management', 'mgmt_block'),
+            (7, 'MT41K', 'ddr3_block'),
+            (8, 'Bank 0', 'zynq_block'),
+            (9, 'Bank 500', 'zynq_block'),
+            (10, 'Bank 501', 'zynq_block'),
+            (11, 'Bank 502', 'zynq_block'),
+            (12, 'Bank 34', 'zynq_block'),
+            (13, 'Bank 35', 'zynq_block'),
+            (14, 'Bank 13 and GPIO connector', 'zynq_block'),
+            (15, 'Power and Ground', 'zynq_block'),
+            (16, 'East eLink and Control', 'dsp_block'),
+            (17, 'North and South eLink', 'dsp_block'),
+            (18, 'West eLink and Power', 'dsp_block'),
+            (19, 'Connectors', 'dsp_block'),
+            (20, 'PHY', 'gige_block'),
+        ]
+
+        for page_num, title, block_ref in page_titles:
+            self.pages.append({
+                'page_id': str(page_num),
+                'page_uid': str(page_num),
+                'title': title,
+                'block_path': f'/brain_board/{block_ref}({block_ref})',
+                'block_ref': block_ref,
+                'size': {'width': 17000, 'height': 11000, 'unit': 'mils'},
+                'page_standard': 'ANSI',
+                'coordinate_origin': 'bottom_left',
+                'element_ids': [],
+                'element_count': 0,
+            })
+
+        print(f"  Built {len(self.pages)} page definitions")
+
+    def _get_pdf_page_index(self, block_name: str, page_file_name: str) -> int:
+        """
+        Get the PDF page number for a given block and page file.
+
+        Args:
+            block_name: Filesystem block name (e.g., 'hdmi_block_2')
+            page_file_name: Page file name (e.g., 'page_file_1.ascii')
+
+        Returns:
+            PDF page number (1-indexed), or -1 if not found
+        """
+        # First try direct lookup
+        key = (block_name, page_file_name)
+        if key in self.page_mapping:
+            return self.page_mapping[key]
+
+        # Try with block alias (filesystem name -> TOC name)
+        if block_name in self.BLOCK_ALIASES:
+            aliased_block = self.BLOCK_ALIASES[block_name]
+            key = (aliased_block, page_file_name)
+            if key in self.page_mapping:
+                return self.page_mapping[key]
+
+        # Return -1 to indicate fallback needed
+        return -1
+
     def extract_grid_config(self) -> None:
         """
         Phase G7: Extract grid and snap configuration.
@@ -781,8 +1222,56 @@ class ForensicExtractor:
         print("="*60)
 
         placement_count = 0
+        linked_count = 0
 
-        # Process all page files in worklib
+        # APPROACH 1: Create placements from dx_instances + instance_positions chain
+        # This provides proper refdes, symbol_cache_key, and position linkage
+        for refdes, inst_data in self.dx_instances.items():
+            instance_id = inst_data.get('instance_id', '')
+            position = self.instance_positions.get(instance_id)
+
+            if not position:
+                continue
+
+            # Get page index from position data
+            block_name = inst_data.get('block', position.get('block', ''))
+            page_file = position.get('page_file', '')
+            page_index = self._get_pdf_page_index(block_name, page_file)
+
+            if page_index == -1:
+                # Fallback: extract from page_file name
+                page_idx_match = re.search(r'page_file_(\d+)\.ascii', page_file)
+                page_index = int(page_idx_match.group(1)) if page_idx_match else 0
+
+            element_id = self._generate_element_id('inst')
+            sequence_idx = self._next_sequence_index()
+
+            placement = {
+                'element_id': element_id,
+                'sequence_index': sequence_idx,
+                'type': 'instance',
+                'shape_type': 'component_instance',
+                'page_index': page_index,
+                'block': block_name,
+                'geometry': {
+                    'origin': {'x': position['x'], 'y': position['y']},
+                },
+                'transform': {'matrix': [1, 0, 0, 0, 1, 0, 0, 0, 1]},  # Default identity
+                'rotation': 0,
+                'z_value': 10000,
+                # CRITICAL: Link to symbol data!
+                'refdes': refdes,
+                'instance_name': refdes,
+                'instance_id': instance_id,
+                'symbol_cache_key': inst_data.get('symbol_cache_key'),
+                'semantic': None,
+            }
+
+            self.primitives.append(placement)
+            linked_count += 1
+            self.stats['primitives_by_type']['instance'] += 1
+
+        # APPROACH 2: Also process page files for additional transform data
         for block_dir in self.worklib_dir.iterdir():
             if not block_dir.is_dir() or block_dir.name in self.IGNORE_DIRS:
                 continue
@@ -799,7 +1288,9 @@ class ForensicExtractor:
                 except Exception as e:
                     print(f"  [WARN] Failed to process {page_file.name}: {e}")
 
-        print(f"  - Instance placements extracted: {placement_count}")
+        print(f"  - Instance placements from dx_instances: {linked_count}")
+        print(f"  - Instance placements from page files: {placement_count}")
+        print(f"  - Total instance placements: {linked_count + placement_count}")
         self.stats['total_primitives'] = len(self.primitives)
 
     def _extract_placements_from_page(self, page_file: Path, block_name: str) -> List[Dict]:
@@ -944,15 +1435,16 @@ class ForensicExtractor:
         value_count = 0
 
         for refdes, inst_data in self.dx_instances.items():
-            # Get instance position (keyed by refdes now)
-            position = self.instance_positions.get(refdes)
+            # Get instance position (keyed by instance_id, not refdes!)
+            instance_id = inst_data.get('instance_id', '')
+            position = self.instance_positions.get(instance_id)
             if not position:
                 continue
 
             inst_x = position.get('x', 0)
             inst_y = position.get('y', 0)
             page_index = position.get('page_index', 0)
-            block_name = position.get('block', '')
+            block_name = inst_data.get('block', position.get('block', ''))
 
             # Get symbol graphics for text_positions
             symbol_cache_key = inst_data.get('symbol_cache_key', '')
@@ -1259,6 +1751,77 @@ class ForensicExtractor:
                     'justification': 1,
                 },
                 'style_ref': 'Style1',
+                'z_value': 10000,
+                'semantic': 'annotation',
+            }
+
+            texts.append(text_prim)
+            self.stats['primitives_by_type']['text'] += 1
+
+        # =====================================================================
+        # PATTERN 2b: Inline HTML text (embedded in Tag 29 blocks)
+        # Example: <span style=" font-size:10pt; font-weight:600;">100 Ohm LVDS</span></p></body></html>
+        # These are rich text annotations NOT wrapped by GRAPHICS_BLOCK_CHILD_TEXT
+        # =====================================================================
+
+        inline_html_pattern = re.compile(
+            r'<span[^>]*>([^<]+)</span></p></body></html>\s*/>'
+        )
+
+        for match in inline_html_pattern.finditer(content):
+            text = match.group(1).strip()
+
+            # Skip if empty or already seen
+            if not text or text in seen_texts:
+                continue
+
+            # Get larger context BEFORE the match to find the position
+            start = max(0, match.start() - 1000)
+            context = content[start:match.start()]
+
+            # Find the LAST Tag 45 position before this text
+            # Pattern: < 45 /> < < 0 /> < X /> < 0 /> < Y /> />
+            positions = re.findall(
+                r'<\s*45\s*/>\s*<\s*<\s*\d+\s*/>\s*<\s*(-?\d+)\s*/>\s*<\s*\d+\s*/>\s*<\s*(-?\d+)\s*/>\s*/>',
+                context
+            )
+
+            if not positions:
+                continue
+
+            # Take the LAST position (closest to the text)
+            x, y = int(positions[-1][0]), int(positions[-1][1])
+
+            # Skip positions that are zero (likely offsets, not actual positions)
+            if abs(x) < 1000 and abs(y) < 1000:
+                continue
+
+            seen_texts.add(text)
+
+            element_id = self._generate_element_id('htmltext')
+            sequence_idx = self._next_sequence_index()
+
+            text_prim = {
+                'element_id': element_id,
+                'sequence_index': sequence_idx,
+                'type': 'text',
+                'shape_type': 'annotation',
+                'label_type': 'HTML_TEXT',
+                'page_index': page_index,
+                'block': block_name,
+                'geometry': {
+                    'origin': {'x': x, 'y': y},
+                },
+                'text_content': text,
+                'text_properties': {
+                    'alignment': 'center',
+                    'rotation': 0,
+                    'justification': 1,
+                },
+                'style': {
+                    'font_size': 10,
+                    'font_weight': 'bold',
+                },
                 'z_value': 10000,
                 'semantic': 'annotation',
             }
@@ -1826,23 +2389,29 @@ class ForensicExtractor:
         # This is the CRITICAL piece - linking refdes to their symbol graphics AND page positions
         instances_with_graphics = []
         instances_with_positions = 0
+        instances_with_symbol_key = 0
 
-        for inst_id, inst_data in self.dx_instances.items():
+        for refdes, inst_data in self.dx_instances.items():
+            # Get the symbol_cache_key that links to symbol_library
             symbol_key = inst_data.get('symbol_cache_key', '')
+            if symbol_key:
+                instances_with_symbol_key += 1
+
             symbol_graphics = self.symbol_graphics.get(symbol_key, {})
 
-            # CRITICAL: Get position data from the linked chain
-            position_data = self.instance_positions.get(inst_id, {})
+            # CRITICAL: Get position data using actual instance_id (not refdes!)
+            # instance_positions is keyed by instance_id (e.g., "I167231504")
+            actual_instance_id = inst_data.get('instance_id', '')
+            position_data = self.instance_positions.get(actual_instance_id, {})
 
             instance_entry = {
-                'instance_id': inst_id,
-                'refdes': inst_data.get('refdes', ''),
+                'instance_id': actual_instance_id,
+                'refdes': refdes,  # refdes is the key in dx_instances
                 'library': inst_data.get('library', ''),
-                'part_name': inst_data.get('part_name', ''),
+                'system_capture_model': inst_data.get('system_capture_model', ''),
                 'symbol': inst_data.get('symbol', ''),
                 'block': inst_data.get('block', ''),
                 'symbol_cache_key': symbol_key,
-                'symbol_cache_path': inst_data.get('symbol_cache_path', ''),
 
                 # CRITICAL: Position data (from page files via graphics_id chain)
                 'has_position': bool(position_data),
@@ -1865,6 +2434,9 @@ class ForensicExtractor:
 
             if position_data:
                 instances_with_positions += 1
+
+        print(f"  Instances with symbol_cache_key: {instances_with_symbol_key}")
+        print(f"  Instances with positions: {instances_with_positions}")
 
         # Build output structure
         output = {

@@ -1,0 +1,245 @@
+============================================================
+CADENCE SDAX FORENSIC EXTRACTOR
+============================================================
+Started: 2025-11-30T03:06:29.660384
+
+============================================================
+PHASE 1: SIGNAL FILE DISCOVERY
+============================================================
+  Found DX.JSON: worklib/usb_block/tbl_1/usb_blockdx.json
+  Found JSON: worklib/usb_block/tbl_1/usb_block.json
+  Found XCON: worklib/usb_block/tbl_1/usb_block.xcon
+  Found DX.JSON: worklib/hdmi_block_2/tbl_1/testdx.json
+  Found JSON: worklib/hdmi_block_2/tbl_1/test.json
+  Found DX.JSON: worklib/hdmi_block_2/tbl_1/hdmi_block_2dx.json
+  Found JSON: worklib/hdmi_block_2/tbl_1/hdmi_block_2.json
+  Found XCON: worklib/hdmi_block_2/tbl_1/hdmi_block_2.xcon
+  Found JSON: worklib/reusable_usb_conn/tbl_1/reusable_usb_conn.json
+  Found DX.JSON: worklib/reusable_usb_conn/tbl_1/reusable_usb_conndx.json
+  Found XCON: worklib/reusable_usb_conn/tbl_1/reusable_usb_conn.xcon
+  Found DX.JSON: worklib/dsp_block/tbl_1/dsp_blockdx.json
+  Found JSON: worklib/dsp_block/tbl_1/dsp_block.json
+  Found XCON: worklib/dsp_block/tbl_1/dsp_block.xcon
+  Found JSON: worklib/zynq_block/tbl_1/zynq_block.json
+  Found DX.JSON: worklib/zynq_block/tbl_1/zynq_blockdx.json
+  Found XCON: worklib/zynq_block/tbl_1/zynq_block.xcon
+  Found DX.JSON: worklib/gige_block/tbl_1/gige_blockdx.json
+  Found JSON: worklib/gige_block/tbl_1/gige_block.json
+  Found XCON: worklib/gige_block/tbl_1/gige_block.xcon
+  Found DX.JSON: worklib/mgmt_block/tbl_1/mgmt_blockdx.json
+  Found JSON: worklib/mgmt_block/tbl_1/mgmt_block.json
+  Found XCON: worklib/mgmt_block/tbl_1/mgmt_block.xcon
+  Found JSON: worklib/ddr3_block/tbl_1/ddr3_block.json
+  Found DX.JSON: worklib/ddr3_block/tbl_1/ddr3_blockdx.json
+  Found XCON: worklib/ddr3_block/tbl_1/ddr3_block.xcon
+  Found JSON: worklib/brain_board/tbl_1/module_order.json
+  Found DX.JSON: worklib/brain_board/tbl_1/brain_boarddx.json
+  Found JSON: worklib/brain_board/tbl_1/brain_board.json
+  Found XCON: worklib/brain_board/tbl_1/brain_board.xcon
+
+  Total JSON files: 11
+  Total DX.JSON files: 10
+  Total XCON files: 9
+
+============================================================
+PHASE 1b: SYMBOL PIN NUMBERS
+============================================================
+  (Loaded during symbol graphics extraction)
+
+============================================================
+PHASE 1c: DX.JSON INSTANCE DATA
+============================================================
+  Loaded 30 instances from usb_blockdx.json
+  Loaded 38 instances from testdx.json
+  Loaded 38 instances from hdmi_block_2dx.json
+  Loaded 9 instances from reusable_usb_conndx.json
+  Loaded 126 instances from dsp_blockdx.json
+  Loaded 208 instances from zynq_blockdx.json
+  Loaded 42 instances from gige_blockdx.json
+  Loaded 91 instances from mgmt_blockdx.json
+  Loaded 25 instances from ddr3_blockdx.json
+  Loaded 560 instances from brain_boarddx.json
+
+  Total DX instances loaded: 557
+  Instances with symbol_cache_key: 557
+
+============================================================
+PHASE 1d: INSTANCE TO GRAPHICS MAPPING
+============================================================
+  Total instance->graphics mappings: 102
+
+============================================================
+PHASE G1: PAGE/SHEET EXTRACTION
+============================================================
+  Mapped: (brain_board, page_file_2.ascii) -> PDF Page 1
+  Mapped: (brain_board, page_file_1.ascii) -> PDF Page 2
+  Mapped: (usb_block, page_file_1.ascii) -> PDF Page 3
+  Mapped: (hdmi_block_2, page_file_1.ascii) -> PDF Page 4
+  Mapped: (mgmt_block, page_file_1.ascii) -> PDF Page 5
+  Mapped: (mgmt_block, page_file_2.ascii) -> PDF Page 6
+  Mapped: (ddr3_block, page_file_1.ascii) -> PDF Page 7
+  Mapped: (zynq_block, page_file_4.ascii) -> PDF Page 8
+  Mapped: (zynq_block, page_file_3.ascii) -> PDF Page 9
+  Mapped: (zynq_block, page_file_1.ascii) -> PDF Page 10
+  Mapped: (zynq_block, page_file_2.ascii) -> PDF Page 11
+  Mapped: (zynq_block, page_file_6.ascii) -> PDF Page 12
+  Mapped: (zynq_block, page_file_7.ascii) -> PDF Page 13
+  Mapped: (zynq_block, page_file_5.ascii) -> PDF Page 14
+  Mapped: (zynq_block, page_file_8.ascii) -> PDF Page 15
+  Mapped: (dsp_block, page_file_1.ascii) -> PDF Page 16
+  Mapped: (dsp_block, page_file_2.ascii) -> PDF Page 17
+  Mapped: (dsp_block, page_file_3.ascii) -> PDF Page 18
+  Mapped: (dsp_block, page_file_4.ascii) -> PDF Page 19
+  Mapped: (gige_block, page_file_1.ascii) -> PDF Page 20
+  Mapped: (reusable_usb_conn, page_file_1.ascii) -> PDF Page 3
+
+  Total page mappings: 21
+  Built 20 page definitions
+
+============================================================
+PHASE 1e: GRAPHICS POSITIONS FROM PAGES
+============================================================
+  Total graphics positions: 1215
+
+============================================================
+PHASE 1f: LINKING INSTANCE POSITIONS
+============================================================
+  Linked 102 instance positions
+
+============================================================
+PHASE G6: STYLE LOADING
+============================================================
+  - Style files processed: 117
+  - Total styles loaded: 1062
+
+============================================================
+PHASE G7: GRID & SNAP CONFIGURATION
+============================================================
+  - Grid X step: 100000 internal units
+  - Grid Y step: 100000 internal units
+  - Unit conversion: 1 unit = 0.01 mils
+
+============================================================
+PHASE G3: SYMBOL GRAPHICS EXTRACTION
+============================================================
+  - Symbols extracted: 117
+
+============================================================
+PHASE G5: WIRE SEGMENT EXTRACTION
+============================================================
+  - Wire segments extracted: 890
+  - Total primitives: 890
+
+============================================================
+PHASE G4: INSTANCE PLACEMENT EXTRACTION
+============================================================
+  - Instance placements extracted: 175
+
+============================================================
+PHASE G2b: TEXT PRIMITIVE EXTRACTION
+============================================================
+  - Text primitives extracted: 1091
+
+  Generating instance text labels (refdes/value)...
+  - Refdes labels generated: 0
+  - Value labels generated: 0
+
+============================================================
+PHASE 2: COMPONENT EXTRACTION (JSON)
+============================================================
+
+Processing: usb_block.json
+
+Processing: test.json
+
+Processing: hdmi_block_2.json
+
+Processing: reusable_usb_conn.json
+
+Processing: dsp_block.json
+
+Processing: zynq_block.json
+
+Processing: gige_block.json
+
+Processing: mgmt_block.json
+
+Processing: ddr3_block.json
+
+Processing: module_order.json
+
+Processing: brain_board.json
+
+============================================================
+PHASE 3: NET & CONNECTIVITY EXTRACTION (XCON)
+============================================================
+
+Processing: usb_block.xcon
+
+Processing: hdmi_block_2.xcon
+
+Processing: reusable_usb_conn.xcon
+
+Processing: dsp_block.xcon
+
+Processing: zynq_block.xcon
+
+Processing: gige_block.xcon
+
+Processing: mgmt_block.xcon
+
+Processing: ddr3_block.xcon
+
+Processing: brain_board.xcon
+
+============================================================
+PHASE 4: BUILDING HIERARCHY
+============================================================
+  - Hierarchy levels: 2
+
+============================================================
+PHASE 5: VALIDATION
+============================================================
+
+Validation Results:
+  Components: 557
+  DX.JSON Instances (with refdes): 557
+  Nets: 472
+  Total Connections: 2662
+  Blocks: 0
+
+  Symbol Graphics:
+    Total symbols: 90
+    With body lines: 89
+    With text labels: 89
+    With pin definitions: 45
+
+  Component Breakdown:
+    capacitor: 255
+    resistor: 233
+    ic: 21
+    connector: 13
+    ferrite_bead: 13
+    led: 5
+    inductor: 4
+    pth_connector: 4
+    test_point: 4
+    crystal: 2
+    diode: 1
+    switch: 1
+    fuse: 1
+
+  Warnings:
+    [WARN] 557 components have no pin connectivity data
+
+============================================================
+EXPORTING TO: full_design.json
+============================================================
+  Instances with symbol_cache_key: 557
+  Instances with positions: 269
+  - Output file size: 4621.1 KB
+  - Export complete!
+
+============================================================
+EXTRACTION COMPLETE
+============================================================
