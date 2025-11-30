@@ -579,7 +579,12 @@ class ForensicExtractor:
                 'block_ref': block_ref,
                 'size': {'width': 17000, 'height': 11000, 'unit': 'mils'},
                 'page_standard': 'ANSI',
-                'coordinate_origin': 'bottom_left',
+                'pageBorderStandard': 'ANSI',
+                'pageBorderSize': 'B',
+                'pageBorderZones': 'true#8#4#TBLLRN',  # 8 columns, 4 rows
+                # SDAX page files place (0,0) at the TOP-LEFT with Y increasing
+                # downward. Mark pages accordingly so the renderer flips Y.
+                'coordinate_origin': 'top_left',
                 'element_ids': [],
                 'element_count': 0,
             })
@@ -881,7 +886,7 @@ class ForensicExtractor:
 
             # Look for rotation near this match
             rotation_match = re.search(
-                r'<n rotation n/>\s*<[^>]+>\s*<[^>]+>\s*<v\s*(\d+)\s*v/>',
+                r'<n rotation n/>\s*<[^>]+>\s*<[^>]+>\s*<v\s*(-?\d+)\s*v/>',
                 content[max(0, match.start()-500):match.end()+500]
             )
             rotation = int(rotation_match.group(1)) if rotation_match else 0
@@ -1092,7 +1097,7 @@ class ForensicExtractor:
             justification = int(just_match.group(1)) if just_match else 0
 
             # Look for rotation
-            rot_match = re.search(r'<n\s+rotation\s+n/>\s*<\s*\d+\s*/>\s*<\s*\d+\s*/>\s*<v\s*(\d+)\s*v/>', pos_search)
+            rot_match = re.search(r'<n\s+rotation\s+n/>\s*<\s*\d+\s*/>\s*<\s*\d+\s*/>\s*<v\s*(-?\d+)\s*v/>', pos_search)
             rotation = int(rot_match.group(1)) if rot_match else 0
 
             # Look for style reference
@@ -1327,7 +1332,7 @@ class ForensicExtractor:
 
             # Look for associated rotation
             rotation_match = re.search(
-                r'<n rotation n/>\s*<[^>]+>\s*<[^>]+>\s*<v\s*(\d+)\s*v/>',
+                r'<n rotation n/>\s*<[^>]+>\s*<[^>]+>\s*<v\s*(-?\d+)\s*v/>',
                 content[max(0, match.start()-300):match.end()+300]
             )
             rotation = int(rotation_match.group(1)) if rotation_match else 0
@@ -1602,7 +1607,8 @@ class ForensicExtractor:
             'zeronull', 'default', 'PN', 'BN', 'MPN',
         }
 
-        seen_texts = set()  # Avoid duplicates
+        # Avoid duplicates at the same position (but allow same text at different places)
+        seen_texts = set()
 
         # =====================================================================
         # PATTERN 1: Net name labels (P0_USB_DN, VCC, GND, etc.)
@@ -1624,36 +1630,37 @@ class ForensicExtractor:
             text_len = int(match.group(1))
             text = match.group(2).strip()
 
-            # Skip if already seen
-            if text in seen_texts:
-                continue
-
             # Skip internal names
             if text in SKIP_LABELS:
                 continue
 
-            # Get context around this match to find position
-            start = max(0, match.start() - 400)
-            end = min(len(content), match.end() + 400)
+            # Get context around this match to find position/rotation
+            # Use a wider window to capture nearby rotation/justification tags
+            start = max(0, match.start() - 1200)
+            end = min(len(content), match.end() + 1200)
             context = content[start:end]
 
             # Find ALL Tag 45 positions in context
-            positions = re.findall(
+            positions = list(re.finditer(
                 r'<\s*45\s*/>\s*<\s*<\s*\d+\s*/>\s*<\s*(-?\d+)\s*/>\s*<\s*\d+\s*/>\s*<\s*(-?\d+)\s*/>\s*/>',
                 context
-            )
+            ))
 
             # Filter for valid positions (not zeros from bounding boxes)
-            valid_pos = [(int(x), int(y)) for x, y in positions
-                        if abs(int(x)) > 1000 or abs(int(y)) > 1000]
+            valid_pos = [(int(m.group(1)), int(m.group(2))) for m in positions
+                        if abs(int(m.group(1))) > 1000 or abs(int(m.group(2))) > 1000]
 
             if not valid_pos:
                 continue
 
-            # Take position with largest magnitude (actual position, not offset)
-            best_x, best_y = max(valid_pos, key=lambda p: abs(p[0]) + abs(p[1]))
+            # Take the LAST valid position in the context (closest to the text)
+            best_x, best_y = valid_pos[-1]
 
-            seen_texts.add(text)
+            # Skip if already seen at this position
+            pos_key = (text, best_x, best_y)
+            if pos_key in seen_texts:
+                continue
+            seen_texts.add(pos_key)
 
             # Look for rotation/justification in context
             rot_match = re.search(r'<n\s+rotation\s+n/>\s*<\s*\d+\s*/>\s*<\s*\d+\s*/>\s*<v\s*(-?\d+)\s*v/>', context)
@@ -1709,7 +1716,7 @@ class ForensicExtractor:
                 continue
 
             text = text_match.group(1).strip()
-            if not text or text in seen_texts:
+            if not text:
                 continue
 
             # Get context for position
@@ -1728,7 +1735,8 @@ class ForensicExtractor:
             # Take last position before the text
             x, y = int(positions[-1][0]), int(positions[-1][1])
 
-            seen_texts.add(text)
+            # Use position-aware key for HTML text as well
+            seen_texts.add((text, x, y))
 
             element_id = self._generate_element_id('richtext')
             sequence_idx = self._next_sequence_index()
@@ -1772,7 +1780,7 @@ class ForensicExtractor:
             text = match.group(1).strip()
 
             # Skip if empty or already seen
-            if not text or text in seen_texts:
+            if not text:
                 continue
 
             # Get larger context BEFORE the match to find the position
@@ -1796,7 +1804,7 @@ class ForensicExtractor:
             if abs(x) < 1000 and abs(y) < 1000:
                 continue
 
-            seen_texts.add(text)
+            seen_texts.add((text, x, y))
 
             element_id = self._generate_element_id('htmltext')
             sequence_idx = self._next_sequence_index()

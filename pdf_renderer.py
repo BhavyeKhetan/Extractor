@@ -17,7 +17,10 @@ from typing import Dict, List, Optional, Tuple
 from reportlab.lib.pagesizes import landscape
 from reportlab.lib.units import inch
 from reportlab.pdfgen import canvas
+from reportlab.pdfbase.pdfmetrics import stringWidth
 from reportlab.lib.colors import HexColor, black, white
+import re
+from pathlib import Path
 
 
 # Allegro dark theme colors
@@ -29,18 +32,17 @@ IC_BODY_STROKE = '#808080'   # Light gray for IC outlines
 class SchematicPDFRenderer:
     """Renders extracted schematic data to PDF using ReportLab."""
 
-    # Page dimensions (A4 landscape = 297mm x 210mm = 11.69" x 8.27")
-    PAGE_WIDTH_INCHES = 11.69   # A4 width in landscape (297mm)
-    PAGE_HEIGHT_INCHES = 8.27   # A4 height in landscape (210mm)
+    # Page dimensions default to ANSI B unless overridden per page
+    PAGE_WIDTH_INCHES = 17.0    # ANSI B width
+    PAGE_HEIGHT_INCHES = 11.0   # ANSI B height
 
     # Page size in points (72 points per inch)
     PAGE_WIDTH = PAGE_WIDTH_INCHES * 72  # ~841 points
     PAGE_HEIGHT = PAGE_HEIGHT_INCHES * 72  # ~595 points
 
-    # Internal units conversion (default - will be overridden by auto-fit)
-    # Using 254000 as base scale for fallback
+    # Internal units conversion: Cadence uses 254000 units per inch (~10,000 per mm)
     UNITS_PER_INCH = 254000
-    SCALE = 72.0 / UNITS_PER_INCH  # 0.000283 (fallback only)
+    SCALE = 72.0 / UNITS_PER_INCH
 
     def __init__(self, design_data: Dict):
         """Initialize renderer with extracted design data."""
@@ -141,6 +143,39 @@ class SchematicPDFRenderer:
         pdf_y = y * self.SCALE
         return pdf_x, pdf_y
 
+    def to_pdf_coords_fixed(self, x: float, y: float, page_num: int) -> Tuple[float, float]:
+        """Convert titleblock/border coordinates to PDF coordinates.
+
+        This uses FIXED page-size mapping (not content-based auto-fit).
+        Titleblock coordinates are in internal units (0 to ~1,700,000 for ANSI B width).
+        Maps directly to PDF page bounds.
+
+        For top_left origin (Allegro): Y=0 is at top, Y increases downward
+        For PDF: Y=0 is at bottom, Y increases upward
+        So we flip: pdf_y = PAGE_HEIGHT - (y * scale)
+        """
+        pages = self.data.get('pages', [])
+        page_info = pages[page_num - 1] if page_num - 1 < len(pages) else {}
+        size = page_info.get('size', {'width': 17000, 'height': 11000, 'unit': 'mils'})
+
+        # Page dimensions in internal units (mils * 100 = internal units)
+        page_width_units = size.get('width', 17000) * 100  # 17000 mils = 1,700,000 units
+        page_height_units = size.get('height', 11000) * 100  # 11000 mils = 1,100,000 units
+
+        # Scale to fit PDF page
+        scale_x = self.PAGE_WIDTH / page_width_units
+        scale_y = self.PAGE_HEIGHT / page_height_units
+
+        pdf_x = x * scale_x
+        # Flip Y for top_left origin
+        coord_origin = page_info.get('coordinate_origin', 'top_left')
+        if coord_origin == 'top_left':
+            pdf_y = self.PAGE_HEIGHT - (y * scale_y)
+        else:
+            pdf_y = y * scale_y
+
+        return pdf_x, pdf_y
+
     def _calculate_page_bounds(self, page_num: int) -> Tuple[float, float, float, float]:
         """Calculate bounding box of content on a page."""
         prims = self.primitives_by_page.get(page_num, [])
@@ -184,52 +219,55 @@ class SchematicPDFRenderer:
         if page_num in self._page_transforms:
             return self._page_transforms[page_num]
 
-        min_x, min_y, max_x, max_y = self._calculate_page_bounds(page_num)
+        # Use fixed page size from metadata instead of auto-fitting to content
+        pages = self.data.get('pages', [])
+        page_info = pages[page_num - 1] if page_num - 1 < len(pages) else {}
+        size = page_info.get('size', {'width': 17000, 'height': 11000, 'unit': 'mils'})
+        width_mils = size.get('width', 17000)
+        height_mils = size.get('height', 11000)
+        # Convert mils to internal units: mils -> inches (/1000) -> units
+        data_width_units = (width_mils / 1000.0) * self.UNITS_PER_INCH
+        data_height_units = (height_mils / 1000.0) * self.UNITS_PER_INCH
 
-        data_width = max_x - min_x
-        data_height = max_y - min_y
-
-        if data_width <= 0 or data_height <= 0:
-            result = (self.SCALE, 0, 0)
-            self._page_transforms[page_num] = result
-            return result
-
-        # Calculate scale to fit with 5% margin
-        margin = 0.05
-        usable_width = self.PAGE_WIDTH * (1 - 2 * margin)
-        usable_height = self.PAGE_HEIGHT * (1 - 2 * margin)
-
-        scale_x = usable_width / data_width
-        scale_y = usable_height / data_height
+        # Scale to fit the page exactly
+        usable_width = self.PAGE_WIDTH
+        usable_height = self.PAGE_HEIGHT
+        scale_x = usable_width / data_width_units
+        scale_y = usable_height / data_height_units
         scale = min(scale_x, scale_y)
 
-        # Calculate offset to shift content to positive coords and center
-        # First shift to origin (add -min_x, -min_y)
-        # Then add margin offset
-        margin_offset_x = self.PAGE_WIDTH * margin / scale
-        margin_offset_y = self.PAGE_HEIGHT * margin / scale
-
-        # Center the content
-        center_offset_x = (usable_width / scale - data_width) / 2
-        center_offset_y = (usable_height / scale - data_height) / 2
-
-        offset_x = -min_x + margin_offset_x + center_offset_x
-        offset_y = -min_y + margin_offset_y + center_offset_y
+        # No extra margins; origin stays at 0,0 in page coords (top-left handled elsewhere)
+        offset_x = 0
+        offset_y = 0
 
         result = (scale, offset_x, offset_y)
         self._page_transforms[page_num] = result
 
         # Debug: print transform for each page
-        print(f"    Page {page_num} auto-fit: bounds=({min_x:.0f}, {min_y:.0f}) to ({max_x:.0f}, {max_y:.0f}), "
-              f"span=({data_width:.0f} x {data_height:.0f}), scale={scale:.6f}")
+        print(f"    Page {page_num} fixed-fit: page_size_mils=({width_mils} x {height_mils}), "
+              f"units=({data_width_units:.0f} x {data_height_units:.0f}), scale={scale:.6f}")
 
         return result
 
     def to_pdf_coords_page(self, x: float, y: float, page_num: int) -> Tuple[float, float]:
-        """Transform coordinates with page-specific scale and offset."""
+        """Transform coordinates with page-specific scale and offset.
+
+        Y-axis handling is DATA-DRIVEN based on coordinate_origin:
+        - 'bottom_left': No flip needed (Allegro and PDF both use Y-up from bottom)
+        - 'top_left': Flip Y (would need pdf_y = PAGE_HEIGHT - pdf_y)
+        """
         scale, offset_x, offset_y = self._get_page_transform(page_num)
         pdf_x = (x + offset_x) * scale
         pdf_y = (y + offset_y) * scale
+
+        # Check page's coordinate_origin - only flip if origin is top_left
+        pages = self.data.get('pages', [])
+        if page_num < len(pages):
+            coord_origin = pages[page_num].get('coordinate_origin', 'bottom_left')
+            if coord_origin == 'top_left':
+                pdf_y = self.PAGE_HEIGHT - pdf_y
+            # 'bottom_left' = no flip (both Allegro and PDF use bottom-left origin with Y-up)
+
         return pdf_x, pdf_y
 
     def parse_color(self, color_str: str):
@@ -247,7 +285,7 @@ class SchematicPDFRenderer:
         print("REPORTLAB PDF RENDERER")
         print(f"{'='*60}")
         print(f"Output: {output_path}")
-        print(f"Page size: {self.PAGE_WIDTH_INCHES}\" x {self.PAGE_HEIGHT_INCHES}\" (A4 Landscape)")
+        print(f"Page size: {self.PAGE_WIDTH_INCHES}\" x {self.PAGE_HEIGHT_INCHES}\" (ANSI B)")
         print(f"Scale factor: {self.SCALE}")
 
         # Create PDF canvas
@@ -285,6 +323,8 @@ class SchematicPDFRenderer:
         c.rect(0, 0, self.PAGE_WIDTH, self.PAGE_HEIGHT, stroke=0, fill=1)
 
         # Render layers in order (back to front)
+        # 0. Titleblock / border if available
+        self._render_titleblock(c, page_num)
         # 1. Wire segments
         wires_on_page = self._render_wires(c, page_num)
 
@@ -361,6 +401,210 @@ class SchematicPDFRenderer:
             'font_size': 8,
             'font_color': '#000000'
         }
+
+    def _render_titleblock(self, c: canvas.Canvas, page_num: int) -> None:
+        """Render ANSI titleblock/border based on page metadata.
+
+        Uses FIXED page coordinate transform (not content-based auto-fit).
+        """
+        pages = self.data.get('pages', [])
+        page_info = pages[page_num - 1] if page_num - 1 < len(pages) else {}
+        # Determine which titleblock to use
+        standard = page_info.get('pageBorderStandard', 'ANSI')
+        size = page_info.get('pageBorderSize', 'B')
+
+        # Map (standard, size) to symbol key in cache
+        tb_map = {
+            ('ANSI', 'B'): 'orcadlib##titleblockansilarge',
+            ('ANSI', 'A'): 'orcadlib##titleblockansismall',
+        }
+        symbol_key = tb_map.get((standard, size))
+        if not symbol_key:
+            return
+
+        symbol = self.symbol_library.get(symbol_key, {})
+        if not symbol:
+            symbol = self._parse_titleblock_from_cache(symbol_key)
+        if not symbol:
+            return
+
+        # Draw lines using FIXED coordinate transform
+        for line in symbol.get('lines', []):
+            pts = line.get('points', [])
+            if len(pts) < 2:
+                continue
+            style_ref = line.get('style_ref', '')
+            style = self._get_style(style_ref)
+            line_width = style.get('line_width', 1) * 0.5
+            line_color = self.parse_color(style.get('line_color', '#FFFFFF'))
+            c.setStrokeColor(line_color)
+            c.setLineWidth(line_width)
+            x1, y1 = self.to_pdf_coords_fixed(pts[0]['x'], pts[0]['y'], page_num)
+            x2, y2 = self.to_pdf_coords_fixed(pts[1]['x'], pts[1]['y'], page_num)
+            c.line(x1, y1, x2, y2)
+
+        # Draw text labels using FIXED coordinate transform
+        for label in symbol.get('labels', []):
+            pos = label.get('position', {})
+            txt = label.get('default_value', '') or label.get('name', '')
+            style_ref = label.get('style_ref', '')
+            style = self._get_style(style_ref)
+            font_size = style.get('font_size', 8)
+            font_color = self.parse_color(style.get('font_color', '#FFFFFF'))
+            rotation = label.get('text_properties', {}).get('rotation', 0)
+
+            c.setFont("Helvetica", font_size)
+            c.setFillColor(font_color)
+            pdf_x, pdf_y = self.to_pdf_coords_fixed(pos.get('x', 0), pos.get('y', 0), page_num)
+            if rotation:
+                c.saveState()
+                c.translate(pdf_x, pdf_y)
+                c.rotate(rotation)
+                c.drawString(0, 0, txt)
+                c.restoreState()
+            else:
+                c.drawString(pdf_x, pdf_y, txt)
+
+        # Draw zones/grid if metadata present
+        self._render_zones(c, page_num)
+
+    def _render_zones(self, c: canvas.Canvas, page_num: int) -> None:
+        """Render zone grid and labels using pageBorderZones metadata.
+
+        Uses FIXED page coordinate transform (not content-based auto-fit).
+        Zone format: "true#8#4#TBLLRN" = enabled, 8 columns, 4 rows, label positions
+        """
+        pages = self.data.get('pages', [])
+        page_info = pages[page_num - 1] if page_num - 1 < len(pages) else {}
+        zones = page_info.get('pageBorderZones', '')
+        if not zones or not isinstance(zones, str):
+            return
+        try:
+            parts = zones.split('#')
+            enabled = parts[0].lower() == 'true'
+            cols = int(parts[1])
+            rows = int(parts[2])
+        except Exception:
+            return
+        if not enabled or cols <= 0 or rows <= 0:
+            return
+
+        # Page size in internal units (mils * 100)
+        size = page_info.get('size', {'width': 17000, 'height': 11000, 'unit': 'mils'})
+        width_units = size.get('width', 17000) * 100  # e.g., 1,700,000
+        height_units = size.get('height', 11000) * 100  # e.g., 1,100,000
+
+        col_step = width_units / cols
+        row_step = height_units / rows
+
+        # Draw outer border using FIXED coordinates
+        c.setStrokeColor(self.parse_color('#FFFFFF'))
+        c.setLineWidth(1.5)
+
+        # Border rectangle - draw at page edges
+        # Use small margin for border inset
+        margin = 20000  # ~0.08 inches inset
+        x0, y0 = self.to_pdf_coords_fixed(margin, margin, page_num)
+        x1, y1 = self.to_pdf_coords_fixed(width_units - margin, height_units - margin, page_num)
+        c.rect(min(x0, x1), min(y0, y1), abs(x1 - x0), abs(y1 - y0), stroke=1, fill=0)
+
+        # Zone tick marks and labels
+        c.setLineWidth(0.5)
+        c.setFont("Helvetica", 10)
+        c.setFillColor(self.parse_color('#FFFFFF'))
+
+        tick_len = 15000  # Tick mark length in internal units
+
+        # Column labels (1-8) at top and bottom
+        for i in range(cols):
+            x = margin + (i + 0.5) * col_step  # Center of zone
+            label = str(i + 1)
+
+            # Top tick and label
+            tx, ty = self.to_pdf_coords_fixed(x, margin, page_num)
+            c.drawCentredString(tx, ty + 5, label)
+
+            # Bottom tick and label
+            bx, by = self.to_pdf_coords_fixed(x, height_units - margin, page_num)
+            c.drawCentredString(bx, by - 12, label)
+
+            # Vertical tick marks at zone boundaries (except at edges)
+            if i > 0:
+                tick_x = margin + i * col_step
+                # Top tick
+                t1x, t1y = self.to_pdf_coords_fixed(tick_x, margin, page_num)
+                t2x, t2y = self.to_pdf_coords_fixed(tick_x, margin + tick_len, page_num)
+                c.line(t1x, t1y, t2x, t2y)
+                # Bottom tick
+                b1x, b1y = self.to_pdf_coords_fixed(tick_x, height_units - margin, page_num)
+                b2x, b2y = self.to_pdf_coords_fixed(tick_x, height_units - margin - tick_len, page_num)
+                c.line(b1x, b1y, b2x, b2y)
+
+        # Row labels (A-D) at left and right
+        for j in range(rows):
+            y = margin + (j + 0.5) * row_step  # Center of zone
+            label = chr(ord('A') + j)
+
+            # Left label
+            lx, ly = self.to_pdf_coords_fixed(margin, y, page_num)
+            c.drawString(lx - 12, ly - 4, label)
+
+            # Right label
+            rx, ry = self.to_pdf_coords_fixed(width_units - margin, y, page_num)
+            c.drawString(rx + 4, ry - 4, label)
+
+            # Horizontal tick marks at zone boundaries (except at edges)
+            if j > 0:
+                tick_y = margin + j * row_step
+                # Left tick
+                l1x, l1y = self.to_pdf_coords_fixed(margin, tick_y, page_num)
+                l2x, l2y = self.to_pdf_coords_fixed(margin + tick_len, tick_y, page_num)
+                c.line(l1x, l1y, l2x, l2y)
+                # Right tick
+                r1x, r1y = self.to_pdf_coords_fixed(width_units - margin, tick_y, page_num)
+                r2x, r2y = self.to_pdf_coords_fixed(width_units - margin - tick_len, tick_y, page_num)
+                c.line(r1x, r1y, r2x, r2y)
+
+    def _parse_titleblock_from_cache(self, symbol_key: str) -> Dict:
+        """Parse a titleblock symbol directly from cache if not in symbol_library."""
+        try:
+            path = Path("cache") / f"{symbol_key}##sym_1.ascii"
+            content = path.read_text(errors='ignore')
+        except Exception:
+            return {}
+
+        symbol = {'lines': [], 'labels': []}
+
+        # Lines (Tag 25) pattern
+        line_pattern = re.compile(
+            r'<\s*25\s*/>.*?'
+            r'<\s*45\s*/>\s*<\s*<\s*\d+\s*/>\s*<\s*(-?\d+)\s*/>\s*<\s*\d+\s*/>\s*<\s*(-?\d+)\s*/>\s*/>\s*'
+            r'<\s*45\s*/>\s*<\s*<\s*\d+\s*/>\s*<\s*(-?\d+)\s*/>\s*<\s*\d+\s*/>\s*<\s*(-?\d+)\s*/>\s*/>',
+            re.DOTALL
+        )
+        for m in line_pattern.finditer(content):
+            x1, y1, x2, y2 = map(int, m.groups())
+            symbol['lines'].append({'points': [{'x': x1, 'y': y1}, {'x': x2, 'y': y2}], 'style_ref': 'Style1'})
+
+        # Text (Tag 29) pattern: label name then position
+        text_pattern = re.compile(
+            r'<\s*29\s*/>.*?<\s*([A-Za-z0-9_ :]+)\s*/>.*?'
+            r'<\s*45\s*/>\s*<\s*<\s*\d+\s*/>\s*<\s*(-?\d+)\s*/>\s*<\s*\d+\s*/>\s*<\s*(-?\d+)\s*/>\s*/>',
+            re.DOTALL
+        )
+        for m in text_pattern.finditer(content):
+            name = m.group(1).strip()
+            x = int(m.group(2))
+            y = int(m.group(3))
+            symbol['labels'].append({
+                'name': name,
+                'default_value': name,
+                'position': {'x': x, 'y': y},
+                'style_ref': 'Style1',
+                'text_properties': {'rotation': 0}
+            })
+
+        return symbol
 
     def _render_symbols(self, c: canvas.Canvas, page_num: int) -> int:
         """Render component symbols for a page."""
@@ -542,14 +786,42 @@ class SchematicPDFRenderer:
             else:
                 font_color = self.parse_color(extracted_color)
 
+            # Get text rotation and justification from text_properties
+            text_props = prim.get('text_properties', {})
+            rotation = text_props.get('rotation', 0)
+
+            # Resolve alignment: prefer explicit alignment string, else derive from justification code
+            justification = text_props.get('justification', text_props.get('alignment'))
+            if justification in [1, 3, 'center']:
+                align = 'center'
+            elif justification in [2, 'right']:
+                align = 'right'
+            else:
+                align = 'left'
+
             # Set text style
             c.setFont("Helvetica", font_size)
             c.setFillColor(font_color)
 
-            # Draw text with baseline adjustment
+            # Compute anchor-adjusted position before rotation
             pdf_x, pdf_y = self.to_pdf_coords_page(x, y, page_num)
-            pdf_y += font_size * 0.3  # Baseline adjustment for overlap prevention
-            c.drawString(pdf_x, pdf_y, text_content)
+            text_width = stringWidth(text_content, "Helvetica", font_size)
+            if align == 'center':
+                pdf_x -= text_width / 2.0
+            elif align == 'right':
+                pdf_x -= text_width
+
+            if rotation != 0:
+                # Rotate around the anchor point
+                c.saveState()
+                c.translate(pdf_x, pdf_y)
+                c.rotate(rotation)  # ReportLab uses degrees CCW
+                c.drawString(0, 0, text_content)
+                c.restoreState()
+            else:
+                # Small baseline tweak for unrotated text
+                pdf_y += font_size * 0.3
+                c.drawString(pdf_x, pdf_y, text_content)
 
             count += 1
             self.stats['labels_drawn'] += 1
