@@ -4,12 +4,12 @@
 **PDF Ground Truth:** `/Users/bhavyekhetan/Downloads/Allegro_1/brain_board/brain_board.pdf`
 
 ## Text Extraction Verification
-- **Text Primitives in JSON:** 2139
+- **Text Primitives in JSON:** 2072
 - **Sample JSON Text:** `P0_USB_DP, P0_USB_DN, P0_USB_ID, PS_POR_L, P1_USB_24M_REFCLK, P0_VBUS, P1_USB_DIR, VCC_BAR, VDD18_2, VDD18_1`...
 
 ### Internal Consistency (RefDes in JSON Text)
-- **RefDes found in JSON Text:** 556 / 557
-- **Consistency Rate:** 99.8%
+- **RefDes found in JSON Text:** 518 / 557
+- **Consistency Rate:** 93.0%
 
 ## Summary
 - **Components Found in PDF:** 346
