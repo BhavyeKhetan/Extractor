@@ -1,0 +1,4 @@
+DEFINE worklib ./output
+DEFINE standard "$CONCEPT_INST_DIR/share/library/standard"
+DEFINE orcadlib "$CONCEPT_INST_DIR/share/cdssetup/canvas/resources/capture/library/capsym"
+INCLUDE C:\AllegroSystemCapture\_CustomerData\BrainBoard\brain_board_standlone\reflib/model_sym/cds.lib

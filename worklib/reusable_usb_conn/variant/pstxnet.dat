@@ -1,0 +1,262 @@
+FILE_TYPE = EXPANDEDNETLIST;
+{ Packager-XL run on 09-Mar-2021 AT 18:04:19 CONSTRAINTS_VIEW_GENERATED }
+NET_NAME
+'USB_VBUS'
+ '@worklib.reusable_usb_conn(tbl_1):\N1039138817\':
+ C_SIGNAL='@worklib.reusable_usb_conn(tbl_1):\N1039138817\',
+ CDS_CELL='vcc',
+ CDS_LIBRARY='standard',
+ CDS_VIEW='sym_1',
+ PHYS_NET_NAME='USB_VBUS',
+ VOLTAGE='5 V';
+NODE_NAME     C63 1
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138817\':
+ '1': PN='1',
+ XNET_PINS='1',
+ CDS_PINID='\M1039138818\';
+NODE_NAME     J7 1
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138820\':
+ 'vbus': PN='1',
+ CDS_PINID='\M1039138831\';
+NODE_NAME     R100 2
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138821\':
+ '2': PN='2',
+ CDS_PINID='\M1039138833\';
+NODE_NAME     R103 2
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138822\':
+ '2': PN='2',
+ CDS_PINID='\M1039138835\';
+NET_NAME
+'GND'
+ '@worklib.reusable_usb_conn(tbl_1):\N1039138818\':
+ C_SIGNAL='@worklib.reusable_usb_conn(tbl_1):\N1039138818\',
+ CDS_CELL='gnd',
+ CDS_LIBRARY='standard',
+ CDS_VIEW='sym_1',
+ PHYS_NET_NAME='GND',
+ VOLTAGE='0 V';
+NODE_NAME     C63 2
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138817\':
+ '2': PN='2',
+ XNET_PINS='1',
+ CDS_PINID='\M1039138817\';
+NODE_NAME     C261 2
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138818\':
+ '2': PN='2',
+ XNET_PINS='2',
+ CDS_PINID='\M1039138819\';
+NODE_NAME     CR6 1
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138819\':
+ 'c': PN='1',
+ CDS_PINID='\M1039138821\';
+NODE_NAME     J7 5
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138820\':
+ 'gnd': PN='5',
+ CDS_PINID='\M1039138828\';
+NET_NAME
+'P1_USB_DN'
+ '@worklib.reusable_usb_conn(tbl_1):\N1039138820\':
+ C_SIGNAL='@worklib.reusable_usb_conn(tbl_1):\N1039138820\',
+ PHYS_NET_NAME='P1_USB_DN';
+NODE_NAME     J7 2
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138820\':
+ 'd*': PN='2',
+ CDS_PINID='\M1039138830\';
+NODE_NAME     U17 19
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'dm': PN='19',
+ CDS_PINID='\M1039138853\';
+NET_NAME
+'N21123442'
+ '@worklib.reusable_usb_conn(tbl_1):\N1039138821\':
+ C_SIGNAL='@worklib.reusable_usb_conn(tbl_1):\N1039138821\',
+ PHYS_NET_NAME='N21123442';
+NODE_NAME     C261 1
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138818\':
+ '1': PN='1',
+ XNET_PINS='1',
+ CDS_PINID='\M1039138820\';
+NODE_NAME     J7 9
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138820\':
+ 'shld4': PN='9',
+ CDS_PINID='\M1039138823\';
+NODE_NAME     J7 8
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138820\':
+ 'shld3': PN='8',
+ CDS_PINID='\M1039138824\';
+NODE_NAME     J7 7
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138820\':
+ 'shld2': PN='7',
+ CDS_PINID='\M1039138826\';
+NODE_NAME     J7 6
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138820\':
+ 'shld1': PN='6',
+ CDS_PINID='\M1039138827\';
+NET_NAME
+'N24967627'
+ '@worklib.reusable_usb_conn(tbl_1):\N1039138822\':
+ C_SIGNAL='@worklib.reusable_usb_conn(tbl_1):\N1039138822\',
+ PHYS_NET_NAME='N24967627';
+NODE_NAME     CR6 2
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138819\':
+ 'a': PN='2',
+ CDS_PINID='\M1039138822\';
+NODE_NAME     R100 1
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138821\':
+ '1': PN='1',
+ CDS_PINID='\M1039138832\';
+NET_NAME
+'P1_USB_DP'
+ '@worklib.reusable_usb_conn(tbl_1):\N1039138823\':
+ C_SIGNAL='@worklib.reusable_usb_conn(tbl_1):\N1039138823\',
+ PHYS_NET_NAME='P1_USB_DP';
+NODE_NAME     J7 3
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138820\':
+ 'd_p': PN='3',
+ CDS_PINID='\M1039138829\';
+NODE_NAME     U17 18
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'dp': PN='18',
+ CDS_PINID='\M1039138854\';
+NET_NAME
+'N21123707'
+ '@worklib.reusable_usb_conn(tbl_1):\N1039138824\':
+ C_SIGNAL='@worklib.reusable_usb_conn(tbl_1):\N1039138824\',
+ PHYS_NET_NAME='N21123707';
+NODE_NAME     R103 1
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138822\':
+ '1': PN='1',
+ CDS_PINID='\M1039138834\';
+NODE_NAME     U17 22
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'vbus': PN='22',
+ CDS_PINID='\M1039138847\';
+NET_NAME
+'NC'
+ 'NC':
+ C_SIGNAL='NC';
+NODE_NAME     J7 4
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138820\':
+ 'id': PN='4',
+ CDS_PINID='\M1039138825\';
+NODE_NAME     U17 32
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'vddio': PN='32',
+ CDS_PINID='\M1039138836\';
+NODE_NAME     U17 30
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'vdd18_2': PN='30',
+ CDS_PINID='\M1039138837\';
+NODE_NAME     U17 28
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'vdd18_1': PN='28',
+ CDS_PINID='\M1039138838\';
+NODE_NAME     U17 21
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'vbat': PN='21',
+ CDS_PINID='\M1039138839\';
+NODE_NAME     U17 20
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'vdd33': PN='20',
+ CDS_PINID='\M1039138840\';
+NODE_NAME     U17 33
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'gnd': PN='33',
+ CDS_PINID='\M1039138841\';
+NODE_NAME     U17 12
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'nc': PN='12',
+ CDS_PINID='\M1039138842\';
+NODE_NAME     U17 8
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'refsel<0>': PN='8',
+ CDS_PINID='\M1039138843\(0)';
+NODE_NAME     U17 11
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'refsel<1>': PN='11',
+ CDS_PINID='\M1039138843\(1)';
+NODE_NAME     U17 14
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'refsel<2>': PN='14',
+ CDS_PINID='\M1039138843\(2)';
+NODE_NAME     U17 27
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'resetb': PN='27',
+ CDS_PINID='\M1039138844\';
+NODE_NAME     U17 24
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'rbias': PN='24',
+ CDS_PINID='\M1039138845\';
+NODE_NAME     U17 23
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'id': PN='23',
+ CDS_PINID='\M1039138846\';
+NODE_NAME     U17 17
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'cpen': PN='17',
+ CDS_PINID='\M1039138848\';
+NODE_NAME     U17 15
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'spk_l': PN='15',
+ CDS_PINID='\M1039138849\';
+NODE_NAME     U17 16
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'spk_r': PN='16',
+ CDS_PINID='\M1039138850\';
+NODE_NAME     U17 25
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'xo': PN='25',
+ CDS_PINID='\M1039138851\';
+NODE_NAME     U17 26
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'refclk': PN='26',
+ CDS_PINID='\M1039138852\';
+NODE_NAME     U17 1
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'clkout': PN='1',
+ CDS_PINID='\M1039138855\';
+NODE_NAME     U17 2
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'nxt': PN='2',
+ CDS_PINID='\M1039138856\';
+NODE_NAME     U17 29
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'stp': PN='29',
+ CDS_PINID='\M1039138857\';
+NODE_NAME     U17 31
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'dir': PN='31',
+ CDS_PINID='\M1039138858\';
+NODE_NAME     U17 3
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'data<0>': PN='3',
+ CDS_PINID='\M1039138859\(0)';
+NODE_NAME     U17 4
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'data<1>': PN='4',
+ CDS_PINID='\M1039138859\(1)';
+NODE_NAME     U17 5
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'data<2>': PN='5',
+ CDS_PINID='\M1039138859\(2)';
+NODE_NAME     U17 6
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'data<3>': PN='6',
+ CDS_PINID='\M1039138859\(3)';
+NODE_NAME     U17 7
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'data<4>': PN='7',
+ CDS_PINID='\M1039138859\(4)';
+NODE_NAME     U17 9
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'data<5>': PN='9',
+ CDS_PINID='\M1039138859\(5)';
+NODE_NAME     U17 10
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'data<6>': PN='10',
+ CDS_PINID='\M1039138859\(6)';
+NODE_NAME     U17 13
+ '@worklib.reusable_usb_conn(tbl_1):\I1039138823\':
+ 'data<7>': PN='13',
+ CDS_PINID='\M1039138859\(7)';
+END.

@@ -1,0 +1,16 @@
+{Physical Netlist Generation for design : 'BRAIN_BOARD'}
+
+14-Jun-2024 AT 21:56:12: Reading Library data
+
+14-Jun-2024 AT 21:56:12: Generating file: pstxprt.dat
+
+14-Jun-2024 AT 21:56:14: Generating file: pstchip.dat
+
+14-Jun-2024 AT 21:56:14: Generating file: pstxnet.dat
+
+
+
+Summary: 	0 errors, 0 warnings found
+    Start time   21:56:12
+    End time     21:56:14
+    Elapsed time  0:00:02

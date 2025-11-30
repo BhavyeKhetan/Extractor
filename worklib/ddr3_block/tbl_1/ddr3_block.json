@@ -1,0 +1,1351 @@
+{
+    "objects": [
+        {
+            "id": "2753FEBE-863D-457F-B7CC-A5D862D71F76",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "CDS_LIBRARY_ID": "discrete:CAP",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP",
+                "CDS_PART_NAME": "CAP",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "PART_NAME": "CAP",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL"
+            },
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "1B2DB3C4-F4EC-45A8-BCAC-3C4AB664E0CA",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.ddr3_block(tbl_1):\\I167231491\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C97"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.ddr3_block(tbl_1):\\I167231493\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C99"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.ddr3_block(tbl_1):\\I167231494\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C100"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.ddr3_block(tbl_1):\\I167231495\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C101"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.ddr3_block(tbl_1):\\I167231496\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C102"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.ddr3_block(tbl_1):\\I167231497\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C103"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.ddr3_block(tbl_1):\\I167231489\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C95"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.ddr3_block(tbl_1):\\I167231490\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C96"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.ddr3_block(tbl_1):\\I167231498\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C104"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.ddr3_block(tbl_1):\\I167231499\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C105"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.ddr3_block(tbl_1):\\I167231500\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C106"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.ddr3_block(tbl_1):\\I167231501\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C107"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.ddr3_block(tbl_1):\\I167231502\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C108"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.ddr3_block(tbl_1):\\I167231503\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C109"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.ddr3_block(tbl_1):\\I167231504\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C110"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.ddr3_block(tbl_1):\\I167231505\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C111"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.ddr3_block(tbl_1):\\I167231506\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C112"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.ddr3_block(tbl_1):\\I167231507\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C113"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION_TYPE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NAME",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PSPICETEMPLATE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "1B2DB3C4-F4EC-45A8-BCAC-3C4AB664E0CA",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "capacitor"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "ECCCC39E-B800-423A-8A66-419140DACFF7",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "ECCCC39E-B800-423A-8A66-419140DACFF7",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "discrete"
+            }
+        },
+        {
+            "id": "2F05B8F3-7642-44BE-9DE4-9A8DCC3264C8",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "CDS_LIBRARY_ID": "discrete:CAP",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP",
+                "CDS_PART_NAME": "CAP",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "PART_NAME": "CAP",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "SIGNAL_MODEL": "CAP0402_0P1UF_X5R_35V_0.1UF"
+            },
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "1B2DB3C4-F4EC-45A8-BCAC-3C4AB664E0CA",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.ddr3_block(tbl_1):\\I167231492\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C98"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION_TYPE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NAME",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PSPICETEMPLATE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "SIGNAL_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "1E9CBE6B-2AB5-49FD-BA3A-2259485FF2C6",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "CDS_LIBRARY_ID": "discrete:RES",
+                "CDS_LIBRARY_PHYSICAL_ID": "RES",
+                "CDS_PART_NAME": "RES",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "PART_NAME": "RES",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL"
+            },
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "6E9CD40F-AD56-4626-B002-E1E1967B65A1",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.ddr3_block(tbl_1):\\I167231508\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R69"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.ddr3_block(tbl_1):\\I167231509\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R70"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.ddr3_block(tbl_1):\\I167231511\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R119"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.ddr3_block(tbl_1):\\I167231512\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R120"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION_TYPE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NAME",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PSPICETEMPLATE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "6E9CD40F-AD56-4626-B002-E1E1967B65A1",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "resistor"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "ECCCC39E-B800-423A-8A66-419140DACFF7",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "E3058FB9-82B1-4D0C-B0DB-3EC060114F1A",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "CDS_LIBRARY_ID": "discrete:RES",
+                "CDS_LIBRARY_PHYSICAL_ID": "RES",
+                "CDS_PART_NAME": "RES",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "NO_XNET_CONNECTION": "1",
+                "PART_NAME": "RES",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL"
+            },
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "6E9CD40F-AD56-4626-B002-E1E1967B65A1",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.ddr3_block(tbl_1):\\I167231510\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R115"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION_TYPE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "NO_XNET_CONNECTION",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NAME",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PSPICETEMPLATE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "FC858A05-4347-44EA-BC44-76F0F406606B",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "ASI_MODEL": "MT41K256M32SLD",
+                "CDS_LIBRARY_ID": "IC01:1591655900198",
+                "CDS_LIBRARY_PHYSICAL_ID": "DDR3_256MX32-202000068,FBGA136_11X14X1P1_P8MMP,DDR3_256MX32,MICRON,MT41K256M32SLD-125:E",
+                "CDS_PART_NAME": "DDR3_256MX32-202000068,FBGA136B",
+                "DATASHEET": "micron_MT41K_family.pdf,micron_MT41K256M32.pdf",
+                "IMPLEMENTATION": "MT41K256M32SLD",
+                "JEDEC_TYPE": "FBGA136_11X14X1P1_P8MMP",
+                "MFG": "MICRON",
+                "MPN": "MT41K256M32SLD-125:E",
+                "PART_NAME": "DDR3_256MX32",
+                "PART_NUMBER": "202000068",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "MT41K256M32SLD"
+            },
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "7A6EE48B-35C5-4324-A6BD-221158138E74",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.ddr3_block(tbl_1):\\I1039646746\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "U20"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "ASI_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "DATASHEET",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "JEDEC_TYPE",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MFG",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MPN",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NAME",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NUMBER",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "ROHS",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "SIGNAL_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "7A6EE48B-35C5-4324-A6BD-221158138E74",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "ddr3_256mx32"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "19271629-8AC5-409C-8F34-69DA6439625E",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "19271629-8AC5-409C-8F34-69DA6439625E",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "ic"
+            }
+        },
+        {
+            "id": "EC6985DE-946A-48A6-B6DB-5E02F377CC78",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "tap"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "A73184DC-E5A5-4C45-9B46-2440E8635B59",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "standardpart": "Yes",
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "sym_6",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_6"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65546"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "A73184DC-E5A5-4C45-9B46-2440E8635B59",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "standard"
+            }
+        },
+        {
+            "id": "5188083D-7FD1-4752-B32A-83E6B0E00E40",
+            "type": "part",
+            "vault": "design",
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "EC6985DE-946A-48A6-B6DB-5E02F377CC78",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "F1895DCD-555C-4F87-9874-E349A5D01057",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "titleblock4"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "5CF138D8-4A9E-4EF4-92BB-D57AD696B9BE",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "standardpart": "Yes",
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "sym_1",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65582"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "5CF138D8-4A9E-4EF4-92BB-D57AD696B9BE",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "orcadlib"
+            }
+        },
+        {
+            "id": "654A403B-0A9A-4433-AEC4-94F6ACE3CE69",
+            "type": "part",
+            "vault": "design",
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "F1895DCD-555C-4F87-9874-E349A5D01057",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "452090D8-09C2-4AD5-B77A-C2A0BA7DD32E",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "vcc_bar"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "A73184DC-E5A5-4C45-9B46-2440E8635B59",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "standardpart": "Yes",
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "sym_1",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65542"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "36ED23F9-466A-4C14-91ED-C4C231D4BFD0",
+            "type": "part",
+            "vault": "design",
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "452090D8-09C2-4AD5-B77A-C2A0BA7DD32E",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "FF399889-E24B-4951-861A-DE63BB149EEE",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "ioport"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "A73184DC-E5A5-4C45-9B46-2440E8635B59",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "standardpart": "Yes",
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "sym_1",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65574"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "0F212E02-D63F-45B0-8C9C-4C15F2FB0F1E",
+            "type": "part",
+            "vault": "design",
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "FF399889-E24B-4951-861A-DE63BB149EEE",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "BD0974FB-EB4F-472A-86BD-B1242F48EA20",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "gnd"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "A73184DC-E5A5-4C45-9B46-2440E8635B59",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "standardpart": "Yes",
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "sym_1",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65542"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "70ACF75A-797D-4A8B-BC54-DD2F64FFE8BF",
+            "type": "part",
+            "vault": "design",
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "BD0974FB-EB4F-472A-86BD-B1242F48EA20",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "ACB730D4-5A75-48A1-8A8D-9C2A170824A4",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "nc"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "A73184DC-E5A5-4C45-9B46-2440E8635B59",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "standardpart": "Yes",
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "sym_1",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65592"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "3FFCAF79-A196-475D-BE46-418A387D306C",
+            "type": "part",
+            "vault": "design",
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "ACB730D4-5A75-48A1-8A8D-9C2A170824A4",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "BD403690-F90B-4CAE-A6EF-7F506D87B38B",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "inport"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "A73184DC-E5A5-4C45-9B46-2440E8635B59",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "standardpart": "Yes",
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "sym_1",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65574"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CBCA90B9-A1DD-4D14-9D0B-C56680993F3B",
+            "type": "part",
+            "vault": "design",
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "BD403690-F90B-4CAE-A6EF-7F506D87B38B",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

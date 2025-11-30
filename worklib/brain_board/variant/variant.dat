@@ -1,0 +1,5049 @@
+FILE_TYPE=EXPANDEDPARTLIST;
+{ Variant Editor run on 21:54:58 Friday, June 14, 2024 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='BRAIN_BOARD';
+ POST_TIME='21:54:58 Friday, June 14, 2024';
+ SOURCE_TOOL='PACKAGER_XL';
+ ALTERNATE_VALUE = '99' ;
+ VPROP_ALPHA = '' ;
+ VDNI_ALPHA = '' ;
+ VDES_ALPHA = '' ;
+ VAR_DEF_ALPHA = '' ;
+ VAR_0_ALPHA = '' ;
+END_DIRECTIVES;
+
+PART_NAME
+ Y2 'XTAL':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231530\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231530\';
+
+PART_NAME
+ U9 '88E1318-202000062,QFN48_7SQXP5B':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1039646766\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+039646766\';
+
+SECTION_NUMBER 2
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1039646765\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+039646765\';
+
+PART_NAME
+ R79 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231526\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231526\';
+
+PART_NAME
+ R78 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231525\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231525\';
+
+PART_NAME
+ R77 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231524\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231524\';
+
+PART_NAME
+ R74 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231523\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231523\';
+
+PART_NAME
+ R73 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231522\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231522\';
+
+PART_NAME
+ R72 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231521\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231521\';
+
+PART_NAME
+ R71 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231520\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231520\';
+
+PART_NAME
+ R297 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231527\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231527\';
+
+PART_NAME
+ J5 'RJ45-10_100_1000-BELFUSE-20200B':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1039646763\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+039646763\';
+
+PART_NAME
+ FB7 'FERRITE':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231518\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231518\';
+
+PART_NAME
+ FB6 'FERRITE':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231517\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231517\';
+
+PART_NAME
+ FB5 'FERRITE':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231516\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231516\';
+
+PART_NAME
+ FB4 'FERRITE':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231515\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231515\';
+
+PART_NAME
+ FB3 'FERRITE':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231514\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231514\';
+
+PART_NAME
+ C85 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231513\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231513\';
+
+PART_NAME
+ C62 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231512\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231512\';
+
+PART_NAME
+ C50 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231511\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231511\';
+
+PART_NAME
+ C49 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231510\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231510\';
+
+PART_NAME
+ C48 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231509\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231509\';
+
+PART_NAME
+ C47 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231508\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231508\';
+
+PART_NAME
+ C46 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231507\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231507\';
+
+PART_NAME
+ C45 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231506\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231506\';
+
+PART_NAME
+ C44 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231505\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231505\';
+
+PART_NAME
+ C43 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231504\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231504\';
+
+PART_NAME
+ C42 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231503\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231503\';
+
+PART_NAME
+ C41 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231502\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231502\';
+
+PART_NAME
+ C40 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231501\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231501\';
+
+PART_NAME
+ C39 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231500\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231500\';
+
+PART_NAME
+ C38 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231499\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231499\';
+
+PART_NAME
+ C37 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231498\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231498\';
+
+PART_NAME
+ C36 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231497\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231497\';
+
+PART_NAME
+ C35 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231496\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231496\';
+
+PART_NAME
+ C34 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231495\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231495\';
+
+PART_NAME
+ C33 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231494\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231494\';
+
+PART_NAME
+ C32 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231493\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231493\';
+
+PART_NAME
+ C28 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231492\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231492\';
+
+PART_NAME
+ C27 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231491\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231491\';
+
+PART_NAME
+ C26 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231490\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231490\';
+
+PART_NAME
+ C25 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231489\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I1~
+67231489\';
+
+PART_NAME
+ U36 'NC7SZ125-202000060,SOT_5PIN,NCB':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1039646817\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+039646817\';
+
+PART_NAME
+ U34 'VOLTMON_4IN_3P3-202000070,TSSOB':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1039646813\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+039646813\';
+
+PART_NAME
+ U33 'NC7SZ125-202000060,SOT_5PIN,NCB':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1039646816\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+039646816\';
+
+PART_NAME
+ U30 'ISL9305-202000002,TQFN16_4SQXPB':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1039646815\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+039646815\';
+
+PART_NAME
+ U29 'ISL9307-202000003,TQFN16_4SQXPB':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1039646814\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+039646814\';
+
+PART_NAME
+ TP15 'TEST_TERM_BLK-202000017,TP55,TB':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231576\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231576\';
+
+PART_NAME
+ TP14 'TEST_TERM_BLK-202000015,TP55,TB':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231575\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231575\';
+
+PART_NAME
+ TP13 'TEST_TERM_BLK-202000015,TP55,TB':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231574\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231574\';
+
+PART_NAME
+ TP12 'TEST_TERM_BLK-202000015,TP55,TB':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231573\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231573\';
+
+PART_NAME
+ SW2 'SW_PB_SPST_2PIN-202000014,SWITB':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231515\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231515\';
+
+PART_NAME
+ R98 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231507\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231507\';
+
+PART_NAME
+ R96 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231506\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231506\';
+
+PART_NAME
+ R95 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231505\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231505\';
+
+PART_NAME
+ R333 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231572\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231572\';
+
+PART_NAME
+ R332 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231571\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231571\';
+
+PART_NAME
+ R331 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231570\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231570\';
+
+PART_NAME
+ R330 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231569\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231569\';
+
+PART_NAME
+ R329 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231568\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231568\';
+
+PART_NAME
+ R328 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231567\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231567\';
+
+PART_NAME
+ R327 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231566\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231566\';
+
+PART_NAME
+ R326 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231514\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231514\';
+
+PART_NAME
+ R301 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231513\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231513\';
+
+PART_NAME
+ R300 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231512\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231512\';
+
+PART_NAME
+ R30 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231504\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231504\';
+
+PART_NAME
+ R299 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231511\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231511\';
+
+PART_NAME
+ R298 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231510\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231510\';
+
+PART_NAME
+ R295 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231509\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231509\';
+
+PART_NAME
+ R294 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231508\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231508\';
+
+PART_NAME
+ R293 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231565\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231565\';
+
+PART_NAME
+ R288 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231564\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231564\';
+
+PART_NAME
+ R287 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231563\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231563\';
+
+PART_NAME
+ R286 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231562\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231562\';
+
+PART_NAME
+ R285 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231561\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231561\';
+
+PART_NAME
+ R284 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231560\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231560\';
+
+PART_NAME
+ R283 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231559\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231559\';
+
+PART_NAME
+ R282 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231558\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231558\';
+
+PART_NAME
+ R281 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231557\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231557\';
+
+PART_NAME
+ R280 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231556\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231556\';
+
+PART_NAME
+ R279 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231555\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231555\';
+
+PART_NAME
+ R278 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231554\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231554\';
+
+PART_NAME
+ R277 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231553\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231553\';
+
+PART_NAME
+ R276 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231552\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231552\';
+
+PART_NAME
+ R273 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231551\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231551\';
+
+PART_NAME
+ PTH4 'PTH125_200PAD-202000016,PTH125B':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231550\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231550\';
+
+PART_NAME
+ PTH3 'PTH125_200PAD-202000016,PTH125B':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231549\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231549\';
+
+PART_NAME
+ PTH2 'PTH125_200PAD-202000016,PTH125B':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231548\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231548\';
+
+PART_NAME
+ PTH1 'PTH125_200PAD-202000016,PTH125B':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231547\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231547\';
+
+PART_NAME
+ L9 'IND':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231544\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231544\';
+
+PART_NAME
+ L8 'IND':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231543\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231543\';
+
+PART_NAME
+ L11 'IND':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231546\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231546\';
+
+PART_NAME
+ L10 'IND':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231545\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231545\';
+
+PART_NAME
+ J15 'HDR_1X2_TH_VER-202000007,HDR_1B':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231542\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231542\';
+
+PART_NAME
+ J14 'HDR_1X3_TH_VER-202000008,HDR_1B':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231541\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231541\';
+
+PART_NAME
+ J13 'CON_BSH_030_VERT-202000001,CONB':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1039646812\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+039646812\';
+
+PART_NAME
+ J12 'CON_POWER_PJ002A_TH-202000009,B':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231540\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231540\';
+
+PART_NAME
+ F1 'FUSE':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231539\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231539\';
+
+PART_NAME
+ CR8 'LED':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231538\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231538\';
+
+PART_NAME
+ CR10 'LED':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231502\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231502\';
+
+PART_NAME
+ C295 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231501\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231501\';
+
+PART_NAME
+ C294 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231500\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231500\';
+
+PART_NAME
+ C293 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231499\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231499\';
+
+PART_NAME
+ C292 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231498\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231498\';
+
+PART_NAME
+ C291 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231497\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231497\';
+
+PART_NAME
+ C290 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231496\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231496\';
+
+PART_NAME
+ C288 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231537\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231537\';
+
+PART_NAME
+ C287 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231536\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231536\';
+
+PART_NAME
+ C279 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231495\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231495\';
+
+PART_NAME
+ C278 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231494\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231494\';
+
+PART_NAME
+ C277 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231493\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231493\';
+
+PART_NAME
+ C276 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231492\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231492\';
+
+PART_NAME
+ C275 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231491\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231491\';
+
+PART_NAME
+ C274 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231490\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231490\';
+
+PART_NAME
+ C259 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231489\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231489\';
+
+PART_NAME
+ C256 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231535\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231535\';
+
+PART_NAME
+ C255 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231534\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231534\';
+
+PART_NAME
+ C254 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231533\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231533\';
+
+PART_NAME
+ C253 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231532\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231532\';
+
+PART_NAME
+ C252 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231531\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231531\';
+
+PART_NAME
+ C251 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231530\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231530\';
+
+PART_NAME
+ C250 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231529\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231529\';
+
+PART_NAME
+ C248 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231528\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231528\';
+
+PART_NAME
+ C247 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231527\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231527\';
+
+PART_NAME
+ C245 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231526\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231526\';
+
+PART_NAME
+ C244 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231525\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231525\';
+
+PART_NAME
+ C243 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231524\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231524\';
+
+PART_NAME
+ C242 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231523\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231523\';
+
+PART_NAME
+ C241 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231522\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231522\';
+
+PART_NAME
+ C238 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231521\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231521\';
+
+PART_NAME
+ C237 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231520\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231520\';
+
+PART_NAME
+ C236 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231519\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231519\';
+
+PART_NAME
+ C218 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231518\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I1~
+67231518\';
+
+PART_NAME
+ U38 'SN65LVDS4-202000063,QFN-10_1P5B':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231527\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231527\';
+
+PART_NAME
+ U23 'EPIPHANY_E16G301-202000004,BGAB':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I1039646856\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I10~
+39646856\';
+
+SECTION_NUMBER 2
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I1039646857\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I10~
+39646857\';
+
+SECTION_NUMBER 3
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I1039646858\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I10~
+39646858\';
+
+SECTION_NUMBER 4
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I1039646859\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I10~
+39646859\';
+
+SECTION_NUMBER 5
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I1039646867\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I10~
+39646867\';
+
+SECTION_NUMBER 6
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I1039646860\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I10~
+39646860\';
+
+PART_NAME
+ R292 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231575\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231575\';
+
+PART_NAME
+ R291 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231574\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231574\';
+
+PART_NAME
+ R290 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231573\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231573\';
+
+PART_NAME
+ R289 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231572\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231572\';
+
+PART_NAME
+ R247 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231571\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231571\';
+
+PART_NAME
+ R246 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231570\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231570\';
+
+PART_NAME
+ R245 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231569\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231569\';
+
+PART_NAME
+ R244 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231568\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231568\';
+
+PART_NAME
+ R243 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231567\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231567\';
+
+PART_NAME
+ R242 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231566\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231566\';
+
+PART_NAME
+ R241 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231565\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231565\';
+
+PART_NAME
+ R240 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231564\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231564\';
+
+PART_NAME
+ R239 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231606\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231606\';
+
+PART_NAME
+ R238 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231605\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231605\';
+
+PART_NAME
+ R236 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231563\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231563\';
+
+PART_NAME
+ R235 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231562\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231562\';
+
+PART_NAME
+ R234 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231561\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231561\';
+
+PART_NAME
+ R233 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231560\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231560\';
+
+PART_NAME
+ R232 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231559\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231559\';
+
+PART_NAME
+ R231 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231558\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231558\';
+
+PART_NAME
+ R230 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231557\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231557\';
+
+PART_NAME
+ R229 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231556\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231556\';
+
+PART_NAME
+ R228 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231555\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231555\';
+
+PART_NAME
+ R227 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231554\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231554\';
+
+PART_NAME
+ R226 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231553\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231553\';
+
+PART_NAME
+ R222 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231524\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231524\';
+
+PART_NAME
+ R221 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231523\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231523\';
+
+PART_NAME
+ R220 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231604\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231604\';
+
+PART_NAME
+ R219 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231603\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231603\';
+
+PART_NAME
+ R218 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231552\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231552\';
+
+PART_NAME
+ R217 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231551\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231551\';
+
+PART_NAME
+ R216 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231550\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231550\';
+
+PART_NAME
+ R215 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231549\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231549\';
+
+PART_NAME
+ R214 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231548\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231548\';
+
+PART_NAME
+ R213 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231547\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231547\';
+
+PART_NAME
+ R212 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231546\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231546\';
+
+PART_NAME
+ R211 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231545\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231545\';
+
+PART_NAME
+ R210 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231544\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231544\';
+
+PART_NAME
+ R209 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231543\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231543\';
+
+PART_NAME
+ R208 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231542\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231542\';
+
+PART_NAME
+ R207 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231541\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231541\';
+
+PART_NAME
+ R206 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231540\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231540\';
+
+PART_NAME
+ R205 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231539\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231539\';
+
+PART_NAME
+ R204 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231538\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231538\';
+
+PART_NAME
+ R203 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231537\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231537\';
+
+PART_NAME
+ R202 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231536\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231536\';
+
+PART_NAME
+ R201 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231535\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231535\';
+
+PART_NAME
+ R200 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231534\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231534\';
+
+PART_NAME
+ R199 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231533\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231533\';
+
+PART_NAME
+ R198 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231532\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231532\';
+
+PART_NAME
+ R197 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231531\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231531\';
+
+PART_NAME
+ R196 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231530\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231530\';
+
+PART_NAME
+ R195 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231529\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231529\';
+
+PART_NAME
+ R194 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231528\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231528\';
+
+PART_NAME
+ R193 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231522\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231522\';
+
+PART_NAME
+ R192 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231602\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231602\';
+
+PART_NAME
+ R191 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231521\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231521\';
+
+PART_NAME
+ R190 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231520\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231520\';
+
+PART_NAME
+ R189 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231519\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231519\';
+
+PART_NAME
+ R188 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231518\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231518\';
+
+PART_NAME
+ R187 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231517\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231517\';
+
+PART_NAME
+ R186 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231516\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231516\';
+
+PART_NAME
+ R185 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231515\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231515\';
+
+PART_NAME
+ R184 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231514\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231514\';
+
+PART_NAME
+ R183 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231513\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231513\';
+
+PART_NAME
+ R182 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231512\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231512\';
+
+PART_NAME
+ R181 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231511\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231511\';
+
+PART_NAME
+ R180 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231510\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231510\';
+
+PART_NAME
+ R179 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231509\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231509\';
+
+PART_NAME
+ R171 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231508\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231508\';
+
+PART_NAME
+ R170 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231507\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231507\';
+
+PART_NAME
+ R169 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231506\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231506\';
+
+PART_NAME
+ R168 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231505\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231505\';
+
+PART_NAME
+ R167 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231504\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231504\';
+
+PART_NAME
+ R166 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231503\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231503\';
+
+PART_NAME
+ R165 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231502\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231502\';
+
+PART_NAME
+ R164 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231501\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231501\';
+
+PART_NAME
+ R163 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231500\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231500\';
+
+PART_NAME
+ R162 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231499\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231499\';
+
+PART_NAME
+ R161 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231498\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231498\';
+
+PART_NAME
+ R160 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231497\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231497\';
+
+PART_NAME
+ R159 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231496\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231496\';
+
+PART_NAME
+ R158 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231495\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231495\';
+
+PART_NAME
+ R157 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231494\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231494\';
+
+PART_NAME
+ R156 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231493\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231493\';
+
+PART_NAME
+ R1 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231492\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231492\';
+
+PART_NAME
+ J9 'CON_BSH_030_VERT-202000001,CONB':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I1039646865\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I10~
+39646865\';
+
+PART_NAME
+ J8 'CON_BSH_030_VERT-202000001,CONB':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I1039646864\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I10~
+39646864\';
+
+PART_NAME
+ CR1 'LED':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231491\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231491\';
+
+PART_NAME
+ C298 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231490\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231490\';
+
+PART_NAME
+ C297 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231489\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231489\';
+
+PART_NAME
+ C273 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231612\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231612\';
+
+PART_NAME
+ C272 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231611\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231611\';
+
+PART_NAME
+ C271 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231610\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231610\';
+
+PART_NAME
+ C270 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231609\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231609\';
+
+PART_NAME
+ C227 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231601\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231601\';
+
+PART_NAME
+ C225 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231600\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231600\';
+
+PART_NAME
+ C223 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231599\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231599\';
+
+PART_NAME
+ C221 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231598\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231598\';
+
+PART_NAME
+ C219 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231597\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231597\';
+
+PART_NAME
+ C217 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231596\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231596\';
+
+PART_NAME
+ C215 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231595\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231595\';
+
+PART_NAME
+ C213 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231594\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231594\';
+
+PART_NAME
+ C212 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231593\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231593\';
+
+PART_NAME
+ C211 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231592\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231592\';
+
+PART_NAME
+ C210 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231591\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231591\';
+
+PART_NAME
+ C209 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231590\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231590\';
+
+PART_NAME
+ C208 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231589\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231589\';
+
+PART_NAME
+ C207 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231588\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231588\';
+
+PART_NAME
+ C206 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231587\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231587\';
+
+PART_NAME
+ C205 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231586\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231586\';
+
+PART_NAME
+ C204 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231585\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231585\';
+
+PART_NAME
+ C203 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231584\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231584\';
+
+PART_NAME
+ C202 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231583\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231583\';
+
+PART_NAME
+ C201 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231582\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231582\';
+
+PART_NAME
+ C200 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231581\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231581\';
+
+PART_NAME
+ C199 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231580\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231580\';
+
+PART_NAME
+ C198 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231579\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231579\';
+
+PART_NAME
+ C197 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I167231578\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646744\@worklib.dsp_block(tbl_1):\I16~
+7231578\';
+
+PART_NAME
+ U37 'TPD12S016-202000066,TSSOP24_6PB':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138834\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138834\';
+
+PART_NAME
+ U26 'HDMI_DVI_XCVR_ADV7513-20200006B':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138855\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138855\';
+
+PART_NAME
+ R24 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138830\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138830\';
+
+PART_NAME
+ R237 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138833\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138833\';
+
+PART_NAME
+ R225 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138832\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138832\';
+
+PART_NAME
+ R224 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138831\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138831\';
+
+PART_NAME
+ R22 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138829\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138829\';
+
+PART_NAME
+ R21 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138828\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138828\';
+
+PART_NAME
+ R19 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138827\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138827\';
+
+PART_NAME
+ J10 'HDMI_MICRO_D_RA_SMT-202000011,B':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138826\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138826\';
+
+PART_NAME
+ FB18 'FERRITE':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138854\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138854\';
+
+PART_NAME
+ FB17 'FERRITE':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138853\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138853\';
+
+PART_NAME
+ FB16 'FERRITE':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138825\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138825\';
+
+PART_NAME
+ FB15 'FERRITE':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138852\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138852\';
+
+PART_NAME
+ FB14 'FERRITE':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138851\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138851\';
+
+PART_NAME
+ D1 'DIODE':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138824\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138824\';
+
+PART_NAME
+ C67 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138836\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138836\';
+
+PART_NAME
+ C58 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138835\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138835\';
+
+PART_NAME
+ C296 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138850\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138850\';
+
+PART_NAME
+ C289 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138823\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138823\';
+
+PART_NAME
+ C267 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138849\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138849\';
+
+PART_NAME
+ C266 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138848\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138848\';
+
+PART_NAME
+ C265 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138847\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138847\';
+
+PART_NAME
+ C264 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138846\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138846\';
+
+PART_NAME
+ C263 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138845\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138845\';
+
+PART_NAME
+ C262 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138822\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138822\';
+
+PART_NAME
+ C258 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138821\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138821\';
+
+PART_NAME
+ C257 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138820\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138820\';
+
+PART_NAME
+ C239 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138819\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138819\';
+
+PART_NAME
+ C235 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138844\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138844\';
+
+PART_NAME
+ C234 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138843\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138843\';
+
+PART_NAME
+ C233 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138842\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138842\';
+
+PART_NAME
+ C232 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138841\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138841\';
+
+PART_NAME
+ C231 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138840\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138840\';
+
+PART_NAME
+ C230 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138839\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138839\';
+
+PART_NAME
+ C196 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138818\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138818\';
+
+PART_NAME
+ C145 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138838\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138838\';
+
+PART_NAME
+ C144 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\I1039138837\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646743\@worklib.hdmi_block_2(tbl_1):\~
+I1039138837\';
+
+PART_NAME
+ U20 'DDR3_256MX32-202000068,FBGA136B':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I1039646746\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I1~
+039646746\';
+
+PART_NAME
+ R70 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231509\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I1~
+67231509\';
+
+PART_NAME
+ R69 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231508\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I1~
+67231508\';
+
+PART_NAME
+ R120 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231512\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I1~
+67231512\';
+
+PART_NAME
+ R119 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231511\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I1~
+67231511\';
+
+PART_NAME
+ R115 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231510\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I1~
+67231510\';
+
+PART_NAME
+ C99 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231493\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I1~
+67231493\';
+
+PART_NAME
+ C98 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231492\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I1~
+67231492\';
+
+PART_NAME
+ C97 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231491\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I1~
+67231491\';
+
+PART_NAME
+ C96 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231490\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I1~
+67231490\';
+
+PART_NAME
+ C95 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231489\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I1~
+67231489\';
+
+PART_NAME
+ C113 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231507\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I1~
+67231507\';
+
+PART_NAME
+ C112 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231506\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I1~
+67231506\';
+
+PART_NAME
+ C111 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231505\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I1~
+67231505\';
+
+PART_NAME
+ C110 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231504\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I1~
+67231504\';
+
+PART_NAME
+ C109 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231503\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I1~
+67231503\';
+
+PART_NAME
+ C108 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231502\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I1~
+67231502\';
+
+PART_NAME
+ C107 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231501\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I1~
+67231501\';
+
+PART_NAME
+ C106 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231500\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I1~
+67231500\';
+
+PART_NAME
+ C105 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231499\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I1~
+67231499\';
+
+PART_NAME
+ C104 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231498\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I1~
+67231498\';
+
+PART_NAME
+ C103 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231497\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I1~
+67231497\';
+
+PART_NAME
+ C102 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231496\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I1~
+67231496\';
+
+PART_NAME
+ C101 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231495\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I1~
+67231495\';
+
+PART_NAME
+ C100 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231494\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I1~
+67231494\';
+
+PART_NAME
+ Y1 'XTAL':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039647005\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039647005\';
+
+PART_NAME
+ U7 'IC_SPI_FLASH_QUAD_128MB-202000B':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646998\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646998\';
+
+PART_NAME
+ U5 'NC7WZ16-202000059,SC_70_6PSMT,B':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646991\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646991\';
+
+PART_NAME
+ U35 'IC_SI51219-202000061,TSSOP8_3XB':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646993\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646993\';
+
+PART_NAME
+ U2 'ZYNQ_7Z020_CLG400-202000071,CBB':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646992\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646992\';
+
+SECTION_NUMBER 2
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231524\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231524\';
+
+SECTION_NUMBER 3
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231502\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231502\';
+
+SECTION_NUMBER 4
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039647000\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039647000\';
+
+SECTION_NUMBER 5
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039647002\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039647002\';
+
+SECTION_NUMBER 6
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039647001\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039647001\';
+
+SECTION_NUMBER 7
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646937\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646937\';
+
+SECTION_NUMBER 8
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039647004\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039647004\';
+
+PART_NAME
+ U14 'NC7WZ16-202000059,SC_70_6PSMT,B':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646995\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646995\';
+
+PART_NAME
+ U11 'NC7WZ16-202000059,SC_70_6PSMT,B':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646994\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646994\';
+
+PART_NAME
+ R99 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231604\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231604\';
+
+PART_NAME
+ R97 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231537\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231537\';
+
+PART_NAME
+ R94 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231690\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231690\';
+
+PART_NAME
+ R9 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231596\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231596\';
+
+PART_NAME
+ R82 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231689\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231689\';
+
+PART_NAME
+ R81 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231603\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231603\';
+
+PART_NAME
+ R80 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231602\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231602\';
+
+PART_NAME
+ R8 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231595\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231595\';
+
+PART_NAME
+ R76 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231536\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231536\';
+
+PART_NAME
+ R75 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231522\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231522\';
+
+PART_NAME
+ R67 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231554\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231554\';
+
+PART_NAME
+ R66 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231553\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231553\';
+
+PART_NAME
+ R63 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231500\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231500\';
+
+PART_NAME
+ R62 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231499\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231499\';
+
+PART_NAME
+ R61 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231498\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231498\';
+
+PART_NAME
+ R60 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231497\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231497\';
+
+PART_NAME
+ R59 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231496\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231496\';
+
+PART_NAME
+ R56 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231601\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231601\';
+
+PART_NAME
+ R55 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231600\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231600\';
+
+PART_NAME
+ R52 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231535\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231535\';
+
+PART_NAME
+ R51 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231534\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231534\';
+
+PART_NAME
+ R50 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231533\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231533\';
+
+PART_NAME
+ R49 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231532\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231532\';
+
+PART_NAME
+ R48 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231531\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231531\';
+
+PART_NAME
+ R47 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231530\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231530\';
+
+PART_NAME
+ R46 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231529\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231529\';
+
+PART_NAME
+ R45 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231528\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231528\';
+
+PART_NAME
+ R44 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231688\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231688\';
+
+PART_NAME
+ R43 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231527\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231527\';
+
+PART_NAME
+ R42 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231687\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231687\';
+
+PART_NAME
+ R41 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231686\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231686\';
+
+PART_NAME
+ R40 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231521\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231521\';
+
+PART_NAME
+ R4 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231594\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231594\';
+
+PART_NAME
+ R39 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231520\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231520\';
+
+PART_NAME
+ R38 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231519\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231519\';
+
+PART_NAME
+ R37 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231518\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231518\';
+
+PART_NAME
+ R36 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231517\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231517\';
+
+PART_NAME
+ R35 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231516\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231516\';
+
+PART_NAME
+ R34 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231515\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231515\';
+
+PART_NAME
+ R334 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231523\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231523\';
+
+PART_NAME
+ R33 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231514\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231514\';
+
+PART_NAME
+ R325 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231581\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231581\';
+
+PART_NAME
+ R324 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231580\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231580\';
+
+PART_NAME
+ R323 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231579\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231579\';
+
+PART_NAME
+ R322 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231578\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231578\';
+
+PART_NAME
+ R321 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231577\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231577\';
+
+PART_NAME
+ R320 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231576\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231576\';
+
+PART_NAME
+ R32 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231513\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231513\';
+
+PART_NAME
+ R319 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231575\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231575\';
+
+PART_NAME
+ R318 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231574\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231574\';
+
+PART_NAME
+ R317 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231573\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231573\';
+
+PART_NAME
+ R316 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231572\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231572\';
+
+PART_NAME
+ R315 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231571\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231571\';
+
+PART_NAME
+ R314 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231570\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231570\';
+
+PART_NAME
+ R313 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231569\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231569\';
+
+PART_NAME
+ R312 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231568\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231568\';
+
+PART_NAME
+ R311 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231567\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231567\';
+
+PART_NAME
+ R310 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231566\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231566\';
+
+PART_NAME
+ R309 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231565\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231565\';
+
+PART_NAME
+ R308 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231564\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231564\';
+
+PART_NAME
+ R307 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231563\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231563\';
+
+PART_NAME
+ R306 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231562\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231562\';
+
+PART_NAME
+ R305 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231561\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231561\';
+
+PART_NAME
+ R304 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231560\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231560\';
+
+PART_NAME
+ R303 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231559\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231559\';
+
+PART_NAME
+ R302 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231558\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231558\';
+
+PART_NAME
+ R3 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231593\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231593\';
+
+PART_NAME
+ R296 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231501\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231501\';
+
+PART_NAME
+ R28 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231512\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231512\';
+
+PART_NAME
+ R223 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231692\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231692\';
+
+PART_NAME
+ R20 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231685\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231685\';
+
+PART_NAME
+ R18 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231684\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231684\';
+
+PART_NAME
+ R178 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646936\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646936\';
+
+PART_NAME
+ R12 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231599\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231599\';
+
+PART_NAME
+ R114 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231606\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231606\';
+
+PART_NAME
+ R113 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231557\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231557\';
+
+PART_NAME
+ R112 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231556\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231556\';
+
+PART_NAME
+ R111 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231555\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231555\';
+
+PART_NAME
+ R110 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231605\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231605\';
+
+PART_NAME
+ R11 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231598\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231598\';
+
+PART_NAME
+ R10 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231597\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231597\';
+
+PART_NAME
+ J3 'CONN_MICROSD_CARD-202000006,SDB':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646999\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646999\';
+
+PART_NAME
+ J2 'HDR_1X3_TH_VER-202000008,HDR_1B':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231510\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231510\';
+
+PART_NAME
+ J11 'CON_BSH_030_VERT-202000001,CONB':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646985\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646985\';
+
+PART_NAME
+ FB2 'FERRITE':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231592\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231592\';
+
+PART_NAME
+ FB12 'FERRITE':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646980\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646980\';
+
+PART_NAME
+ FB1 'FERRITE':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231591\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231591\';
+
+PART_NAME
+ C9 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231583\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231583\';
+
+PART_NAME
+ C83 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231552\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231552\';
+
+PART_NAME
+ C82 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231551\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231551\';
+
+PART_NAME
+ C81 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231550\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231550\';
+
+PART_NAME
+ C80 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231549\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231549\';
+
+PART_NAME
+ C79 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231548\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231548\';
+
+PART_NAME
+ C78 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231547\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231547\';
+
+PART_NAME
+ C77 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231546\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231546\';
+
+PART_NAME
+ C76 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231545\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231545\';
+
+PART_NAME
+ C75 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231544\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231544\';
+
+PART_NAME
+ C74 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231543\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231543\';
+
+PART_NAME
+ C73 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231542\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231542\';
+
+PART_NAME
+ C72 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231541\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231541\';
+
+PART_NAME
+ C71 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231540\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231540\';
+
+PART_NAME
+ C70 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231539\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231539\';
+
+PART_NAME
+ C7 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231503\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231503\';
+
+PART_NAME
+ C61 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231589\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231589\';
+
+PART_NAME
+ C54 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231588\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231588\';
+
+PART_NAME
+ C53 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231587\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231587\';
+
+PART_NAME
+ C31 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231586\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231586\';
+
+PART_NAME
+ C307 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646979\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646979\';
+
+PART_NAME
+ C286 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231590\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231590\';
+
+PART_NAME
+ C285 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231661\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231661\';
+
+PART_NAME
+ C284 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231660\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231660\';
+
+PART_NAME
+ C283 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646978\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646978\';
+
+PART_NAME
+ C282 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646977\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646977\';
+
+PART_NAME
+ C281 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646976\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646976\';
+
+PART_NAME
+ C269 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646983\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646983\';
+
+PART_NAME
+ C268 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646982\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646982\';
+
+PART_NAME
+ C24 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231585\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231585\';
+
+PART_NAME
+ C23 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231495\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231495\';
+
+PART_NAME
+ C22 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231494\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231494\';
+
+PART_NAME
+ C216 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646975\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646975\';
+
+PART_NAME
+ C214 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646974\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646974\';
+
+PART_NAME
+ C21 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231493\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231493\';
+
+PART_NAME
+ C20 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231492\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231492\';
+
+PART_NAME
+ C195 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646973\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646973\';
+
+PART_NAME
+ C194 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231653\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231653\';
+
+PART_NAME
+ C193 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231652\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231652\';
+
+PART_NAME
+ C192 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231651\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231651\';
+
+PART_NAME
+ C191 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231650\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231650\';
+
+PART_NAME
+ C190 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231649\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231649\';
+
+PART_NAME
+ C19 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231491\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231491\';
+
+PART_NAME
+ C189 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231648\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231648\';
+
+PART_NAME
+ C188 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231647\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231647\';
+
+PART_NAME
+ C187 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646972\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646972\';
+
+PART_NAME
+ C186 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646971\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646971\';
+
+PART_NAME
+ C185 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646970\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646970\';
+
+PART_NAME
+ C184 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646969\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646969\';
+
+PART_NAME
+ C183 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646968\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646968\';
+
+PART_NAME
+ C182 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646967\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646967\';
+
+PART_NAME
+ C181 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646966\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646966\';
+
+PART_NAME
+ C180 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646965\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646965\';
+
+PART_NAME
+ C18 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231490\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231490\';
+
+PART_NAME
+ C179 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646964\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646964\';
+
+PART_NAME
+ C178 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646963\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646963\';
+
+PART_NAME
+ C177 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646962\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646962\';
+
+PART_NAME
+ C176 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646961\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646961\';
+
+PART_NAME
+ C175 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646960\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646960\';
+
+PART_NAME
+ C174 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646959\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646959\';
+
+PART_NAME
+ C173 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646958\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646958\';
+
+PART_NAME
+ C172 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646957\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646957\';
+
+PART_NAME
+ C171 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646956\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646956\';
+
+PART_NAME
+ C170 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646955\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646955\';
+
+PART_NAME
+ C17 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231489\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231489\';
+
+PART_NAME
+ C169 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646954\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646954\';
+
+PART_NAME
+ C168 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646953\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646953\';
+
+PART_NAME
+ C165 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646952\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646952\';
+
+PART_NAME
+ C164 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646951\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646951\';
+
+PART_NAME
+ C162 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646950\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646950\';
+
+PART_NAME
+ C160 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646949\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646949\';
+
+PART_NAME
+ C16 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231584\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231584\';
+
+PART_NAME
+ C159 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646948\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646948\';
+
+PART_NAME
+ C158 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646947\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646947\';
+
+PART_NAME
+ C157 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646946\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646946\';
+
+PART_NAME
+ C156 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646945\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646945\';
+
+PART_NAME
+ C155 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646944\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646944\';
+
+PART_NAME
+ C154 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646943\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646943\';
+
+PART_NAME
+ C153 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646942\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646942\';
+
+PART_NAME
+ C152 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646941\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646941\';
+
+PART_NAME
+ C151 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646940\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646940\';
+
+PART_NAME
+ C150 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646939\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646939\';
+
+PART_NAME
+ C15 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231509\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231509\';
+
+PART_NAME
+ C149 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646938\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646938\';
+
+PART_NAME
+ C143 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646935\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646935\';
+
+PART_NAME
+ C142 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646934\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646934\';
+
+PART_NAME
+ C141 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646933\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646933\';
+
+PART_NAME
+ C140 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646932\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646932\';
+
+PART_NAME
+ C14 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231508\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231508\';
+
+PART_NAME
+ C139 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646931\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646931\';
+
+PART_NAME
+ C138 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646930\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646930\';
+
+PART_NAME
+ C137 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646929\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646929\';
+
+PART_NAME
+ C136 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646928\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646928\';
+
+PART_NAME
+ C135 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1039646927\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+039646927\';
+
+PART_NAME
+ C134 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231674\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231674\';
+
+PART_NAME
+ C133 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231673\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231673\';
+
+PART_NAME
+ C132 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231672\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231672\';
+
+PART_NAME
+ C131 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231671\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231671\';
+
+PART_NAME
+ C130 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231670\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231670\';
+
+PART_NAME
+ C13 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231507\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231507\';
+
+PART_NAME
+ C129 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231669\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231669\';
+
+PART_NAME
+ C128 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231668\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231668\';
+
+PART_NAME
+ C127 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231667\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231667\';
+
+PART_NAME
+ C126 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231666\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231666\';
+
+PART_NAME
+ C12 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231506\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231506\';
+
+PART_NAME
+ C11 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231505\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231505\';
+
+PART_NAME
+ C10 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I167231504\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646745\@worklib.zynq_block(tbl_1):\I1~
+67231504\';
+
+PART_NAME
+ U13 'MIC2025_1_USB_SW-202000069,SOIB':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I1039646777\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I10~
+39646777\';
+
+PART_NAME
+ U12 'USB3320_ULPI_XCVR-202000064,QFB':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I1039646775\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I10~
+39646775\';
+
+PART_NAME
+ R90 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231529\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I16~
+7231529\';
+
+PART_NAME
+ R89 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231528\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I16~
+7231528\';
+
+PART_NAME
+ R86 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231527\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I16~
+7231527\';
+
+PART_NAME
+ R85 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231526\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I16~
+7231526\';
+
+PART_NAME
+ R84 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231525\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I16~
+7231525\';
+
+PART_NAME
+ R335 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231535\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I16~
+7231535\';
+
+PART_NAME
+ R116 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231534\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I16~
+7231534\';
+
+PART_NAME
+ J6 'USB_MICRO_AB_RA_SMT-202000013,B':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I1039646776\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I10~
+39646776\';
+
+PART_NAME
+ CR5 'LED':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231521\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I16~
+7231521\';
+
+PART_NAME
+ CR4 'LED':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231520\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I16~
+7231520\';
+
+PART_NAME
+ C84 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231517\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I16~
+7231517\';
+
+PART_NAME
+ C60 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231510\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I16~
+7231510\';
+
+PART_NAME
+ C59 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231509\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I16~
+7231509\';
+
+PART_NAME
+ C57 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231508\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I16~
+7231508\';
+
+PART_NAME
+ C56 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231507\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I16~
+7231507\';
+
+PART_NAME
+ C55 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231506\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I16~
+7231506\';
+
+PART_NAME
+ C52 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231505\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I16~
+7231505\';
+
+PART_NAME
+ C51 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231504\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I16~
+7231504\';
+
+PART_NAME
+ C260 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231518\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I16~
+7231518\';
+
+PART_NAME
+ U1 'USB3320_ULPI_XCVR-202000064,QFB':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I1039646780\@worklib.reusable_usb_conn(tbl_1):\I1039138837\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I10~
+39646780\@worklib.reusable_usb_conn(tbl_1):\I1039138837\';
+
+PART_NAME
+ R7 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I1039646780\@worklib.reusable_usb_conn(tbl_1):\I1039138836\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I10~
+39646780\@worklib.reusable_usb_conn(tbl_1):\I1039138836\';
+
+PART_NAME
+ R6 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I1039646780\@worklib.reusable_usb_conn(tbl_1):\I1039138835\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I10~
+39646780\@worklib.reusable_usb_conn(tbl_1):\I1039138835\';
+
+PART_NAME
+ R5 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I1039646780\@worklib.reusable_usb_conn(tbl_1):\I1039138839\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I10~
+39646780\@worklib.reusable_usb_conn(tbl_1):\I1039138839\';
+
+PART_NAME
+ R2 'RES':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I1039646780\@worklib.reusable_usb_conn(tbl_1):\I1039138834\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I10~
+39646780\@worklib.reusable_usb_conn(tbl_1):\I1039138834\';
+
+PART_NAME
+ J1 'USB_MICRO_B_RA_SMT-202000010,UB':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I1039646780\@worklib.reusable_usb_conn(tbl_1):\I1039138832\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I10~
+39646780\@worklib.reusable_usb_conn(tbl_1):\I1039138832\';
+
+PART_NAME
+ CR2 'LED':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I1039646780\@worklib.reusable_usb_conn(tbl_1):\I1039138838\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I10~
+39646780\@worklib.reusable_usb_conn(tbl_1):\I1039138838\';
+
+PART_NAME
+ C8 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I1039646780\@worklib.reusable_usb_conn(tbl_1):\I1039138830\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I10~
+39646780\@worklib.reusable_usb_conn(tbl_1):\I1039138830\';
+
+PART_NAME
+ C6 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I1039646780\@worklib.reusable_usb_conn(tbl_1):\I1039138829\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I10~
+39646780\@worklib.reusable_usb_conn(tbl_1):\I1039138829\';
+
+PART_NAME
+ C5 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I1039646780\@worklib.reusable_usb_conn(tbl_1):\I1039138828\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I10~
+39646780\@worklib.reusable_usb_conn(tbl_1):\I1039138828\';
+
+PART_NAME
+ C4 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I1039646780\@worklib.reusable_usb_conn(tbl_1):\I1039138827\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I10~
+39646780\@worklib.reusable_usb_conn(tbl_1):\I1039138827\';
+
+PART_NAME
+ C3 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I1039646780\@worklib.reusable_usb_conn(tbl_1):\I1039138826\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I10~
+39646780\@worklib.reusable_usb_conn(tbl_1):\I1039138826\';
+
+PART_NAME
+ C2 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I1039646780\@worklib.reusable_usb_conn(tbl_1):\I1039138825\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I10~
+39646780\@worklib.reusable_usb_conn(tbl_1):\I1039138825\';
+
+PART_NAME
+ C1 'CAP':
+;
+
+SECTION_NUMBER 1
+ '@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I1039646780\@worklib.reusable_usb_conn(tbl_1):\I1039138824\':
+ C_PATH='@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I10~
+39646780\@worklib.reusable_usb_conn(tbl_1):\I1039138824\';
+
+END.

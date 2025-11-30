@@ -1,0 +1,84 @@
+FILE_TYPE = PXL_HDL_CENTRIC_STATE_FILE;
+VERSION = PXL_HDL_CENTRIC_VERSION_1;
+TIME = '08-Nov-2021 AT 17:52:45';
+
+{--------------------------------------------------------------------------}
+
+BEGIN_REFDES_LIST:
+C66, C68, C69, R101, R106, CR6, J7, R100, R103, C63, C261, U17, C64, C65;
+END_REFDES_LIST; { end of REFDES_LIST }
+
+BEGIN_MODULE: 'reusable_usb_conn' = '@worklib.reusable_usb_conn(tbl_1)';
+REUSE_ID = '28';
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.reusable_usb_conn(tbl_1):\I1039138824\';
+REUSE_ID  = '12';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.reusable_usb_conn(tbl_1):\I1039138825\';
+REUSE_ID  = '15';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.reusable_usb_conn(tbl_1):\I1039138826\';
+REUSE_ID  = '16';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.reusable_usb_conn(tbl_1):\I1039138827\';
+REUSE_ID  = '17';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.reusable_usb_conn(tbl_1):\I1039138828\';
+REUSE_ID  = '18';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.reusable_usb_conn(tbl_1):\I1039138829\';
+REUSE_ID  = '19';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.reusable_usb_conn(tbl_1):\I1039138830\';
+REUSE_ID  = '13';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.reusable_usb_conn(tbl_1):\I1039138832\';
+REUSE_ID  = '23';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.reusable_usb_conn(tbl_1):\I1039138834\';
+REUSE_ID  = '27';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.reusable_usb_conn(tbl_1):\I1039138835\';
+REUSE_ID  = '25';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.reusable_usb_conn(tbl_1):\I1039138836\';
+REUSE_ID  = '28';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.reusable_usb_conn(tbl_1):\I1039138837\';
+REUSE_ID  = '26';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.reusable_usb_conn(tbl_1):\I1039138838\';
+REUSE_ID  = '22';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.reusable_usb_conn(tbl_1):\I1039138839\';
+REUSE_ID  = '24';
+END_PRIM;
+
+END_MODULE; { end of module '@worklib.reusable_usb_conn(tbl_1)'}

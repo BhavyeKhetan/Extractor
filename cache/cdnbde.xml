@@ -1,0 +1,72 @@
+
+<bdeschema>
+
+  <version/>
+
+  <masterstyles/>
+
+  <mastershapes>
+    <blockshapes>
+      <masterblock CATEGORY="Block Shapes" ID="Rect" NAME="Rectangle">
+        <blockgraphics>
+          <rect height="100" lineB="0" lineG="0" lineR="0" lineWidth="2" rx="0" ry="0" width="100" x="0" y="0"/>
+        </blockgraphics>
+      </masterblock><masterblock CATEGORY="Block Shapes" ID="RoundRect" NAME="Round Rectangle">
+        <blockgraphics>
+          <rect height="100" lineB="0" lineG="0" lineR="0" lineWidth="2" rx="60" ry="60" width="100" x="0" y="0"/>
+         </blockgraphics>
+      </masterblock></blockshapes>
+    <connectorshapes/>
+    <pinshapes>
+      <masterpin CATEGORY="Pin" ID="composite" NAME="Composite" fillB="0" fillG="165" fillR="255" lineB="239" lineG="150" lineR="146" lineWidth="2">
+        <pingraphics>
+
+		        <rect height="8" lineWidth="2" rx="0" ry="0" width="10" x="0" y="-4"/>
+
+          <line lineWidth="2">
+
+           <point x="10" y="0"/>
+
+           <point x="20" y="0"/>
+
+          </line>
+
+          <line lineWidth="2">
+
+           <point x="12" y="-4"/>
+
+           <point x="18" y="4"/>
+          </line>
+ 
+ </pingraphics>
+
+      </masterpin><masterpin CATEGORY="Pin" ID="blockport" NAME="BlockPort" fillB="177" fillG="204" fillR="6" lineB="239" lineG="150" lineR="146" lineWidth="2">
+        <pingraphics>
+
+		        <rect height="8" lineWidth="2" rx="0" ry="0" width="10" x="0" y="-4"/>
+
+          <line lineWidth="2">
+
+           <point x="10" y="0"/>
+
+           <point x="20" y="0"/>
+
+          </line>
+
+          <line lineWidth="2">
+
+           <point x="12" y="-4"/>
+
+           <point x="18" y="4"/>
+          </line>
+
+		  </pingraphics>
+
+      </masterpin></pinshapes>
+  </mastershapes>
+
+  <design/>
+
+
+
+</bdeschema>

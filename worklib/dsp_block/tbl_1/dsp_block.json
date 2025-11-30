@@ -1,0 +1,3296 @@
+{
+    "objects": [
+        {
+            "id": "01E18ED7-12C5-428B-A777-931555244419",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "CDS_LIBRARY_ID": "discrete:CAP",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP",
+                "CDS_PART_NAME": "CAP",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "PART_NAME": "CAP",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL"
+            },
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "0CD334F0-B941-4F92-ACCF-3CCB204B723A",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231610\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C271"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231612\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C273"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231609\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C270"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231611\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C272"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231579\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C198"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231587\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C206"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231581\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C200"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231589\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C208"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231583\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C202"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231591\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C210"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231585\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C204"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231593\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C212"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231489\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C297"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231490\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C298"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231594\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C213"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231598\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C221"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231595\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C215"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231599\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C223"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231596\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C217"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231600\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C225"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231597\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C219"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231601\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C227"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231578\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C197"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231586\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C205"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231580\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C199"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231588\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C207"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231582\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C201"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231590\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C209"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231584\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C203"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231592\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C211"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION_TYPE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NAME",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PSPICETEMPLATE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "0CD334F0-B941-4F92-ACCF-3CCB204B723A",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "capacitor"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "8D801526-246D-48EC-B53A-9B992FB2144C",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "8D801526-246D-48EC-B53A-9B992FB2144C",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "discrete"
+            }
+        },
+        {
+            "id": "B16C056D-BF91-451D-A5D7-480A959BAA44",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "CDS_LIBRARY_ID": "discrete:RES",
+                "CDS_LIBRARY_PHYSICAL_ID": "RES",
+                "CDS_PART_NAME": "RES",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "PART_NAME": "RES",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL"
+            },
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "3EC46E35-4B8B-422D-81DF-F1FAFDE18EA0",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231524\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R222"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231523\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R221"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231573\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R290"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231572\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R289"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231575\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R292"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231574\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R291"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231603\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R219"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231604\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R220"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231605\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R238"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231606\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R239"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231501\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R164"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231500\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R163"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231499\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R162"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231498\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R161"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231496\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R159"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231495\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R158"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231494\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R157"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231493\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R156"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231509\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R179"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231508\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R171"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231507\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R170"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231506\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R169"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231505\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R168"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231504\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R167"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231503\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R166"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231502\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R165"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231497\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R160"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231492\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R1"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231566\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R242"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231567\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R243"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231565\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R241"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231564\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R240"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231571\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R247"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231570\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R246"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231568\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R244"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231569\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R245"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION_TYPE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NAME",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PSPICETEMPLATE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "3EC46E35-4B8B-422D-81DF-F1FAFDE18EA0",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "resistor"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "8D801526-246D-48EC-B53A-9B992FB2144C",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "9AC4F50A-3CEF-4C6C-AE97-DD105BB5CF6C",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "CDS_LIBRARY_ID": "discrete:RES",
+                "CDS_LIBRARY_PHYSICAL_ID": "RES",
+                "CDS_PART_NAME": "RES",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "NO_XNET_CONNECTION": "1",
+                "PART_NAME": "RES",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL"
+            },
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "3EC46E35-4B8B-422D-81DF-F1FAFDE18EA0",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231522\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R193"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231510\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R180"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231511\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R181"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231512\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R182"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231513\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R183"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231514\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R184"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231515\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R185"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231516\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R186"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231517\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R187"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231518\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R188"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231519\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R189"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231520\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R190"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231521\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R191"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231528\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R194"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231529\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R195"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231530\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R196"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231531\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R197"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231532\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R198"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231533\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R199"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231534\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R200"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231535\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R201"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231536\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R202"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231537\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R203"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231560\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R233"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231559\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R232"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231558\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R231"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231557\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R230"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231556\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R229"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231555\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R228"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231554\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R227"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231553\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R226"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231540\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R206"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231538\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R204"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231539\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R205"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231541\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R207"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231542\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R208"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231543\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R209"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231544\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R210"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231545\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R211"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231546\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R212"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231547\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R213"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231548\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R214"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231549\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R215"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231550\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R216"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231561\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R234"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231562\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R235"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231551\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R217"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231552\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R218"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231563\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R236"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231602\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R192"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION_TYPE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "NO_XNET_CONNECTION",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NAME",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PSPICETEMPLATE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "9EA515F8-6DF9-47A8-AD04-1660C8A0C82C",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "ASI_MODEL": "BSH-030-01-F-D-A",
+                "CDS_LIBRARY_ID": "2020000001:1593185085138",
+                "CDS_LIBRARY_PHYSICAL_ID": "CON_BSH_030_VERT-202000001,CONN_BSH60P_13P59X25P88_P5P_V,CON_BSH_030_VERT,SAMTEC,BSH-030-01-F-D-A",
+                "CDS_PART_NAME": "CON_BSH_030_VERT-202000001,CONB",
+                "DATASHEET": "samtec_BSH-030-01-F-D-A.pdf",
+                "IMPLEMENTATION": "BSH-030-01-F-D-A",
+                "IMPLEMENTATION_TYPE": "PSPICE STIMULUS",
+                "JEDEC_TYPE": "CONN_BSH60P_13P59X25P88_P5P_V",
+                "MFG": "SAMTEC",
+                "MPN": "BSH-030-01-F-D-A",
+                "PART_NAME": "CON_BSH_030_VERT",
+                "PART_NUMBER": "202000001",
+                "PSPICETEMPLATE": "X^REFDES %01 %02 %03 %04 %05 %06 %07 %08 %09 %10 %11 %12 %13 %14 %15 %16 %17 %18 %19 %20 %21 %22 %23 %24 %25 %26 %27 %28 %29 %30 %31 %32 %33 %34 %35 %36 %37 %38 %39 %40 %41 %42 %43 %44 %45 %46 %47 %48 %49 %50 %51 %52 %53 %54 %55 %56 %57 %58 %59 %60 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "BSH-030-01-F-D-A"
+            },
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "5E70D56D-7A60-4A0E-9797-42294717FB5B",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I1039646864\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "J8"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I1039646865\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "J9"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "ASI_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "DATASHEET",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION_TYPE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "JEDEC_TYPE",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MFG",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MPN",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NAME",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NUMBER",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PSPICETEMPLATE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "ROHS",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "SIGNAL_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "5E70D56D-7A60-4A0E-9797-42294717FB5B",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "con_bsh_030_vert"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "EE6D9601-C778-412E-ACF9-E1A2C875C5AF",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "EE6D9601-C778-412E-ACF9-E1A2C875C5AF",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "connector"
+            }
+        },
+        {
+            "id": "5E0DBC06-4619-4362-AD70-20A2535667DB",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "CDS_LIBRARY_ID": "discrete:LED",
+                "CDS_LIBRARY_PHYSICAL_ID": "LED",
+                "CDS_PART_NAME": "LED",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "PART_NAME": "LED",
+                "PSPICETEMPLATE": "X^REFDES %2 %1 @MODEL"
+            },
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "6BA9651C-67EC-4685-9B0D-8FFAD6AF49B0",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231491\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "CR1"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION_TYPE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NAME",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PSPICETEMPLATE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "6BA9651C-67EC-4685-9B0D-8FFAD6AF49B0",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "led"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "8D801526-246D-48EC-B53A-9B992FB2144C",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "279B0795-216F-4BE0-9013-67DF6FFFB1EF",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "ASI_MODEL": "SN65LVDS4RSER",
+                "CDS_LIBRARY_ID": "IC09:1591655900985",
+                "CDS_LIBRARY_PHYSICAL_ID": "SN65LVDS4-202000063,QFN-10_1P55X2P05XP6XP5MMP,SN65LVDS4,TEXAS INSTRUMENTS,SN65LVDS4RSER",
+                "CDS_PART_NAME": "SN65LVDS4-202000063,QFN-10_1P5B",
+                "DATASHEET": "texas_instruments_sn65lvds4.pdf",
+                "IMPLEMENTATION": "SN65LVDS4RSER",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "QFN-10_1P55X2P05XP6XP5MMP",
+                "MFG": "TEXAS INSTRUMENTS",
+                "MPN": "SN65LVDS4RSER",
+                "PART_NAME": "SN65LVDS4",
+                "PART_NUMBER": "202000063",
+                "PSPICETEMPLATE": "X^REFDES %A %B %R @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "SN65LVDS4RSER"
+            },
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "B0E94636-514B-49C5-9530-8BA888614853",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I167231527\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "U38"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "ASI_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "DATASHEET",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION_TYPE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "JEDEC_TYPE",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MFG",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MPN",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NAME",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NUMBER",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PSPICETEMPLATE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "ROHS",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "SIGNAL_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "B0E94636-514B-49C5-9530-8BA888614853",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "sn65lvds4"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "07A958C2-F6B7-4024-9C74-C703327A3F88",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "07A958C2-F6B7-4024-9C74-C703327A3F88",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "ic"
+            }
+        },
+        {
+            "id": "22376B0A-D301-4B6B-B397-5DF56B4983A9",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "ASI_MODEL": "E16G301",
+                "CDS_LIBRARY_ID": "IC02:1591655900224",
+                "CDS_LIBRARY_PHYSICAL_ID": "EPIPHANY_E16G301-202000004,BGA324_15SQX1P5_P8MMP,EPIPHANY_E16G301,ADAPTEVA,E16G301",
+                "CDS_PART_NAME": "EPIPHANY_E16G301-202000004,BGAB",
+                "DATASHEET": "adapteva_e16g301.pdf",
+                "IMPLEMENTATION": "E16G301",
+                "JEDEC_TYPE": "BGA324_15SQX1P5_P8MMP",
+                "MFG": "ADAPTEVA",
+                "MPN": "E16G301",
+                "PART_NAME": "EPIPHANY_E16G301",
+                "PART_NUMBER": "202000004",
+                "ROHS": "NO",
+                "SIGNAL_MODEL": "E16G301",
+                "SPLIT_INST": "TRUE"
+            },
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "77DCDB1C-5702-4CDC-87CF-3F63A94535CE",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I1039646856\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "U23"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I1039646857\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "U23"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_2"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I1039646858\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "U23"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_3"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I1039646859\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "U23"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_4"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I1039646867\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "U23"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_5"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.dsp_block(tbl_1):\\I1039646860\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "U23"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_6"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "ASI_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "DATASHEET",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "JEDEC_TYPE",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MFG",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MPN",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NAME",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NUMBER",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "ROHS",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "SIGNAL_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "SPLIT_INST",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "77DCDB1C-5702-4CDC-87CF-3F63A94535CE",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "epiphany_e16g301"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "07A958C2-F6B7-4024-9C74-C703327A3F88",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "F2449D1C-7638-4A4C-89BC-16C642B714AD",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "tap"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "A8600004-EC61-4298-9A95-16D197F48C7A",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "standardpart": "Yes",
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "sym_1",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65546"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "sym_6",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_6"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65546"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "A8600004-EC61-4298-9A95-16D197F48C7A",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "standard"
+            }
+        },
+        {
+            "id": "56A5E48D-BC3F-4D59-B331-ADA0B46F4B75",
+            "type": "part",
+            "vault": "design",
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "F2449D1C-7638-4A4C-89BC-16C642B714AD",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "1F963F15-AE17-4104-B528-EE0ECE7FF337",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "titleblock4"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "23245B28-02E2-4DE7-8F79-4C10A556A5D6",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "standardpart": "Yes",
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "sym_1",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65582"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "23245B28-02E2-4DE7-8F79-4C10A556A5D6",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "orcadlib"
+            }
+        },
+        {
+            "id": "31BA4DCC-98F8-411F-948B-3FB8EA94023C",
+            "type": "part",
+            "vault": "design",
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "1F963F15-AE17-4104-B528-EE0ECE7FF337",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "826800BB-3E67-43E7-8E92-17926F5730ED",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "outport"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "A8600004-EC61-4298-9A95-16D197F48C7A",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "standardpart": "Yes",
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "sym_1",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65574"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "BC9B822F-BC8B-44EA-B46B-35DBE28C1D13",
+            "type": "part",
+            "vault": "design",
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "826800BB-3E67-43E7-8E92-17926F5730ED",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "9F4107EE-F445-4C70-8097-08FC221EE7D9",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "vcc_bar"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "A8600004-EC61-4298-9A95-16D197F48C7A",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "standardpart": "Yes",
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "sym_1",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65542"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "A24C949C-AA33-4D1B-A300-EB045FF9867C",
+            "type": "part",
+            "vault": "design",
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "9F4107EE-F445-4C70-8097-08FC221EE7D9",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "429E1ABE-9574-49A5-AACD-E53BA50D761B",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "ioport"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "A8600004-EC61-4298-9A95-16D197F48C7A",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "standardpart": "Yes",
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "sym_1",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65574"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "F316B29A-63E6-4CE4-B097-DEC3C8259685",
+            "type": "part",
+            "vault": "design",
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "429E1ABE-9574-49A5-AACD-E53BA50D761B",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "75D3A10A-9333-4C04-AD42-66AE9361BE93",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "gnd"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "A8600004-EC61-4298-9A95-16D197F48C7A",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "standardpart": "Yes",
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "sym_1",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65542"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "2FB2CE7D-753D-4846-AF6F-6458C3CD4E4A",
+            "type": "part",
+            "vault": "design",
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "75D3A10A-9333-4C04-AD42-66AE9361BE93",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "8679F81B-A21C-44F1-93E5-20493AA62379",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "nc"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "A8600004-EC61-4298-9A95-16D197F48C7A",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "standardpart": "Yes",
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "sym_1",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65592"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "sym_2",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_2"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65592"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "705E4BF0-40D5-4073-B272-49F068304887",
+            "type": "part",
+            "vault": "design",
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "8679F81B-A21C-44F1-93E5-20493AA62379",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "F6E17A79-1F85-42DD-8729-01128500B190",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "offpage"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "A8600004-EC61-4298-9A95-16D197F48C7A",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "standardpart": "Yes",
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "sym_1",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65575"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "sym_2",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_2"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65575"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "115D2600-B8FA-4CAF-98E6-4DE8A4E921F6",
+            "type": "part",
+            "vault": "design",
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "F6E17A79-1F85-42DD-8729-01128500B190",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "10FF7912-0DC0-4EB2-993B-87B1A07B8C6D",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "inport"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "A8600004-EC61-4298-9A95-16D197F48C7A",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "standardpart": "Yes",
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "sym_1",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65574"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "212619AD-9229-4E57-AB1C-C78B9F1B8A5A",
+            "type": "part",
+            "vault": "design",
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "10FF7912-0DC0-4EB2-993B-87B1A07B8C6D",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

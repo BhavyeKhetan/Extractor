@@ -1,0 +1,191 @@
+FILE_TYPE = PXL_HDL_CENTRIC_STATE_FILE;
+VERSION = PXL_HDL_CENTRIC_VERSION_1;
+TIME = '08-Mar-2021 AT 16:31:37';
+
+{--------------------------------------------------------------------------}
+
+BEGIN_REFDES_LIST:
+C51, C52, C55, C56, C57, C59, C60, C63, C64, C65, C66, C68, C69, C84, C260, ~
+C261, CR4, CR5, CR6, R84, R85, R86, R89, R90, U17, J6, U12, U13, R100, R101, R~
+103, R106, R116, R335, J7;
+END_REFDES_LIST; { end of REFDES_LIST }
+
+BEGIN_MODULE: 'usb_block' = '@worklib.usb_block(tbl_1)';
+REUSE_ID = '35';
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231504\';
+REUSE_ID  = '1';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231505\';
+REUSE_ID  = '2';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231506\';
+REUSE_ID  = '3';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231507\';
+REUSE_ID  = '4';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231508\';
+REUSE_ID  = '5';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231509\';
+REUSE_ID  = '6';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231510\';
+REUSE_ID  = '7';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231511\';
+REUSE_ID  = '8';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231512\';
+REUSE_ID  = '9';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231513\';
+REUSE_ID  = '10';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231514\';
+REUSE_ID  = '11';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231515\';
+REUSE_ID  = '12';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231516\';
+REUSE_ID  = '13';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231517\';
+REUSE_ID  = '14';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231518\';
+REUSE_ID  = '15';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231519\';
+REUSE_ID  = '16';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231520\';
+REUSE_ID  = '17';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231521\';
+REUSE_ID  = '18';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231522\';
+REUSE_ID  = '19';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231523\';
+REUSE_ID  = '26';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231524\';
+REUSE_ID  = '35';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231525\';
+REUSE_ID  = '20';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231526\';
+REUSE_ID  = '21';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231527\';
+REUSE_ID  = '22';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231528\';
+REUSE_ID  = '23';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231529\';
+REUSE_ID  = '24';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231530\';
+REUSE_ID  = '29';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231531\';
+REUSE_ID  = '30';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231532\';
+REUSE_ID  = '31';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231533\';
+REUSE_ID  = '32';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231534\';
+REUSE_ID  = '33';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231535\';
+REUSE_ID  = '34';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231536\';
+REUSE_ID  = '27';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231537\';
+REUSE_ID  = '28';
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@worklib.usb_block(tbl_1):\I167231538\';
+REUSE_ID  = '25';
+END_PRIM;
+
+END_MODULE; { end of module '@worklib.usb_block(tbl_1)'}

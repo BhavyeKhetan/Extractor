@@ -1,0 +1,3524 @@
+{
+    "objects": [
+        {
+            "id": "27B456BE-3DE6-4752-8D21-A40D4537717A",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "ASI_MODEL": "C1005X7R1C103K050BA",
+                "CDS_LIBRARY_ID": "DC04:1591655900005",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP-202000026,C0402,CAP,TDK,C1005X7R1C103K050BA",
+                "CDS_PART_NAME": "CAP-202000026,C0402,CAP,TDK,C1B",
+                "DATASHEET": "tdk_c-series.pdf",
+                "IMPLEMENTATION": "C1005X7R1C103K050BA",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "C0402",
+                "MFG": "TDK",
+                "MPN": "C1005X7R1C103K050BA",
+                "PART_NUMBER": "202000026",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "C1005X7R1C103K050BA",
+                "VALUE": "10nF",
+                "VOLTAGE": "16V"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "FAC5B23D-5AC1-4FF6-B8A0-8B0D8587824A",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "D0462B0D-A217-48B3-A3EA-0ADD8E72268C",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138822\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C262"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138839\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C230"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138840\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C231"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138842\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C233"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138843\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C234"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138847\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C265"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138848\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C266"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "ASI_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "DATASHEET",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION_TYPE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "JEDEC_TYPE",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MFG",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MPN",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NUMBER",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PSPICETEMPLATE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "ROHS",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "SIGNAL_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "VALUE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "VOLTAGE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "D0462B0D-A217-48B3-A3EA-0ADD8E72268C",
+            "type": "schematic_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "CAP"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "FAC5B23D-5AC1-4FF6-B8A0-8B0D8587824A",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "FAC5B23D-5AC1-4FF6-B8A0-8B0D8587824A",
+            "type": "cell_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "capacitor"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "3DCD60DB-A258-4D8A-AE95-16F5A25311F4",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "3DCD60DB-A258-4D8A-AE95-16F5A25311F4",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "discrete"
+            }
+        },
+        {
+            "id": "F8CF918C-EF40-46E5-9ED0-BEF6A966A91B",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "ASI_MODEL": "GMK105BJ104_V-F",
+                "CDS_LIBRARY_ID": "DC02:1591655899983",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP-202000023,C0402,CAP,TAIYO YUDEN,GMK105BJ104KV-F",
+                "CDS_PART_NAME": "CAP-202000023,C0402,CAP,TAIYO B",
+                "DATASHEET": "taiyo_yuden_ceramic_capacitors.pdf",
+                "IMPLEMENTATION": "GMK105BJ104_V-F",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "C0402",
+                "MFG": "TAIYO YUDEN",
+                "MPN": "GMK105BJ104KV-F",
+                "PART_NUMBER": "202000023",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "GMK105BJ104_V-F",
+                "VALUE": "0.1uF",
+                "VOLTAGE": "35V"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "FAC5B23D-5AC1-4FF6-B8A0-8B0D8587824A",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "D0462B0D-A217-48B3-A3EA-0ADD8E72268C",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138818\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C196"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138819\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C239"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138821\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C258"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138823\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C289"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138837\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C144"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138838\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C145"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138845\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C263"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138846\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C264"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "ASI_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "DATASHEET",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION_TYPE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "JEDEC_TYPE",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MFG",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MPN",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NUMBER",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PSPICETEMPLATE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "ROHS",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "SIGNAL_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "VALUE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "VOLTAGE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "F171C07E-52C3-4AF1-92B1-17F0FCBA1C86",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "ASI_MODEL": "GMK105BJ104_V-F",
+                "CDS_LIBRARY_ID": "DC02:1591655899983",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP-202000023,C0402,CAP,TAIYO YUDEN,GMK105BJ104KV-F",
+                "CDS_PART_NAME": "CAP-202000023,C0402,CAP,TAIYO B",
+                "DATASHEET": "taiyo_yuden_ceramic_capacitors.pdf",
+                "IMPLEMENTATION": "GMK105BJ104_V-F",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "C0402",
+                "MFG": "TAIYO YUDEN",
+                "MPN": "GMK105BJ104KV-F",
+                "PART_NUMBER": "202000023",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "CAP_CC0402SP_0_1UF_0_1uF",
+                "VALUE": "0.1uF",
+                "VOLTAGE": "35V"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "FAC5B23D-5AC1-4FF6-B8A0-8B0D8587824A",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "D0462B0D-A217-48B3-A3EA-0ADD8E72268C",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138835\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C58"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "ASI_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "DATASHEET",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION_TYPE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "JEDEC_TYPE",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MFG",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MPN",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NUMBER",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PSPICETEMPLATE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "ROHS",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "SIGNAL_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "VALUE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "VOLTAGE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "5CDB4DEB-C63F-44E4-B466-5BE3A13FC73B",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "ASI_MODEL": "GMK105BJ104_V-F",
+                "CDS_LIBRARY_ID": "DC02:1591655899983",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP-202000023,C0402,CAP,TAIYO YUDEN,GMK105BJ104KV-F",
+                "CDS_PART_NAME": "CAP-202000023,C0402,CAP,TAIYO B",
+                "DATASHEET": "taiyo_yuden_ceramic_capacitors.pdf",
+                "IMPLEMENTATION": "GMK105BJ104_V-F",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "C0402",
+                "MFG": "TAIYO YUDEN",
+                "MPN": "GMK105BJ104KV-F",
+                "PART_NUMBER": "202000023",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "CAP0402_0P1UF_X5R_35V_0.1UF",
+                "VALUE": "0.1uF",
+                "VOLTAGE": "35V"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "FAC5B23D-5AC1-4FF6-B8A0-8B0D8587824A",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "D0462B0D-A217-48B3-A3EA-0ADD8E72268C",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138836\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C67"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "ASI_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "DATASHEET",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION_TYPE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "JEDEC_TYPE",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MFG",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MPN",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NUMBER",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PSPICETEMPLATE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "ROHS",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "SIGNAL_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "VALUE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "VOLTAGE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "97ECCC67-8B96-4703-B70A-40C69BA7408A",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "ASI_MODEL": "LMK107BJ106MALTD",
+                "CDS_LIBRARY_ID": "DC09:1591655900073",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP-202000020,C0603,CAP,TAIYO YUDEN,LMK107BJ106MALTD",
+                "CDS_PART_NAME": "CAP-202000020,C0603,CAP,TAIYO B",
+                "DATASHEET": "taiyo_yuden_ceramic_capacitors.pdf",
+                "IMPLEMENTATION": "LMK107BJ106MALTD",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "C0603",
+                "MFG": "TAIYO YUDEN",
+                "MPN": "LMK107BJ106MALTD",
+                "PART_NUMBER": "202000020",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "LMK107BJ106MALTD",
+                "VALUE": "10uF",
+                "VOLTAGE": "10V"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "FAC5B23D-5AC1-4FF6-B8A0-8B0D8587824A",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "D0462B0D-A217-48B3-A3EA-0ADD8E72268C",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138820\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C257"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138841\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C232"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138844\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C235"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138849\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C267"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138850\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C296"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "ASI_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "DATASHEET",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION_TYPE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "JEDEC_TYPE",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MFG",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MPN",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NUMBER",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PSPICETEMPLATE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "ROHS",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "SIGNAL_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "VALUE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "VOLTAGE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "07412B97-68AF-4D2B-9762-74188D866800",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "ASI_MODEL": "CRCW04024K75FKED",
+                "CDS_LIBRARY_ID": "DR10:1591655900778",
+                "CDS_LIBRARY_PHYSICAL_ID": "RES-202000047,R0402,RES,VISHAY,CRCW04024K75FKED",
+                "CDS_PART_NAME": "RES-202000047,R0402,RES,VISHAYB",
+                "DATASHEET": "vishay_d-crcw_series_resistors.pdf",
+                "IMPLEMENTATION": "CRCW04024K75FKED",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "R0402",
+                "MFG": "VISHAY",
+                "MPN": "CRCW04024K75FKED",
+                "PART_NUMBER": "202000047",
+                "POWER": "0.063",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "CRCW04024K75FKED",
+                "TOLERANCE": "1%",
+                "VALUE": "4.75K"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "0D44649D-00D2-427A-B25F-10A5DBE769E5",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "91A236FA-03C9-40E7-A544-D18F7DEC840A",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138827\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R19"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138828\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R21"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138829\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R22"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138830\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R24"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "ASI_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "DATASHEET",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION_TYPE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "JEDEC_TYPE",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MFG",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MPN",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NUMBER",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "POWER",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PSPICETEMPLATE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "ROHS",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "SIGNAL_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "TOLERANCE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "VALUE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "91A236FA-03C9-40E7-A544-D18F7DEC840A",
+            "type": "schematic_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "RES"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "0D44649D-00D2-427A-B25F-10A5DBE769E5",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "0D44649D-00D2-427A-B25F-10A5DBE769E5",
+            "type": "cell_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "resistor"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "3DCD60DB-A258-4D8A-AE95-16F5A25311F4",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "EC8DB31B-CCDD-4F7A-838F-F754639F8EF5",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "ASI_MODEL": "CRCW04021K00FKED",
+                "CDS_LIBRARY_ID": "DR04:1591655900650",
+                "CDS_LIBRARY_PHYSICAL_ID": "RES-202000053,R0402,RES,VISHAY,CRCW04021K00FKED",
+                "CDS_PART_NAME": "RES-202000053,R0402,RES,VISHAYB",
+                "DATASHEET": "vishay_d-crcw_series_resistors.pdf",
+                "IMPLEMENTATION": "CRCW04021K00FKED",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "R0402",
+                "MFG": "VISHAY",
+                "MPN": "CRCW04021K00FKED",
+                "PART_NUMBER": "202000053",
+                "POWER": "0.063",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "CRCW04021K00FKED",
+                "TOLERANCE": "1%",
+                "VALUE": "1K"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "0D44649D-00D2-427A-B25F-10A5DBE769E5",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "91A236FA-03C9-40E7-A544-D18F7DEC840A",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138833\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R237"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "ASI_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "DATASHEET",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION_TYPE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "JEDEC_TYPE",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MFG",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MPN",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NUMBER",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "POWER",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PSPICETEMPLATE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "ROHS",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "SIGNAL_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "TOLERANCE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "VALUE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "7B18C33D-1CEA-4B1E-868E-F2AD88C1C3F6",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "ASI_MODEL": "CRCW0402887RFKED",
+                "CDS_LIBRARY_ID": "DR15:1591655900832",
+                "CDS_LIBRARY_PHYSICAL_ID": "RES-202000055,R0402,RES,VISHAY,CRCW0402887RFKED",
+                "CDS_PART_NAME": "RES-202000055,R0402,RES,VISHAYB",
+                "DATASHEET": "vishay_d-crcw_series_resistors.pdf",
+                "IMPLEMENTATION": "CRCW0402887RFKED",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "R0402",
+                "MFG": "VISHAY",
+                "MPN": "CRCW0402887RFKED",
+                "PART_NUMBER": "202000055",
+                "POWER": "0.063",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "CRCW0402887RFKED",
+                "TOLERANCE": "1%",
+                "VALUE": "887"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "0D44649D-00D2-427A-B25F-10A5DBE769E5",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "91A236FA-03C9-40E7-A544-D18F7DEC840A",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138831\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R224"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "ASI_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "DATASHEET",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION_TYPE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "JEDEC_TYPE",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MFG",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MPN",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NUMBER",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "POWER",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PSPICETEMPLATE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "ROHS",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "SIGNAL_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "TOLERANCE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "VALUE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "27D32A93-5E46-4CD7-AE0C-832CA396C765",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "ASI_MODEL": "CRCW040227K4FKED",
+                "CDS_LIBRARY_ID": "DR08:1591655900726",
+                "CDS_LIBRARY_PHYSICAL_ID": "RES-202000045,R0402,RES,VISHAY,CRCW040227K4FKED",
+                "CDS_PART_NAME": "RES-202000045,R0402,RES,VISHAYB",
+                "DATASHEET": "vishay_d-crcw_series_resistors.pdf",
+                "IMPLEMENTATION": "CRCW040227K4FKED",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "R0402",
+                "MFG": "VISHAY",
+                "MPN": "CRCW040227K4FKED",
+                "PART_NUMBER": "202000045",
+                "POWER": "0.063",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "CRCW040227K4FKED",
+                "TOLERANCE": "1%",
+                "VALUE": "27.4K"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "0D44649D-00D2-427A-B25F-10A5DBE769E5",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "91A236FA-03C9-40E7-A544-D18F7DEC840A",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138832\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R225"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "ASI_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "DATASHEET",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION_TYPE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "JEDEC_TYPE",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MFG",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MPN",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NUMBER",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "POWER",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PSPICETEMPLATE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "ROHS",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "SIGNAL_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "TOLERANCE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "VALUE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "358136E9-286C-4CAD-B98D-12D87E563111",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "ASI_MODEL": "BLM15AG121SN1D",
+                "CDS_LIBRARY_ID": "FF01:1591655900247",
+                "CDS_LIBRARY_PHYSICAL_ID": "FERRITE-202000033,FBEAD_0402,FERRITE,MURATA,BLM15AG121SN1D",
+                "CDS_PART_NAME": "FERRITE-202000033,FBEAD_0402,FB",
+                "DATASHEET": "murata_BLM15xxxxxxSNxx.pdf",
+                "DCR": "0.25",
+                "IMPLEMENTATION": "BLM15AG121SN1D",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "FBEAD_0402",
+                "LI": "3",
+                "LV": "",
+                "MFG": "MURATA",
+                "MPN": "BLM15AG121SN1D",
+                "PART_NUMBER": "202000033",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "NO",
+                "SIGNAL_MODEL": "BLM15AG121SN1D"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "16A45332-7562-4BA2-A35D-1A71A655925E",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "2DD636C9-443D-40C8-A99C-3D6512FDF77C",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138825\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "FB16"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "ASI_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "DATASHEET",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "DCR",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION_TYPE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "JEDEC_TYPE",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "LI",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "LV",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MFG",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MPN",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NUMBER",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PSPICETEMPLATE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "ROHS",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "SIGNAL_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "2DD636C9-443D-40C8-A99C-3D6512FDF77C",
+            "type": "schematic_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "FERRITE"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "16A45332-7562-4BA2-A35D-1A71A655925E",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "16A45332-7562-4BA2-A35D-1A71A655925E",
+            "type": "cell_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "ferrite"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "3DCD60DB-A258-4D8A-AE95-16F5A25311F4",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "3F8B0F9E-54D0-49DE-8AA1-BDC4642BA747",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "ASI_MODEL": "BLM15AG121SN1D",
+                "CDS_LIBRARY_ID": "FF01:1591655900247",
+                "CDS_LIBRARY_PHYSICAL_ID": "FERRITE-202000033,FBEAD_0402,FERRITE,MURATA,BLM15AG121SN1D",
+                "CDS_PART_NAME": "FERRITE-202000033,FBEAD_0402,FB",
+                "DATASHEET": "murata_BLM15xxxxxxSNxx.pdf",
+                "DCR": "0.25",
+                "DEVICE": "BLM15SG121TN1D",
+                "IMPLEMENTATION": "BLM15AG121SN1D",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "FBEAD_0402",
+                "LI": "550mA",
+                "LV": "",
+                "MFG": "MURATA",
+                "MPN": "BLM15AG121SN1D",
+                "PART_NUMBER": "202000033",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "NO",
+                "SIGNAL_MODEL": "BLM15AG121SN1D"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "16A45332-7562-4BA2-A35D-1A71A655925E",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "2DD636C9-443D-40C8-A99C-3D6512FDF77C",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138851\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "FB14"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138852\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "FB15"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138853\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "FB17"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138854\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "FB18"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "ASI_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "DATASHEET",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "DCR",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "DEVICE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION_TYPE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "JEDEC_TYPE",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "LI",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "LV",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MFG",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MPN",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NUMBER",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PSPICETEMPLATE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "ROHS",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "SIGNAL_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "3F8CB20E-990C-4377-82C0-DD75F1C7355C",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "ASI_MODEL": "BAS16XV2T1G",
+                "CDS_LIBRARY_ID": "DD01:1591655900212",
+                "CDS_LIBRARY_PHYSICAL_ID": "DIODE-202000032,SOD-523,DIODE,ON SEMICONDUCTOR,BAS16XV2T1G",
+                "CDS_PART_NAME": "DIODE-202000032,SOD-523,DIODE,B",
+                "DATASHEET": "on_semi_BAS16XV2T1-D.pdf",
+                "IF": "200mA",
+                "IMPLEMENTATION": "BAS16XV2T1G",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "INSTALL": "DNI",
+                "IR": "50uA",
+                "JEDEC_TYPE": "SOD-523",
+                "MFG": "ON SEMICONDUCTOR",
+                "MPN": "BAS16XV2T1G",
+                "PART_NUMBER": "202000032",
+                "POWER": "200mW",
+                "PSPICETEMPLATE": "X^REFDES %A %K @MODEL",
+                "ROHS": "NO",
+                "SIGNAL_MODEL": "BAS16XV2T1G",
+                "VALUE": "",
+                "VF": "1.25V",
+                "VR": "100V"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "6F5251B0-CF59-432A-9C4F-53F7731652C3",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "34EBB34C-EC17-452C-9D7C-32FD1F9E1120",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138824\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "D1"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "ASI_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "DATASHEET",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IF",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION_TYPE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "INSTALL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IR",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "JEDEC_TYPE",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MFG",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MPN",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NUMBER",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "POWER",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PSPICETEMPLATE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "ROHS",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "SIGNAL_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "VALUE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "VF",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "VR",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "34EBB34C-EC17-452C-9D7C-32FD1F9E1120",
+            "type": "schematic_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "DIODE"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "6F5251B0-CF59-432A-9C4F-53F7731652C3",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "6F5251B0-CF59-432A-9C4F-53F7731652C3",
+            "type": "cell_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "diode"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "3DCD60DB-A258-4D8A-AE95-16F5A25311F4",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "D9D5B707-6FF9-4898-A0F4-056E6DF6873F",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "ASI_MODEL": "0467651001",
+                "CDS_LIBRARY_ID": "CO03:1591655900307",
+                "CDS_LIBRARY_PHYSICAL_ID": "HDMI_MICRO_D_RA_SMT-202000011,HDMI_MICRO19_6P5X7P5X2P9H_P4P,HDMI_MICRO_D_RA_SMT,MOLEX,046765-1001",
+                "CDS_PART_NAME": "HDMI_MICRO_D_RA_SMT-202000011,B",
+                "DATASHEET": "molex_0467651001.pdf",
+                "IMPLEMENTATION": "0467651001",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "HDMI_MICRO19_6P5X7P5X2P9H_P4P",
+                "MFG": "MOLEX",
+                "MPN": "046765-1001",
+                "PART_NUMBER": "202000011",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 %3 %4 %5 %6 %7 %8 %9 %10 %11 %12 %13 %14 %15 %16 %17 %18 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "0467651001"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "571F626D-EE32-4FAC-A155-D1545AB7DED3",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "7890140C-B439-4FA4-9C33-6C3024E13D3E",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138826\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "J1"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "ASI_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "DATASHEET",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION_TYPE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "JEDEC_TYPE",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MFG",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MPN",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NUMBER",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PSPICETEMPLATE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "ROHS",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "SIGNAL_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "7890140C-B439-4FA4-9C33-6C3024E13D3E",
+            "type": "schematic_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "HDMI_MICRO_D_RA_SMT"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "571F626D-EE32-4FAC-A155-D1545AB7DED3",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "571F626D-EE32-4FAC-A155-D1545AB7DED3",
+            "type": "cell_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "hdmi_micro_d_ra_smt"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "98CA9076-27F2-4811-9A32-066EA97FD472",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "98CA9076-27F2-4811-9A32-066EA97FD472",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "connector"
+            }
+        },
+        {
+            "id": "18187BFD-A663-404C-B487-DAB8211FEC25",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "ASI_MODEL": "TPD12S016",
+                "CDS_LIBRARY_ID": "IC10:1591655901021",
+                "CDS_LIBRARY_PHYSICAL_ID": "TPD12S016-202000066,TSSOP24_6P4X7P9X1P2MMH_P65P,TPD12S016,TEXAS INSTRUMENTS,TPD12S016PWR",
+                "CDS_PART_NAME": "TPD12S016-202000066,TSSOP24_6PB",
+                "DATASHEET": "texas_instruments_tpd12s016.pdf",
+                "IMPLEMENTATION": "TPD12S016",
+                "JEDEC_TYPE": "TSSOP24_6P4X7P9X1P2MMH_P65P",
+                "MFG": "TEXAS INSTRUMENTS",
+                "MPN": "TPD12S016PWR",
+                "PART_NUMBER": "202000066",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "TPD12S016"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "C5CDD512-F7A3-44F8-9497-D1826F9458E3",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "B92DEB77-DCC4-4A64-A7AE-1569E7F27285",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138834\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "U37"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "ASI_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "DATASHEET",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "JEDEC_TYPE",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MFG",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MPN",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NUMBER",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "ROHS",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "SIGNAL_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "B92DEB77-DCC4-4A64-A7AE-1569E7F27285",
+            "type": "schematic_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "TPD12S016"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "C5CDD512-F7A3-44F8-9497-D1826F9458E3",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "C5CDD512-F7A3-44F8-9497-D1826F9458E3",
+            "type": "cell_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "tpd12s016"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "45021E87-E9CF-4544-A795-ECE58B69FBB7",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "45021E87-E9CF-4544-A795-ECE58B69FBB7",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "ic"
+            }
+        },
+        {
+            "id": "86333FAF-E785-4A0F-9564-FEEA15FEEB39",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "ASI_MODEL": "ADV7513",
+                "CDS_LIBRARY_ID": "IC03:1591655900297",
+                "CDS_LIBRARY_PHYSICAL_ID": "HDMI_DVI_XCVR_ADV7513-202000065,LQFP64_10SQX1P6MMH_P5MMP,HDMI_DVI_XCVR_ADV7513,ANALOG DEVICES,ADV7513BSWZ",
+                "CDS_PART_NAME": "HDMI_DVI_XCVR_ADV7513-20200006B",
+                "DATASHEET": "analog_devices_ADV7513BSWZ.pdf",
+                "IMPLEMENTATION": "ADV7513",
+                "JEDEC_TYPE": "LQFP64_10SQX1P6MMH_P5MMP",
+                "MFG": "ANALOG DEVICES",
+                "MPN": "ADV7513BSWZ",
+                "PART_NUMBER": "202000065",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "ADV7513"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "C85AA296-2BDB-4510-94DB-7F3F227C403E",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "92F1609C-F2C7-476E-BC6D-6FBE76359872",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.test(tbl_1):\\I1039138855\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "U26"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "ASI_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "DATASHEET",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "JEDEC_TYPE",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MFG",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MPN",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NUMBER",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "ROHS",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "SIGNAL_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "92F1609C-F2C7-476E-BC6D-6FBE76359872",
+            "type": "schematic_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "HDMI_DVI_XCVR_ADV7513"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "C85AA296-2BDB-4510-94DB-7F3F227C403E",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "C85AA296-2BDB-4510-94DB-7F3F227C403E",
+            "type": "cell_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "hdmi_dvi_xcvr_adv7513"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "45021E87-E9CF-4544-A795-ECE58B69FBB7",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "F9EE9D53-D611-42D9-8519-A0420178EB00",
+            "type": "standard_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "tap"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "9CD902A1-363C-48A7-B432-FDF97EF02576",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "sym_1",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65546"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "9CD902A1-363C-48A7-B432-FDF97EF02576",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "standard"
+            }
+        },
+        {
+            "id": "98C6C6F4-351C-420C-A842-7CA7DC30B421",
+            "type": "standard_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "outport"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "9CD902A1-363C-48A7-B432-FDF97EF02576",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "sym_1",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65574"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "5F7BE14E-CBE6-4EEE-BA97-D6854E50AABB",
+            "type": "standard_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "vcc_bar"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "9CD902A1-363C-48A7-B432-FDF97EF02576",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "sym_1",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65542"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "A5CF39E3-4259-433E-96A3-CDC274ECCA1F",
+            "type": "standard_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "ioport"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "9CD902A1-363C-48A7-B432-FDF97EF02576",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "sym_1",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65574"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "2AE608DD-17EB-4743-977A-86D043381640",
+            "type": "standard_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "gnd"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "9CD902A1-363C-48A7-B432-FDF97EF02576",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "sym_1",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65542"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "F5D03270-4820-4D20-AFDC-398B298B65E8",
+            "type": "standard_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "nc"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "9CD902A1-363C-48A7-B432-FDF97EF02576",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "sym_1",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65592"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "A38EE6F4-FEC9-4798-A1DD-4D8A7B835531",
+            "type": "standard_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "inport"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "9CD902A1-363C-48A7-B432-FDF97EF02576",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "sym_1",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65574"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

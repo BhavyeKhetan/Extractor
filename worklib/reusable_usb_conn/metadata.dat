@@ -1,0 +1,11 @@
+SOURCE="C:/EDM/grey_matter_server/reusable_usb_conn/reusable_usb_conn.cpm" 
+TOOL=syscap
+sym_1##reusable_usb_conn##sym_1.ascii=376524255
+sym_1##reusable_usb_conn##sym_1.ascii##ORIGINAL_STATE=376524255
+sym_1##reusable_usb_conn##sym_1.style=1232293414
+sym_1##reusable_usb_conn##sym_1.style##ORIGINAL_STATE=1232293414
+tbl_1##page_file_1.ascii=40826941
+tbl_1##reusable_usb_conn.ascii=755168005
+tbl_1##reusable_usb_conn.dcf=3953021443
+tbl_1##reusable_usb_conn.style=605194831
+tbl_1##reusable_usb_conn.xcon=598398304

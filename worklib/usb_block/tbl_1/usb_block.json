@@ -1,0 +1,1876 @@
+{
+    "objects": [
+        {
+            "id": "33C201D6-D10A-4696-B2BF-A37102A568BD",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "CDS_LIBRARY_ID": "discrete:CAP",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP",
+                "CDS_PART_NAME": "CAP",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "PART_NAME": "CAP",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL"
+            },
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "9AEFC744-565A-4516-8EA6-797184F6B39C",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.usb_block(tbl_1):\\I167231504\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C51"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.usb_block(tbl_1):\\I167231517\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C84"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.usb_block(tbl_1):\\I167231518\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C260"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.usb_block(tbl_1):\\I1039646780\\@worklib.reusable_usb_conn(tbl_1):\\I1039138825\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C2"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.usb_block(tbl_1):\\I1039646780\\@worklib.reusable_usb_conn(tbl_1):\\I1039138826\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C3"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.usb_block(tbl_1):\\I1039646780\\@worklib.reusable_usb_conn(tbl_1):\\I1039138827\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C4"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.usb_block(tbl_1):\\I1039646780\\@worklib.reusable_usb_conn(tbl_1):\\I1039138828\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C5"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.usb_block(tbl_1):\\I1039646780\\@worklib.reusable_usb_conn(tbl_1):\\I1039138829\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C6"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION_TYPE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NAME",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PSPICETEMPLATE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "9AEFC744-565A-4516-8EA6-797184F6B39C",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "capacitor"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "7F34694C-B84F-4A44-930D-D433E889C7A6",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "7F34694C-B84F-4A44-930D-D433E889C7A6",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "discrete"
+            }
+        },
+        {
+            "id": "71680F9B-CC5A-4AFB-A606-A3DD98C7B62F",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "CDS_LIBRARY_ID": "discrete:CAP",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP",
+                "CDS_PART_NAME": "CAP",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "PART_NAME": "CAP",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "SIGNAL_MODEL": "CAP_CC0402SP_0_1UF_0_1uF"
+            },
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "9AEFC744-565A-4516-8EA6-797184F6B39C",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.usb_block(tbl_1):\\I167231505\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C52"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.usb_block(tbl_1):\\I167231506\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C55"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.usb_block(tbl_1):\\I167231507\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C56"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.usb_block(tbl_1):\\I167231508\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C57"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.usb_block(tbl_1):\\I167231509\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C59"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.usb_block(tbl_1):\\I167231510\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "C60"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION_TYPE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NAME",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PSPICETEMPLATE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "SIGNAL_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "580B9E0C-82CA-4F41-A219-4B9591F9D98E",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "CDS_LIBRARY_ID": "discrete:RES",
+                "CDS_LIBRARY_PHYSICAL_ID": "RES",
+                "CDS_PART_NAME": "RES",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "PART_NAME": "RES",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL"
+            },
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "4F1EE020-6C51-4EB0-86F2-5276CF86D256",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.usb_block(tbl_1):\\I167231525\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R84"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.usb_block(tbl_1):\\I167231526\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R85"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.usb_block(tbl_1):\\I167231527\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R86"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.usb_block(tbl_1):\\I167231528\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R89"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.usb_block(tbl_1):\\I167231529\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R90"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.usb_block(tbl_1):\\I167231534\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R116"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.usb_block(tbl_1):\\I1039646780\\@worklib.reusable_usb_conn(tbl_1):\\I1039138834\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R2"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.usb_block(tbl_1):\\I1039646780\\@worklib.reusable_usb_conn(tbl_1):\\I1039138835\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R6"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.usb_block(tbl_1):\\I1039646780\\@worklib.reusable_usb_conn(tbl_1):\\I1039138836\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R7"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION_TYPE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NAME",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PSPICETEMPLATE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "4F1EE020-6C51-4EB0-86F2-5276CF86D256",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "resistor"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "7F34694C-B84F-4A44-930D-D433E889C7A6",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "5EB2AA80-873C-46AC-A3E0-967DD5AB6DA0",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "CDS_LIBRARY_ID": "discrete:RES",
+                "CDS_LIBRARY_PHYSICAL_ID": "RES",
+                "CDS_PART_NAME": "RES",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "NO_XNET_CONNECTION": "1",
+                "PART_NAME": "RES",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL"
+            },
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "4F1EE020-6C51-4EB0-86F2-5276CF86D256",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.usb_block(tbl_1):\\I167231535\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "R335"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION_TYPE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "NO_XNET_CONNECTION",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NAME",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PSPICETEMPLATE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "4D8D55E8-3256-49A2-81E0-FE49FF06EC80",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "ASI_MODEL": "USB3320C",
+                "CDS_LIBRARY_ID": "IC11:1591655901030",
+                "CDS_LIBRARY_PHYSICAL_ID": "USB3320_ULPI_XCVR-202000064,QFN32_5SQXP9H_P5MMP_3P45PAD,USB3320_ULPI_XCVR,MICROCHIP,USB3320C-EZK-TR",
+                "CDS_PART_NAME": "USB3320_ULPI_XCVR-202000064,QFB",
+                "DATASHEET": "microchip_usb3320_ulpi_xcvr.pdf",
+                "IMPLEMENTATION": "USB3320C",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "QFN32_5SQXP9H_P5MMP_3P45PAD",
+                "MFG": "MICROCHIP",
+                "MPN": "USB3320C-EZK-TR",
+                "PART_NAME": "USB3320_ULPI_XCVR",
+                "PART_NUMBER": "202000064",
+                "PSPICETEMPLATE": "X^REFDES %DA<0> %DA<1> %DA<2> %DA<2> %DA<3> %DA<4> %DA<5> %DA<6> %DA<7> %DIR %STP %NXT %CLKOUT %DP %DM %REFCLK %XO %SPK_R %SPK_L %CPEN %VBUS %ID %RBIAS %RESETB %REFSEL<0> %REFSEL<1> %REFSEL<2> @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "USB3320C"
+            },
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "6ED4B8BE-7F57-4A0E-91B9-1E7CB1CF45A8",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.usb_block(tbl_1):\\I1039646775\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "U12"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.usb_block(tbl_1):\\I1039646780\\@worklib.reusable_usb_conn(tbl_1):\\I1039138837\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "U17"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "ASI_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "DATASHEET",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION_TYPE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "JEDEC_TYPE",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MFG",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MPN",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NAME",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NUMBER",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PSPICETEMPLATE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "ROHS",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "SIGNAL_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "6ED4B8BE-7F57-4A0E-91B9-1E7CB1CF45A8",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "usb3320_ulpi_xcvr"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "646D77E7-4480-4C82-8EEC-DAD61371AE3A",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "646D77E7-4480-4C82-8EEC-DAD61371AE3A",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "ic"
+            }
+        },
+        {
+            "id": "6AFC69B5-6164-4084-A67D-F4671F7BE873",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "CDS_LIBRARY_ID": "discrete:LED",
+                "CDS_LIBRARY_PHYSICAL_ID": "LED",
+                "CDS_PART_NAME": "LED",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "PART_NAME": "LED",
+                "PSPICETEMPLATE": "X^REFDES %2 %1 @MODEL"
+            },
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "F3CFDD23-024C-42D9-8C15-000B51034502",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.usb_block(tbl_1):\\I167231520\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "CR4"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.usb_block(tbl_1):\\I167231521\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "CR5"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION_TYPE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NAME",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PSPICETEMPLATE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "F3CFDD23-024C-42D9-8C15-000B51034502",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "led"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "7F34694C-B84F-4A44-930D-D433E889C7A6",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "54D08531-482F-490E-87C7-BA1518DB11E3",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "ASI_MODEL": "101041110001LF",
+                "CDS_LIBRARY_ID": "CO10:1591655901039",
+                "CDS_LIBRARY_PHYSICAL_ID": "USB_MICRO_AB_RA_SMT-202000013,USB_MICRO5P_5X7X3P07MMH,USB_MICRO_AB_RA_SMT,FCI,10104111-0001LF",
+                "CDS_PART_NAME": "USB_MICRO_AB_RA_SMT-202000013,B",
+                "DATASHEET": "fci_101xxxxx-0001LF.pdf",
+                "IMPLEMENTATION": "101041110001LF",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "USB_MICRO5P_5X7X3P07MMH",
+                "MFG": "FCI",
+                "MPN": "10104111-0001LF",
+                "PART_NAME": "USB_MICRO_AB_RA_SMT",
+                "PART_NUMBER": "202000013",
+                "PSPICETEMPLATE": "X^REFDES %D_P %D_N %ID %VBUS %GND @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "101041110001LF"
+            },
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "1021395E-0CFF-426B-805C-0610DF686EF5",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.usb_block(tbl_1):\\I1039646776\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "J6"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "ASI_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "DATASHEET",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION_TYPE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "JEDEC_TYPE",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MFG",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MPN",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NAME",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NUMBER",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PSPICETEMPLATE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "ROHS",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "SIGNAL_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "1021395E-0CFF-426B-805C-0610DF686EF5",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "usb_micro_ab_ra_smt"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "B6BE6D7A-9702-468D-AE38-030BCB9A941F",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "B6BE6D7A-9702-468D-AE38-030BCB9A941F",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "connector"
+            }
+        },
+        {
+            "id": "00E4B333-23B9-4CE2-86A3-784DCC905D6A",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "ASI_MODEL": "MIC2025",
+                "CDS_LIBRARY_ID": "IC06:1591655900399",
+                "CDS_LIBRARY_PHYSICAL_ID": "MIC2025_1_USB_SW-202000069,SOIC8_33P94X4P93X1P63H_P65P,MIC2025_1_USB_SW,MICROCHIP / MICREL,MIC2025-1YM",
+                "CDS_PART_NAME": "MIC2025_1_USB_SW-202000069,SOIB",
+                "DATASHEET": "microchip_MIC2025-2075.pdf",
+                "IMPLEMENTATION": "MIC2025",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "SOIC8_33P94X4P93X1P63H_P65P",
+                "MFG": "MICROCHIP / MICREL",
+                "MPN": "MIC2025-1YM",
+                "PART_NAME": "MIC2025_1_USB_SW",
+                "PART_NUMBER": "202000069",
+                "PSPICETEMPLATE": "X^REFDES %IN %OUT1 %OUT2 %FLAG %EN @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "MIC2025"
+            },
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "D2A15F7D-2D86-49FF-8177-6D4A4FEB8EE4",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "@worklib.usb_block(tbl_1):\\I1039646777\\",
+                        "data": [
+                            {
+                                "name": "refdes",
+                                "value": "U13"
+                            },
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            }
+                        ]
+                    }
+                ],
+                "properties": [
+                    {
+                        "annotation": "Yes",
+                        "name": "ASI_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_LIBRARY_PHYSICAL_ID",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "CDS_PART_NAME",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "DATASHEET",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "IMPLEMENTATION_TYPE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "JEDEC_TYPE",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MFG",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "MPN",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NAME",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PART_NUMBER",
+                        "editable": "No",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "PSPICETEMPLATE",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "user"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "ROHS",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    },
+                    {
+                        "annotation": "Yes",
+                        "name": "SIGNAL_MODEL",
+                        "editable": "Yes",
+                        "visibility": "Value",
+                        "source": "library"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "D2A15F7D-2D86-49FF-8177-6D4A4FEB8EE4",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "mic2025_1_usb_sw"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "646D77E7-4480-4C82-8EEC-DAD61371AE3A",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "8441BCD3-9BB0-4146-9685-C9383C71A436",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "titleblock4"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "26B0B52A-55F6-48F6-B4A5-2A1E706FBE97",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "standardpart": "Yes",
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "sym_1",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65582"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "26B0B52A-55F6-48F6-B4A5-2A1E706FBE97",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "orcadlib"
+            }
+        },
+        {
+            "id": "D71C55A6-AB32-4F51-A07A-F3B7CCD0BFFE",
+            "type": "part",
+            "vault": "design",
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "8441BCD3-9BB0-4146-9685-C9383C71A436",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "6DC191E0-823C-422B-9759-7FFBD160F1E0",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "outport"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "D28D4804-9DB8-400A-BF63-50045A4A16FC",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "standardpart": "Yes",
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "sym_1",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65574"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "D28D4804-9DB8-400A-BF63-50045A4A16FC",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "standard"
+            }
+        },
+        {
+            "id": "B1FDBA7A-3E58-4B86-9073-55CE21771924",
+            "type": "part",
+            "vault": "design",
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "6DC191E0-823C-422B-9759-7FFBD160F1E0",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "9612629E-DC3C-42DE-B6A9-7F7146C3CD50",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "vcc_bar"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "D28D4804-9DB8-400A-BF63-50045A4A16FC",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "standardpart": "Yes",
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "sym_1",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65542"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CD75412C-754D-444C-805D-6C21B53A3BFB",
+            "type": "part",
+            "vault": "design",
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "9612629E-DC3C-42DE-B6A9-7F7146C3CD50",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "8B32D59F-3661-4810-BF2F-EB7B54EB6B09",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "ioport"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "D28D4804-9DB8-400A-BF63-50045A4A16FC",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "standardpart": "Yes",
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "sym_1",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65574"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "AC8015F7-712E-4EDA-80BF-ACEC0346EFAF",
+            "type": "part",
+            "vault": "design",
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "8B32D59F-3661-4810-BF2F-EB7B54EB6B09",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "4FF69FE8-A097-4D54-8A74-FFFDBE52892A",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "gnd"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "D28D4804-9DB8-400A-BF63-50045A4A16FC",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "standardpart": "Yes",
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "sym_1",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65542"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "60B94A2F-450D-4B7E-93DE-DC7AE7773088",
+            "type": "part",
+            "vault": "design",
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "4FF69FE8-A097-4D54-8A74-FFFDBE52892A",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "E14D1CE6-56BB-4AFE-8BA9-596957634744",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "nc"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "D28D4804-9DB8-400A-BF63-50045A4A16FC",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "standardpart": "Yes",
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "sym_1",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65592"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cpath",
+                        "value": "sym_2",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_2"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65592"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "9D56FDA5-0137-4365-B82B-485C1B504A7F",
+            "type": "part",
+            "vault": "design",
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "E14D1CE6-56BB-4AFE-8BA9-596957634744",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "38B14458-81D1-4A39-929D-7FC563362DF8",
+            "type": "system_capture_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "inport"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "D28D4804-9DB8-400A-BF63-50045A4A16FC",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "standardpart": "Yes",
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "sym_1",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": "sym_1"
+                            },
+                            {
+                                "name": "objtype",
+                                "value": "65574"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "1AEA7B97-CF21-4F19-A000-C38E107F6FDF",
+            "type": "part",
+            "vault": "design",
+            "relations": {
+                "system_capture_model": [
+                    {
+                        "related": {
+                            "id": "38B14458-81D1-4A39-929D-7FC563362DF8",
+                            "type": "system_capture_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": {
+                "instances": [
+                    {
+                        "name": "cpath",
+                        "value": "",
+                        "data": [
+                            {
+                                "name": "symbol",
+                                "value": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

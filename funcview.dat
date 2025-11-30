@@ -1,0 +1,567 @@
+A!FUNC_LOGICAL_PATH!COMP_DEVICE_TYPE!REFDES!FUNC_PRIM_FILE!COMP_PARENT_PPT!COMP_PARENT_PPT_PART!COMP_PARENT_PART_TYPE!FUNC_SCH_SIZE!FUNC_HAS_FIXED_SIZE!FUNC_DES!FUNC_GROUP!FUNC_ROOM!FUNC_TERM_IDENT!FUNC_CDS_FSP_INSTANCE_ID!FUNC_CDS_FSP_IS_FPGA!FUNC_CDS_FSP_UID!
+J!C:/EDM/grey_matter_server/brain_board/output/brain_board/physical/brain_board.brd!Mon Mar  8 11:32:41 2021!-7425.00!-10499.00!32575.00!24501.00!0.01!mils!BRAIN_BOARD!48.700000 mil!12!UP TO DATE!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231516\!NC7SZ125-202000060,SOT_5PIN,NCB!U33!ic.nc7sz125!!!NC7SZ125!!!F30!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231579\!NC7SZ125-202000060,SOT_5PIN,NCB!U36!ic.nc7sz125!!!NC7SZ125!!!F29!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231573\!TEST_TERM_BLK-202000015,TP55,TB!TP12!connector.test_term!!!TEST_TERM_BLK!!!F16!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231574\!TEST_TERM_BLK-202000015,TP55,TB!TP13!connector.test_term!!!TEST_TERM_BLK!!!F15!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231575\!TEST_TERM_BLK-202000015,TP55,TB!TP14!connector.test_term!!!TEST_TERM_BLK!!!F14!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231576\!TEST_TERM_BLK-202000017,TP55,TB!TP15!connector.test_term!!!TEST_TERM_BLK!!!F13!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231558\!RES-202000040,R0603,RES,VISHAYB!R282!discrete.resistor!!!RES!!!F135!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231534\!RES-202000050,R0402,RES,VISHAYB!R116!discrete.resistor!!!RES!!!F311!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231526\!RES-202000050,R0402,RES,VISHAYB!R85!discrete.resistor!!!RES!!!F278!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231531\!RES-202000050,R0402,RES,VISHAYB!R101!discrete.resistor!!!RES!!!F312!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231603\!RES-202000050,R0402,RES,VISHAYB!R219!discrete.resistor!!!RES!!!F310!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231604\!RES-202000050,R0402,RES,VISHAYB!R220!discrete.resistor!!!RES!!!F309!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231523\!RES-202000050,R0402,RES,VISHAYB!R221!discrete.resistor!!!RES!!!F308!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231524\!RES-202000050,R0402,RES,VISHAYB!R222!discrete.resistor!!!RES!!!F307!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231605\!RES-202000050,R0402,RES,VISHAYB!R238!discrete.resistor!!!RES!!!F306!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231606\!RES-202000050,R0402,RES,VISHAYB!R239!discrete.resistor!!!RES!!!F305!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231562\!RES-202000050,R0402,RES,VISHAYB!R286!discrete.resistor!!!RES!!!F304!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231563\!RES-202000050,R0402,RES,VISHAYB!R287!discrete.resistor!!!RES!!!F303!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231572\!RES-202000050,R0402,RES,VISHAYB!R289!discrete.resistor!!!RES!!!F302!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231573\!RES-202000050,R0402,RES,VISHAYB!R290!discrete.resistor!!!RES!!!F301!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231574\!RES-202000050,R0402,RES,VISHAYB!R291!discrete.resistor!!!RES!!!F300!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231575\!RES-202000050,R0402,RES,VISHAYB!R292!discrete.resistor!!!RES!!!F299!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231565\!RES-202000050,R0402,RES,VISHAYB!R293!discrete.resistor!!!RES!!!F298!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231501\!RES-202000050,R0402,RES,VISHAYB!R296!discrete.resistor!!!RES!!!F297!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231527\!RES-202000050,R0402,RES,VISHAYB!R297!discrete.resistor!!!RES!!!F296!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231568\!RES-202000050,R0402,RES,VISHAYB!R329!discrete.resistor!!!RES!!!F295!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231569\!RES-202000050,R0402,RES,VISHAYB!R330!discrete.resistor!!!RES!!!F294!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231570\!RES-202000050,R0402,RES,VISHAYB!R331!discrete.resistor!!!RES!!!F293!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231571\!RES-202000050,R0402,RES,VISHAYB!R332!discrete.resistor!!!RES!!!F292!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231572\!RES-202000050,R0402,RES,VISHAYB!R333!discrete.resistor!!!RES!!!F291!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231523\!RES-202000050,R0402,RES,VISHAYB!R334!discrete.resistor!!!RES!!!F290!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231535\!RES-202000050,R0402,RES,VISHAYB!R335!discrete.resistor!!!RES!!!F289!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231496\!RES-202000050,R0402,RES,VISHAYB!R59!discrete.resistor!!!RES!!!F288!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231497\!RES-202000050,R0402,RES,VISHAYB!R60!discrete.resistor!!!RES!!!F287!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231520\!RES-202000050,R0402,RES,VISHAYB!R71!discrete.resistor!!!RES!!!F286!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231523\!RES-202000050,R0402,RES,VISHAYB!R74!discrete.resistor!!!RES!!!F285!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231522\!RES-202000050,R0402,RES,VISHAYB!R75!discrete.resistor!!!RES!!!F284!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231536\!RES-202000050,R0402,RES,VISHAYB!R76!discrete.resistor!!!RES!!!F283!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231524\!RES-202000050,R0402,RES,VISHAYB!R77!discrete.resistor!!!RES!!!F282!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231525\!RES-202000050,R0402,RES,VISHAYB!R78!discrete.resistor!!!RES!!!F281!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231602\!RES-202000050,R0402,RES,VISHAYB!R80!discrete.resistor!!!RES!!!F280!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231603\!RES-202000050,R0402,RES,VISHAYB!R81!discrete.resistor!!!RES!!!F279!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231505\!RES-202000050,R0402,RES,VISHAYB!R95!discrete.resistor!!!RES!!!F277!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231506\!RES-202000050,R0402,RES,VISHAYB!R96!discrete.resistor!!!RES!!!F276!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231537\!RES-202000050,R0402,RES,VISHAYB!R97!discrete.resistor!!!RES!!!F275!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231507\!RES-202000050,R0402,RES,VISHAYB!R98!discrete.resistor!!!RES!!!F274!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231597\!RES-202000047,R0402,RES,VISHAYB!R10!discrete.resistor!!!RES!!!F273!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231555\!RES-202000047,R0402,RES,VISHAYB!R111!discrete.resistor!!!RES!!!F272!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231599\!RES-202000047,R0402,RES,VISHAYB!R12!discrete.resistor!!!RES!!!F271!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231493\!RES-202000047,R0402,RES,VISHAYB!R156!discrete.resistor!!!RES!!!F270!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231494\!RES-202000047,R0402,RES,VISHAYB!R157!discrete.resistor!!!RES!!!F269!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231495\!RES-202000047,R0402,RES,VISHAYB!R158!discrete.resistor!!!RES!!!F268!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231496\!RES-202000047,R0402,RES,VISHAYB!R159!discrete.resistor!!!RES!!!F267!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231498\!RES-202000047,R0402,RES,VISHAYB!R161!discrete.resistor!!!RES!!!F266!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231499\!RES-202000047,R0402,RES,VISHAYB!R162!discrete.resistor!!!RES!!!F265!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231500\!RES-202000047,R0402,RES,VISHAYB!R163!discrete.resistor!!!RES!!!F264!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231501\!RES-202000047,R0402,RES,VISHAYB!R164!discrete.resistor!!!RES!!!F263!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231509\!RES-202000047,R0402,RES,VISHAYB!R179!discrete.resistor!!!RES!!!F262!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231684\!RES-202000047,R0402,RES,VISHAYB!R18!discrete.resistor!!!RES!!!F261!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231521\!RES-202000047,R0402,RES,VISHAYB!R19!discrete.resistor!!!RES!!!F260!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231685\!RES-202000047,R0402,RES,VISHAYB!R20!discrete.resistor!!!RES!!!F259!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231522\!RES-202000047,R0402,RES,VISHAYB!R21!discrete.resistor!!!RES!!!F258!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231523\!RES-202000047,R0402,RES,VISHAYB!R22!discrete.resistor!!!RES!!!F257!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231524\!RES-202000047,R0402,RES,VISHAYB!R24!discrete.resistor!!!RES!!!F256!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231512\!RES-202000047,R0402,RES,VISHAYB!R300!discrete.resistor!!!RES!!!F255!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231514\!RES-202000047,R0402,RES,VISHAYB!R33!discrete.resistor!!!RES!!!F254!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231515\!RES-202000047,R0402,RES,VISHAYB!R34!discrete.resistor!!!RES!!!F253!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231516\!RES-202000047,R0402,RES,VISHAYB!R35!discrete.resistor!!!RES!!!F252!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231517\!RES-202000047,R0402,RES,VISHAYB!R36!discrete.resistor!!!RES!!!F251!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231518\!RES-202000047,R0402,RES,VISHAYB!R37!discrete.resistor!!!RES!!!F250!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231519\!RES-202000047,R0402,RES,VISHAYB!R38!discrete.resistor!!!RES!!!F249!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231520\!RES-202000047,R0402,RES,VISHAYB!R39!discrete.resistor!!!RES!!!F248!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231594\!RES-202000047,R0402,RES,VISHAYB!R4!discrete.resistor!!!RES!!!F247!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231521\!RES-202000047,R0402,RES,VISHAYB!R40!discrete.resistor!!!RES!!!F246!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231498\!RES-202000047,R0402,RES,VISHAYB!R61!discrete.resistor!!!RES!!!F245!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231595\!RES-202000047,R0402,RES,VISHAYB!R8!discrete.resistor!!!RES!!!F244!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231596\!RES-202000047,R0402,RES,VISHAYB!R9!discrete.resistor!!!RES!!!F243!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231532\!RES-202000053,R0402,RES,VISHAYB!R103!discrete.resistor!!!RES!!!F242!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231598\!RES-202000053,R0402,RES,VISHAYB!R11!discrete.resistor!!!RES!!!F241!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231497\!RES-202000053,R0402,RES,VISHAYB!R160!discrete.resistor!!!RES!!!F240!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231502\!RES-202000053,R0402,RES,VISHAYB!R165!discrete.resistor!!!RES!!!F239!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231503\!RES-202000053,R0402,RES,VISHAYB!R166!discrete.resistor!!!RES!!!F238!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231504\!RES-202000053,R0402,RES,VISHAYB!R167!discrete.resistor!!!RES!!!F237!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231505\!RES-202000053,R0402,RES,VISHAYB!R168!discrete.resistor!!!RES!!!F236!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231506\!RES-202000053,R0402,RES,VISHAYB!R169!discrete.resistor!!!RES!!!F235!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231507\!RES-202000053,R0402,RES,VISHAYB!R170!discrete.resistor!!!RES!!!F234!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231508\!RES-202000053,R0402,RES,VISHAYB!R171!discrete.resistor!!!RES!!!F233!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646936\!RES-202000053,R0402,RES,VISHAYB!R178!discrete.resistor!!!RES!!!F232!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231692\!RES-202000053,R0402,RES,VISHAYB!R223!discrete.resistor!!!RES!!!F231!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231527\!RES-202000053,R0402,RES,VISHAYB!R237!discrete.resistor!!!RES!!!F230!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231512\!RES-202000053,R0402,RES,VISHAYB!R28!discrete.resistor!!!RES!!!F229!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231508\!RES-202000053,R0402,RES,VISHAYB!R294!discrete.resistor!!!RES!!!F228!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231509\!RES-202000053,R0402,RES,VISHAYB!R295!discrete.resistor!!!RES!!!F227!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231566\!RES-202000053,R0402,RES,VISHAYB!R327!discrete.resistor!!!RES!!!F226!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231567\!RES-202000053,R0402,RES,VISHAYB!R328!discrete.resistor!!!RES!!!F225!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231499\!RES-202000053,R0402,RES,VISHAYB!R62!discrete.resistor!!!RES!!!F224!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231500\!RES-202000053,R0402,RES,VISHAYB!R63!discrete.resistor!!!RES!!!F223!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231553\!RES-202000053,R0402,RES,VISHAYB!R66!discrete.resistor!!!RES!!!F222!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231554\!RES-202000053,R0402,RES,VISHAYB!R67!discrete.resistor!!!RES!!!F221!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231508\!RES-202000053,R0402,RES,VISHAYB!R69!discrete.resistor!!!RES!!!F220!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231509\!RES-202000053,R0402,RES,VISHAYB!R70!discrete.resistor!!!RES!!!F219!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231527\!RES-202000053,R0402,RES,VISHAYB!R86!discrete.resistor!!!RES!!!F218!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231492\!RES-202000049,R0402,RES,VISHAYB!R1!discrete.resistor!!!RES!!!F180!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231511\!RES-202000049,R0402,RES,VISHAYB!R119!discrete.resistor!!!RES!!!F179!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231512\!RES-202000049,R0402,RES,VISHAYB!R120!discrete.resistor!!!RES!!!F178!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231593\!RES-202000049,R0402,RES,VISHAYB!R3!discrete.resistor!!!RES!!!F177!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231504\!RES-202000049,R0402,RES,VISHAYB!R30!discrete.resistor!!!RES!!!F176!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231528\!RES-202000049,R0402,RES,VISHAYB!R89!discrete.resistor!!!RES!!!F175!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231605\!RES-202000051,R0402,RES,VISHAYB!R110!discrete.resistor!!!RES!!!F174!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231606\!RES-202000051,R0402,RES,VISHAYB!R114!discrete.resistor!!!RES!!!F173!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231686\!RES-202000051,R0402,RES,VISHAYB!R41!discrete.resistor!!!RES!!!F172!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231687\!RES-202000051,R0402,RES,VISHAYB!R42!discrete.resistor!!!RES!!!F171!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231688\!RES-202000051,R0402,RES,VISHAYB!R44!discrete.resistor!!!RES!!!F170!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231600\!RES-202000051,R0402,RES,VISHAYB!R55!discrete.resistor!!!RES!!!F169!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231601\!RES-202000051,R0402,RES,VISHAYB!R56!discrete.resistor!!!RES!!!F168!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231689\!RES-202000051,R0402,RES,VISHAYB!R82!discrete.resistor!!!RES!!!F167!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231690\!RES-202000051,R0402,RES,VISHAYB!R94!discrete.resistor!!!RES!!!F166!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231604\!RES-202000051,R0402,RES,VISHAYB!R99!discrete.resistor!!!RES!!!F165!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231527\!RES-202000038,R0402,RES,VISHAYB!R43!discrete.resistor!!!RES!!!F193!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231528\!RES-202000038,R0402,RES,VISHAYB!R45!discrete.resistor!!!RES!!!F192!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231529\!RES-202000038,R0402,RES,VISHAYB!R46!discrete.resistor!!!RES!!!F191!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231530\!RES-202000038,R0402,RES,VISHAYB!R47!discrete.resistor!!!RES!!!F190!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231531\!RES-202000038,R0402,RES,VISHAYB!R48!discrete.resistor!!!RES!!!F189!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231532\!RES-202000038,R0402,RES,VISHAYB!R49!discrete.resistor!!!RES!!!F188!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231533\!RES-202000038,R0402,RES,VISHAYB!R50!discrete.resistor!!!RES!!!F187!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231534\!RES-202000038,R0402,RES,VISHAYB!R51!discrete.resistor!!!RES!!!F186!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231535\!RES-202000038,R0402,RES,VISHAYB!R52!discrete.resistor!!!RES!!!F185!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231558\!RES-202000046,R0402,RES,VISHAYB!R302!discrete.resistor!!!RES!!!F217!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231559\!RES-202000046,R0402,RES,VISHAYB!R303!discrete.resistor!!!RES!!!F216!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231560\!RES-202000046,R0402,RES,VISHAYB!R304!discrete.resistor!!!RES!!!F215!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231561\!RES-202000046,R0402,RES,VISHAYB!R305!discrete.resistor!!!RES!!!F214!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231562\!RES-202000046,R0402,RES,VISHAYB!R306!discrete.resistor!!!RES!!!F213!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231563\!RES-202000046,R0402,RES,VISHAYB!R307!discrete.resistor!!!RES!!!F212!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231564\!RES-202000046,R0402,RES,VISHAYB!R308!discrete.resistor!!!RES!!!F211!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231565\!RES-202000046,R0402,RES,VISHAYB!R309!discrete.resistor!!!RES!!!F210!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231566\!RES-202000046,R0402,RES,VISHAYB!R310!discrete.resistor!!!RES!!!F209!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231567\!RES-202000046,R0402,RES,VISHAYB!R311!discrete.resistor!!!RES!!!F208!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231568\!RES-202000046,R0402,RES,VISHAYB!R312!discrete.resistor!!!RES!!!F207!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231569\!RES-202000046,R0402,RES,VISHAYB!R313!discrete.resistor!!!RES!!!F206!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231570\!RES-202000046,R0402,RES,VISHAYB!R314!discrete.resistor!!!RES!!!F205!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231571\!RES-202000046,R0402,RES,VISHAYB!R315!discrete.resistor!!!RES!!!F204!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231572\!RES-202000046,R0402,RES,VISHAYB!R316!discrete.resistor!!!RES!!!F203!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231573\!RES-202000046,R0402,RES,VISHAYB!R317!discrete.resistor!!!RES!!!F202!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231574\!RES-202000046,R0402,RES,VISHAYB!R318!discrete.resistor!!!RES!!!F201!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231575\!RES-202000046,R0402,RES,VISHAYB!R319!discrete.resistor!!!RES!!!F200!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231513\!RES-202000046,R0402,RES,VISHAYB!R32!discrete.resistor!!!RES!!!F199!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231576\!RES-202000046,R0402,RES,VISHAYB!R320!discrete.resistor!!!RES!!!F198!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231577\!RES-202000046,R0402,RES,VISHAYB!R321!discrete.resistor!!!RES!!!F197!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231578\!RES-202000046,R0402,RES,VISHAYB!R322!discrete.resistor!!!RES!!!F196!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231579\!RES-202000046,R0402,RES,VISHAYB!R323!discrete.resistor!!!RES!!!F195!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231580\!RES-202000046,R0402,RES,VISHAYB!R324!discrete.resistor!!!RES!!!F194!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231510\!RES-202000054,R0402,RES,VISHAYB!R180!discrete.resistor!!!RES!!!F134!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231511\!RES-202000054,R0402,RES,VISHAYB!R181!discrete.resistor!!!RES!!!F133!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231512\!RES-202000054,R0402,RES,VISHAYB!R182!discrete.resistor!!!RES!!!F132!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231513\!RES-202000054,R0402,RES,VISHAYB!R183!discrete.resistor!!!RES!!!F131!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231514\!RES-202000054,R0402,RES,VISHAYB!R184!discrete.resistor!!!RES!!!F130!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231515\!RES-202000054,R0402,RES,VISHAYB!R185!discrete.resistor!!!RES!!!F129!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231516\!RES-202000054,R0402,RES,VISHAYB!R186!discrete.resistor!!!RES!!!F128!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231517\!RES-202000054,R0402,RES,VISHAYB!R187!discrete.resistor!!!RES!!!F127!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231518\!RES-202000054,R0402,RES,VISHAYB!R188!discrete.resistor!!!RES!!!F126!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231519\!RES-202000054,R0402,RES,VISHAYB!R189!discrete.resistor!!!RES!!!F125!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231520\!RES-202000054,R0402,RES,VISHAYB!R190!discrete.resistor!!!RES!!!F124!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231521\!RES-202000054,R0402,RES,VISHAYB!R191!discrete.resistor!!!RES!!!F123!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231602\!RES-202000054,R0402,RES,VISHAYB!R192!discrete.resistor!!!RES!!!F122!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231522\!RES-202000054,R0402,RES,VISHAYB!R193!discrete.resistor!!!RES!!!F121!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231528\!RES-202000054,R0402,RES,VISHAYB!R194!discrete.resistor!!!RES!!!F120!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231529\!RES-202000054,R0402,RES,VISHAYB!R195!discrete.resistor!!!RES!!!F119!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231530\!RES-202000054,R0402,RES,VISHAYB!R196!discrete.resistor!!!RES!!!F118!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231531\!RES-202000054,R0402,RES,VISHAYB!R197!discrete.resistor!!!RES!!!F117!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231532\!RES-202000054,R0402,RES,VISHAYB!R198!discrete.resistor!!!RES!!!F116!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231533\!RES-202000054,R0402,RES,VISHAYB!R199!discrete.resistor!!!RES!!!F115!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231534\!RES-202000054,R0402,RES,VISHAYB!R200!discrete.resistor!!!RES!!!F114!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231535\!RES-202000054,R0402,RES,VISHAYB!R201!discrete.resistor!!!RES!!!F113!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231536\!RES-202000054,R0402,RES,VISHAYB!R202!discrete.resistor!!!RES!!!F112!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231537\!RES-202000054,R0402,RES,VISHAYB!R203!discrete.resistor!!!RES!!!F111!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231538\!RES-202000054,R0402,RES,VISHAYB!R204!discrete.resistor!!!RES!!!F110!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231539\!RES-202000054,R0402,RES,VISHAYB!R205!discrete.resistor!!!RES!!!F109!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231540\!RES-202000054,R0402,RES,VISHAYB!R206!discrete.resistor!!!RES!!!F108!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231541\!RES-202000054,R0402,RES,VISHAYB!R207!discrete.resistor!!!RES!!!F107!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231542\!RES-202000054,R0402,RES,VISHAYB!R208!discrete.resistor!!!RES!!!F106!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231543\!RES-202000054,R0402,RES,VISHAYB!R209!discrete.resistor!!!RES!!!F105!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231544\!RES-202000054,R0402,RES,VISHAYB!R210!discrete.resistor!!!RES!!!F104!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231545\!RES-202000054,R0402,RES,VISHAYB!R211!discrete.resistor!!!RES!!!F103!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231546\!RES-202000054,R0402,RES,VISHAYB!R212!discrete.resistor!!!RES!!!F102!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231547\!RES-202000054,R0402,RES,VISHAYB!R213!discrete.resistor!!!RES!!!F101!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231548\!RES-202000054,R0402,RES,VISHAYB!R214!discrete.resistor!!!RES!!!F100!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231549\!RES-202000054,R0402,RES,VISHAYB!R215!discrete.resistor!!!RES!!!F99!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231550\!RES-202000054,R0402,RES,VISHAYB!R216!discrete.resistor!!!RES!!!F98!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231551\!RES-202000054,R0402,RES,VISHAYB!R217!discrete.resistor!!!RES!!!F97!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231552\!RES-202000054,R0402,RES,VISHAYB!R218!discrete.resistor!!!RES!!!F96!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231553\!RES-202000054,R0402,RES,VISHAYB!R226!discrete.resistor!!!RES!!!F95!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231554\!RES-202000054,R0402,RES,VISHAYB!R227!discrete.resistor!!!RES!!!F94!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231555\!RES-202000054,R0402,RES,VISHAYB!R228!discrete.resistor!!!RES!!!F93!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231556\!RES-202000054,R0402,RES,VISHAYB!R229!discrete.resistor!!!RES!!!F92!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231557\!RES-202000054,R0402,RES,VISHAYB!R230!discrete.resistor!!!RES!!!F91!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231558\!RES-202000054,R0402,RES,VISHAYB!R231!discrete.resistor!!!RES!!!F90!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231559\!RES-202000054,R0402,RES,VISHAYB!R232!discrete.resistor!!!RES!!!F89!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231560\!RES-202000054,R0402,RES,VISHAYB!R233!discrete.resistor!!!RES!!!F88!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231561\!RES-202000054,R0402,RES,VISHAYB!R234!discrete.resistor!!!RES!!!F87!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231562\!RES-202000054,R0402,RES,VISHAYB!R235!discrete.resistor!!!RES!!!F86!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231563\!RES-202000054,R0402,RES,VISHAYB!R236!discrete.resistor!!!RES!!!F85!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231521\!RES-202000054,R0402,RES,VISHAYB!R72!discrete.resistor!!!RES!!!F84!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231522\!RES-202000054,R0402,RES,VISHAYB!R73!discrete.resistor!!!RES!!!F83!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231533\!RES-202000042,R0402,RES,VISHAYB!R106!discrete.resistor!!!RES!!!F161!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231529\!RES-202000042,R0402,RES,VISHAYB!R90!discrete.resistor!!!RES!!!F160!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231581\!RES-202000043,R0402,RES,VISHAYB!R325!discrete.resistor!!!RES!!!F181!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231556\!RES-202000044,R0402,RES,VISHAYB!R112!discrete.resistor!!!RES!!!F184!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231557\!RES-202000044,R0402,RES,VISHAYB!R113!discrete.resistor!!!RES!!!F183!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231510\!RES-202000044,R0402,RES,VISHAYB!R115!discrete.resistor!!!RES!!!F182!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231564\!RES-202000048,R0402,RES,VISHAYB!R240!discrete.resistor!!!RES!!!F157!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231565\!RES-202000048,R0402,RES,VISHAYB!R241!discrete.resistor!!!RES!!!F156!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231566\!RES-202000048,R0402,RES,VISHAYB!R242!discrete.resistor!!!RES!!!F155!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231567\!RES-202000048,R0402,RES,VISHAYB!R243!discrete.resistor!!!RES!!!F154!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231568\!RES-202000048,R0402,RES,VISHAYB!R244!discrete.resistor!!!RES!!!F153!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231569\!RES-202000048,R0402,RES,VISHAYB!R245!discrete.resistor!!!RES!!!F152!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231570\!RES-202000048,R0402,RES,VISHAYB!R246!discrete.resistor!!!RES!!!F151!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231571\!RES-202000048,R0402,RES,VISHAYB!R247!discrete.resistor!!!RES!!!F150!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231551\!RES-202000048,R0402,RES,VISHAYB!R273!discrete.resistor!!!RES!!!F149!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231552\!RES-202000048,R0402,RES,VISHAYB!R276!discrete.resistor!!!RES!!!F148!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231553\!RES-202000048,R0402,RES,VISHAYB!R277!discrete.resistor!!!RES!!!F147!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231556\!RES-202000048,R0402,RES,VISHAYB!R280!discrete.resistor!!!RES!!!F146!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231559\!RES-202000048,R0402,RES,VISHAYB!R283!discrete.resistor!!!RES!!!F145!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231560\!RES-202000048,R0402,RES,VISHAYB!R284!discrete.resistor!!!RES!!!F144!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231561\!RES-202000048,R0402,RES,VISHAYB!R285!discrete.resistor!!!RES!!!F143!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231510\!RES-202000048,R0402,RES,VISHAYB!R298!discrete.resistor!!!RES!!!F142!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231511\!RES-202000048,R0402,RES,VISHAYB!R299!discrete.resistor!!!RES!!!F141!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231513\!RES-202000048,R0402,RES,VISHAYB!R301!discrete.resistor!!!RES!!!F140!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231514\!RES-202000048,R0402,RES,VISHAYB!R326!discrete.resistor!!!RES!!!F139!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231525\!RES-202000055,R0402,RES,VISHAYB!R224!discrete.resistor!!!RES!!!F159!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231526\!RES-202000045,R0402,RES,VISHAYB!R225!discrete.resistor!!!RES!!!F158!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231554\!RES-202000052,R0603,RES,VISHAYB!R278!discrete.resistor!!!RES!!!F138!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231555\!RES-202000039,R0603,RES,VISHAYB!R279!discrete.resistor!!!RES!!!F137!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231557\!RES-202000041,R0402,RES,VISHAYB!R281!discrete.resistor!!!RES!!!F136!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231526\!RES-202000037,R0402,RES,VISHAYB!R79!discrete.resistor!!!RES!!!F82!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231530\!RES-202000056,R0402,RES,VISHAYB!R100!discrete.resistor!!!RES!!!F164!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231564\!RES-202000056,R0402,RES,VISHAYB!R288!discrete.resistor!!!RES!!!F163!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231525\!RES-202000056,R0402,RES,VISHAYB!R84!discrete.resistor!!!RES!!!F162!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231591\!FERRITE-202000034,BEAD_0603,FEB!FB1!discrete.ferrite!!!FERRITE!!!F66!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646980\!FERRITE-202000034,BEAD_0603,FEB!FB12!discrete.ferrite!!!FERRITE!!!F65!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231592\!FERRITE-202000034,BEAD_0603,FEB!FB2!discrete.ferrite!!!FERRITE!!!F64!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231514\!FERRITE-202000033,FBEAD_0402,FB!FB14!discrete.ferrite!!!FERRITE!!!F63!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231515\!FERRITE-202000033,FBEAD_0402,FB!FB15!discrete.ferrite!!!FERRITE!!!F62!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231516\!FERRITE-202000033,FBEAD_0402,FB!FB16!discrete.ferrite!!!FERRITE!!!F61!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231517\!FERRITE-202000033,FBEAD_0402,FB!FB17!discrete.ferrite!!!FERRITE!!!F60!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231518\!FERRITE-202000033,FBEAD_0402,FB!FB18!discrete.ferrite!!!FERRITE!!!F59!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231514\!FERRITE-202000033,FBEAD_0402,FB!FB3!discrete.ferrite!!!FERRITE!!!F58!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231515\!FERRITE-202000033,FBEAD_0402,FB!FB4!discrete.ferrite!!!FERRITE!!!F57!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231516\!FERRITE-202000033,FBEAD_0402,FB!FB5!discrete.ferrite!!!FERRITE!!!F56!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231517\!FERRITE-202000033,FBEAD_0402,FB!FB6!discrete.ferrite!!!FERRITE!!!F55!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231518\!FERRITE-202000033,FBEAD_0402,FB!FB7!discrete.ferrite!!!FERRITE!!!F54!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231506\!CAP-202000029,C1210,CAP,MURATAB!C12!discrete.capacitor!!!CAP!!!F564!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231674\!CAP-202000029,C1210,CAP,MURATAB!C134!discrete.capacitor!!!CAP!!!F563!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646935\!CAP-202000029,C1210,CAP,MURATAB!C143!discrete.capacitor!!!CAP!!!F562!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646953\!CAP-202000029,C1210,CAP,MURATAB!C168!discrete.capacitor!!!CAP!!!F561!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231489\!CAP-202000029,C1210,CAP,MURATAB!C17!discrete.capacitor!!!CAP!!!F560!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646958\!CAP-202000029,C1210,CAP,MURATAB!C173!discrete.capacitor!!!CAP!!!F559!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646964\!CAP-202000029,C1210,CAP,MURATAB!C179!discrete.capacitor!!!CAP!!!F558!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231653\!CAP-202000029,C1210,CAP,MURATAB!C194!discrete.capacitor!!!CAP!!!F557!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646973\!CAP-202000029,C1210,CAP,MURATAB!C195!discrete.capacitor!!!CAP!!!F556!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646974\!CAP-202000029,C1210,CAP,MURATAB!C214!discrete.capacitor!!!CAP!!!F555!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646975\!CAP-202000029,C1210,CAP,MURATAB!C216!discrete.capacitor!!!CAP!!!F554!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231518\!CAP-202000029,C1210,CAP,MURATAB!C218!discrete.capacitor!!!CAP!!!F553!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646976\!CAP-202000029,C1210,CAP,MURATAB!C281!discrete.capacitor!!!CAP!!!F552!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231590\!CAP-202000029,C1210,CAP,MURATAB!C286!discrete.capacitor!!!CAP!!!F551!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231539\!CAP-202000029,C1210,CAP,MURATAB!C70!discrete.capacitor!!!CAP!!!F550!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231540\!CAP-202000029,C1210,CAP,MURATAB!C71!discrete.capacitor!!!CAP!!!F549!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231517\!CAP-202000029,C1210,CAP,MURATAB!C84!discrete.capacitor!!!CAP!!!F548!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646957\!CAP-202000020,C0603,CAP,TAIYO B!C172!discrete.capacitor!!!CAP!!!F360!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231496\!CAP-202000020,C0603,CAP,TAIYO B!C232!discrete.capacitor!!!CAP!!!F359!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231499\!CAP-202000020,C0603,CAP,TAIYO B!C235!discrete.capacitor!!!CAP!!!F358!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231501\!CAP-202000020,C0603,CAP,TAIYO B!C257!discrete.capacitor!!!CAP!!!F357!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231508\!CAP-202000020,C0603,CAP,TAIYO B!C267!discrete.capacitor!!!CAP!!!F356!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231512\!CAP-202000020,C0603,CAP,TAIYO B!C296!discrete.capacitor!!!CAP!!!F355!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231494\!CAP-202000020,C0603,CAP,TAIYO B!C33!discrete.capacitor!!!CAP!!!F354!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231495\!CAP-202000020,C0603,CAP,TAIYO B!C34!discrete.capacitor!!!CAP!!!F353!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231499\!CAP-202000020,C0603,CAP,TAIYO B!C38!discrete.capacitor!!!CAP!!!F352!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231501\!CAP-202000020,C0603,CAP,TAIYO B!C40!discrete.capacitor!!!CAP!!!F351!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231509\!CAP-202000020,C0603,CAP,TAIYO B!C48!discrete.capacitor!!!CAP!!!F350!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231510\!CAP-202000020,C0603,CAP,TAIYO B!C49!discrete.capacitor!!!CAP!!!F349!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231587\!CAP-202000020,C0603,CAP,TAIYO B!C53!discrete.capacitor!!!CAP!!!F348!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231588\!CAP-202000018,C0402,CAP,TDK,C1B!C54!discrete.capacitor!!!CAP!!!F347!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231589\!CAP-202000018,C0402,CAP,TDK,C1B!C61!discrete.capacitor!!!CAP!!!F346!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231512\!CAP-202000018,C0402,CAP,TDK,C1B!C62!discrete.capacitor!!!CAP!!!F345!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231513\!CAP-202000018,C0402,CAP,TDK,C1B!C85!discrete.capacitor!!!CAP!!!F344!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231504\!CAP-202000023,C0402,CAP,TAIYO B!C10!discrete.capacitor!!!CAP!!!F430!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231505\!CAP-202000023,C0402,CAP,TAIYO B!C11!discrete.capacitor!!!CAP!!!F429!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231491\!CAP-202000023,C0402,CAP,TAIYO B!C144!discrete.capacitor!!!CAP!!!F428!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231492\!CAP-202000023,C0402,CAP,TAIYO B!C145!discrete.capacitor!!!CAP!!!F427!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231584\!CAP-202000023,C0402,CAP,TAIYO B!C16!discrete.capacitor!!!CAP!!!F426!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231493\!CAP-202000023,C0402,CAP,TAIYO B!C196!discrete.capacitor!!!CAP!!!F425!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231578\!CAP-202000023,C0402,CAP,TAIYO B!C197!discrete.capacitor!!!CAP!!!F424!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231580\!CAP-202000023,C0402,CAP,TAIYO B!C199!discrete.capacitor!!!CAP!!!F423!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231582\!CAP-202000023,C0402,CAP,TAIYO B!C201!discrete.capacitor!!!CAP!!!F422!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231584\!CAP-202000023,C0402,CAP,TAIYO B!C203!discrete.capacitor!!!CAP!!!F421!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231586\!CAP-202000023,C0402,CAP,TAIYO B!C205!discrete.capacitor!!!CAP!!!F420!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231588\!CAP-202000023,C0402,CAP,TAIYO B!C207!discrete.capacitor!!!CAP!!!F419!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231590\!CAP-202000023,C0402,CAP,TAIYO B!C209!discrete.capacitor!!!CAP!!!F418!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231592\!CAP-202000023,C0402,CAP,TAIYO B!C211!discrete.capacitor!!!CAP!!!F417!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231594\!CAP-202000023,C0402,CAP,TAIYO B!C213!discrete.capacitor!!!CAP!!!F416!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231595\!CAP-202000023,C0402,CAP,TAIYO B!C215!discrete.capacitor!!!CAP!!!F415!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231596\!CAP-202000023,C0402,CAP,TAIYO B!C217!discrete.capacitor!!!CAP!!!F414!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231597\!CAP-202000023,C0402,CAP,TAIYO B!C219!discrete.capacitor!!!CAP!!!F413!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231598\!CAP-202000023,C0402,CAP,TAIYO B!C221!discrete.capacitor!!!CAP!!!F412!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231599\!CAP-202000023,C0402,CAP,TAIYO B!C223!discrete.capacitor!!!CAP!!!F411!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231600\!CAP-202000023,C0402,CAP,TAIYO B!C225!discrete.capacitor!!!CAP!!!F410!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231601\!CAP-202000023,C0402,CAP,TAIYO B!C227!discrete.capacitor!!!CAP!!!F409!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231500\!CAP-202000023,C0402,CAP,TAIYO B!C239!discrete.capacitor!!!CAP!!!F408!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231585\!CAP-202000023,C0402,CAP,TAIYO B!C24!discrete.capacitor!!!CAP!!!F407!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231489\!CAP-202000023,C0402,CAP,TAIYO B!C25!discrete.capacitor!!!CAP!!!F406!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231502\!CAP-202000023,C0402,CAP,TAIYO B!C258!discrete.capacitor!!!CAP!!!F405!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231489\!CAP-202000023,C0402,CAP,TAIYO B!C259!discrete.capacitor!!!CAP!!!F404!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231490\!CAP-202000023,C0402,CAP,TAIYO B!C26!discrete.capacitor!!!CAP!!!F403!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231518\!CAP-202000023,C0402,CAP,TAIYO B!C260!discrete.capacitor!!!CAP!!!F402!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231519\!CAP-202000023,C0402,CAP,TAIYO B!C261!discrete.capacitor!!!CAP!!!F401!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231504\!CAP-202000023,C0402,CAP,TAIYO B!C263!discrete.capacitor!!!CAP!!!F400!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231505\!CAP-202000023,C0402,CAP,TAIYO B!C264!discrete.capacitor!!!CAP!!!F399!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231491\!CAP-202000023,C0402,CAP,TAIYO B!C27!discrete.capacitor!!!CAP!!!F398!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231492\!CAP-202000023,C0402,CAP,TAIYO B!C28!discrete.capacitor!!!CAP!!!F397!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231537\!CAP-202000023,C0402,CAP,TAIYO B!C288!discrete.capacitor!!!CAP!!!F396!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231511\!CAP-202000023,C0402,CAP,TAIYO B!C289!discrete.capacitor!!!CAP!!!F395!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231496\!CAP-202000023,C0402,CAP,TAIYO B!C290!discrete.capacitor!!!CAP!!!F394!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231497\!CAP-202000023,C0402,CAP,TAIYO B!C291!discrete.capacitor!!!CAP!!!F393!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231489\!CAP-202000023,C0402,CAP,TAIYO B!C297!discrete.capacitor!!!CAP!!!F392!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231490\!CAP-202000023,C0402,CAP,TAIYO B!C298!discrete.capacitor!!!CAP!!!F391!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231586\!CAP-202000023,C0402,CAP,TAIYO B!C31!discrete.capacitor!!!CAP!!!F390!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231493\!CAP-202000023,C0402,CAP,TAIYO B!C32!discrete.capacitor!!!CAP!!!F389!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231496\!CAP-202000023,C0402,CAP,TAIYO B!C35!discrete.capacitor!!!CAP!!!F388!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231497\!CAP-202000023,C0402,CAP,TAIYO B!C36!discrete.capacitor!!!CAP!!!F387!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231498\!CAP-202000023,C0402,CAP,TAIYO B!C37!discrete.capacitor!!!CAP!!!F386!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231500\!CAP-202000023,C0402,CAP,TAIYO B!C39!discrete.capacitor!!!CAP!!!F385!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231502\!CAP-202000023,C0402,CAP,TAIYO B!C41!discrete.capacitor!!!CAP!!!F384!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231503\!CAP-202000023,C0402,CAP,TAIYO B!C42!discrete.capacitor!!!CAP!!!F383!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231504\!CAP-202000023,C0402,CAP,TAIYO B!C43!discrete.capacitor!!!CAP!!!F382!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231505\!CAP-202000023,C0402,CAP,TAIYO B!C44!discrete.capacitor!!!CAP!!!F381!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231506\!CAP-202000023,C0402,CAP,TAIYO B!C45!discrete.capacitor!!!CAP!!!F380!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231507\!CAP-202000023,C0402,CAP,TAIYO B!C46!discrete.capacitor!!!CAP!!!F379!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231508\!CAP-202000023,C0402,CAP,TAIYO B!C47!discrete.capacitor!!!CAP!!!F378!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231511\!CAP-202000023,C0402,CAP,TAIYO B!C50!discrete.capacitor!!!CAP!!!F377!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231504\!CAP-202000023,C0402,CAP,TAIYO B!C51!discrete.capacitor!!!CAP!!!F376!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231505\!CAP-202000023,C0402,CAP,TAIYO B!C52!discrete.capacitor!!!CAP!!!F375!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231506\!CAP-202000023,C0402,CAP,TAIYO B!C55!discrete.capacitor!!!CAP!!!F374!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231507\!CAP-202000023,C0402,CAP,TAIYO B!C56!discrete.capacitor!!!CAP!!!F373!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231489\!CAP-202000023,C0402,CAP,TAIYO B!C58!discrete.capacitor!!!CAP!!!F372!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231509\!CAP-202000023,C0402,CAP,TAIYO B!C59!discrete.capacitor!!!CAP!!!F371!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231510\!CAP-202000023,C0402,CAP,TAIYO B!C60!discrete.capacitor!!!CAP!!!F370!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231512\!CAP-202000023,C0402,CAP,TAIYO B!C64!discrete.capacitor!!!CAP!!!F369!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231513\!CAP-202000023,C0402,CAP,TAIYO B!C65!discrete.capacitor!!!CAP!!!F368!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231490\!CAP-202000023,C0402,CAP,TAIYO B!C67!discrete.capacitor!!!CAP!!!F367!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231515\!CAP-202000023,C0402,CAP,TAIYO B!C68!discrete.capacitor!!!CAP!!!F366!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231516\!CAP-202000023,C0402,CAP,TAIYO B!C69!discrete.capacitor!!!CAP!!!F365!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231503\!CAP-202000023,C0402,CAP,TAIYO B!C7!discrete.capacitor!!!CAP!!!F364!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231552\!CAP-202000023,C0402,CAP,TAIYO B!C83!discrete.capacitor!!!CAP!!!F363!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231583\!CAP-202000023,C0402,CAP,TAIYO B!C9!discrete.capacitor!!!CAP!!!F362!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231490\!CAP-202000023,C0402,CAP,TAIYO B!C96!discrete.capacitor!!!CAP!!!F361!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231660\!CAP-202000025,C0402,CAP,TDK,C1B!C284!discrete.capacitor!!!CAP!!!F523!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231507\!CAP-202000025,C0402,CAP,TDK,C1B!C13!discrete.capacitor!!!CAP!!!F547!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231671\!CAP-202000025,C0402,CAP,TDK,C1B!C131!discrete.capacitor!!!CAP!!!F546!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231672\!CAP-202000025,C0402,CAP,TDK,C1B!C132!discrete.capacitor!!!CAP!!!F545!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231673\!CAP-202000025,C0402,CAP,TDK,C1B!C133!discrete.capacitor!!!CAP!!!F544!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646932\!CAP-202000025,C0402,CAP,TDK,C1B!C140!discrete.capacitor!!!CAP!!!F543!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646933\!CAP-202000025,C0402,CAP,TDK,C1B!C141!discrete.capacitor!!!CAP!!!F542!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646934\!CAP-202000025,C0402,CAP,TDK,C1B!C142!discrete.capacitor!!!CAP!!!F541!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646938\!CAP-202000025,C0402,CAP,TDK,C1B!C149!discrete.capacitor!!!CAP!!!F540!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646939\!CAP-202000025,C0402,CAP,TDK,C1B!C150!discrete.capacitor!!!CAP!!!F539!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646940\!CAP-202000025,C0402,CAP,TDK,C1B!C151!discrete.capacitor!!!CAP!!!F538!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646941\!CAP-202000025,C0402,CAP,TDK,C1B!C152!discrete.capacitor!!!CAP!!!F537!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646942\!CAP-202000025,C0402,CAP,TDK,C1B!C153!discrete.capacitor!!!CAP!!!F536!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646950\!CAP-202000025,C0402,CAP,TDK,C1B!C162!discrete.capacitor!!!CAP!!!F535!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646954\!CAP-202000025,C0402,CAP,TDK,C1B!C169!discrete.capacitor!!!CAP!!!F534!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646959\!CAP-202000025,C0402,CAP,TDK,C1B!C174!discrete.capacitor!!!CAP!!!F533!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646960\!CAP-202000025,C0402,CAP,TDK,C1B!C175!discrete.capacitor!!!CAP!!!F532!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231490\!CAP-202000025,C0402,CAP,TDK,C1B!C18!discrete.capacitor!!!CAP!!!F531!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646965\!CAP-202000025,C0402,CAP,TDK,C1B!C180!discrete.capacitor!!!CAP!!!F530!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646966\!CAP-202000025,C0402,CAP,TDK,C1B!C181!discrete.capacitor!!!CAP!!!F529!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646967\!CAP-202000025,C0402,CAP,TDK,C1B!C182!discrete.capacitor!!!CAP!!!F528!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231491\!CAP-202000025,C0402,CAP,TDK,C1B!C19!discrete.capacitor!!!CAP!!!F527!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231651\!CAP-202000025,C0402,CAP,TDK,C1B!C192!discrete.capacitor!!!CAP!!!F526!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231652\!CAP-202000025,C0402,CAP,TDK,C1B!C193!discrete.capacitor!!!CAP!!!F525!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646977\!CAP-202000025,C0402,CAP,TDK,C1B!C282!discrete.capacitor!!!CAP!!!F524!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231541\!CAP-202000025,C0402,CAP,TDK,C1B!C72!discrete.capacitor!!!CAP!!!F522!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231542\!CAP-202000025,C0402,CAP,TDK,C1B!C73!discrete.capacitor!!!CAP!!!F521!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231543\!CAP-202000025,C0402,CAP,TDK,C1B!C74!discrete.capacitor!!!CAP!!!F520!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231491\!CAP-202000025,C0402,CAP,TDK,C1B!C97!discrete.capacitor!!!CAP!!!F519!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231492\!CAP-202000025,C0402,CAP,TDK,C1B!C98!discrete.capacitor!!!CAP!!!F518!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231493\!CAP-202000025,C0402,CAP,TDK,C1B!C99!discrete.capacitor!!!CAP!!!F517!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231494\!CAP-202000027,C0402,CAP,TDK,C1B!C100!discrete.capacitor!!!CAP!!!F516!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231495\!CAP-202000027,C0402,CAP,TDK,C1B!C101!discrete.capacitor!!!CAP!!!F515!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231496\!CAP-202000027,C0402,CAP,TDK,C1B!C102!discrete.capacitor!!!CAP!!!F514!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231497\!CAP-202000027,C0402,CAP,TDK,C1B!C103!discrete.capacitor!!!CAP!!!F513!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231666\!CAP-202000027,C0402,CAP,TDK,C1B!C126!discrete.capacitor!!!CAP!!!F512!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231667\!CAP-202000027,C0402,CAP,TDK,C1B!C127!discrete.capacitor!!!CAP!!!F511!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231668\!CAP-202000027,C0402,CAP,TDK,C1B!C128!discrete.capacitor!!!CAP!!!F510!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231669\!CAP-202000027,C0402,CAP,TDK,C1B!C129!discrete.capacitor!!!CAP!!!F509!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231670\!CAP-202000027,C0402,CAP,TDK,C1B!C130!discrete.capacitor!!!CAP!!!F508!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646927\!CAP-202000027,C0402,CAP,TDK,C1B!C135!discrete.capacitor!!!CAP!!!F507!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646928\!CAP-202000027,C0402,CAP,TDK,C1B!C136!discrete.capacitor!!!CAP!!!F506!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646929\!CAP-202000027,C0402,CAP,TDK,C1B!C137!discrete.capacitor!!!CAP!!!F505!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646930\!CAP-202000027,C0402,CAP,TDK,C1B!C138!discrete.capacitor!!!CAP!!!F504!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646931\!CAP-202000027,C0402,CAP,TDK,C1B!C139!discrete.capacitor!!!CAP!!!F503!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231508\!CAP-202000027,C0402,CAP,TDK,C1B!C14!discrete.capacitor!!!CAP!!!F502!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231509\!CAP-202000027,C0402,CAP,TDK,C1B!C15!discrete.capacitor!!!CAP!!!F501!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646943\!CAP-202000027,C0402,CAP,TDK,C1B!C154!discrete.capacitor!!!CAP!!!F500!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646944\!CAP-202000027,C0402,CAP,TDK,C1B!C155!discrete.capacitor!!!CAP!!!F499!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646945\!CAP-202000027,C0402,CAP,TDK,C1B!C156!discrete.capacitor!!!CAP!!!F498!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646946\!CAP-202000027,C0402,CAP,TDK,C1B!C157!discrete.capacitor!!!CAP!!!F497!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646947\!CAP-202000027,C0402,CAP,TDK,C1B!C158!discrete.capacitor!!!CAP!!!F496!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646948\!CAP-202000027,C0402,CAP,TDK,C1B!C159!discrete.capacitor!!!CAP!!!F495!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646949\!CAP-202000027,C0402,CAP,TDK,C1B!C160!discrete.capacitor!!!CAP!!!F494!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646951\!CAP-202000027,C0402,CAP,TDK,C1B!C164!discrete.capacitor!!!CAP!!!F493!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646952\!CAP-202000027,C0402,CAP,TDK,C1B!C165!discrete.capacitor!!!CAP!!!F492!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646955\!CAP-202000027,C0402,CAP,TDK,C1B!C170!discrete.capacitor!!!CAP!!!F491!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646956\!CAP-202000027,C0402,CAP,TDK,C1B!C171!discrete.capacitor!!!CAP!!!F490!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646961\!CAP-202000027,C0402,CAP,TDK,C1B!C176!discrete.capacitor!!!CAP!!!F489!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646962\!CAP-202000027,C0402,CAP,TDK,C1B!C177!discrete.capacitor!!!CAP!!!F488!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646963\!CAP-202000027,C0402,CAP,TDK,C1B!C178!discrete.capacitor!!!CAP!!!F487!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646968\!CAP-202000027,C0402,CAP,TDK,C1B!C183!discrete.capacitor!!!CAP!!!F486!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646969\!CAP-202000027,C0402,CAP,TDK,C1B!C184!discrete.capacitor!!!CAP!!!F485!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646970\!CAP-202000027,C0402,CAP,TDK,C1B!C185!discrete.capacitor!!!CAP!!!F484!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646971\!CAP-202000027,C0402,CAP,TDK,C1B!C186!discrete.capacitor!!!CAP!!!F483!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646972\!CAP-202000027,C0402,CAP,TDK,C1B!C187!discrete.capacitor!!!CAP!!!F482!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231647\!CAP-202000027,C0402,CAP,TDK,C1B!C188!discrete.capacitor!!!CAP!!!F481!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231648\!CAP-202000027,C0402,CAP,TDK,C1B!C189!discrete.capacitor!!!CAP!!!F480!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231649\!CAP-202000027,C0402,CAP,TDK,C1B!C190!discrete.capacitor!!!CAP!!!F479!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231650\!CAP-202000027,C0402,CAP,TDK,C1B!C191!discrete.capacitor!!!CAP!!!F478!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231492\!CAP-202000027,C0402,CAP,TDK,C1B!C20!discrete.capacitor!!!CAP!!!F477!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231493\!CAP-202000027,C0402,CAP,TDK,C1B!C21!discrete.capacitor!!!CAP!!!F476!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231494\!CAP-202000027,C0402,CAP,TDK,C1B!C22!discrete.capacitor!!!CAP!!!F475!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646982\!CAP-202000027,C0402,CAP,TDK,C1B!C268!discrete.capacitor!!!CAP!!!F474!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646983\!CAP-202000027,C0402,CAP,TDK,C1B!C269!discrete.capacitor!!!CAP!!!F473!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231609\!CAP-202000027,C0402,CAP,TDK,C1B!C270!discrete.capacitor!!!CAP!!!F472!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231610\!CAP-202000027,C0402,CAP,TDK,C1B!C271!discrete.capacitor!!!CAP!!!F471!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231611\!CAP-202000027,C0402,CAP,TDK,C1B!C272!discrete.capacitor!!!CAP!!!F470!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231612\!CAP-202000027,C0402,CAP,TDK,C1B!C273!discrete.capacitor!!!CAP!!!F469!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231490\!CAP-202000027,C0402,CAP,TDK,C1B!C274!discrete.capacitor!!!CAP!!!F468!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231491\!CAP-202000027,C0402,CAP,TDK,C1B!C275!discrete.capacitor!!!CAP!!!F467!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231492\!CAP-202000027,C0402,CAP,TDK,C1B!C276!discrete.capacitor!!!CAP!!!F466!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231493\!CAP-202000027,C0402,CAP,TDK,C1B!C277!discrete.capacitor!!!CAP!!!F465!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231494\!CAP-202000027,C0402,CAP,TDK,C1B!C278!discrete.capacitor!!!CAP!!!F464!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231495\!CAP-202000027,C0402,CAP,TDK,C1B!C279!discrete.capacitor!!!CAP!!!F463!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646978\!CAP-202000027,C0402,CAP,TDK,C1B!C283!discrete.capacitor!!!CAP!!!F462!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231661\!CAP-202000027,C0402,CAP,TDK,C1B!C285!discrete.capacitor!!!CAP!!!F461!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231498\!CAP-202000027,C0402,CAP,TDK,C1B!C292!discrete.capacitor!!!CAP!!!F460!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231499\!CAP-202000027,C0402,CAP,TDK,C1B!C293!discrete.capacitor!!!CAP!!!F459!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231500\!CAP-202000027,C0402,CAP,TDK,C1B!C294!discrete.capacitor!!!CAP!!!F458!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231501\!CAP-202000027,C0402,CAP,TDK,C1B!C295!discrete.capacitor!!!CAP!!!F457!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646979\!CAP-202000027,C0402,CAP,TDK,C1B!C307!discrete.capacitor!!!CAP!!!F456!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231544\!CAP-202000027,C0402,CAP,TDK,C1B!C75!discrete.capacitor!!!CAP!!!F455!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231545\!CAP-202000027,C0402,CAP,TDK,C1B!C76!discrete.capacitor!!!CAP!!!F454!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231546\!CAP-202000027,C0402,CAP,TDK,C1B!C77!discrete.capacitor!!!CAP!!!F453!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231547\!CAP-202000027,C0402,CAP,TDK,C1B!C78!discrete.capacitor!!!CAP!!!F452!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231548\!CAP-202000027,C0402,CAP,TDK,C1B!C79!discrete.capacitor!!!CAP!!!F451!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231549\!CAP-202000027,C0402,CAP,TDK,C1B!C80!discrete.capacitor!!!CAP!!!F450!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231550\!CAP-202000027,C0402,CAP,TDK,C1B!C81!discrete.capacitor!!!CAP!!!F449!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231579\!CAP-202000026,C0402,CAP,TDK,C1B!C198!discrete.capacitor!!!CAP!!!F448!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231581\!CAP-202000026,C0402,CAP,TDK,C1B!C200!discrete.capacitor!!!CAP!!!F447!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231583\!CAP-202000026,C0402,CAP,TDK,C1B!C202!discrete.capacitor!!!CAP!!!F446!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231585\!CAP-202000026,C0402,CAP,TDK,C1B!C204!discrete.capacitor!!!CAP!!!F445!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231587\!CAP-202000026,C0402,CAP,TDK,C1B!C206!discrete.capacitor!!!CAP!!!F444!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231589\!CAP-202000026,C0402,CAP,TDK,C1B!C208!discrete.capacitor!!!CAP!!!F443!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231591\!CAP-202000026,C0402,CAP,TDK,C1B!C210!discrete.capacitor!!!CAP!!!F442!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231593\!CAP-202000026,C0402,CAP,TDK,C1B!C212!discrete.capacitor!!!CAP!!!F441!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231495\!CAP-202000026,C0402,CAP,TDK,C1B!C23!discrete.capacitor!!!CAP!!!F440!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231494\!CAP-202000026,C0402,CAP,TDK,C1B!C230!discrete.capacitor!!!CAP!!!F439!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231495\!CAP-202000026,C0402,CAP,TDK,C1B!C231!discrete.capacitor!!!CAP!!!F438!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231497\!CAP-202000026,C0402,CAP,TDK,C1B!C233!discrete.capacitor!!!CAP!!!F437!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231498\!CAP-202000026,C0402,CAP,TDK,C1B!C234!discrete.capacitor!!!CAP!!!F436!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231503\!CAP-202000026,C0402,CAP,TDK,C1B!C262!discrete.capacitor!!!CAP!!!F435!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231506\!CAP-202000026,C0402,CAP,TDK,C1B!C265!discrete.capacitor!!!CAP!!!F434!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231507\!CAP-202000026,C0402,CAP,TDK,C1B!C266!discrete.capacitor!!!CAP!!!F433!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231551\!CAP-202000026,C0402,CAP,TDK,C1B!C82!discrete.capacitor!!!CAP!!!F432!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231489\!CAP-202000026,C0402,CAP,TDK,C1B!C95!discrete.capacitor!!!CAP!!!F431!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231536\!CAP-202000021,C0603,CAP,TDK,C1B!C287!discrete.capacitor!!!CAP!!!F341!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231511\!CAP-202000021,C0603,CAP,TDK,C1B!C63!discrete.capacitor!!!CAP!!!F340!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231519\!CAP-202000019,C0805,CAP,TDK,C2B!C236!discrete.capacitor!!!CAP!!!F339!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231520\!CAP-202000019,C0805,CAP,TDK,C2B!C237!discrete.capacitor!!!CAP!!!F338!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231521\!CAP-202000022,C0805,CAP,TDK,C2B!C238!discrete.capacitor!!!CAP!!!F337!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231522\!CAP-202000022,C0805,CAP,TDK,C2B!C241!discrete.capacitor!!!CAP!!!F336!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231524\!CAP-202000022,C0805,CAP,TDK,C2B!C243!discrete.capacitor!!!CAP!!!F335!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231526\!CAP-202000022,C0805,CAP,TDK,C2B!C245!discrete.capacitor!!!CAP!!!F334!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231527\!CAP-202000022,C0805,CAP,TDK,C2B!C247!discrete.capacitor!!!CAP!!!F333!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231528\!CAP-202000022,C0805,CAP,TDK,C2B!C248!discrete.capacitor!!!CAP!!!F332!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231529\!CAP-202000022,C0805,CAP,TDK,C2B!C250!discrete.capacitor!!!CAP!!!F331!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231532\!CAP-202000022,C0805,CAP,TDK,C2B!C253!discrete.capacitor!!!CAP!!!F330!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231534\!CAP-202000022,C0805,CAP,TDK,C2B!C255!discrete.capacitor!!!CAP!!!F329!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231535\!CAP-202000022,C0805,CAP,TDK,C2B!C256!discrete.capacitor!!!CAP!!!F328!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231530\!CAP-202000024,C0603,CAP,KEMET,B!C251!discrete.capacitor!!!CAP!!!F315!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231531\!CAP-202000024,C0603,CAP,KEMET,B!C252!discrete.capacitor!!!CAP!!!F314!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231533\!CAP-202000024,C0603,CAP,KEMET,B!C254!discrete.capacitor!!!CAP!!!F313!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231508\!CAP-202000028,C0402,CAP,TDK,C1B!C57!discrete.capacitor!!!CAP!!!F343!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231514\!CAP-202000028,C0402,CAP,TDK,C1B!C66!discrete.capacitor!!!CAP!!!F342!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231526\!IC_SPI_FLASH_QUAD_128MB-202000B!U7!ic.ic_spi_flash_quad_128mb!!!IC_SPI_FLASH_QUAD_128MB!!!F67!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231519\!RJ45-10_100_1000-BELFUSE-20200B!J5!connector.rj45-10_100_1000-belfuse!!!RJ45-10_100_1000-BELFUSE!!!F10!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231523\!USB_MICRO_AB_RA_SMT-202000013,B!J6!connector.usb_micro_ab_ra_smt!!!USB_MICRO_AB_RA_SMT!!!F40!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231502\!LED-202000031,LED_0603,LED,LITB!CR10!discrete.led!!!LED!!!F46!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231520\!LED-202000031,LED_0603,LED,LITB!CR4!discrete.led!!!LED!!!F45!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231522\!LED-202000031,LED_0603,LED,LITB!CR6!discrete.led!!!LED!!!F44!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231538\!LED-202000031,LED_0603,LED,LITB!CR8!discrete.led!!!LED!!!F43!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231491\!LED-202000030,LED_0603,LED,LITB!CR1!discrete.led!!!LED!!!F42!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231521\!LED-202000030,LED_0603,LED,LITB!CR5!discrete.led!!!LED!!!F41!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231524\!USB_MICRO_B_RA_SMT-202000010,UB!J7!connector.usb_micro_b_ra_smt!!!USB_MICRO_B_RA_SMT!!!F39!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231513\!DDR3_256MX32-202000068,FBGA136B!U20!ic.ddr3_256mx32!!!DDR3_256MX32!!!F7!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231519\!HDMI_MICRO_D_RA_SMT-202000011,B!J10!connector.hdmi_micro_d_ra_smt!!!HDMI_MICRO_D_RA_SMT!!!F34!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231513\!DIODE-202000032,SOD-523,DIODE,B!D1!discrete.diode!!!DIODE!!!F35!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231539\!FUSE-202000035,F0603,FUSE,PANAB!F1!discrete.fuse!!!FUSE!!!F27!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231545\!IND-202000036,IND2_2X2P5X1P2MMB!L10!discrete.inductor!!!IND!!!F24!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231546\!IND-202000036,IND2_2X2P5X1P2MMB!L11!discrete.inductor!!!IND!!!F23!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231543\!IND-202000036,IND2_2X2P5X1P2MMB!L8!discrete.inductor!!!IND!!!F22!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231544\!IND-202000036,IND2_2X2P5X1P2MMB!L9!discrete.inductor!!!IND!!!F21!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231607\!ZYNQ_7Z020_CLG400-202000071,CBB!U2!ic.zynq_7z020_clg400!!!ZYNQ_7Z020_CLG400!!!F81!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231524\!ZYNQ_7Z020_CLG400-202000071,CBB!U2!ic.zynq_7z020_clg400!!!ZYNQ_7Z020_CLG400!!!F80!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231502\!ZYNQ_7Z020_CLG400-202000071,CBB!U2!ic.zynq_7z020_clg400!!!ZYNQ_7Z020_CLG400!!!F79!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231582\!ZYNQ_7Z020_CLG400-202000071,CBB!U2!ic.zynq_7z020_clg400!!!ZYNQ_7Z020_CLG400!!!F78!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231665\!ZYNQ_7Z020_CLG400-202000071,CBB!U2!ic.zynq_7z020_clg400!!!ZYNQ_7Z020_CLG400!!!F77!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231693\!ZYNQ_7Z020_CLG400-202000071,CBB!U2!ic.zynq_7z020_clg400!!!ZYNQ_7Z020_CLG400!!!F76!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646937\!ZYNQ_7Z020_CLG400-202000071,CBB!U2!ic.zynq_7z020_clg400!!!ZYNQ_7Z020_CLG400!!!F75!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646981\!ZYNQ_7Z020_CLG400-202000071,CBB!U2!ic.zynq_7z020_clg400!!!ZYNQ_7Z020_CLG400!!!F74!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231610\!IC_SI51219-202000061,TSSOP8_3XB!U35!ic.ic_si51219!!!IC_SI51219!!!F53!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231530\!XTAL-202000058,OSC4_1P6X2X7MMHB!Y2!discrete.xtal!!!XTAL!!!F51!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231611\!XTAL-202000057,OSC4_1P6X2X7MMHB!Y1!discrete.xtal!!!XTAL!!!F52!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231515\!SW_PB_SPST_2PIN-202000014,SWITB!SW2!connector.sw_pb_spst_2pin!!!SW_PB_SPST_2PIN!!!F31!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231540\!CON_POWER_PJ002A_TH-202000009,B!J12!connector.con_power_pj002a_th!!!CON_POWER_PJ002A_TH!!!F26!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231542\!HDR_1X2_TH_VER-202000007,HDR_1B!J15!connector.hdr_1x2_th_ver!!!HDR_1X2_TH_VER!!!F25!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231547\!PTH125_200PAD-202000016,PTH125B!PTH1!connector.pth125_200pad!!!PTH125_200PAD!!!F20!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231548\!PTH125_200PAD-202000016,PTH125B!PTH2!connector.pth125_200pad!!!PTH125_200PAD!!!F19!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231549\!PTH125_200PAD-202000016,PTH125B!PTH3!connector.pth125_200pad!!!PTH125_200PAD!!!F18!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231550\!PTH125_200PAD-202000016,PTH125B!PTH4!connector.pth125_200pad!!!PTH125_200PAD!!!F17!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231541\!HDR_1X3_TH_VER-202000008,HDR_1B!J14!connector.hdr_1x3_th_ver!!!HDR_1X3_TH_VER!!!F73!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231510\!HDR_1X3_TH_VER-202000008,HDR_1B!J2!connector.hdr_1x3_th_ver!!!HDR_1X3_TH_VER!!!F72!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231511\!CONN_MICROSD_CARD-202000006,SDB!J3!connector.conn_microsd_card!!!CONN_MICROSD_CARD!!!F71!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231608\!NC7WZ16-202000059,SC_70_6PSMT,B!U11!ic.nc7wz16!!!NC7WZ16!!!F70!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231609\!NC7WZ16-202000059,SC_70_6PSMT,B!U14!ic.nc7wz16!!!NC7WZ16!!!F69!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I167231525\!NC7WZ16-202000059,SC_70_6PSMT,B!U5!ic.nc7wz16!!!NC7WZ16!!!F68!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231528\!88E1318-202000062,QFN48_7SQXP5B!U9!ic.88e1318_qfn48!!!88E1318!!!F9!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646741\@worklib.gige_block(tbl_1):\I167231529\!88E1318-202000062,QFN48_7SQXP5B!U9!ic.88e1318_qfn48!!!88E1318!!!F8!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231536\!USB3320_ULPI_XCVR-202000064,QFB!U12!ic.usb3320_ulpi_xcvr!!!USB3320_ULPI_XCVR!!!F38!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231538\!USB3320_ULPI_XCVR-202000064,QFB!U17!ic.usb3320_ulpi_xcvr!!!USB3320_ULPI_XCVR!!!F37!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646732\@worklib.usb_block(tbl_1):\I167231537\!MIC2025_1_USB_SW-202000069,SOIB!U13!ic.mic2025_1_usb_sw!!!MIC2025_1_USB_SW!!!F36!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231527\!SN65LVDS4-202000063,QFN-10_1P5B!U38!ic.sn65lvds4!!!SN65LVDS4!!!F0!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231528\!HDMI_DVI_XCVR_ADV7513-20200006B!U26!ic.hdmi_dvi_xcvr_adv7513!!!HDMI_DVI_XCVR_ADV7513!!!F33!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646733\@worklib.hdmi_block(tbl_1):\I167231529\!TPD12S016-202000066,TSSOP24_6PB!U37!ic.tpd12s016!!!TPD12S016!!!F32!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231517\!VOLTMON_4IN_3P3-202000070,TSSOB!U34!ic.voltmon_4in_3p3!!!VOLTMON_4IN_3P3!!!F28!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231577\!ISL9307-202000003,TQFN16_4SQXPB!U29!ic.isl9307!!!ISL9307!!!F12!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231578\!ISL9305-202000002,TQFN16_4SQXPB!U30!ic.isl9305!!!ISL9305!!!F11!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231498\!CAP-202000005,C0402,CAP,TDK,C1B!C104!discrete.capacitor!!!CAP!!!F327!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231499\!CAP-202000005,C0402,CAP,TDK,C1B!C105!discrete.capacitor!!!CAP!!!F326!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231500\!CAP-202000005,C0402,CAP,TDK,C1B!C106!discrete.capacitor!!!CAP!!!F325!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231501\!CAP-202000005,C0402,CAP,TDK,C1B!C107!discrete.capacitor!!!CAP!!!F324!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231502\!CAP-202000005,C0402,CAP,TDK,C1B!C108!discrete.capacitor!!!CAP!!!F323!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231503\!CAP-202000005,C0402,CAP,TDK,C1B!C109!discrete.capacitor!!!CAP!!!F322!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231504\!CAP-202000005,C0402,CAP,TDK,C1B!C110!discrete.capacitor!!!CAP!!!F321!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231505\!CAP-202000005,C0402,CAP,TDK,C1B!C111!discrete.capacitor!!!CAP!!!F320!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231506\!CAP-202000005,C0402,CAP,TDK,C1B!C112!discrete.capacitor!!!CAP!!!F319!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646736\@worklib.ddr3_block(tbl_1):\I167231507\!CAP-202000005,C0402,CAP,TDK,C1B!C113!discrete.capacitor!!!CAP!!!F318!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231523\!CAP-202000005,C0402,CAP,TDK,C1B!C242!discrete.capacitor!!!CAP!!!F317!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231525\!CAP-202000005,C0402,CAP,TDK,C1B!C244!discrete.capacitor!!!CAP!!!F316!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646739\@worklib.zynq_block(tbl_1):\I1039646984\!CON_BSH_030_VERT-202000001,CONB!J11!connector.con_bsh_030_vert!!!CON_BSH_030_VERT!!!F50!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646734\@worklib.mgmt_block(tbl_1):\I167231503\!CON_BSH_030_VERT-202000001,CONB!J13!connector.con_bsh_030_vert!!!CON_BSH_030_VERT!!!F49!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231613\!CON_BSH_030_VERT-202000001,CONB!J8!connector.con_bsh_030_vert!!!CON_BSH_030_VERT!!!F48!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231614\!CON_BSH_030_VERT-202000001,CONB!J9!connector.con_bsh_030_vert!!!CON_BSH_030_VERT!!!F47!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231525\!EPIPHANY_E16G301-202000004,BGAB!U23!ic.epiphany_e16g301!!!EPIPHANY_E16G301!!!F6!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231526\!EPIPHANY_E16G301-202000004,BGAB!U23!ic.epiphany_e16g301!!!EPIPHANY_E16G301!!!F5!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231577\!EPIPHANY_E16G301-202000004,BGAB!U23!ic.epiphany_e16g301!!!EPIPHANY_E16G301!!!F4!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231576\!EPIPHANY_E16G301-202000004,BGAB!U23!ic.epiphany_e16g301!!!EPIPHANY_E16G301!!!F3!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231608\!EPIPHANY_E16G301-202000004,BGAB!U23!ic.epiphany_e16g301!!!EPIPHANY_E16G301!!!F2!!!!!!!
+S!@worklib.brain_board(tbl_1):\I1039646740\@worklib.dsp_block(tbl_1):\I167231607\!EPIPHANY_E16G301-202000004,BGAB!U23!ic.epiphany_e16g301!!!EPIPHANY_E16G301!!!F1!!!!!!!

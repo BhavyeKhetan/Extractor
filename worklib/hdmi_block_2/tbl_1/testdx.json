@@ -1,0 +1,1118 @@
+{
+    "instances": [
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138836\\",
+            "properties": {
+                "ASI_MODEL": "GMK105BJ104_V-F",
+                "CDS_LIBRARY_ID": "DC02:1591655899983",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP-202000023,C0402,CAP,TAIYO YUDEN,GMK105BJ104KV-F",
+                "CDS_PART_NAME": "CAP-202000023,C0402,CAP,TAIYO B",
+                "DATASHEET": "taiyo_yuden_ceramic_capacitors.pdf",
+                "IMPLEMENTATION": "GMK105BJ104_V-F",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "C0402",
+                "MFG": "TAIYO YUDEN",
+                "MPN": "GMK105BJ104KV-F",
+                "PART_NUMBER": "202000023",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "CAP0402_0P1UF_X5R_35V_0.1UF",
+                "VALUE": "0.1uF",
+                "VOLTAGE": "35V"
+            },
+            "attributes": {
+                "refdes": "C67",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "capacitor",
+                "schematic": "CAP",
+                "partid": "5CDB4DEB-C63F-44E4-B466-5BE3A13FC73B"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138826\\",
+            "properties": {
+                "ASI_MODEL": "0467651001",
+                "CDS_LIBRARY_ID": "CO03:1591655900307",
+                "CDS_LIBRARY_PHYSICAL_ID": "HDMI_MICRO_D_RA_SMT-202000011,HDMI_MICRO19_6P5X7P5X2P9H_P4P,HDMI_MICRO_D_RA_SMT,MOLEX,046765-1001",
+                "CDS_PART_NAME": "HDMI_MICRO_D_RA_SMT-202000011,B",
+                "DATASHEET": "molex_0467651001.pdf",
+                "IMPLEMENTATION": "0467651001",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "HDMI_MICRO19_6P5X7P5X2P9H_P4P",
+                "MFG": "MOLEX",
+                "MPN": "046765-1001",
+                "PART_NUMBER": "202000011",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 %3 %4 %5 %6 %7 %8 %9 %10 %11 %12 %13 %14 %15 %16 %17 %18 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "0467651001"
+            },
+            "attributes": {
+                "refdes": "J1",
+                "symbol": "sym_1",
+                "library": "connector",
+                "cell": "hdmi_micro_d_ra_smt",
+                "schematic": "HDMI_MICRO_D_RA_SMT",
+                "partid": "D9D5B707-6FF9-4898-A0F4-056E6DF6873F"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138824\\",
+            "properties": {
+                "ASI_MODEL": "BAS16XV2T1G",
+                "CDS_LIBRARY_ID": "DD01:1591655900212",
+                "CDS_LIBRARY_PHYSICAL_ID": "DIODE-202000032,SOD-523,DIODE,ON SEMICONDUCTOR,BAS16XV2T1G",
+                "CDS_PART_NAME": "DIODE-202000032,SOD-523,DIODE,B",
+                "DATASHEET": "on_semi_BAS16XV2T1-D.pdf",
+                "IF": "200mA",
+                "IMPLEMENTATION": "BAS16XV2T1G",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "INSTALL": "DNI",
+                "IR": "50uA",
+                "JEDEC_TYPE": "SOD-523",
+                "MFG": "ON SEMICONDUCTOR",
+                "MPN": "BAS16XV2T1G",
+                "PART_NUMBER": "202000032",
+                "POWER": "200mW",
+                "PSPICETEMPLATE": "X^REFDES %A %K @MODEL",
+                "ROHS": "NO",
+                "SIGNAL_MODEL": "BAS16XV2T1G",
+                "VALUE": "",
+                "VF": "1.25V",
+                "VR": "100V"
+            },
+            "attributes": {
+                "refdes": "D1",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "diode",
+                "schematic": "DIODE",
+                "partid": "3F8CB20E-990C-4377-82C0-DD75F1C7355C"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138822\\",
+            "properties": {
+                "ASI_MODEL": "C1005X7R1C103K050BA",
+                "CDS_LIBRARY_ID": "DC04:1591655900005",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP-202000026,C0402,CAP,TDK,C1005X7R1C103K050BA",
+                "CDS_PART_NAME": "CAP-202000026,C0402,CAP,TDK,C1B",
+                "DATASHEET": "tdk_c-series.pdf",
+                "IMPLEMENTATION": "C1005X7R1C103K050BA",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "C0402",
+                "MFG": "TDK",
+                "MPN": "C1005X7R1C103K050BA",
+                "PART_NUMBER": "202000026",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "C1005X7R1C103K050BA",
+                "VALUE": "10nF",
+                "VOLTAGE": "16V"
+            },
+            "attributes": {
+                "refdes": "C262",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "capacitor",
+                "schematic": "CAP",
+                "partid": "27B456BE-3DE6-4752-8D21-A40D4537717A"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138839\\",
+            "properties": {
+                "ASI_MODEL": "C1005X7R1C103K050BA",
+                "CDS_LIBRARY_ID": "DC04:1591655900005",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP-202000026,C0402,CAP,TDK,C1005X7R1C103K050BA",
+                "CDS_PART_NAME": "CAP-202000026,C0402,CAP,TDK,C1B",
+                "DATASHEET": "tdk_c-series.pdf",
+                "IMPLEMENTATION": "C1005X7R1C103K050BA",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "C0402",
+                "MFG": "TDK",
+                "MPN": "C1005X7R1C103K050BA",
+                "PART_NUMBER": "202000026",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "C1005X7R1C103K050BA",
+                "VALUE": "10nF",
+                "VOLTAGE": "16V"
+            },
+            "attributes": {
+                "refdes": "C230",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "capacitor",
+                "schematic": "CAP",
+                "partid": "27B456BE-3DE6-4752-8D21-A40D4537717A"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138840\\",
+            "properties": {
+                "ASI_MODEL": "C1005X7R1C103K050BA",
+                "CDS_LIBRARY_ID": "DC04:1591655900005",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP-202000026,C0402,CAP,TDK,C1005X7R1C103K050BA",
+                "CDS_PART_NAME": "CAP-202000026,C0402,CAP,TDK,C1B",
+                "DATASHEET": "tdk_c-series.pdf",
+                "IMPLEMENTATION": "C1005X7R1C103K050BA",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "C0402",
+                "MFG": "TDK",
+                "MPN": "C1005X7R1C103K050BA",
+                "PART_NUMBER": "202000026",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "C1005X7R1C103K050BA",
+                "VALUE": "10nF",
+                "VOLTAGE": "16V"
+            },
+            "attributes": {
+                "refdes": "C231",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "capacitor",
+                "schematic": "CAP",
+                "partid": "27B456BE-3DE6-4752-8D21-A40D4537717A"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138842\\",
+            "properties": {
+                "ASI_MODEL": "C1005X7R1C103K050BA",
+                "CDS_LIBRARY_ID": "DC04:1591655900005",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP-202000026,C0402,CAP,TDK,C1005X7R1C103K050BA",
+                "CDS_PART_NAME": "CAP-202000026,C0402,CAP,TDK,C1B",
+                "DATASHEET": "tdk_c-series.pdf",
+                "IMPLEMENTATION": "C1005X7R1C103K050BA",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "C0402",
+                "MFG": "TDK",
+                "MPN": "C1005X7R1C103K050BA",
+                "PART_NUMBER": "202000026",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "C1005X7R1C103K050BA",
+                "VALUE": "10nF",
+                "VOLTAGE": "16V"
+            },
+            "attributes": {
+                "refdes": "C233",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "capacitor",
+                "schematic": "CAP",
+                "partid": "27B456BE-3DE6-4752-8D21-A40D4537717A"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138843\\",
+            "properties": {
+                "ASI_MODEL": "C1005X7R1C103K050BA",
+                "CDS_LIBRARY_ID": "DC04:1591655900005",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP-202000026,C0402,CAP,TDK,C1005X7R1C103K050BA",
+                "CDS_PART_NAME": "CAP-202000026,C0402,CAP,TDK,C1B",
+                "DATASHEET": "tdk_c-series.pdf",
+                "IMPLEMENTATION": "C1005X7R1C103K050BA",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "C0402",
+                "MFG": "TDK",
+                "MPN": "C1005X7R1C103K050BA",
+                "PART_NUMBER": "202000026",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "C1005X7R1C103K050BA",
+                "VALUE": "10nF",
+                "VOLTAGE": "16V"
+            },
+            "attributes": {
+                "refdes": "C234",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "capacitor",
+                "schematic": "CAP",
+                "partid": "27B456BE-3DE6-4752-8D21-A40D4537717A"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138847\\",
+            "properties": {
+                "ASI_MODEL": "C1005X7R1C103K050BA",
+                "CDS_LIBRARY_ID": "DC04:1591655900005",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP-202000026,C0402,CAP,TDK,C1005X7R1C103K050BA",
+                "CDS_PART_NAME": "CAP-202000026,C0402,CAP,TDK,C1B",
+                "DATASHEET": "tdk_c-series.pdf",
+                "IMPLEMENTATION": "C1005X7R1C103K050BA",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "C0402",
+                "MFG": "TDK",
+                "MPN": "C1005X7R1C103K050BA",
+                "PART_NUMBER": "202000026",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "C1005X7R1C103K050BA",
+                "VALUE": "10nF",
+                "VOLTAGE": "16V"
+            },
+            "attributes": {
+                "refdes": "C265",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "capacitor",
+                "schematic": "CAP",
+                "partid": "27B456BE-3DE6-4752-8D21-A40D4537717A"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138848\\",
+            "properties": {
+                "ASI_MODEL": "C1005X7R1C103K050BA",
+                "CDS_LIBRARY_ID": "DC04:1591655900005",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP-202000026,C0402,CAP,TDK,C1005X7R1C103K050BA",
+                "CDS_PART_NAME": "CAP-202000026,C0402,CAP,TDK,C1B",
+                "DATASHEET": "tdk_c-series.pdf",
+                "IMPLEMENTATION": "C1005X7R1C103K050BA",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "C0402",
+                "MFG": "TDK",
+                "MPN": "C1005X7R1C103K050BA",
+                "PART_NUMBER": "202000026",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "C1005X7R1C103K050BA",
+                "VALUE": "10nF",
+                "VOLTAGE": "16V"
+            },
+            "attributes": {
+                "refdes": "C266",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "capacitor",
+                "schematic": "CAP",
+                "partid": "27B456BE-3DE6-4752-8D21-A40D4537717A"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138820\\",
+            "properties": {
+                "ASI_MODEL": "LMK107BJ106MALTD",
+                "CDS_LIBRARY_ID": "DC09:1591655900073",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP-202000020,C0603,CAP,TAIYO YUDEN,LMK107BJ106MALTD",
+                "CDS_PART_NAME": "CAP-202000020,C0603,CAP,TAIYO B",
+                "DATASHEET": "taiyo_yuden_ceramic_capacitors.pdf",
+                "IMPLEMENTATION": "LMK107BJ106MALTD",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "C0603",
+                "MFG": "TAIYO YUDEN",
+                "MPN": "LMK107BJ106MALTD",
+                "PART_NUMBER": "202000020",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "LMK107BJ106MALTD",
+                "VALUE": "10uF",
+                "VOLTAGE": "10V"
+            },
+            "attributes": {
+                "refdes": "C257",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "capacitor",
+                "schematic": "CAP",
+                "partid": "97ECCC67-8B96-4703-B70A-40C69BA7408A"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138841\\",
+            "properties": {
+                "ASI_MODEL": "LMK107BJ106MALTD",
+                "CDS_LIBRARY_ID": "DC09:1591655900073",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP-202000020,C0603,CAP,TAIYO YUDEN,LMK107BJ106MALTD",
+                "CDS_PART_NAME": "CAP-202000020,C0603,CAP,TAIYO B",
+                "DATASHEET": "taiyo_yuden_ceramic_capacitors.pdf",
+                "IMPLEMENTATION": "LMK107BJ106MALTD",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "C0603",
+                "MFG": "TAIYO YUDEN",
+                "MPN": "LMK107BJ106MALTD",
+                "PART_NUMBER": "202000020",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "LMK107BJ106MALTD",
+                "VALUE": "10uF",
+                "VOLTAGE": "10V"
+            },
+            "attributes": {
+                "refdes": "C232",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "capacitor",
+                "schematic": "CAP",
+                "partid": "97ECCC67-8B96-4703-B70A-40C69BA7408A"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138844\\",
+            "properties": {
+                "ASI_MODEL": "LMK107BJ106MALTD",
+                "CDS_LIBRARY_ID": "DC09:1591655900073",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP-202000020,C0603,CAP,TAIYO YUDEN,LMK107BJ106MALTD",
+                "CDS_PART_NAME": "CAP-202000020,C0603,CAP,TAIYO B",
+                "DATASHEET": "taiyo_yuden_ceramic_capacitors.pdf",
+                "IMPLEMENTATION": "LMK107BJ106MALTD",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "C0603",
+                "MFG": "TAIYO YUDEN",
+                "MPN": "LMK107BJ106MALTD",
+                "PART_NUMBER": "202000020",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "LMK107BJ106MALTD",
+                "VALUE": "10uF",
+                "VOLTAGE": "10V"
+            },
+            "attributes": {
+                "refdes": "C235",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "capacitor",
+                "schematic": "CAP",
+                "partid": "97ECCC67-8B96-4703-B70A-40C69BA7408A"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138849\\",
+            "properties": {
+                "ASI_MODEL": "LMK107BJ106MALTD",
+                "CDS_LIBRARY_ID": "DC09:1591655900073",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP-202000020,C0603,CAP,TAIYO YUDEN,LMK107BJ106MALTD",
+                "CDS_PART_NAME": "CAP-202000020,C0603,CAP,TAIYO B",
+                "DATASHEET": "taiyo_yuden_ceramic_capacitors.pdf",
+                "IMPLEMENTATION": "LMK107BJ106MALTD",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "C0603",
+                "MFG": "TAIYO YUDEN",
+                "MPN": "LMK107BJ106MALTD",
+                "PART_NUMBER": "202000020",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "LMK107BJ106MALTD",
+                "VALUE": "10uF",
+                "VOLTAGE": "10V"
+            },
+            "attributes": {
+                "refdes": "C267",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "capacitor",
+                "schematic": "CAP",
+                "partid": "97ECCC67-8B96-4703-B70A-40C69BA7408A"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138850\\",
+            "properties": {
+                "ASI_MODEL": "LMK107BJ106MALTD",
+                "CDS_LIBRARY_ID": "DC09:1591655900073",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP-202000020,C0603,CAP,TAIYO YUDEN,LMK107BJ106MALTD",
+                "CDS_PART_NAME": "CAP-202000020,C0603,CAP,TAIYO B",
+                "DATASHEET": "taiyo_yuden_ceramic_capacitors.pdf",
+                "IMPLEMENTATION": "LMK107BJ106MALTD",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "C0603",
+                "MFG": "TAIYO YUDEN",
+                "MPN": "LMK107BJ106MALTD",
+                "PART_NUMBER": "202000020",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "LMK107BJ106MALTD",
+                "VALUE": "10uF",
+                "VOLTAGE": "10V"
+            },
+            "attributes": {
+                "refdes": "C296",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "capacitor",
+                "schematic": "CAP",
+                "partid": "97ECCC67-8B96-4703-B70A-40C69BA7408A"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138825\\",
+            "properties": {
+                "ASI_MODEL": "BLM15AG121SN1D",
+                "CDS_LIBRARY_ID": "FF01:1591655900247",
+                "CDS_LIBRARY_PHYSICAL_ID": "FERRITE-202000033,FBEAD_0402,FERRITE,MURATA,BLM15AG121SN1D",
+                "CDS_PART_NAME": "FERRITE-202000033,FBEAD_0402,FB",
+                "DATASHEET": "murata_BLM15xxxxxxSNxx.pdf",
+                "DCR": "0.25",
+                "IMPLEMENTATION": "BLM15AG121SN1D",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "FBEAD_0402",
+                "LI": "3",
+                "LV": "",
+                "MFG": "MURATA",
+                "MPN": "BLM15AG121SN1D",
+                "PART_NUMBER": "202000033",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "NO",
+                "SIGNAL_MODEL": "BLM15AG121SN1D"
+            },
+            "attributes": {
+                "refdes": "FB16",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "ferrite",
+                "schematic": "FERRITE",
+                "partid": "358136E9-286C-4CAD-B98D-12D87E563111"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138827\\",
+            "properties": {
+                "ASI_MODEL": "CRCW04024K75FKED",
+                "CDS_LIBRARY_ID": "DR10:1591655900778",
+                "CDS_LIBRARY_PHYSICAL_ID": "RES-202000047,R0402,RES,VISHAY,CRCW04024K75FKED",
+                "CDS_PART_NAME": "RES-202000047,R0402,RES,VISHAYB",
+                "DATASHEET": "vishay_d-crcw_series_resistors.pdf",
+                "IMPLEMENTATION": "CRCW04024K75FKED",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "R0402",
+                "MFG": "VISHAY",
+                "MPN": "CRCW04024K75FKED",
+                "PART_NUMBER": "202000047",
+                "POWER": "0.063",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "CRCW04024K75FKED",
+                "TOLERANCE": "1%",
+                "VALUE": "4.75K"
+            },
+            "attributes": {
+                "refdes": "R19",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "resistor",
+                "schematic": "RES",
+                "partid": "07412B97-68AF-4D2B-9762-74188D866800"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138828\\",
+            "properties": {
+                "ASI_MODEL": "CRCW04024K75FKED",
+                "CDS_LIBRARY_ID": "DR10:1591655900778",
+                "CDS_LIBRARY_PHYSICAL_ID": "RES-202000047,R0402,RES,VISHAY,CRCW04024K75FKED",
+                "CDS_PART_NAME": "RES-202000047,R0402,RES,VISHAYB",
+                "DATASHEET": "vishay_d-crcw_series_resistors.pdf",
+                "IMPLEMENTATION": "CRCW04024K75FKED",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "R0402",
+                "MFG": "VISHAY",
+                "MPN": "CRCW04024K75FKED",
+                "PART_NUMBER": "202000047",
+                "POWER": "0.063",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "CRCW04024K75FKED",
+                "TOLERANCE": "1%",
+                "VALUE": "4.75K"
+            },
+            "attributes": {
+                "refdes": "R21",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "resistor",
+                "schematic": "RES",
+                "partid": "07412B97-68AF-4D2B-9762-74188D866800"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138829\\",
+            "properties": {
+                "ASI_MODEL": "CRCW04024K75FKED",
+                "CDS_LIBRARY_ID": "DR10:1591655900778",
+                "CDS_LIBRARY_PHYSICAL_ID": "RES-202000047,R0402,RES,VISHAY,CRCW04024K75FKED",
+                "CDS_PART_NAME": "RES-202000047,R0402,RES,VISHAYB",
+                "DATASHEET": "vishay_d-crcw_series_resistors.pdf",
+                "IMPLEMENTATION": "CRCW04024K75FKED",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "R0402",
+                "MFG": "VISHAY",
+                "MPN": "CRCW04024K75FKED",
+                "PART_NUMBER": "202000047",
+                "POWER": "0.063",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "CRCW04024K75FKED",
+                "TOLERANCE": "1%",
+                "VALUE": "4.75K"
+            },
+            "attributes": {
+                "refdes": "R22",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "resistor",
+                "schematic": "RES",
+                "partid": "07412B97-68AF-4D2B-9762-74188D866800"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138830\\",
+            "properties": {
+                "ASI_MODEL": "CRCW04024K75FKED",
+                "CDS_LIBRARY_ID": "DR10:1591655900778",
+                "CDS_LIBRARY_PHYSICAL_ID": "RES-202000047,R0402,RES,VISHAY,CRCW04024K75FKED",
+                "CDS_PART_NAME": "RES-202000047,R0402,RES,VISHAYB",
+                "DATASHEET": "vishay_d-crcw_series_resistors.pdf",
+                "IMPLEMENTATION": "CRCW04024K75FKED",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "R0402",
+                "MFG": "VISHAY",
+                "MPN": "CRCW04024K75FKED",
+                "PART_NUMBER": "202000047",
+                "POWER": "0.063",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "CRCW04024K75FKED",
+                "TOLERANCE": "1%",
+                "VALUE": "4.75K"
+            },
+            "attributes": {
+                "refdes": "R24",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "resistor",
+                "schematic": "RES",
+                "partid": "07412B97-68AF-4D2B-9762-74188D866800"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138855\\",
+            "properties": {
+                "ASI_MODEL": "ADV7513",
+                "CDS_LIBRARY_ID": "IC03:1591655900297",
+                "CDS_LIBRARY_PHYSICAL_ID": "HDMI_DVI_XCVR_ADV7513-202000065,LQFP64_10SQX1P6MMH_P5MMP,HDMI_DVI_XCVR_ADV7513,ANALOG DEVICES,ADV7513BSWZ",
+                "CDS_PART_NAME": "HDMI_DVI_XCVR_ADV7513-20200006B",
+                "DATASHEET": "analog_devices_ADV7513BSWZ.pdf",
+                "IMPLEMENTATION": "ADV7513",
+                "JEDEC_TYPE": "LQFP64_10SQX1P6MMH_P5MMP",
+                "MFG": "ANALOG DEVICES",
+                "MPN": "ADV7513BSWZ",
+                "PART_NUMBER": "202000065",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "ADV7513"
+            },
+            "attributes": {
+                "refdes": "U26",
+                "symbol": "sym_1",
+                "library": "ic",
+                "cell": "hdmi_dvi_xcvr_adv7513",
+                "schematic": "HDMI_DVI_XCVR_ADV7513",
+                "partid": "86333FAF-E785-4A0F-9564-FEEA15FEEB39"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138818\\",
+            "properties": {
+                "ASI_MODEL": "GMK105BJ104_V-F",
+                "CDS_LIBRARY_ID": "DC02:1591655899983",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP-202000023,C0402,CAP,TAIYO YUDEN,GMK105BJ104KV-F",
+                "CDS_PART_NAME": "CAP-202000023,C0402,CAP,TAIYO B",
+                "DATASHEET": "taiyo_yuden_ceramic_capacitors.pdf",
+                "IMPLEMENTATION": "GMK105BJ104_V-F",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "C0402",
+                "MFG": "TAIYO YUDEN",
+                "MPN": "GMK105BJ104KV-F",
+                "PART_NUMBER": "202000023",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "GMK105BJ104_V-F",
+                "VALUE": "0.1uF",
+                "VOLTAGE": "35V"
+            },
+            "attributes": {
+                "refdes": "C196",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "capacitor",
+                "schematic": "CAP",
+                "partid": "F8CF918C-EF40-46E5-9ED0-BEF6A966A91B"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138819\\",
+            "properties": {
+                "ASI_MODEL": "GMK105BJ104_V-F",
+                "CDS_LIBRARY_ID": "DC02:1591655899983",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP-202000023,C0402,CAP,TAIYO YUDEN,GMK105BJ104KV-F",
+                "CDS_PART_NAME": "CAP-202000023,C0402,CAP,TAIYO B",
+                "DATASHEET": "taiyo_yuden_ceramic_capacitors.pdf",
+                "IMPLEMENTATION": "GMK105BJ104_V-F",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "C0402",
+                "MFG": "TAIYO YUDEN",
+                "MPN": "GMK105BJ104KV-F",
+                "PART_NUMBER": "202000023",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "GMK105BJ104_V-F",
+                "VALUE": "0.1uF",
+                "VOLTAGE": "35V"
+            },
+            "attributes": {
+                "refdes": "C239",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "capacitor",
+                "schematic": "CAP",
+                "partid": "F8CF918C-EF40-46E5-9ED0-BEF6A966A91B"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138821\\",
+            "properties": {
+                "ASI_MODEL": "GMK105BJ104_V-F",
+                "CDS_LIBRARY_ID": "DC02:1591655899983",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP-202000023,C0402,CAP,TAIYO YUDEN,GMK105BJ104KV-F",
+                "CDS_PART_NAME": "CAP-202000023,C0402,CAP,TAIYO B",
+                "DATASHEET": "taiyo_yuden_ceramic_capacitors.pdf",
+                "IMPLEMENTATION": "GMK105BJ104_V-F",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "C0402",
+                "MFG": "TAIYO YUDEN",
+                "MPN": "GMK105BJ104KV-F",
+                "PART_NUMBER": "202000023",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "GMK105BJ104_V-F",
+                "VALUE": "0.1uF",
+                "VOLTAGE": "35V"
+            },
+            "attributes": {
+                "refdes": "C258",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "capacitor",
+                "schematic": "CAP",
+                "partid": "F8CF918C-EF40-46E5-9ED0-BEF6A966A91B"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138823\\",
+            "properties": {
+                "ASI_MODEL": "GMK105BJ104_V-F",
+                "CDS_LIBRARY_ID": "DC02:1591655899983",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP-202000023,C0402,CAP,TAIYO YUDEN,GMK105BJ104KV-F",
+                "CDS_PART_NAME": "CAP-202000023,C0402,CAP,TAIYO B",
+                "DATASHEET": "taiyo_yuden_ceramic_capacitors.pdf",
+                "IMPLEMENTATION": "GMK105BJ104_V-F",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "C0402",
+                "MFG": "TAIYO YUDEN",
+                "MPN": "GMK105BJ104KV-F",
+                "PART_NUMBER": "202000023",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "GMK105BJ104_V-F",
+                "VALUE": "0.1uF",
+                "VOLTAGE": "35V"
+            },
+            "attributes": {
+                "refdes": "C289",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "capacitor",
+                "schematic": "CAP",
+                "partid": "F8CF918C-EF40-46E5-9ED0-BEF6A966A91B"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138837\\",
+            "properties": {
+                "ASI_MODEL": "GMK105BJ104_V-F",
+                "CDS_LIBRARY_ID": "DC02:1591655899983",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP-202000023,C0402,CAP,TAIYO YUDEN,GMK105BJ104KV-F",
+                "CDS_PART_NAME": "CAP-202000023,C0402,CAP,TAIYO B",
+                "DATASHEET": "taiyo_yuden_ceramic_capacitors.pdf",
+                "IMPLEMENTATION": "GMK105BJ104_V-F",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "C0402",
+                "MFG": "TAIYO YUDEN",
+                "MPN": "GMK105BJ104KV-F",
+                "PART_NUMBER": "202000023",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "GMK105BJ104_V-F",
+                "VALUE": "0.1uF",
+                "VOLTAGE": "35V"
+            },
+            "attributes": {
+                "refdes": "C144",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "capacitor",
+                "schematic": "CAP",
+                "partid": "F8CF918C-EF40-46E5-9ED0-BEF6A966A91B"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138838\\",
+            "properties": {
+                "ASI_MODEL": "GMK105BJ104_V-F",
+                "CDS_LIBRARY_ID": "DC02:1591655899983",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP-202000023,C0402,CAP,TAIYO YUDEN,GMK105BJ104KV-F",
+                "CDS_PART_NAME": "CAP-202000023,C0402,CAP,TAIYO B",
+                "DATASHEET": "taiyo_yuden_ceramic_capacitors.pdf",
+                "IMPLEMENTATION": "GMK105BJ104_V-F",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "C0402",
+                "MFG": "TAIYO YUDEN",
+                "MPN": "GMK105BJ104KV-F",
+                "PART_NUMBER": "202000023",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "GMK105BJ104_V-F",
+                "VALUE": "0.1uF",
+                "VOLTAGE": "35V"
+            },
+            "attributes": {
+                "refdes": "C145",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "capacitor",
+                "schematic": "CAP",
+                "partid": "F8CF918C-EF40-46E5-9ED0-BEF6A966A91B"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138845\\",
+            "properties": {
+                "ASI_MODEL": "GMK105BJ104_V-F",
+                "CDS_LIBRARY_ID": "DC02:1591655899983",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP-202000023,C0402,CAP,TAIYO YUDEN,GMK105BJ104KV-F",
+                "CDS_PART_NAME": "CAP-202000023,C0402,CAP,TAIYO B",
+                "DATASHEET": "taiyo_yuden_ceramic_capacitors.pdf",
+                "IMPLEMENTATION": "GMK105BJ104_V-F",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "C0402",
+                "MFG": "TAIYO YUDEN",
+                "MPN": "GMK105BJ104KV-F",
+                "PART_NUMBER": "202000023",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "GMK105BJ104_V-F",
+                "VALUE": "0.1uF",
+                "VOLTAGE": "35V"
+            },
+            "attributes": {
+                "refdes": "C263",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "capacitor",
+                "schematic": "CAP",
+                "partid": "F8CF918C-EF40-46E5-9ED0-BEF6A966A91B"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138846\\",
+            "properties": {
+                "ASI_MODEL": "GMK105BJ104_V-F",
+                "CDS_LIBRARY_ID": "DC02:1591655899983",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP-202000023,C0402,CAP,TAIYO YUDEN,GMK105BJ104KV-F",
+                "CDS_PART_NAME": "CAP-202000023,C0402,CAP,TAIYO B",
+                "DATASHEET": "taiyo_yuden_ceramic_capacitors.pdf",
+                "IMPLEMENTATION": "GMK105BJ104_V-F",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "C0402",
+                "MFG": "TAIYO YUDEN",
+                "MPN": "GMK105BJ104KV-F",
+                "PART_NUMBER": "202000023",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "GMK105BJ104_V-F",
+                "VALUE": "0.1uF",
+                "VOLTAGE": "35V"
+            },
+            "attributes": {
+                "refdes": "C264",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "capacitor",
+                "schematic": "CAP",
+                "partid": "F8CF918C-EF40-46E5-9ED0-BEF6A966A91B"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138833\\",
+            "properties": {
+                "ASI_MODEL": "CRCW04021K00FKED",
+                "CDS_LIBRARY_ID": "DR04:1591655900650",
+                "CDS_LIBRARY_PHYSICAL_ID": "RES-202000053,R0402,RES,VISHAY,CRCW04021K00FKED",
+                "CDS_PART_NAME": "RES-202000053,R0402,RES,VISHAYB",
+                "DATASHEET": "vishay_d-crcw_series_resistors.pdf",
+                "IMPLEMENTATION": "CRCW04021K00FKED",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "R0402",
+                "MFG": "VISHAY",
+                "MPN": "CRCW04021K00FKED",
+                "PART_NUMBER": "202000053",
+                "POWER": "0.063",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "CRCW04021K00FKED",
+                "TOLERANCE": "1%",
+                "VALUE": "1K"
+            },
+            "attributes": {
+                "refdes": "R237",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "resistor",
+                "schematic": "RES",
+                "partid": "EC8DB31B-CCDD-4F7A-838F-F754639F8EF5"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138851\\",
+            "properties": {
+                "ASI_MODEL": "BLM15AG121SN1D",
+                "CDS_LIBRARY_ID": "FF01:1591655900247",
+                "CDS_LIBRARY_PHYSICAL_ID": "FERRITE-202000033,FBEAD_0402,FERRITE,MURATA,BLM15AG121SN1D",
+                "CDS_PART_NAME": "FERRITE-202000033,FBEAD_0402,FB",
+                "DATASHEET": "murata_BLM15xxxxxxSNxx.pdf",
+                "DCR": "0.25",
+                "DEVICE": "BLM15SG121TN1D",
+                "IMPLEMENTATION": "BLM15AG121SN1D",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "FBEAD_0402",
+                "LI": "550mA",
+                "LV": "",
+                "MFG": "MURATA",
+                "MPN": "BLM15AG121SN1D",
+                "PART_NUMBER": "202000033",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "NO",
+                "SIGNAL_MODEL": "BLM15AG121SN1D"
+            },
+            "attributes": {
+                "refdes": "FB14",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "ferrite",
+                "schematic": "FERRITE",
+                "partid": "3F8B0F9E-54D0-49DE-8AA1-BDC4642BA747"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138852\\",
+            "properties": {
+                "ASI_MODEL": "BLM15AG121SN1D",
+                "CDS_LIBRARY_ID": "FF01:1591655900247",
+                "CDS_LIBRARY_PHYSICAL_ID": "FERRITE-202000033,FBEAD_0402,FERRITE,MURATA,BLM15AG121SN1D",
+                "CDS_PART_NAME": "FERRITE-202000033,FBEAD_0402,FB",
+                "DATASHEET": "murata_BLM15xxxxxxSNxx.pdf",
+                "DCR": "0.25",
+                "DEVICE": "BLM15SG121TN1D",
+                "IMPLEMENTATION": "BLM15AG121SN1D",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "FBEAD_0402",
+                "LI": "550mA",
+                "LV": "",
+                "MFG": "MURATA",
+                "MPN": "BLM15AG121SN1D",
+                "PART_NUMBER": "202000033",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "NO",
+                "SIGNAL_MODEL": "BLM15AG121SN1D"
+            },
+            "attributes": {
+                "refdes": "FB15",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "ferrite",
+                "schematic": "FERRITE",
+                "partid": "3F8B0F9E-54D0-49DE-8AA1-BDC4642BA747"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138853\\",
+            "properties": {
+                "ASI_MODEL": "BLM15AG121SN1D",
+                "CDS_LIBRARY_ID": "FF01:1591655900247",
+                "CDS_LIBRARY_PHYSICAL_ID": "FERRITE-202000033,FBEAD_0402,FERRITE,MURATA,BLM15AG121SN1D",
+                "CDS_PART_NAME": "FERRITE-202000033,FBEAD_0402,FB",
+                "DATASHEET": "murata_BLM15xxxxxxSNxx.pdf",
+                "DCR": "0.25",
+                "DEVICE": "BLM15SG121TN1D",
+                "IMPLEMENTATION": "BLM15AG121SN1D",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "FBEAD_0402",
+                "LI": "550mA",
+                "LV": "",
+                "MFG": "MURATA",
+                "MPN": "BLM15AG121SN1D",
+                "PART_NUMBER": "202000033",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "NO",
+                "SIGNAL_MODEL": "BLM15AG121SN1D"
+            },
+            "attributes": {
+                "refdes": "FB17",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "ferrite",
+                "schematic": "FERRITE",
+                "partid": "3F8B0F9E-54D0-49DE-8AA1-BDC4642BA747"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138854\\",
+            "properties": {
+                "ASI_MODEL": "BLM15AG121SN1D",
+                "CDS_LIBRARY_ID": "FF01:1591655900247",
+                "CDS_LIBRARY_PHYSICAL_ID": "FERRITE-202000033,FBEAD_0402,FERRITE,MURATA,BLM15AG121SN1D",
+                "CDS_PART_NAME": "FERRITE-202000033,FBEAD_0402,FB",
+                "DATASHEET": "murata_BLM15xxxxxxSNxx.pdf",
+                "DCR": "0.25",
+                "DEVICE": "BLM15SG121TN1D",
+                "IMPLEMENTATION": "BLM15AG121SN1D",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "FBEAD_0402",
+                "LI": "550mA",
+                "LV": "",
+                "MFG": "MURATA",
+                "MPN": "BLM15AG121SN1D",
+                "PART_NUMBER": "202000033",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "NO",
+                "SIGNAL_MODEL": "BLM15AG121SN1D"
+            },
+            "attributes": {
+                "refdes": "FB18",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "ferrite",
+                "schematic": "FERRITE",
+                "partid": "3F8B0F9E-54D0-49DE-8AA1-BDC4642BA747"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138832\\",
+            "properties": {
+                "ASI_MODEL": "CRCW040227K4FKED",
+                "CDS_LIBRARY_ID": "DR08:1591655900726",
+                "CDS_LIBRARY_PHYSICAL_ID": "RES-202000045,R0402,RES,VISHAY,CRCW040227K4FKED",
+                "CDS_PART_NAME": "RES-202000045,R0402,RES,VISHAYB",
+                "DATASHEET": "vishay_d-crcw_series_resistors.pdf",
+                "IMPLEMENTATION": "CRCW040227K4FKED",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "R0402",
+                "MFG": "VISHAY",
+                "MPN": "CRCW040227K4FKED",
+                "PART_NUMBER": "202000045",
+                "POWER": "0.063",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "CRCW040227K4FKED",
+                "TOLERANCE": "1%",
+                "VALUE": "27.4K"
+            },
+            "attributes": {
+                "refdes": "R225",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "resistor",
+                "schematic": "RES",
+                "partid": "27D32A93-5E46-4CD7-AE0C-832CA396C765"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138835\\",
+            "properties": {
+                "ASI_MODEL": "GMK105BJ104_V-F",
+                "CDS_LIBRARY_ID": "DC02:1591655899983",
+                "CDS_LIBRARY_PHYSICAL_ID": "CAP-202000023,C0402,CAP,TAIYO YUDEN,GMK105BJ104KV-F",
+                "CDS_PART_NAME": "CAP-202000023,C0402,CAP,TAIYO B",
+                "DATASHEET": "taiyo_yuden_ceramic_capacitors.pdf",
+                "IMPLEMENTATION": "GMK105BJ104_V-F",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "C0402",
+                "MFG": "TAIYO YUDEN",
+                "MPN": "GMK105BJ104KV-F",
+                "PART_NUMBER": "202000023",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "CAP_CC0402SP_0_1UF_0_1uF",
+                "VALUE": "0.1uF",
+                "VOLTAGE": "35V"
+            },
+            "attributes": {
+                "refdes": "C58",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "capacitor",
+                "schematic": "CAP",
+                "partid": "F171C07E-52C3-4AF1-92B1-17F0FCBA1C86"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138834\\",
+            "properties": {
+                "ASI_MODEL": "TPD12S016",
+                "CDS_LIBRARY_ID": "IC10:1591655901021",
+                "CDS_LIBRARY_PHYSICAL_ID": "TPD12S016-202000066,TSSOP24_6P4X7P9X1P2MMH_P65P,TPD12S016,TEXAS INSTRUMENTS,TPD12S016PWR",
+                "CDS_PART_NAME": "TPD12S016-202000066,TSSOP24_6PB",
+                "DATASHEET": "texas_instruments_tpd12s016.pdf",
+                "IMPLEMENTATION": "TPD12S016",
+                "JEDEC_TYPE": "TSSOP24_6P4X7P9X1P2MMH_P65P",
+                "MFG": "TEXAS INSTRUMENTS",
+                "MPN": "TPD12S016PWR",
+                "PART_NUMBER": "202000066",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "TPD12S016"
+            },
+            "attributes": {
+                "refdes": "U37",
+                "symbol": "sym_1",
+                "library": "ic",
+                "cell": "tpd12s016",
+                "schematic": "TPD12S016",
+                "partid": "18187BFD-A663-404C-B487-DAB8211FEC25"
+            }
+        },
+        {
+            "cpath": "@worklib.test(tbl_1):\\I1039138831\\",
+            "properties": {
+                "ASI_MODEL": "CRCW0402887RFKED",
+                "CDS_LIBRARY_ID": "DR15:1591655900832",
+                "CDS_LIBRARY_PHYSICAL_ID": "RES-202000055,R0402,RES,VISHAY,CRCW0402887RFKED",
+                "CDS_PART_NAME": "RES-202000055,R0402,RES,VISHAYB",
+                "DATASHEET": "vishay_d-crcw_series_resistors.pdf",
+                "IMPLEMENTATION": "CRCW0402887RFKED",
+                "IMPLEMENTATION_TYPE": "PSPICE MODEL",
+                "JEDEC_TYPE": "R0402",
+                "MFG": "VISHAY",
+                "MPN": "CRCW0402887RFKED",
+                "PART_NUMBER": "202000055",
+                "POWER": "0.063",
+                "PSPICETEMPLATE": "X^REFDES %1 %2 @MODEL",
+                "ROHS": "COMPLIANT",
+                "SIGNAL_MODEL": "CRCW0402887RFKED",
+                "TOLERANCE": "1%",
+                "VALUE": "887"
+            },
+            "attributes": {
+                "refdes": "R224",
+                "symbol": "sym_1",
+                "library": "discrete",
+                "cell": "resistor",
+                "schematic": "RES",
+                "partid": "7B18C33D-1CEA-4B1E-868E-F2AD88C1C3F6"
+            }
+        }
+    ],
+    "variants": {}
+}
