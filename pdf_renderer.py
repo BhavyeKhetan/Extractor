@@ -37,12 +37,10 @@ class SchematicPDFRenderer:
     PAGE_WIDTH = PAGE_WIDTH_INCHES * 72  # ~841 points
     PAGE_HEIGHT = PAGE_HEIGHT_INCHES * 72  # ~595 points
 
-    # Internal units conversion
-    # Cadence schematic uses 254,000 units per inch (0.1 micron resolution)
-    # 1 inch = 72 PDF points
-    # Scale: 72 / 254000 = 0.000283
+    # Internal units conversion (default - will be overridden by auto-fit)
+    # Using 254000 as base scale for fallback
     UNITS_PER_INCH = 254000
-    SCALE = 72.0 / UNITS_PER_INCH  # 0.000283
+    SCALE = 72.0 / UNITS_PER_INCH  # 0.000283 (fallback only)
 
     def __init__(self, design_data: Dict):
         """Initialize renderer with extracted design data."""
@@ -141,6 +139,97 @@ class SchematicPDFRenderer:
         """
         pdf_x = x * self.SCALE
         pdf_y = y * self.SCALE
+        return pdf_x, pdf_y
+
+    def _calculate_page_bounds(self, page_num: int) -> Tuple[float, float, float, float]:
+        """Calculate bounding box of content on a page."""
+        prims = self.primitives_by_page.get(page_num, [])
+        insts = self.instances_by_page.get(page_num, [])
+
+        all_x, all_y = [], []
+
+        for prim in prims:
+            geo = prim.get('geometry', {})
+            origin = geo.get('origin', {})
+            if 'x' in origin:
+                all_x.append(origin['x'])
+            if 'y' in origin:
+                all_y.append(origin['y'])
+            for pt in geo.get('points', []):
+                if 'x' in pt:
+                    all_x.append(pt['x'])
+                if 'y' in pt:
+                    all_y.append(pt['y'])
+
+        for inst in insts:
+            if 'x' in inst:
+                all_x.append(inst['x'])
+            if 'y' in inst:
+                all_y.append(inst['y'])
+
+        if not all_x or not all_y:
+            return 0, 0, 1700000, 1100000  # Default page bounds
+
+        return min(all_x), min(all_y), max(all_x), max(all_y)
+
+    def _get_page_transform(self, page_num: int) -> Tuple[float, float, float]:
+        """Get scale and offset to fit content on page.
+
+        Returns: (scale, offset_x, offset_y)
+        """
+        # Use cached transform if available
+        if not hasattr(self, '_page_transforms'):
+            self._page_transforms = {}
+
+        if page_num in self._page_transforms:
+            return self._page_transforms[page_num]
+
+        min_x, min_y, max_x, max_y = self._calculate_page_bounds(page_num)
+
+        data_width = max_x - min_x
+        data_height = max_y - min_y
+
+        if data_width <= 0 or data_height <= 0:
+            result = (self.SCALE, 0, 0)
+            self._page_transforms[page_num] = result
+            return result
+
+        # Calculate scale to fit with 5% margin
+        margin = 0.05
+        usable_width = self.PAGE_WIDTH * (1 - 2 * margin)
+        usable_height = self.PAGE_HEIGHT * (1 - 2 * margin)
+
+        scale_x = usable_width / data_width
+        scale_y = usable_height / data_height
+        scale = min(scale_x, scale_y)
+
+        # Calculate offset to shift content to positive coords and center
+        # First shift to origin (add -min_x, -min_y)
+        # Then add margin offset
+        margin_offset_x = self.PAGE_WIDTH * margin / scale
+        margin_offset_y = self.PAGE_HEIGHT * margin / scale
+
+        # Center the content
+        center_offset_x = (usable_width / scale - data_width) / 2
+        center_offset_y = (usable_height / scale - data_height) / 2
+
+        offset_x = -min_x + margin_offset_x + center_offset_x
+        offset_y = -min_y + margin_offset_y + center_offset_y
+
+        result = (scale, offset_x, offset_y)
+        self._page_transforms[page_num] = result
+
+        # Debug: print transform for each page
+        print(f"    Page {page_num} auto-fit: bounds=({min_x:.0f}, {min_y:.0f}) to ({max_x:.0f}, {max_y:.0f}), "
+              f"span=({data_width:.0f} x {data_height:.0f}), scale={scale:.6f}")
+
+        return result
+
+    def to_pdf_coords_page(self, x: float, y: float, page_num: int) -> Tuple[float, float]:
+        """Transform coordinates with page-specific scale and offset."""
+        scale, offset_x, offset_y = self._get_page_transform(page_num)
+        pdf_x = (x + offset_x) * scale
+        pdf_y = (y + offset_y) * scale
         return pdf_x, pdf_y
 
     def parse_color(self, color_str: str):
@@ -251,9 +340,9 @@ class SchematicPDFRenderer:
             c.setLineCap(1)  # Round cap
             c.setLineJoin(1)  # Round join
 
-            # Draw wire segment
-            x1, y1 = self.to_pdf_coords(points[0]['x'], points[0]['y'])
-            x2, y2 = self.to_pdf_coords(points[1]['x'], points[1]['y'])
+            # Draw wire segment (use page-specific transform)
+            x1, y1 = self.to_pdf_coords_page(points[0]['x'], points[0]['y'], page_num)
+            x2, y2 = self.to_pdf_coords_page(points[1]['x'], points[1]['y'], page_num)
 
             c.line(x1, y1, x2, y2)
 
@@ -317,7 +406,7 @@ class SchematicPDFRenderer:
 
                 # Only draw placeholder if we have a real position
                 if inst_x != 0 or inst_y != 0:
-                    pdf_x, pdf_y = self.to_pdf_coords(inst_x, inst_y)
+                    pdf_x, pdf_y = self.to_pdf_coords_page(inst_x, inst_y, page_num)
                     # Draw a small magenta box as placeholder for unlinked symbols
                     c.setStrokeColor(HexColor('#FF00FF'))
                     c.setFillColor(HexColor('#FF00FF'))
@@ -352,8 +441,8 @@ class SchematicPDFRenderer:
                 max_y = bounding_box.get('max_y', 0)
 
                 # Transform to page coordinates
-                pdf_x1, pdf_y1 = self.to_pdf_coords(inst_x + min_x, inst_y + min_y)
-                pdf_x2, pdf_y2 = self.to_pdf_coords(inst_x + max_x, inst_y + max_y)
+                pdf_x1, pdf_y1 = self.to_pdf_coords_page(inst_x + min_x, inst_y + min_y, page_num)
+                pdf_x2, pdf_y2 = self.to_pdf_coords_page(inst_x + max_x, inst_y + max_y, page_num)
 
                 # Draw IC body rectangle WITH FILL (dark gray body, light gray outline)
                 c.setFillColor(HexColor(IC_BODY_FILL))
@@ -373,7 +462,14 @@ class SchematicPDFRenderer:
                 style = self._get_style(style_ref)
 
                 line_width = style.get('line_width', 1) * 0.5
-                line_color = self.parse_color(style.get('line_color', '#000000'))
+                # Color remapping for visibility on dark background
+                extracted_color = style.get('line_color', '#000000')
+                if extracted_color.lower() in ['#000000', 'black', '#000']:
+                    line_color = HexColor('#CCCCCC')  # Light gray for visibility
+                elif extracted_color.lower() in ['#008000', 'green']:
+                    line_color = HexColor('#00FF00')  # Bright lime green
+                else:
+                    line_color = self.parse_color(extracted_color)
 
                 c.setStrokeColor(line_color)
                 c.setLineWidth(line_width)
@@ -381,7 +477,7 @@ class SchematicPDFRenderer:
                 # Transform first point to page coordinates
                 px1 = inst_x + points[0].get('x', 0)
                 py1 = inst_y + points[0].get('y', 0)
-                pdf_x1, pdf_y1 = self.to_pdf_coords(px1, py1)
+                pdf_x1, pdf_y1 = self.to_pdf_coords_page(px1, py1, page_num)
 
                 # Create path
                 path = c.beginPath()
@@ -391,7 +487,7 @@ class SchematicPDFRenderer:
                 for pt in points[1:]:
                     px = inst_x + pt.get('x', 0)
                     py = inst_y + pt.get('y', 0)
-                    pdf_x, pdf_y = self.to_pdf_coords(px, py)
+                    pdf_x, pdf_y = self.to_pdf_coords_page(px, py, page_num)
                     path.lineTo(pdf_x, pdf_y)
 
                 c.drawPath(path, stroke=1, fill=0)
@@ -408,6 +504,9 @@ class SchematicPDFRenderer:
         # Get primitives for this page
         primitives = self.primitives_by_page.get(page_num, [])
 
+        # Track rendered positions to avoid duplicates
+        rendered_positions = set()
+
         for prim in primitives:
             if prim.get('type') != 'text':
                 continue
@@ -421,9 +520,20 @@ class SchematicPDFRenderer:
             if not text_content:
                 continue
 
-            # Get style
+            # Deduplicate: skip if same text at same position (rounded to nearest 1000 units)
+            pos_key = (round(x, -3), round(y, -3), text_content)
+            if pos_key in rendered_positions:
+                continue
+            rendered_positions.add(pos_key)
+
+            # Get style - resolve style_ref if inline style is empty
             style = prim.get('style', {})
-            font_size = style.get('font_size', 7)
+            style_ref = prim.get('style_ref')
+            if not style.get('font_size') and style_ref:
+                resolved_style = self.data.get('styles', {}).get(style_ref, {})
+                font_size = resolved_style.get('font_size', 7)
+            else:
+                font_size = style.get('font_size', 7)
 
             # Use white text for visibility on dark background
             extracted_color = style.get('font_color', '#000000')
@@ -436,8 +546,9 @@ class SchematicPDFRenderer:
             c.setFont("Helvetica", font_size)
             c.setFillColor(font_color)
 
-            # Draw text
-            pdf_x, pdf_y = self.to_pdf_coords(x, y)
+            # Draw text with baseline adjustment
+            pdf_x, pdf_y = self.to_pdf_coords_page(x, y, page_num)
+            pdf_y += font_size * 0.3  # Baseline adjustment for overlap prevention
             c.drawString(pdf_x, pdf_y, text_content)
 
             count += 1
